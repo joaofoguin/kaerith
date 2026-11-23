@@ -16,6 +16,11 @@ Versões de distribuição (desde a 0.3.0):
 
 ---
 
+## 0.6.1 — 23/11/2026
+**Correções**
+- Sair da conta (Configurações > Conta > Sair) agora volta para a tela de entrada (Entrar com Google / Jogar como visitante). Antes caía no Início: duas transições de tela se cruzavam e a segunda fechava a tela de entrada logo depois de abrir. O botão de teste "Reiniciar" (ADM) tinha o mesmo problema e também foi corrigido.
+- Se uma sincronização com a nuvem ainda estava em andamento na hora de sair, ela não traz mais de volta o progresso da conta antiga nem manda o progresso zerado para o ranking.
+
 ## 0.6.0 — 23/11/2026
 **Som (primeira versão, PROVISÓRIA)**
 - Músicas de fundo em chiptune 16 bits, em laço: tema (Início, mapa, Loja e demais telas), combate, chefe de ato e história (Prólogo, Chegada, criação do herói e Despertar). Troca suave entre elas.

@@ -185,6 +185,7 @@ static func esquecer_login() -> void:
 	_token_ate = 0
 	_enviado_em = 0
 	conectado = false
+	_nuvem_vista = ""
 
 # ------------------------------------------------------------ Firestore
 static func _valor(v) -> Dictionary:
@@ -246,6 +247,8 @@ static func sincronizar(forcar := false) -> bool:
 		return true
 	_enviando = true
 	var ok: bool = await entrar()
+	if ok and str(Jogo.dados.get("etapa", "")) != "pronto":
+		ok = false                           # saiu da conta enquanto conectava: não manda o progresso zerado
 	if ok:
 		var r: Dictionary = await _http(HTTPClient.METHOD_PATCH, _base() + "/jogadores/" + uid(), _campos(pontos()))
 		ok = r["ok"]
@@ -507,6 +510,8 @@ static func _sincronizar_nuvem(manter_aqui: bool) -> bool:
 
 ## Manda o save daqui. rev = documento que ele substitui ("" = o documento ainda não existe).
 static func _subir(rev: String) -> bool:
+	if not Conta.google():
+		return false                                  # saiu da conta no meio da sincronização
 	var copia := _copia_para_nuvem(Jogo.dados)
 	var campos := _campos({"salvo_em": int(Time.get_unix_time_from_system()), "nivel": int(Jogo.dados["nivel"]),
 		"versao": int(Jogo.dados.get("versao", 1))})
@@ -522,6 +527,8 @@ static func _subir(rev: String) -> bool:
 
 ## Troca o progresso daqui pelo da nuvem. Não troca no meio de um combate (tenta de novo depois).
 static func _baixar(remoto: Dictionary, rev: String) -> bool:
+	if not Conta.google():
+		return false              # saiu da conta no meio: não traz de volta o progresso da conta antiga
 	var p = Jogo.get_tree().get_first_node_in_group("principal")
 	var tela = p.get("tela_cheia") if p else null
 	if tela and is_instance_valid(tela) and (tela as Object).has_method("pedir_saida"):

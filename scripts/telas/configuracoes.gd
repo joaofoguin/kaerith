@@ -265,7 +265,9 @@ func _sair_salvando() -> void:
 func _sair_agora() -> void:
 	_fechar_popup()
 	Conta.sair()
-	principal.fechar_tela_cheia()
+	# 2026-11-23 (bug do João: o logoff caía no Início): só abre a entrada. Antes havia também um
+	# fechar_tela_cheia() aqui; a transição dele terminava depois e fechava a tela de entrada recém-aberta.
+	# abrir_tela_cheia (dentro do seguir_criacao) já fecha as Configurações na troca.
 	principal.seguir_criacao()
 
 ## A página voltou do Google: liga a conta e, se ela já tinha outro progresso, pergunta qual fica.
@@ -494,5 +496,4 @@ func _reiniciar() -> void:
 	_confirmar_reinicio = false
 	_fechar_popup()
 	Jogo.reiniciar()
-	principal.fechar_tela_cheia()
-	principal.seguir_criacao()
+	principal.seguir_criacao()       # mesmo motivo do _sair_agora: sem fechar_tela_cheia antes
