@@ -1,8 +1,8 @@
 extends RefCounted
 ## Configurações do jogador (tela Configurações), guardadas no save em dados["config"].
 ## Uso: const CONFIG := preload("res://scripts/config.gd"); CONFIG.valor("musica"); CONFIG.mudar("musica", 80)
-## PROVISÓRIO (meu): o jogo ainda não tem áudio, notificações nem vibração; os ajustes já ficam salvos e
-## os volumes já vão para os canais de áudio "Musica" e "Efeitos" (criados aqui), para quando o som chegar.
+## Os volumes vão para os canais de áudio "Musica" e "Efeitos" (criados aqui), usados por scripts/som.gd
+## (som entrou em 2026-11-23). Volume 0 = mudo. PROVISÓRIO (meu): notificações ainda não existem.
 
 const PADRAO := {
 	"musica": 80,             # 0 a 100

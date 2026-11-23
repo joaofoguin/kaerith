@@ -46,6 +46,9 @@ func _ready() -> void:
 	offset_top = -320.0
 	offset_bottom = 320.0
 	mouse_filter = Control.MOUSE_FILTER_STOP
+	add_to_group("som_historia")       # música da história por cima da luta (scripts/som.gd)
+	if Jogo.som != null:
+		Jogo.som.efeito("despertar")
 	_escala_antes = Engine.time_scale
 	Engine.time_scale = 1.0            # a cena roda sempre na velocidade normal
 	fundo = ColorRect.new()

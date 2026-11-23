@@ -279,6 +279,9 @@ func _no_novo(n: Node) -> void:
 		if not (n as Control).theme_changed.is_connected(f):
 			(n as Control).theme_changed.connect(f)
 		_ajustar_fonte.call_deferred(n)
+	# som de toque em todo botão (2026-11-23); set_meta("sem_som", true) tira
+	if n is BaseButton and not (n as BaseButton).pressed.is_connected(_som_toque.bind(n)):
+		(n as BaseButton).pressed.connect(_som_toque.bind(n))
 	if n is Button and not (n is CheckButton or n is CheckBox):
 		var b := n as Button
 		if not b.button_down.is_connected(_apertar.bind(b)):
@@ -392,6 +395,10 @@ func ao_tocar(c: Control, acao: Callable) -> void:
 		elif ev is InputEventMouseMotion and est["valendo"]:
 			if (ev as InputEventMouseMotion).global_position.distance_to(est["ini"]) > TOQUE_FOLGA:
 				est["valendo"] = false)
+
+func _som_toque(b: BaseButton) -> void:
+	if is_instance_valid(b) and not b.has_meta("sem_som") and Jogo.som != null:
+		Jogo.som.toque()
 
 func _apertar(b: Button) -> void:
 	if not is_instance_valid(b) or b.disabled or b.has_meta("sem_pulo"):

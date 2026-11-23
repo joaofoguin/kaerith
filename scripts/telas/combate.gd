@@ -132,6 +132,8 @@ func montar() -> void:
 			Jogo.dados["jogadas"] = jg
 		motor = Motor.new(encontro, Jogo.dados["elemento"], int(Jogo.dados["nivel"]), Jogo.habilidades(), Jogo.dados["pocoes"])
 
+	# música da luta (scripts/som.gd): chefe de ato tem a própria
+	add_to_group("som_chefe" if str(encontro.get("tipo", "")) == "chefe" else "som_combate")
 	var fundo := ColorRect.new()
 	fundo.color = Tema.COR_FUNDO
 	fundo.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -955,6 +957,7 @@ func _tocar(eventos: Array) -> void:
 				lbl_onda.text = tr("ONDA_N") % [e["n"], e["total"]]
 				if e["n"] > 1:
 					_limpar_caidos()
+					_som("onda")
 					_mensagem(tr("MSG_ONDA") % [e["n"], e["total"]], "")
 					await _esperar(0.7)
 				entram = []
@@ -986,6 +989,10 @@ func _tocar(eventos: Array) -> void:
 					_habs_vistas[l.id] = vh
 				_mensagem(tr("MSG_USOU") % [_nome(l), H["nome"]], "")
 				_faixa_hab(H, l.eh_jogador)
+				if H.has("poder"):
+					_som("ataque" if str(H.get("cat", "comum")) == "comum" else "magia")
+				else:
+					_som("condicao")
 				if l.eh_jogador:
 					_anim_heroi("ataque" if H.has("poder") else "parado")
 				else:
@@ -1001,6 +1008,12 @@ func _tocar(eventos: Array) -> void:
 					_mensagem(_txt1, tr("MSG_VOCE_RECEBEU") % e["v"])
 				else:
 					_mensagem(_txt1, tr("MSG_RECEBEU") % [l.nome, e["v"]])
+				if e["crit"]:
+					_som("critico")
+				elif e.get("queimadura", false):
+					_som("dano", 1.3)
+				else:
+					_som("dano_heroi" if l.eh_jogador else "dano")
 				if l.eh_jogador:
 					_anim_heroi("dano")
 				else:
@@ -1025,10 +1038,12 @@ func _tocar(eventos: Array) -> void:
 					Input.vibrate_handheld(70 if e["crit"] else 35)      # retorno no celular
 				await _esperar(0.5)
 			"erro":
+				_som("errou")
 				_numero(e["l"], tr("ERROU"), Color("#c8ccd8"), 16)
 				_mensagem(_txt1, tr("MSG_ERROU"))
 				await _esperar(0.35)
 			"cura":
+				_som("cura")
 				_numero(e["l"], "+%d" % e["v"], COR_CURA, 24)
 				vida_vista[e["l"]] = int(e.get("vida", _vida(e["l"]) + int(e["v"])))
 				_atualizar_tudo()
@@ -1042,11 +1057,13 @@ func _tocar(eventos: Array) -> void:
 				_mensagem(tr(e["k"]) % nomes, "")
 				await _esperar(0.6)
 			"pocao":
+				_som("pocao")
 				_mensagem(tr("MSG_POCAO"), "")
 				await _esperar(0.3)
 			"queda":
 				var l: Lutador = e["l"]
 				await _esperar(0.35)          # deixa a barra terminar de esvaziar antes da queda
+				_som("queda_heroi" if l.eh_jogador else "queda")
 				if l.eh_jogador:
 					heroi_caido = true
 					_anim_heroi("queda")
@@ -1067,6 +1084,11 @@ func _tocar(eventos: Array) -> void:
 	_conds_vistas = {}
 	_sincronizar_vida()
 	_atualizar_tudo()
+
+## Efeito sonoro da luta (scripts/som.gd).
+func _som(nome: String, tom := 1.0) -> void:
+	if Jogo.som != null:
+		Jogo.som.efeito(nome, tom)
 
 ## Fim da rodada: a Vida mostrada volta a bater com a do Motor.
 func _sincronizar_vida() -> void:

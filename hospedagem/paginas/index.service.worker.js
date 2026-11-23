@@ -34,7 +34,7 @@ async function avisar(p) {
 // lê a resposta aos pedaços para contar o progresso e devolve uma cópia igual para o cache
 // (o Firebase manda o wasm comprimido e sem Content-Length: aí a conta usa o tamanho da versão anterior
 // ou uma estimativa; o que importa para a tela é a barra andar)
-const ESTIMADO = { 'index.wasm': 38000000, 'index.pck': 7000000 };
+const ESTIMADO = { 'index.wasm': 38000000, 'index.pck': 9000000 };
 async function lerContando(r, antes, nome, tamAntigo) {
 	const comprimido = !!r.headers.get('Content-Encoding');
 	const total = (!comprimido && Number(r.headers.get('Content-Length'))) || tamAntigo || ESTIMADO[nome] || 0;

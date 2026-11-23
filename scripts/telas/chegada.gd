@@ -14,6 +14,7 @@ var regiao: Label
 var saindo := false
 
 func montar() -> void:
+	add_to_group("som_historia")      # música da história (scripts/som.gd)
 	palco_640 = true   # quadro fixo de 360×640 centrado (celulares altos ganham faixas pretas)
 	var fundo := ColorRect.new()
 	fundo.color = Color.BLACK

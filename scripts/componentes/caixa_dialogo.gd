@@ -74,6 +74,8 @@ func _process(delta: float) -> void:
 	_letras += delta * LETRAS_POR_SEGUNDO
 	if int(_letras) > antes:
 		bip.emit()
+		if Jogo.som != null and _rotulo.visible_characters >= 0:
+			Jogo.som.bip()           # bips do diálogo (DEFINIDO: sem vozes)
 	if int(_letras) >= _rotulo.get_total_character_count():
 		_rotulo.visible_characters = -1
 		_seta.visible = true

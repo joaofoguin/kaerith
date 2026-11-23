@@ -405,6 +405,8 @@ func _achou(texto: String) -> void:
 	CodigoQR.registrar_leitura(c)
 	var raro := CodigoQR.sortear_raro()
 	_vibrar()
+	if Jogo.som != null:
+		Jogo.som.efeito("qr_lido")
 	_mostrar_status("QR_LIDO", false)
 	match str(c["tipo"]):
 		"recurso":
@@ -419,6 +421,8 @@ func _achou(texto: String) -> void:
 func _ruim(texto: String, chave: String) -> void:
 	_ultimo_ruim = texto
 	_ruim_ate = Time.get_ticks_msec() / 1000.0 + 1.5
+	if Jogo.som != null:
+		Jogo.som.efeito("erro")
 	_mostrar_status(chave, true)
 
 func _vibrar() -> void:
@@ -511,6 +515,8 @@ func _abrir_bau(c: Dictionary, dourado: bool) -> void:
 	if popup is Janela:
 		(popup as Janela).fechar()
 	popup = null
+	if Jogo.som != null:
+		Jogo.som.efeito("bau")
 	var linhas := CodigoQR.dar_bau(dourado)
 	_premio(tr("QR_T_BAU_DOURADO") if dourado else tr("QR_T_BAU"), _sub(c), "", linhas)
 

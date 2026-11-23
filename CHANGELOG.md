@@ -16,6 +16,18 @@ Versões de distribuição (desde a 0.3.0):
 
 ---
 
+## 0.6.0 — 23/11/2026
+**Som (primeira versão, PROVISÓRIA)**
+- Músicas de fundo em chiptune 16 bits, em laço: tema (Início, mapa, Loja e demais telas), combate, chefe de ato e história (Prólogo, Chegada, criação do herói e Despertar). Troca suave entre elas.
+- Efeitos: toque em todo botão, bips do diálogo (sem vozes), ataque, habilidade elemental, dano, crítico, errou, cura, poção, queda, nova onda, vitória, derrota, subiu de nível, QR lido, QR inválido, baú aberto, prêmio e o Despertar.
+- Tudo é gerado por código (`audio/fonte/montar_audio.py`, Python + numpy + ffmpeg), sem nenhuma música ou som de outro jogo. Para mudar, edite o script e rode de novo.
+- Configurações > Som: os controles de Música e Efeitos já existentes agora valem (0 = mudo).
+- Web: o navegador só libera o som depois do primeiro toque na tela; a música começa nesse toque. Os sons vão dentro do `index.pck`, que o service worker já guarda para jogar offline.
+- Código: `scripts/som.gd` (fica em `Jogo.som`).
+
+**Habilidades**
+- No Despertar, o herói só fica com a habilidade elemental que escolheu. As outras 2 iniciais do elemento não aparecem mais liberadas no Inventário; elas podem ser aprendidas depois pelos Orbes, como as demais.
+
 ## 0.5.2 — 23/11/2026
 **Combate**
 - Nível dos inimigos: sobe 1 a cada 15 fases do mapa. Fases 1–15 = NV2, 16–30 = NV3, 31–45 = NV4, e assim por diante até NV21 na fase 300 (antes ia até NV23, num passo irregular de ~14 fases). O mínimo de NV2 a partir do 2º combate do tutorial continua. Vale também para o Evento do QR, que usa o nível da fase atual do jogador.

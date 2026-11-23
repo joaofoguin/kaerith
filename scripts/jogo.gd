@@ -41,6 +41,7 @@ var dados := {
 }
 
 var _padrao := {}
+var som                            # scripts/som.gd (Jogo.som.efeito("ataque"), Jogo.som.bip()...)
 
 const COMUNS_INICIAIS := ["golpe", "guarda", "golpe_rapido", "varredura"]
 
@@ -73,6 +74,10 @@ func _ready() -> void:
 	carregar()
 	TranslationServer.set_locale(dados["idioma"])
 	preload("res://scripts/config.gd").aplicar()
+	# som (2026-11-23): músicas e efeitos; os canais Musica/Efeitos já existem (config.aplicar)
+	som = preload("res://scripts/som.gd").new()
+	som.name = "Som"
+	add_child(som)
 	Vidas.atualizar()                # vidas que voltaram com o jogo fechado
 	var relogio := Timer.new()
 	relogio.wait_time = 1.0
@@ -201,10 +206,11 @@ func habilidades() -> Array:
 
 ## Habilidades que o herói conhece: os 4 comuns do tutorial, as equipadas e as guardadas
 ## (DEFINIDO: a habilidade substituída vai para o inventário de habilidades; a combinada substituída se perde).
+## DEFINIDO pelo João (2026-11-23): do Despertar o herói só conhece a habilidade elemental que escolheu;
+## as outras 2 iniciais do elemento não ficam liberadas no inventário (vêm depois, pelos Orbes).
 func habilidades_conhecidas() -> Array:
 	var r: Array = []
-	var despertar: Array = Catalogo.DESPERTAR.get(str(dados["elemento"]), [])
-	for h in COMUNS_INICIAIS + habilidades() + despertar + Array(dados.get("hab_guardadas", [])):
+	for h in COMUNS_INICIAIS + habilidades() + Array(dados.get("hab_guardadas", [])):
 		if not r.has(h) and Catalogo.HAB.has(h):
 			r.append(h)
 	return r

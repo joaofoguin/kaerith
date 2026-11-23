@@ -31,6 +31,7 @@ var frente: Control
 var tempo := 0.0
 
 func montar() -> void:
+	add_to_group("som_historia")      # música da história (scripts/som.gd)
 	palco_640 = true   # quadro fixo de 360×640 centrado (celulares altos ganham faixas pretas)
 	visual = Jogo.dados["visual"].duplicate()
 	visual["corpo"] = int(visual["corpo"])        # o save em JSON devolve números como float

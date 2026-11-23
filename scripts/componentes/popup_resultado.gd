@@ -46,6 +46,14 @@ func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	_rng.randomize()
+	if Jogo.som != null:                 # vinheta da luta ou som de prêmio (2026-11-23)
+		match tipo:
+			"vitoria":
+				Jogo.som.vinheta("vitoria")
+			"derrota":
+				Jogo.som.vinheta("derrota")
+			_:
+				Jogo.som.efeito("moeda")
 	var veu := ColorRect.new()
 	veu.color = Color(0.02, 0.02, 0.05, 0.72)
 	veu.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -338,6 +346,8 @@ func _encher(f: float) -> void:
 	_barra.queue_redraw()
 
 func _subiu_nivel() -> void:
+	if Jogo.som != null:
+		Jogo.som.efeito("nivel")
 	_rot_nv.text = tr("RES_NV") % int(xp["nivel"]) + "  " + tr("RES_SUBIU")
 	var t := create_tween().set_ignore_time_scale(true)
 	_rot_nv.modulate = Color(2, 2, 1.4)
