@@ -1,0 +1,14187 @@
+{
+ "costas": {
+  "paginas": 29,
+  "imagens": {
+   "arma_cajado_Comum_-": [
+    0,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "arma_cajado_Epico_Agua": [
+    0,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "arma_cajado_Epico_Ar": [
+    0,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "arma_cajado_Epico_Fogo": [
+    0,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "arma_cajado_Epico_Gelo": [
+    0,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "arma_cajado_Epico_Raio": [
+    0,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "arma_cajado_Epico_Terra": [
+    0,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "arma_cajado_Incomum_-": [
+    0,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "arma_cajado_Lendario_Agua": [
+    0,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "arma_cajado_Lendario_Ar": [
+    0,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "arma_cajado_Lendario_Fogo": [
+    0,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "arma_cajado_Lendario_Gelo": [
+    0,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "arma_cajado_Lendario_Raio": [
+    0,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "arma_cajado_Lendario_Terra": [
+    0,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "arma_cajado_Raro_Agua": [
+    0,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "arma_cajado_Raro_Ar": [
+    0,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "arma_cajado_Raro_Fogo": [
+    0,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "arma_cajado_Raro_Gelo": [
+    0,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "arma_cajado_Raro_Raio": [
+    0,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "arma_cajado_Raro_Terra": [
+    0,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "arma_espada_Comum_-": [
+    0,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "arma_espada_Epico_Agua": [
+    0,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "arma_espada_Epico_Ar": [
+    0,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "arma_espada_Epico_Fogo": [
+    0,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "arma_espada_Epico_Gelo": [
+    0,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "arma_espada_Epico_Raio": [
+    0,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "arma_espada_Epico_Terra": [
+    0,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "arma_espada_Incomum_-": [
+    0,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "arma_espada_Lendario_Agua": [
+    0,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "arma_espada_Lendario_Ar": [
+    0,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "arma_espada_Lendario_Fogo": [
+    0,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "arma_espada_Lendario_Gelo": [
+    0,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "arma_espada_Lendario_Raio": [
+    1,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "arma_espada_Lendario_Terra": [
+    1,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "arma_espada_Raro_Agua": [
+    1,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "arma_espada_Raro_Ar": [
+    1,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "arma_espada_Raro_Fogo": [
+    1,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "arma_espada_Raro_Gelo": [
+    1,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "arma_espada_Raro_Raio": [
+    1,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "arma_espada_Raro_Terra": [
+    1,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "arma_lanca_Comum_-": [
+    1,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "arma_lanca_Epico_Agua": [
+    1,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "arma_lanca_Epico_Ar": [
+    1,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "arma_lanca_Epico_Fogo": [
+    1,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "arma_lanca_Epico_Gelo": [
+    1,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "arma_lanca_Epico_Raio": [
+    1,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "arma_lanca_Epico_Terra": [
+    1,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "arma_lanca_Incomum_-": [
+    1,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "arma_lanca_Lendario_Agua": [
+    1,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "arma_lanca_Lendario_Ar": [
+    1,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "arma_lanca_Lendario_Fogo": [
+    1,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "arma_lanca_Lendario_Gelo": [
+    1,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "arma_lanca_Lendario_Raio": [
+    1,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "arma_lanca_Lendario_Terra": [
+    1,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "arma_lanca_Raro_Agua": [
+    1,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "arma_lanca_Raro_Ar": [
+    1,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "arma_lanca_Raro_Fogo": [
+    1,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "arma_lanca_Raro_Gelo": [
+    1,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "arma_lanca_Raro_Raio": [
+    1,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "arma_lanca_Raro_Terra": [
+    1,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "arma_machado_Comum_-": [
+    1,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "arma_machado_Epico_Agua": [
+    1,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "arma_machado_Epico_Ar": [
+    1,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "arma_machado_Epico_Fogo": [
+    1,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "arma_machado_Epico_Gelo": [
+    2,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "arma_machado_Epico_Raio": [
+    2,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "arma_machado_Epico_Terra": [
+    2,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "arma_machado_Incomum_-": [
+    2,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "arma_machado_Lendario_Agua": [
+    2,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "arma_machado_Lendario_Ar": [
+    2,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "arma_machado_Lendario_Fogo": [
+    2,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "arma_machado_Lendario_Gelo": [
+    2,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "arma_machado_Lendario_Raio": [
+    2,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "arma_machado_Lendario_Terra": [
+    2,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "arma_machado_Raro_Agua": [
+    2,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "arma_machado_Raro_Ar": [
+    2,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "arma_machado_Raro_Fogo": [
+    2,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "arma_machado_Raro_Gelo": [
+    2,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "arma_machado_Raro_Raio": [
+    2,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "arma_machado_Raro_Terra": [
+    2,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Comum_-": [
+    2,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Agua": [
+    2,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Ar": [
+    2,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Fogo": [
+    2,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Gelo": [
+    2,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Raio": [
+    2,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Terra": [
+    2,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Incomum_-": [
+    2,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Agua": [
+    2,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Ar": [
+    2,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Fogo": [
+    2,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Gelo": [
+    2,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Raio": [
+    2,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Terra": [
+    2,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Agua": [
+    2,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Ar": [
+    2,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Fogo": [
+    3,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Gelo": [
+    3,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Raio": [
+    3,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Terra": [
+    3,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Comum_-": [
+    3,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Agua": [
+    3,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Ar": [
+    3,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Fogo": [
+    3,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Gelo": [
+    3,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Raio": [
+    3,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Terra": [
+    3,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Incomum_-": [
+    3,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Agua": [
+    3,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Ar": [
+    3,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Fogo": [
+    3,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Gelo": [
+    3,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Raio": [
+    3,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Terra": [
+    3,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Agua": [
+    3,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Ar": [
+    3,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Fogo": [
+    3,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Gelo": [
+    3,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Raio": [
+    3,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Terra": [
+    3,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Comum_-": [
+    3,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Agua": [
+    3,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Ar": [
+    3,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Fogo": [
+    3,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Gelo": [
+    3,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Raio": [
+    3,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Terra": [
+    3,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Incomum_-": [
+    3,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Agua": [
+    4,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Ar": [
+    4,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Fogo": [
+    4,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Gelo": [
+    4,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Raio": [
+    4,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Terra": [
+    4,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Agua": [
+    4,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Ar": [
+    4,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Fogo": [
+    4,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Gelo": [
+    4,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Raio": [
+    4,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Terra": [
+    4,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Comum_-": [
+    4,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Agua": [
+    4,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Ar": [
+    4,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Fogo": [
+    4,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Gelo": [
+    4,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Raio": [
+    4,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Terra": [
+    4,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Incomum_-": [
+    4,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Agua": [
+    4,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Ar": [
+    4,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Fogo": [
+    4,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Gelo": [
+    4,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Raio": [
+    4,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Terra": [
+    4,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Agua": [
+    4,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Ar": [
+    4,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Fogo": [
+    4,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Gelo": [
+    4,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Raio": [
+    4,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Terra": [
+    4,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Comum_-": [
+    5,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Agua": [
+    5,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Ar": [
+    5,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Fogo": [
+    5,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Gelo": [
+    5,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Raio": [
+    5,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Terra": [
+    5,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Incomum_-": [
+    5,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Agua": [
+    5,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Ar": [
+    5,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Fogo": [
+    5,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Gelo": [
+    5,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Raio": [
+    5,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Terra": [
+    5,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Agua": [
+    5,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Ar": [
+    5,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Fogo": [
+    5,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Gelo": [
+    5,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Raio": [
+    5,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Terra": [
+    5,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Comum_-": [
+    5,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Agua": [
+    5,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Ar": [
+    5,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Fogo": [
+    5,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Gelo": [
+    5,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Raio": [
+    5,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Terra": [
+    5,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Incomum_-": [
+    5,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Agua": [
+    5,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Ar": [
+    5,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Fogo": [
+    5,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Gelo": [
+    5,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Raio": [
+    6,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Terra": [
+    6,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Agua": [
+    6,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Ar": [
+    6,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Fogo": [
+    6,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Gelo": [
+    6,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Raio": [
+    6,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Terra": [
+    6,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Comum_-": [
+    6,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Agua": [
+    6,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Ar": [
+    6,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Fogo": [
+    6,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Gelo": [
+    6,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Raio": [
+    6,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Terra": [
+    6,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Incomum_-": [
+    6,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Agua": [
+    6,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Ar": [
+    6,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Fogo": [
+    6,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Gelo": [
+    6,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Raio": [
+    6,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Terra": [
+    6,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Agua": [
+    6,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Ar": [
+    6,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Fogo": [
+    6,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Gelo": [
+    6,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Raio": [
+    6,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Terra": [
+    6,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Comum_-": [
+    6,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Agua": [
+    6,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Ar": [
+    6,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Fogo": [
+    6,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Gelo": [
+    7,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Raio": [
+    7,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Terra": [
+    7,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Incomum_-": [
+    7,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Agua": [
+    7,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Ar": [
+    7,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Fogo": [
+    7,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Gelo": [
+    7,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Raio": [
+    7,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Terra": [
+    7,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Agua": [
+    7,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Ar": [
+    7,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Fogo": [
+    7,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Gelo": [
+    7,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Raio": [
+    7,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Terra": [
+    7,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Comum_-": [
+    7,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Agua": [
+    7,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Ar": [
+    7,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Fogo": [
+    7,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Gelo": [
+    7,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Raio": [
+    7,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Terra": [
+    7,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Incomum_-": [
+    7,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Agua": [
+    7,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Ar": [
+    7,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Fogo": [
+    7,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Gelo": [
+    7,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Raio": [
+    7,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Terra": [
+    7,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Agua": [
+    7,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Ar": [
+    7,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Fogo": [
+    8,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Gelo": [
+    8,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Raio": [
+    8,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Terra": [
+    8,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Comum_-": [
+    8,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Agua": [
+    8,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Ar": [
+    8,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Fogo": [
+    8,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Gelo": [
+    8,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Raio": [
+    8,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Terra": [
+    8,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Incomum_-": [
+    8,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Agua": [
+    8,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Ar": [
+    8,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Fogo": [
+    8,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Gelo": [
+    8,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Raio": [
+    8,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Terra": [
+    8,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Agua": [
+    8,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Ar": [
+    8,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Fogo": [
+    8,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Gelo": [
+    8,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Raio": [
+    8,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Terra": [
+    8,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Comum_-": [
+    8,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Agua": [
+    8,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Ar": [
+    8,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Fogo": [
+    8,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Gelo": [
+    8,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Raio": [
+    8,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Terra": [
+    8,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Incomum_-": [
+    8,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Agua": [
+    9,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Ar": [
+    9,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Fogo": [
+    9,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Gelo": [
+    9,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Raio": [
+    9,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Terra": [
+    9,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Agua": [
+    9,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Ar": [
+    9,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Fogo": [
+    9,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Gelo": [
+    9,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Raio": [
+    9,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Terra": [
+    9,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Comum_-": [
+    9,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Agua": [
+    9,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Ar": [
+    9,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Fogo": [
+    9,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Gelo": [
+    9,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Raio": [
+    9,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Terra": [
+    9,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Incomum_-": [
+    9,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Agua": [
+    9,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Ar": [
+    9,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Fogo": [
+    9,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Gelo": [
+    9,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Raio": [
+    9,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Terra": [
+    9,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Agua": [
+    9,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Ar": [
+    9,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Fogo": [
+    9,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Gelo": [
+    9,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Raio": [
+    9,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Terra": [
+    9,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "barba_cheia_Castanho": [
+    10,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "barba_cheia_Castanho-escuro": [
+    10,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "barba_cheia_Grisalho": [
+    10,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "barba_cheia_Loiro": [
+    10,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "barba_cheia_Platinado": [
+    10,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "barba_cheia_Preto": [
+    10,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "barba_cheia_Ruivo": [
+    10,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "barba_curta_Castanho": [
+    10,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "barba_curta_Castanho-escuro": [
+    10,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "barba_curta_Grisalho": [
+    10,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "barba_curta_Loiro": [
+    10,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "barba_curta_Platinado": [
+    10,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "barba_curta_Preto": [
+    10,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "barba_curta_Ruivo": [
+    10,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "braco_Pele-1": [
+    10,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "braco_Pele-2": [
+    10,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "braco_Pele-3": [
+    10,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "braco_Pele-4": [
+    10,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "braco_Pele-5": [
+    10,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Comum_-": [
+    10,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Agua": [
+    10,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Ar": [
+    10,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Fogo": [
+    10,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Gelo": [
+    10,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Raio": [
+    10,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Terra": [
+    10,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Incomum_-": [
+    10,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Agua": [
+    10,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Ar": [
+    10,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Fogo": [
+    10,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Gelo": [
+    10,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Raio": [
+    10,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Terra": [
+    11,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Agua": [
+    11,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Ar": [
+    11,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Fogo": [
+    11,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Gelo": [
+    11,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Raio": [
+    11,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Terra": [
+    11,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Comum_-": [
+    11,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Agua": [
+    11,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Ar": [
+    11,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Fogo": [
+    11,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Gelo": [
+    11,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Raio": [
+    11,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Terra": [
+    11,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Incomum_-": [
+    11,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Agua": [
+    11,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Ar": [
+    11,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Fogo": [
+    11,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Gelo": [
+    11,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Raio": [
+    11,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Terra": [
+    11,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Agua": [
+    11,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Ar": [
+    11,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Fogo": [
+    11,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Gelo": [
+    11,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Raio": [
+    11,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Terra": [
+    11,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Comum_-": [
+    11,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Agua": [
+    11,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Ar": [
+    11,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Fogo": [
+    11,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Gelo": [
+    11,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Raio": [
+    12,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Terra": [
+    12,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Incomum_-": [
+    12,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Agua": [
+    12,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Ar": [
+    12,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Fogo": [
+    12,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Gelo": [
+    12,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Raio": [
+    12,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Terra": [
+    12,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Agua": [
+    12,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Ar": [
+    12,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Fogo": [
+    12,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Gelo": [
+    12,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Raio": [
+    12,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Terra": [
+    12,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Comum_-": [
+    12,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Agua": [
+    12,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Ar": [
+    12,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Fogo": [
+    12,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Gelo": [
+    12,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Raio": [
+    12,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Terra": [
+    12,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Incomum_-": [
+    12,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Agua": [
+    12,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Ar": [
+    12,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Fogo": [
+    12,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Gelo": [
+    12,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Raio": [
+    12,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Terra": [
+    12,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Agua": [
+    12,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Ar": [
+    12,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Fogo": [
+    12,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Gelo": [
+    13,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Raio": [
+    13,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Terra": [
+    13,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Comum_-": [
+    13,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Agua": [
+    13,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Ar": [
+    13,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Fogo": [
+    13,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Gelo": [
+    13,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Raio": [
+    13,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Terra": [
+    13,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Incomum_-": [
+    13,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Agua": [
+    13,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Ar": [
+    13,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Fogo": [
+    13,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Gelo": [
+    13,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Raio": [
+    13,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Terra": [
+    13,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Agua": [
+    13,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Ar": [
+    13,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Fogo": [
+    13,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Gelo": [
+    13,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Raio": [
+    13,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Terra": [
+    13,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Comum_-": [
+    13,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Agua": [
+    13,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Ar": [
+    13,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Fogo": [
+    13,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Gelo": [
+    13,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Raio": [
+    13,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Terra": [
+    13,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Incomum_-": [
+    13,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Agua": [
+    13,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Ar": [
+    14,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Fogo": [
+    14,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Gelo": [
+    14,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Raio": [
+    14,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Terra": [
+    14,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Agua": [
+    14,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Ar": [
+    14,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Fogo": [
+    14,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Gelo": [
+    14,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Raio": [
+    14,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Terra": [
+    14,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Comum_-": [
+    14,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Agua": [
+    14,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Ar": [
+    14,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Fogo": [
+    14,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Gelo": [
+    14,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Raio": [
+    14,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Terra": [
+    14,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Incomum_-": [
+    14,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Agua": [
+    14,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Ar": [
+    14,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Fogo": [
+    14,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Gelo": [
+    14,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Raio": [
+    14,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Terra": [
+    14,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Agua": [
+    14,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Ar": [
+    14,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Fogo": [
+    14,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Gelo": [
+    14,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Raio": [
+    14,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Terra": [
+    14,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Comum_-": [
+    14,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Agua": [
+    15,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Ar": [
+    15,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Fogo": [
+    15,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Gelo": [
+    15,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Raio": [
+    15,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Terra": [
+    15,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Incomum_-": [
+    15,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Agua": [
+    15,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Ar": [
+    15,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Fogo": [
+    15,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Gelo": [
+    15,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Raio": [
+    15,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Terra": [
+    15,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Agua": [
+    15,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Ar": [
+    15,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Fogo": [
+    15,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Gelo": [
+    15,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Raio": [
+    15,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Terra": [
+    15,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Comum_-": [
+    15,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Agua": [
+    15,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Ar": [
+    15,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Fogo": [
+    15,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Gelo": [
+    15,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Raio": [
+    15,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Terra": [
+    15,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Incomum_-": [
+    15,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Agua": [
+    15,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Ar": [
+    15,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Fogo": [
+    15,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Gelo": [
+    15,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Raio": [
+    15,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Terra": [
+    16,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Agua": [
+    16,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Ar": [
+    16,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Fogo": [
+    16,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Gelo": [
+    16,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Raio": [
+    16,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Terra": [
+    16,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Comum_-": [
+    16,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Agua": [
+    16,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Ar": [
+    16,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Fogo": [
+    16,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Gelo": [
+    16,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Raio": [
+    16,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Terra": [
+    16,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Incomum_-": [
+    16,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Agua": [
+    16,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Ar": [
+    16,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Fogo": [
+    16,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Gelo": [
+    16,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Raio": [
+    16,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Terra": [
+    16,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Agua": [
+    16,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Ar": [
+    16,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Fogo": [
+    16,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Gelo": [
+    16,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Raio": [
+    16,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Terra": [
+    16,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Comum_-": [
+    16,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Agua": [
+    16,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Ar": [
+    16,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Fogo": [
+    16,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Gelo": [
+    16,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Raio": [
+    17,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Terra": [
+    17,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Incomum_-": [
+    17,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Agua": [
+    17,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Ar": [
+    17,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Fogo": [
+    17,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Gelo": [
+    17,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Raio": [
+    17,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Terra": [
+    17,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Agua": [
+    17,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Ar": [
+    17,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Fogo": [
+    17,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Gelo": [
+    17,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Raio": [
+    17,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Terra": [
+    17,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Comum_-": [
+    17,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Agua": [
+    17,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Ar": [
+    17,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Fogo": [
+    17,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Gelo": [
+    17,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Raio": [
+    17,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Terra": [
+    17,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Incomum_-": [
+    17,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Agua": [
+    17,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Ar": [
+    17,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Fogo": [
+    17,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Gelo": [
+    17,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Raio": [
+    17,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Terra": [
+    17,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Agua": [
+    17,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Ar": [
+    17,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Fogo": [
+    17,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Gelo": [
+    18,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Raio": [
+    18,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Terra": [
+    18,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "cabelo_curto_Castanho": [
+    18,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "cabelo_curto_Castanho-escuro": [
+    18,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "cabelo_curto_Grisalho": [
+    18,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "cabelo_curto_Loiro": [
+    18,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "cabelo_curto_Platinado": [
+    18,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "cabelo_curto_Preto": [
+    18,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "cabelo_curto_Ruivo": [
+    18,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "cabelo_longo_Castanho": [
+    18,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "cabelo_longo_Castanho-escuro": [
+    18,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "cabelo_longo_Grisalho": [
+    18,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "cabelo_longo_Loiro": [
+    18,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "cabelo_longo_Platinado": [
+    18,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "cabelo_longo_Preto": [
+    18,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "cabelo_longo_Ruivo": [
+    18,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "cabelo_preso_Castanho": [
+    18,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "cabelo_preso_Castanho-escuro": [
+    18,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "cabelo_preso_Grisalho": [
+    18,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "cabelo_preso_Loiro": [
+    18,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "cabelo_preso_Platinado": [
+    18,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "cabelo_preso_Preto": [
+    18,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "cabelo_preso_Ruivo": [
+    18,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Comum_-": [
+    18,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Agua": [
+    18,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Ar": [
+    18,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Fogo": [
+    18,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Gelo": [
+    18,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Raio": [
+    18,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Terra": [
+    18,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Incomum_-": [
+    18,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Agua": [
+    19,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Ar": [
+    19,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Fogo": [
+    19,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Gelo": [
+    19,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Raio": [
+    19,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Terra": [
+    19,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Agua": [
+    19,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Ar": [
+    19,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Fogo": [
+    19,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Gelo": [
+    19,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Raio": [
+    19,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Terra": [
+    19,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Comum_-": [
+    19,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Agua": [
+    19,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Ar": [
+    19,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Fogo": [
+    19,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Gelo": [
+    19,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Raio": [
+    19,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Terra": [
+    19,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Incomum_-": [
+    19,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Agua": [
+    19,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Ar": [
+    19,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Fogo": [
+    19,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Gelo": [
+    19,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Raio": [
+    19,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Terra": [
+    19,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Agua": [
+    19,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Ar": [
+    19,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Fogo": [
+    19,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Gelo": [
+    19,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Raio": [
+    19,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Terra": [
+    19,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Comum_-": [
+    20,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Agua": [
+    20,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Ar": [
+    20,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Fogo": [
+    20,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Gelo": [
+    20,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Raio": [
+    20,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Terra": [
+    20,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Incomum_-": [
+    20,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Agua": [
+    20,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Ar": [
+    20,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Fogo": [
+    20,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Gelo": [
+    20,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Raio": [
+    20,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Terra": [
+    20,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Agua": [
+    20,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Ar": [
+    20,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Fogo": [
+    20,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Gelo": [
+    20,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Raio": [
+    20,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Terra": [
+    20,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Comum_-": [
+    20,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Agua": [
+    20,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Ar": [
+    20,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Fogo": [
+    20,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Gelo": [
+    20,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Raio": [
+    20,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Terra": [
+    20,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Incomum_-": [
+    20,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Agua": [
+    20,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Ar": [
+    20,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Fogo": [
+    20,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Gelo": [
+    20,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Raio": [
+    21,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Terra": [
+    21,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Agua": [
+    21,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Ar": [
+    21,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Fogo": [
+    21,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Gelo": [
+    21,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Raio": [
+    21,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Terra": [
+    21,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Comum_-": [
+    21,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Agua": [
+    21,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Ar": [
+    21,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Fogo": [
+    21,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Gelo": [
+    21,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Raio": [
+    21,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Terra": [
+    21,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Incomum_-": [
+    21,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Agua": [
+    21,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Ar": [
+    21,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Fogo": [
+    21,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Gelo": [
+    21,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Raio": [
+    21,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Terra": [
+    21,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Agua": [
+    21,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Ar": [
+    21,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Fogo": [
+    21,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Gelo": [
+    21,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Raio": [
+    21,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Terra": [
+    21,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Comum_-": [
+    21,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Agua": [
+    21,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Ar": [
+    21,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Fogo": [
+    21,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Gelo": [
+    22,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Raio": [
+    22,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Terra": [
+    22,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Incomum_-": [
+    22,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Agua": [
+    22,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Ar": [
+    22,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Fogo": [
+    22,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Gelo": [
+    22,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Raio": [
+    22,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Terra": [
+    22,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Agua": [
+    22,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Ar": [
+    22,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Fogo": [
+    22,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Gelo": [
+    22,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Raio": [
+    22,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Terra": [
+    22,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Comum_-": [
+    22,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Agua": [
+    22,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Ar": [
+    22,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Fogo": [
+    22,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Gelo": [
+    22,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Raio": [
+    22,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Terra": [
+    22,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Incomum_-": [
+    22,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Agua": [
+    22,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Ar": [
+    22,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Fogo": [
+    22,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Gelo": [
+    22,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Raio": [
+    22,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Terra": [
+    22,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Agua": [
+    22,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Ar": [
+    22,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Fogo": [
+    23,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Gelo": [
+    23,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Raio": [
+    23,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Terra": [
+    23,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Comum_-": [
+    23,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Agua": [
+    23,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Ar": [
+    23,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Fogo": [
+    23,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Gelo": [
+    23,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Raio": [
+    23,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Terra": [
+    23,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Incomum_-": [
+    23,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Agua": [
+    23,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Ar": [
+    23,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Fogo": [
+    23,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Gelo": [
+    23,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Raio": [
+    23,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Terra": [
+    23,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Agua": [
+    23,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Ar": [
+    23,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Fogo": [
+    23,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Gelo": [
+    23,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Raio": [
+    23,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Terra": [
+    23,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Comum_-": [
+    23,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Agua": [
+    23,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Ar": [
+    23,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Fogo": [
+    23,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Gelo": [
+    23,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Raio": [
+    23,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Terra": [
+    23,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Incomum_-": [
+    23,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Agua": [
+    24,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Ar": [
+    24,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Fogo": [
+    24,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Gelo": [
+    24,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Raio": [
+    24,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Terra": [
+    24,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Agua": [
+    24,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Ar": [
+    24,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Fogo": [
+    24,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Gelo": [
+    24,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Raio": [
+    24,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Terra": [
+    24,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Comum_-": [
+    24,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Agua": [
+    24,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Ar": [
+    24,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Fogo": [
+    24,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Gelo": [
+    24,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Raio": [
+    24,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Terra": [
+    24,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Incomum_-": [
+    24,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Agua": [
+    24,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Ar": [
+    24,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Fogo": [
+    24,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Gelo": [
+    24,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Raio": [
+    24,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Terra": [
+    24,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Agua": [
+    24,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Ar": [
+    24,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Fogo": [
+    24,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Gelo": [
+    24,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Raio": [
+    24,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Terra": [
+    24,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Comum_-": [
+    25,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Agua": [
+    25,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Ar": [
+    25,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Fogo": [
+    25,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Gelo": [
+    25,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Raio": [
+    25,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Terra": [
+    25,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Incomum_-": [
+    25,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Agua": [
+    25,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Ar": [
+    25,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Fogo": [
+    25,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Gelo": [
+    25,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Raio": [
+    25,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Terra": [
+    25,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Agua": [
+    25,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Ar": [
+    25,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Fogo": [
+    25,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Gelo": [
+    25,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Raio": [
+    25,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Terra": [
+    25,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Comum_-": [
+    25,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Agua": [
+    25,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Ar": [
+    25,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Fogo": [
+    25,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Gelo": [
+    25,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Raio": [
+    25,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Terra": [
+    25,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Incomum_-": [
+    25,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Agua": [
+    25,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Ar": [
+    25,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Fogo": [
+    25,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Gelo": [
+    25,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Raio": [
+    26,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Terra": [
+    26,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Agua": [
+    26,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Ar": [
+    26,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Fogo": [
+    26,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Gelo": [
+    26,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Raio": [
+    26,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Terra": [
+    26,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "corpo_1_Pele-1": [
+    26,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "corpo_1_Pele-2": [
+    26,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "corpo_1_Pele-3": [
+    26,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "corpo_1_Pele-4": [
+    26,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "corpo_1_Pele-5": [
+    26,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "corpo_2_Pele-1": [
+    26,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "corpo_2_Pele-2": [
+    26,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "corpo_2_Pele-3": [
+    26,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "corpo_2_Pele-4": [
+    26,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "corpo_2_Pele-5": [
+    26,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "eq_arco_do_vendaval_arma": [
+    26,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "eq_armadura_do_cascalho_armadura": [
+    26,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "eq_armadura_do_cascalho_braco_armadura": [
+    26,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "eq_brigantina_reforcada_armadura": [
+    26,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "eq_brigantina_reforcada_braco_armadura": [
+    26,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "eq_cajado_de_freixo_arma": [
+    26,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "eq_cajado_de_ramo_gravado_arma": [
+    26,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "eq_cajado_do_inverno_manso_arma": [
+    26,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "eq_capuz_de_batedor_capacete": [
+    26,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "eq_capuz_de_viajante_capacete": [
+    26,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "eq_capuz_do_inverno_manso_capacete": [
+    26,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "eq_capuz_do_vendaval_capacete": [
+    26,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "eq_chapeu_de_aba_larga_do_mensageiro_capacete": [
+    26,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "eq_cota_da_faisca_armadura": [
+    26,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "eq_cota_da_faisca_braco_armadura": [
+    27,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "eq_cota_de_aneis_armadura": [
+    27,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "eq_cota_de_aneis_braco_armadura": [
+    27,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "eq_cota_de_malha_da_guarda_armadura": [
+    27,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "eq_cota_de_malha_da_guarda_braco_armadura": [
+    27,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "eq_couraca_da_brasa_armadura": [
+    27,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "eq_couraca_da_brasa_braco_armadura": [
+    27,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "eq_elmo_com_viseira_capacete": [
+    27,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "eq_elmo_da_brasa_capacete": [
+    27,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "eq_elmo_de_ferro_batido_capacete": [
+    27,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "eq_elmo_do_cascalho_capacete": [
+    27,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "eq_espada_de_aco_da_guarda_arma": [
+    27,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "eq_espada_de_ferro_arma": [
+    27,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "eq_faixa_de_cacador_capacete": [
+    27,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "eq_gibao_de_couro_armadura": [
+    27,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "eq_gibao_de_couro_braco_armadura": [
+    27,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "eq_gibao_do_vendaval_armadura": [
+    27,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "eq_gibao_do_vendaval_braco_armadura": [
+    27,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "eq_lamina_da_brasa_arma": [
+    27,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "eq_lanca_da_faisca_arma": [
+    27,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "eq_lanca_de_ponta_dupla_arma": [
+    27,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "eq_machadinha_de_lenhador_arma": [
+    27,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "eq_manto_da_correnteza_armadura": [
+    27,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "eq_manto_da_correnteza_braco_armadura": [
+    27,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "eq_manto_de_la_grossa_armadura": [
+    27,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "eq_manto_de_la_grossa_braco_armadura": [
+    27,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "eq_manto_do_inverno_manso_armadura": [
+    27,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "eq_manto_do_inverno_manso_braco_armadura": [
+    27,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "eq_martelo_do_cascalho_arma": [
+    27,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "eq_tiara_da_correnteza_capacete": [
+    27,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "eq_tridente_da_correnteza_arma": [
+    27,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "eq_tunica_acolchoada_de_viajante_armadura": [
+    27,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "eq_tunica_acolchoada_de_viajante_braco_armadura": [
+    28,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "eq_viseira_da_faisca_capacete": [
+    28,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "roupa_1": [
+    28,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "roupa_2": [
+    28,
+    0,
+    192,
+    1200,
+    64
+   ]
+  }
+ },
+ "frente": {
+  "paginas": 1,
+  "imagens": {
+   "arma_cajado_Comum_-": [
+    0,
+    0,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Epico_Agua": [
+    0,
+    48,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Epico_Ar": [
+    0,
+    96,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Epico_Fogo": [
+    0,
+    144,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Epico_Gelo": [
+    0,
+    192,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Epico_Raio": [
+    0,
+    240,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Epico_Terra": [
+    0,
+    288,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Incomum_-": [
+    0,
+    336,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Agua_0": [
+    0,
+    384,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Agua_1": [
+    0,
+    432,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Ar_0": [
+    0,
+    480,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Ar_1": [
+    0,
+    528,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Fogo_0": [
+    0,
+    576,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Fogo_1": [
+    0,
+    624,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Gelo_0": [
+    0,
+    672,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Gelo_1": [
+    0,
+    720,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Raio_0": [
+    0,
+    768,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Raio_1": [
+    0,
+    816,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Terra_0": [
+    0,
+    864,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Lendario_Terra_1": [
+    0,
+    912,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Raro_Agua": [
+    0,
+    960,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Raro_Ar": [
+    0,
+    1008,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Raro_Fogo": [
+    0,
+    1056,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Raro_Gelo": [
+    0,
+    1104,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Raro_Raio": [
+    0,
+    1152,
+    0,
+    48,
+    64
+   ],
+   "arma_cajado_Raro_Terra": [
+    0,
+    1200,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Comum_-": [
+    0,
+    1248,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Epico_Agua": [
+    0,
+    1296,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Epico_Ar": [
+    0,
+    1344,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Epico_Fogo": [
+    0,
+    1392,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Epico_Gelo": [
+    0,
+    1440,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Epico_Raio": [
+    0,
+    1488,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Epico_Terra": [
+    0,
+    1536,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Incomum_-": [
+    0,
+    1584,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Agua_0": [
+    0,
+    1632,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Agua_1": [
+    0,
+    1680,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Ar_0": [
+    0,
+    1728,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Ar_1": [
+    0,
+    1776,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Fogo_0": [
+    0,
+    1824,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Fogo_1": [
+    0,
+    1872,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Gelo_0": [
+    0,
+    1920,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Gelo_1": [
+    0,
+    1968,
+    0,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Raio_0": [
+    0,
+    0,
+    64,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Raio_1": [
+    0,
+    48,
+    64,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Terra_0": [
+    0,
+    96,
+    64,
+    48,
+    64
+   ],
+   "arma_espada_Lendario_Terra_1": [
+    0,
+    144,
+    64,
+    48,
+    64
+   ],
+   "arma_espada_Raro_Agua": [
+    0,
+    192,
+    64,
+    48,
+    64
+   ],
+   "arma_espada_Raro_Ar": [
+    0,
+    240,
+    64,
+    48,
+    64
+   ],
+   "arma_espada_Raro_Fogo": [
+    0,
+    288,
+    64,
+    48,
+    64
+   ],
+   "arma_espada_Raro_Gelo": [
+    0,
+    336,
+    64,
+    48,
+    64
+   ],
+   "arma_espada_Raro_Raio": [
+    0,
+    384,
+    64,
+    48,
+    64
+   ],
+   "arma_espada_Raro_Terra": [
+    0,
+    432,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Comum_-": [
+    0,
+    480,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Epico_Agua": [
+    0,
+    528,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Epico_Ar": [
+    0,
+    576,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Epico_Fogo": [
+    0,
+    624,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Epico_Gelo": [
+    0,
+    672,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Epico_Raio": [
+    0,
+    720,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Epico_Terra": [
+    0,
+    768,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Incomum_-": [
+    0,
+    816,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Agua_0": [
+    0,
+    864,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Agua_1": [
+    0,
+    912,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Ar_0": [
+    0,
+    960,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Ar_1": [
+    0,
+    1008,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Fogo_0": [
+    0,
+    1056,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Fogo_1": [
+    0,
+    1104,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Gelo_0": [
+    0,
+    1152,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Gelo_1": [
+    0,
+    1200,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Raio_0": [
+    0,
+    1248,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Raio_1": [
+    0,
+    1296,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Terra_0": [
+    0,
+    1344,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Lendario_Terra_1": [
+    0,
+    1392,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Raro_Agua": [
+    0,
+    1440,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Raro_Ar": [
+    0,
+    1488,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Raro_Fogo": [
+    0,
+    1536,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Raro_Gelo": [
+    0,
+    1584,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Raro_Raio": [
+    0,
+    1632,
+    64,
+    48,
+    64
+   ],
+   "arma_lanca_Raro_Terra": [
+    0,
+    1680,
+    64,
+    48,
+    64
+   ],
+   "arma_machado_Comum_-": [
+    0,
+    1728,
+    64,
+    48,
+    64
+   ],
+   "arma_machado_Epico_Agua": [
+    0,
+    1776,
+    64,
+    48,
+    64
+   ],
+   "arma_machado_Epico_Ar": [
+    0,
+    1824,
+    64,
+    48,
+    64
+   ],
+   "arma_machado_Epico_Fogo": [
+    0,
+    1872,
+    64,
+    48,
+    64
+   ],
+   "arma_machado_Epico_Gelo": [
+    0,
+    1920,
+    64,
+    48,
+    64
+   ],
+   "arma_machado_Epico_Raio": [
+    0,
+    1968,
+    64,
+    48,
+    64
+   ],
+   "arma_machado_Epico_Terra": [
+    0,
+    0,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Incomum_-": [
+    0,
+    48,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Agua_0": [
+    0,
+    96,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Agua_1": [
+    0,
+    144,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Ar_0": [
+    0,
+    192,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Ar_1": [
+    0,
+    240,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Fogo_0": [
+    0,
+    288,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Fogo_1": [
+    0,
+    336,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Gelo_0": [
+    0,
+    384,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Gelo_1": [
+    0,
+    432,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Raio_0": [
+    0,
+    480,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Raio_1": [
+    0,
+    528,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Terra_0": [
+    0,
+    576,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Lendario_Terra_1": [
+    0,
+    624,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Raro_Agua": [
+    0,
+    672,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Raro_Ar": [
+    0,
+    720,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Raro_Fogo": [
+    0,
+    768,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Raro_Gelo": [
+    0,
+    816,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Raro_Raio": [
+    0,
+    864,
+    128,
+    48,
+    64
+   ],
+   "arma_machado_Raro_Terra": [
+    0,
+    912,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Comum_-": [
+    0,
+    960,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Agua": [
+    0,
+    1008,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Ar": [
+    0,
+    1056,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Fogo": [
+    0,
+    1104,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Gelo": [
+    0,
+    1152,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Raio": [
+    0,
+    1200,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Epico_Terra": [
+    0,
+    1248,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Incomum_-": [
+    0,
+    1296,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Agua_0": [
+    0,
+    1344,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Agua_1": [
+    0,
+    1392,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Ar_0": [
+    0,
+    1440,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Ar_1": [
+    0,
+    1488,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Fogo_0": [
+    0,
+    1536,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Fogo_1": [
+    0,
+    1584,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Gelo_0": [
+    0,
+    1632,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Gelo_1": [
+    0,
+    1680,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Raio_0": [
+    0,
+    1728,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Raio_1": [
+    0,
+    1776,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Terra_0": [
+    0,
+    1824,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Lendario_Terra_1": [
+    0,
+    1872,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Agua": [
+    0,
+    1920,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Ar": [
+    0,
+    1968,
+    128,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Fogo": [
+    0,
+    0,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Gelo": [
+    0,
+    48,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Raio": [
+    0,
+    96,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Couro_Raro_Terra": [
+    0,
+    144,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Comum_-": [
+    0,
+    192,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Agua": [
+    0,
+    240,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Ar": [
+    0,
+    288,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Fogo": [
+    0,
+    336,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Gelo": [
+    0,
+    384,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Raio": [
+    0,
+    432,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Epico_Terra": [
+    0,
+    480,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Incomum_-": [
+    0,
+    528,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Agua_0": [
+    0,
+    576,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Agua_1": [
+    0,
+    624,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Ar_0": [
+    0,
+    672,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Ar_1": [
+    0,
+    720,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Fogo_0": [
+    0,
+    768,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Fogo_1": [
+    0,
+    816,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Gelo_0": [
+    0,
+    864,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Gelo_1": [
+    0,
+    912,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Raio_0": [
+    0,
+    960,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Raio_1": [
+    0,
+    1008,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Terra_0": [
+    0,
+    1056,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Lendario_Terra_1": [
+    0,
+    1104,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Agua": [
+    0,
+    1152,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Ar": [
+    0,
+    1200,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Fogo": [
+    0,
+    1248,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Gelo": [
+    0,
+    1296,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Raio": [
+    0,
+    1344,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Ferro_Raro_Terra": [
+    0,
+    1392,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Comum_-": [
+    0,
+    1440,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Agua": [
+    0,
+    1488,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Ar": [
+    0,
+    1536,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Fogo": [
+    0,
+    1584,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Gelo": [
+    0,
+    1632,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Raio": [
+    0,
+    1680,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Epico_Terra": [
+    0,
+    1728,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Incomum_-": [
+    0,
+    1776,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Agua_0": [
+    0,
+    1824,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Agua_1": [
+    0,
+    1872,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Ar_0": [
+    0,
+    1920,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Ar_1": [
+    0,
+    1968,
+    192,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Fogo_0": [
+    0,
+    0,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Fogo_1": [
+    0,
+    48,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Gelo_0": [
+    0,
+    96,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Gelo_1": [
+    0,
+    144,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Raio_0": [
+    0,
+    192,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Raio_1": [
+    0,
+    240,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Terra_0": [
+    0,
+    288,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Lendario_Terra_1": [
+    0,
+    336,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Agua": [
+    0,
+    384,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Ar": [
+    0,
+    432,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Fogo": [
+    0,
+    480,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Gelo": [
+    0,
+    528,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Raio": [
+    0,
+    576,
+    256,
+    48,
+    64
+   ],
+   "armadura_couro_Tecido_Raro_Terra": [
+    0,
+    624,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Comum_-": [
+    0,
+    672,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Agua": [
+    0,
+    720,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Ar": [
+    0,
+    768,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Fogo": [
+    0,
+    816,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Gelo": [
+    0,
+    864,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Raio": [
+    0,
+    912,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Epico_Terra": [
+    0,
+    960,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Incomum_-": [
+    0,
+    1008,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Agua_0": [
+    0,
+    1056,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Agua_1": [
+    0,
+    1104,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Ar_0": [
+    0,
+    1152,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Ar_1": [
+    0,
+    1200,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Fogo_0": [
+    0,
+    1248,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Fogo_1": [
+    0,
+    1296,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Gelo_0": [
+    0,
+    1344,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Gelo_1": [
+    0,
+    1392,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Raio_0": [
+    0,
+    1440,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Raio_1": [
+    0,
+    1488,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Terra_0": [
+    0,
+    1536,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Lendario_Terra_1": [
+    0,
+    1584,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Agua": [
+    0,
+    1632,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Ar": [
+    0,
+    1680,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Fogo": [
+    0,
+    1728,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Gelo": [
+    0,
+    1776,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Raio": [
+    0,
+    1824,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Couro_Raro_Terra": [
+    0,
+    1872,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Comum_-": [
+    0,
+    1920,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Agua": [
+    0,
+    1968,
+    256,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Ar": [
+    0,
+    0,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Fogo": [
+    0,
+    48,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Gelo": [
+    0,
+    96,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Raio": [
+    0,
+    144,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Epico_Terra": [
+    0,
+    192,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Incomum_-": [
+    0,
+    240,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Agua_0": [
+    0,
+    288,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Agua_1": [
+    0,
+    336,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Ar_0": [
+    0,
+    384,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Ar_1": [
+    0,
+    432,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Fogo_0": [
+    0,
+    480,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Fogo_1": [
+    0,
+    528,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Gelo_0": [
+    0,
+    576,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Gelo_1": [
+    0,
+    624,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Raio_0": [
+    0,
+    672,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Raio_1": [
+    0,
+    720,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Terra_0": [
+    0,
+    768,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Lendario_Terra_1": [
+    0,
+    816,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Agua": [
+    0,
+    864,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Ar": [
+    0,
+    912,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Fogo": [
+    0,
+    960,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Gelo": [
+    0,
+    1008,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Raio": [
+    0,
+    1056,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Ferro_Raro_Terra": [
+    0,
+    1104,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Comum_-": [
+    0,
+    1152,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Agua": [
+    0,
+    1200,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Ar": [
+    0,
+    1248,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Fogo": [
+    0,
+    1296,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Gelo": [
+    0,
+    1344,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Raio": [
+    0,
+    1392,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Epico_Terra": [
+    0,
+    1440,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Incomum_-": [
+    0,
+    1488,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Agua_0": [
+    0,
+    1536,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Agua_1": [
+    0,
+    1584,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Ar_0": [
+    0,
+    1632,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Ar_1": [
+    0,
+    1680,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Fogo_0": [
+    0,
+    1728,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Fogo_1": [
+    0,
+    1776,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Gelo_0": [
+    0,
+    1824,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Gelo_1": [
+    0,
+    1872,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Raio_0": [
+    0,
+    1920,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Raio_1": [
+    0,
+    1968,
+    320,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Terra_0": [
+    0,
+    0,
+    384,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Lendario_Terra_1": [
+    0,
+    48,
+    384,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Agua": [
+    0,
+    96,
+    384,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Ar": [
+    0,
+    144,
+    384,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Fogo": [
+    0,
+    192,
+    384,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Gelo": [
+    0,
+    240,
+    384,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Raio": [
+    0,
+    288,
+    384,
+    48,
+    64
+   ],
+   "armadura_gibao_Tecido_Raro_Terra": [
+    0,
+    336,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Comum_-": [
+    0,
+    384,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Agua": [
+    0,
+    432,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Ar": [
+    0,
+    480,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Fogo": [
+    0,
+    528,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Gelo": [
+    0,
+    576,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Raio": [
+    0,
+    624,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Epico_Terra": [
+    0,
+    672,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Incomum_-": [
+    0,
+    720,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Agua_0": [
+    0,
+    768,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Agua_1": [
+    0,
+    816,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Ar_0": [
+    0,
+    864,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Ar_1": [
+    0,
+    912,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Fogo_0": [
+    0,
+    960,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Fogo_1": [
+    0,
+    1008,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Gelo_0": [
+    0,
+    1056,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Gelo_1": [
+    0,
+    1104,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Raio_0": [
+    0,
+    1152,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Raio_1": [
+    0,
+    1200,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Terra_0": [
+    0,
+    1248,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Lendario_Terra_1": [
+    0,
+    1296,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Agua": [
+    0,
+    1344,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Ar": [
+    0,
+    1392,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Fogo": [
+    0,
+    1440,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Gelo": [
+    0,
+    1488,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Raio": [
+    0,
+    1536,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Couro_Raro_Terra": [
+    0,
+    1584,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Comum_-": [
+    0,
+    1632,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Agua": [
+    0,
+    1680,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Ar": [
+    0,
+    1728,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Fogo": [
+    0,
+    1776,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Gelo": [
+    0,
+    1824,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Raio": [
+    0,
+    1872,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Epico_Terra": [
+    0,
+    1920,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Incomum_-": [
+    0,
+    1968,
+    384,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Agua_0": [
+    0,
+    0,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Agua_1": [
+    0,
+    48,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Ar_0": [
+    0,
+    96,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Ar_1": [
+    0,
+    144,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Fogo_0": [
+    0,
+    192,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Fogo_1": [
+    0,
+    240,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Gelo_0": [
+    0,
+    288,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Gelo_1": [
+    0,
+    336,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Raio_0": [
+    0,
+    384,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Raio_1": [
+    0,
+    432,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Terra_0": [
+    0,
+    480,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Lendario_Terra_1": [
+    0,
+    528,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Agua": [
+    0,
+    576,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Ar": [
+    0,
+    624,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Fogo": [
+    0,
+    672,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Gelo": [
+    0,
+    720,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Raio": [
+    0,
+    768,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Ferro_Raro_Terra": [
+    0,
+    816,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Comum_-": [
+    0,
+    864,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Agua": [
+    0,
+    912,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Ar": [
+    0,
+    960,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Fogo": [
+    0,
+    1008,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Gelo": [
+    0,
+    1056,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Raio": [
+    0,
+    1104,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Epico_Terra": [
+    0,
+    1152,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Incomum_-": [
+    0,
+    1200,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Agua_0": [
+    0,
+    1248,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Agua_1": [
+    0,
+    1296,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Ar_0": [
+    0,
+    1344,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Ar_1": [
+    0,
+    1392,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Fogo_0": [
+    0,
+    1440,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Fogo_1": [
+    0,
+    1488,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Gelo_0": [
+    0,
+    1536,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Gelo_1": [
+    0,
+    1584,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Raio_0": [
+    0,
+    1632,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Raio_1": [
+    0,
+    1680,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Terra_0": [
+    0,
+    1728,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Lendario_Terra_1": [
+    0,
+    1776,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Agua": [
+    0,
+    1824,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Ar": [
+    0,
+    1872,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Fogo": [
+    0,
+    1920,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Gelo": [
+    0,
+    1968,
+    448,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Raio": [
+    0,
+    0,
+    512,
+    48,
+    64
+   ],
+   "armadura_malha_Tecido_Raro_Terra": [
+    0,
+    48,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Comum_-": [
+    0,
+    96,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Agua": [
+    0,
+    144,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Ar": [
+    0,
+    192,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Fogo": [
+    0,
+    240,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Gelo": [
+    0,
+    288,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Raio": [
+    0,
+    336,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Epico_Terra": [
+    0,
+    384,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Incomum_-": [
+    0,
+    432,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Agua_0": [
+    0,
+    480,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Agua_1": [
+    0,
+    528,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Ar_0": [
+    0,
+    576,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Ar_1": [
+    0,
+    624,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Fogo_0": [
+    0,
+    672,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Fogo_1": [
+    0,
+    720,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Gelo_0": [
+    0,
+    768,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Gelo_1": [
+    0,
+    816,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Raio_0": [
+    0,
+    864,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Raio_1": [
+    0,
+    912,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Terra_0": [
+    0,
+    960,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Lendario_Terra_1": [
+    0,
+    1008,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Agua": [
+    0,
+    1056,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Ar": [
+    0,
+    1104,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Fogo": [
+    0,
+    1152,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Gelo": [
+    0,
+    1200,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Raio": [
+    0,
+    1248,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Couro_Raro_Terra": [
+    0,
+    1296,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Comum_-": [
+    0,
+    1344,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Agua": [
+    0,
+    1392,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Ar": [
+    0,
+    1440,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Fogo": [
+    0,
+    1488,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Gelo": [
+    0,
+    1536,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Raio": [
+    0,
+    1584,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Epico_Terra": [
+    0,
+    1632,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Incomum_-": [
+    0,
+    1680,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Agua_0": [
+    0,
+    1728,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Agua_1": [
+    0,
+    1776,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Ar_0": [
+    0,
+    1824,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Ar_1": [
+    0,
+    1872,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Fogo_0": [
+    0,
+    1920,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Fogo_1": [
+    0,
+    1968,
+    512,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Gelo_0": [
+    0,
+    0,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Gelo_1": [
+    0,
+    48,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Raio_0": [
+    0,
+    96,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Raio_1": [
+    0,
+    144,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Terra_0": [
+    0,
+    192,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Lendario_Terra_1": [
+    0,
+    240,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Agua": [
+    0,
+    288,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Ar": [
+    0,
+    336,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Fogo": [
+    0,
+    384,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Gelo": [
+    0,
+    432,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Raio": [
+    0,
+    480,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Ferro_Raro_Terra": [
+    0,
+    528,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Comum_-": [
+    0,
+    576,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Agua": [
+    0,
+    624,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Ar": [
+    0,
+    672,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Fogo": [
+    0,
+    720,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Gelo": [
+    0,
+    768,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Raio": [
+    0,
+    816,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Epico_Terra": [
+    0,
+    864,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Incomum_-": [
+    0,
+    912,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Agua_0": [
+    0,
+    960,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Agua_1": [
+    0,
+    1008,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Ar_0": [
+    0,
+    1056,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Ar_1": [
+    0,
+    1104,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Fogo_0": [
+    0,
+    1152,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Fogo_1": [
+    0,
+    1200,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Gelo_0": [
+    0,
+    1248,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Gelo_1": [
+    0,
+    1296,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Raio_0": [
+    0,
+    1344,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Raio_1": [
+    0,
+    1392,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Terra_0": [
+    0,
+    1440,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Lendario_Terra_1": [
+    0,
+    1488,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Agua": [
+    0,
+    1536,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Ar": [
+    0,
+    1584,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Fogo": [
+    0,
+    1632,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Gelo": [
+    0,
+    1680,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Raio": [
+    0,
+    1728,
+    576,
+    48,
+    64
+   ],
+   "armadura_placas_Tecido_Raro_Terra": [
+    0,
+    1776,
+    576,
+    48,
+    64
+   ],
+   "barba_cheia_Castanho": [
+    0,
+    1824,
+    576,
+    48,
+    64
+   ],
+   "barba_cheia_Castanho-escuro": [
+    0,
+    1872,
+    576,
+    48,
+    64
+   ],
+   "barba_cheia_Grisalho": [
+    0,
+    1920,
+    576,
+    48,
+    64
+   ],
+   "barba_cheia_Loiro": [
+    0,
+    1968,
+    576,
+    48,
+    64
+   ],
+   "barba_cheia_Platinado": [
+    0,
+    0,
+    640,
+    48,
+    64
+   ],
+   "barba_cheia_Preto": [
+    0,
+    48,
+    640,
+    48,
+    64
+   ],
+   "barba_cheia_Ruivo": [
+    0,
+    96,
+    640,
+    48,
+    64
+   ],
+   "barba_curta_Castanho": [
+    0,
+    144,
+    640,
+    48,
+    64
+   ],
+   "barba_curta_Castanho-escuro": [
+    0,
+    192,
+    640,
+    48,
+    64
+   ],
+   "barba_curta_Grisalho": [
+    0,
+    240,
+    640,
+    48,
+    64
+   ],
+   "barba_curta_Loiro": [
+    0,
+    288,
+    640,
+    48,
+    64
+   ],
+   "barba_curta_Platinado": [
+    0,
+    336,
+    640,
+    48,
+    64
+   ],
+   "barba_curta_Preto": [
+    0,
+    384,
+    640,
+    48,
+    64
+   ],
+   "barba_curta_Ruivo": [
+    0,
+    432,
+    640,
+    48,
+    64
+   ],
+   "braco_Pele-1": [
+    0,
+    480,
+    640,
+    48,
+    64
+   ],
+   "braco_Pele-2": [
+    0,
+    528,
+    640,
+    48,
+    64
+   ],
+   "braco_Pele-3": [
+    0,
+    576,
+    640,
+    48,
+    64
+   ],
+   "braco_Pele-4": [
+    0,
+    624,
+    640,
+    48,
+    64
+   ],
+   "braco_Pele-5": [
+    0,
+    672,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Comum_-": [
+    0,
+    720,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Agua": [
+    0,
+    768,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Ar": [
+    0,
+    816,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Fogo": [
+    0,
+    864,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Gelo": [
+    0,
+    912,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Raio": [
+    0,
+    960,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Epico_Terra": [
+    0,
+    1008,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Incomum_-": [
+    0,
+    1056,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Agua_0": [
+    0,
+    1104,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Agua_1": [
+    0,
+    1152,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Ar_0": [
+    0,
+    1200,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Ar_1": [
+    0,
+    1248,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Fogo_0": [
+    0,
+    1296,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Fogo_1": [
+    0,
+    1344,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Gelo_0": [
+    0,
+    1392,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Gelo_1": [
+    0,
+    1440,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Raio_0": [
+    0,
+    1488,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Raio_1": [
+    0,
+    1536,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Terra_0": [
+    0,
+    1584,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Lendario_Terra_1": [
+    0,
+    1632,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Agua": [
+    0,
+    1680,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Ar": [
+    0,
+    1728,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Fogo": [
+    0,
+    1776,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Gelo": [
+    0,
+    1824,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Raio": [
+    0,
+    1872,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Couro_Raro_Terra": [
+    0,
+    1920,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Comum_-": [
+    0,
+    1968,
+    640,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Agua": [
+    0,
+    0,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Ar": [
+    0,
+    48,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Fogo": [
+    0,
+    96,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Gelo": [
+    0,
+    144,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Raio": [
+    0,
+    192,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Epico_Terra": [
+    0,
+    240,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Incomum_-": [
+    0,
+    288,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Agua_0": [
+    0,
+    336,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Agua_1": [
+    0,
+    384,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Ar_0": [
+    0,
+    432,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Ar_1": [
+    0,
+    480,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Fogo_0": [
+    0,
+    528,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Fogo_1": [
+    0,
+    576,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Gelo_0": [
+    0,
+    624,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Gelo_1": [
+    0,
+    672,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Raio_0": [
+    0,
+    720,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Raio_1": [
+    0,
+    768,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Terra_0": [
+    0,
+    816,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Lendario_Terra_1": [
+    0,
+    864,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Agua": [
+    0,
+    912,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Ar": [
+    0,
+    960,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Fogo": [
+    0,
+    1008,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Gelo": [
+    0,
+    1056,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Raio": [
+    0,
+    1104,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Ferro_Raro_Terra": [
+    0,
+    1152,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Comum_-": [
+    0,
+    1200,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Agua": [
+    0,
+    1248,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Ar": [
+    0,
+    1296,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Fogo": [
+    0,
+    1344,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Gelo": [
+    0,
+    1392,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Raio": [
+    0,
+    1440,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Epico_Terra": [
+    0,
+    1488,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Incomum_-": [
+    0,
+    1536,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Agua_0": [
+    0,
+    1584,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Agua_1": [
+    0,
+    1632,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Ar_0": [
+    0,
+    1680,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Ar_1": [
+    0,
+    1728,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Fogo_0": [
+    0,
+    1776,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Fogo_1": [
+    0,
+    1824,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Gelo_0": [
+    0,
+    1872,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Gelo_1": [
+    0,
+    1920,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Raio_0": [
+    0,
+    1968,
+    704,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Raio_1": [
+    0,
+    0,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Terra_0": [
+    0,
+    48,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Lendario_Terra_1": [
+    0,
+    96,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Agua": [
+    0,
+    144,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Ar": [
+    0,
+    192,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Fogo": [
+    0,
+    240,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Gelo": [
+    0,
+    288,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Raio": [
+    0,
+    336,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_couro_Tecido_Raro_Terra": [
+    0,
+    384,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Comum_-": [
+    0,
+    432,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Agua": [
+    0,
+    480,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Ar": [
+    0,
+    528,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Fogo": [
+    0,
+    576,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Gelo": [
+    0,
+    624,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Raio": [
+    0,
+    672,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Epico_Terra": [
+    0,
+    720,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Incomum_-": [
+    0,
+    768,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Agua_0": [
+    0,
+    816,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Agua_1": [
+    0,
+    864,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Ar_0": [
+    0,
+    912,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Ar_1": [
+    0,
+    960,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Fogo_0": [
+    0,
+    1008,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Fogo_1": [
+    0,
+    1056,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Gelo_0": [
+    0,
+    1104,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Gelo_1": [
+    0,
+    1152,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Raio_0": [
+    0,
+    1200,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Raio_1": [
+    0,
+    1248,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Terra_0": [
+    0,
+    1296,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Lendario_Terra_1": [
+    0,
+    1344,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Agua": [
+    0,
+    1392,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Ar": [
+    0,
+    1440,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Fogo": [
+    0,
+    1488,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Gelo": [
+    0,
+    1536,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Raio": [
+    0,
+    1584,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Couro_Raro_Terra": [
+    0,
+    1632,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Comum_-": [
+    0,
+    1680,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Agua": [
+    0,
+    1728,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Ar": [
+    0,
+    1776,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Fogo": [
+    0,
+    1824,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Gelo": [
+    0,
+    1872,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Raio": [
+    0,
+    1920,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Epico_Terra": [
+    0,
+    1968,
+    768,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Incomum_-": [
+    0,
+    0,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Agua_0": [
+    0,
+    48,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Agua_1": [
+    0,
+    96,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Ar_0": [
+    0,
+    144,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Ar_1": [
+    0,
+    192,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Fogo_0": [
+    0,
+    240,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Fogo_1": [
+    0,
+    288,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Gelo_0": [
+    0,
+    336,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Gelo_1": [
+    0,
+    384,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Raio_0": [
+    0,
+    432,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Raio_1": [
+    0,
+    480,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Terra_0": [
+    0,
+    528,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Lendario_Terra_1": [
+    0,
+    576,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Agua": [
+    0,
+    624,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Ar": [
+    0,
+    672,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Fogo": [
+    0,
+    720,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Gelo": [
+    0,
+    768,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Raio": [
+    0,
+    816,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Ferro_Raro_Terra": [
+    0,
+    864,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Comum_-": [
+    0,
+    912,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Agua": [
+    0,
+    960,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Ar": [
+    0,
+    1008,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Fogo": [
+    0,
+    1056,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Gelo": [
+    0,
+    1104,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Raio": [
+    0,
+    1152,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Epico_Terra": [
+    0,
+    1200,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Incomum_-": [
+    0,
+    1248,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Agua_0": [
+    0,
+    1296,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Agua_1": [
+    0,
+    1344,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Ar_0": [
+    0,
+    1392,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Ar_1": [
+    0,
+    1440,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Fogo_0": [
+    0,
+    1488,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Fogo_1": [
+    0,
+    1536,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Gelo_0": [
+    0,
+    1584,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Gelo_1": [
+    0,
+    1632,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Raio_0": [
+    0,
+    1680,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Raio_1": [
+    0,
+    1728,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Terra_0": [
+    0,
+    1776,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Lendario_Terra_1": [
+    0,
+    1824,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Agua": [
+    0,
+    1872,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Ar": [
+    0,
+    1920,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Fogo": [
+    0,
+    1968,
+    832,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Gelo": [
+    0,
+    0,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Raio": [
+    0,
+    48,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_gibao_Tecido_Raro_Terra": [
+    0,
+    96,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Comum_-": [
+    0,
+    144,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Agua": [
+    0,
+    192,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Ar": [
+    0,
+    240,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Fogo": [
+    0,
+    288,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Gelo": [
+    0,
+    336,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Raio": [
+    0,
+    384,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Epico_Terra": [
+    0,
+    432,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Incomum_-": [
+    0,
+    480,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Agua_0": [
+    0,
+    528,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Agua_1": [
+    0,
+    576,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Ar_0": [
+    0,
+    624,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Ar_1": [
+    0,
+    672,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Fogo_0": [
+    0,
+    720,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Fogo_1": [
+    0,
+    768,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Gelo_0": [
+    0,
+    816,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Gelo_1": [
+    0,
+    864,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Raio_0": [
+    0,
+    912,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Raio_1": [
+    0,
+    960,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Terra_0": [
+    0,
+    1008,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Lendario_Terra_1": [
+    0,
+    1056,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Agua": [
+    0,
+    1104,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Ar": [
+    0,
+    1152,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Fogo": [
+    0,
+    1200,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Gelo": [
+    0,
+    1248,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Raio": [
+    0,
+    1296,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Couro_Raro_Terra": [
+    0,
+    1344,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Comum_-": [
+    0,
+    1392,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Agua": [
+    0,
+    1440,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Ar": [
+    0,
+    1488,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Fogo": [
+    0,
+    1536,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Gelo": [
+    0,
+    1584,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Raio": [
+    0,
+    1632,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Epico_Terra": [
+    0,
+    1680,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Incomum_-": [
+    0,
+    1728,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Agua_0": [
+    0,
+    1776,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Agua_1": [
+    0,
+    1824,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Ar_0": [
+    0,
+    1872,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Ar_1": [
+    0,
+    1920,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Fogo_0": [
+    0,
+    1968,
+    896,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Fogo_1": [
+    0,
+    0,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Gelo_0": [
+    0,
+    48,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Gelo_1": [
+    0,
+    96,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Raio_0": [
+    0,
+    144,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Raio_1": [
+    0,
+    192,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Terra_0": [
+    0,
+    240,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Lendario_Terra_1": [
+    0,
+    288,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Agua": [
+    0,
+    336,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Ar": [
+    0,
+    384,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Fogo": [
+    0,
+    432,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Gelo": [
+    0,
+    480,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Raio": [
+    0,
+    528,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Ferro_Raro_Terra": [
+    0,
+    576,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Comum_-": [
+    0,
+    624,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Agua": [
+    0,
+    672,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Ar": [
+    0,
+    720,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Fogo": [
+    0,
+    768,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Gelo": [
+    0,
+    816,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Raio": [
+    0,
+    864,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Epico_Terra": [
+    0,
+    912,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Incomum_-": [
+    0,
+    960,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Agua_0": [
+    0,
+    1008,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Agua_1": [
+    0,
+    1056,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Ar_0": [
+    0,
+    1104,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Ar_1": [
+    0,
+    1152,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Fogo_0": [
+    0,
+    1200,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Fogo_1": [
+    0,
+    1248,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Gelo_0": [
+    0,
+    1296,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Gelo_1": [
+    0,
+    1344,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Raio_0": [
+    0,
+    1392,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Raio_1": [
+    0,
+    1440,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Terra_0": [
+    0,
+    1488,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Lendario_Terra_1": [
+    0,
+    1536,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Agua": [
+    0,
+    1584,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Ar": [
+    0,
+    1632,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Fogo": [
+    0,
+    1680,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Gelo": [
+    0,
+    1728,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Raio": [
+    0,
+    1776,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_malha_Tecido_Raro_Terra": [
+    0,
+    1824,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Comum_-": [
+    0,
+    1872,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Agua": [
+    0,
+    1920,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Ar": [
+    0,
+    1968,
+    960,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Fogo": [
+    0,
+    0,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Gelo": [
+    0,
+    48,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Raio": [
+    0,
+    96,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Epico_Terra": [
+    0,
+    144,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Incomum_-": [
+    0,
+    192,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Agua_0": [
+    0,
+    240,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Agua_1": [
+    0,
+    288,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Ar_0": [
+    0,
+    336,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Ar_1": [
+    0,
+    384,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Fogo_0": [
+    0,
+    432,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Fogo_1": [
+    0,
+    480,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Gelo_0": [
+    0,
+    528,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Gelo_1": [
+    0,
+    576,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Raio_0": [
+    0,
+    624,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Raio_1": [
+    0,
+    672,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Terra_0": [
+    0,
+    720,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Lendario_Terra_1": [
+    0,
+    768,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Agua": [
+    0,
+    816,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Ar": [
+    0,
+    864,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Fogo": [
+    0,
+    912,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Gelo": [
+    0,
+    960,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Raio": [
+    0,
+    1008,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Couro_Raro_Terra": [
+    0,
+    1056,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Comum_-": [
+    0,
+    1104,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Agua": [
+    0,
+    1152,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Ar": [
+    0,
+    1200,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Fogo": [
+    0,
+    1248,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Gelo": [
+    0,
+    1296,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Raio": [
+    0,
+    1344,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Epico_Terra": [
+    0,
+    1392,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Incomum_-": [
+    0,
+    1440,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Agua_0": [
+    0,
+    1488,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Agua_1": [
+    0,
+    1536,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Ar_0": [
+    0,
+    1584,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Ar_1": [
+    0,
+    1632,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Fogo_0": [
+    0,
+    1680,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Fogo_1": [
+    0,
+    1728,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Gelo_0": [
+    0,
+    1776,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Gelo_1": [
+    0,
+    1824,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Raio_0": [
+    0,
+    1872,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Raio_1": [
+    0,
+    1920,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Terra_0": [
+    0,
+    1968,
+    1024,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Lendario_Terra_1": [
+    0,
+    0,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Agua": [
+    0,
+    48,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Ar": [
+    0,
+    96,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Fogo": [
+    0,
+    144,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Gelo": [
+    0,
+    192,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Raio": [
+    0,
+    240,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Ferro_Raro_Terra": [
+    0,
+    288,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Comum_-": [
+    0,
+    336,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Agua": [
+    0,
+    384,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Ar": [
+    0,
+    432,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Fogo": [
+    0,
+    480,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Gelo": [
+    0,
+    528,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Raio": [
+    0,
+    576,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Epico_Terra": [
+    0,
+    624,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Incomum_-": [
+    0,
+    672,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Agua_0": [
+    0,
+    720,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Agua_1": [
+    0,
+    768,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Ar_0": [
+    0,
+    816,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Ar_1": [
+    0,
+    864,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Fogo_0": [
+    0,
+    912,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Fogo_1": [
+    0,
+    960,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Gelo_0": [
+    0,
+    1008,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Gelo_1": [
+    0,
+    1056,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Raio_0": [
+    0,
+    1104,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Raio_1": [
+    0,
+    1152,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Terra_0": [
+    0,
+    1200,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Lendario_Terra_1": [
+    0,
+    1248,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Agua": [
+    0,
+    1296,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Ar": [
+    0,
+    1344,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Fogo": [
+    0,
+    1392,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Gelo": [
+    0,
+    1440,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Raio": [
+    0,
+    1488,
+    1088,
+    48,
+    64
+   ],
+   "braco_armadura_placas_Tecido_Raro_Terra": [
+    0,
+    1536,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_curto_Castanho": [
+    0,
+    1584,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_curto_Castanho-escuro": [
+    0,
+    1632,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_curto_Grisalho": [
+    0,
+    1680,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_curto_Loiro": [
+    0,
+    1728,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_curto_Platinado": [
+    0,
+    1776,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_curto_Preto": [
+    0,
+    1824,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_curto_Ruivo": [
+    0,
+    1872,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_longo_Castanho": [
+    0,
+    1920,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_longo_Castanho-escuro": [
+    0,
+    1968,
+    1088,
+    48,
+    64
+   ],
+   "cabelo_longo_Grisalho": [
+    0,
+    0,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_longo_Loiro": [
+    0,
+    48,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_longo_Platinado": [
+    0,
+    96,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_longo_Preto": [
+    0,
+    144,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_longo_Ruivo": [
+    0,
+    192,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_preso_Castanho": [
+    0,
+    240,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_preso_Castanho-escuro": [
+    0,
+    288,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_preso_Grisalho": [
+    0,
+    336,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_preso_Loiro": [
+    0,
+    384,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_preso_Platinado": [
+    0,
+    432,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_preso_Preto": [
+    0,
+    480,
+    1152,
+    48,
+    64
+   ],
+   "cabelo_preso_Ruivo": [
+    0,
+    528,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Comum_-": [
+    0,
+    576,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Agua": [
+    0,
+    624,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Ar": [
+    0,
+    672,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Fogo": [
+    0,
+    720,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Gelo": [
+    0,
+    768,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Raio": [
+    0,
+    816,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Epico_Terra": [
+    0,
+    864,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Incomum_-": [
+    0,
+    912,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Agua_0": [
+    0,
+    960,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Agua_1": [
+    0,
+    1008,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Ar_0": [
+    0,
+    1056,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Ar_1": [
+    0,
+    1104,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Fogo_0": [
+    0,
+    1152,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Fogo_1": [
+    0,
+    1200,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Gelo_0": [
+    0,
+    1248,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Gelo_1": [
+    0,
+    1296,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Raio_0": [
+    0,
+    1344,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Raio_1": [
+    0,
+    1392,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Terra_0": [
+    0,
+    1440,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Lendario_Terra_1": [
+    0,
+    1488,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Agua": [
+    0,
+    1536,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Ar": [
+    0,
+    1584,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Fogo": [
+    0,
+    1632,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Gelo": [
+    0,
+    1680,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Raio": [
+    0,
+    1728,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Couro_Raro_Terra": [
+    0,
+    1776,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Comum_-": [
+    0,
+    1824,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Agua": [
+    0,
+    1872,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Ar": [
+    0,
+    1920,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Fogo": [
+    0,
+    1968,
+    1152,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Gelo": [
+    0,
+    0,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Raio": [
+    0,
+    48,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Epico_Terra": [
+    0,
+    96,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Incomum_-": [
+    0,
+    144,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Agua_0": [
+    0,
+    192,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Agua_1": [
+    0,
+    240,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Ar_0": [
+    0,
+    288,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Ar_1": [
+    0,
+    336,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Fogo_0": [
+    0,
+    384,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Fogo_1": [
+    0,
+    432,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Gelo_0": [
+    0,
+    480,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Gelo_1": [
+    0,
+    528,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Raio_0": [
+    0,
+    576,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Raio_1": [
+    0,
+    624,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Terra_0": [
+    0,
+    672,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Lendario_Terra_1": [
+    0,
+    720,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Agua": [
+    0,
+    768,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Ar": [
+    0,
+    816,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Fogo": [
+    0,
+    864,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Gelo": [
+    0,
+    912,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Raio": [
+    0,
+    960,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Ferro_Raro_Terra": [
+    0,
+    1008,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Comum_-": [
+    0,
+    1056,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Agua": [
+    0,
+    1104,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Ar": [
+    0,
+    1152,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Fogo": [
+    0,
+    1200,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Gelo": [
+    0,
+    1248,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Raio": [
+    0,
+    1296,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Epico_Terra": [
+    0,
+    1344,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Incomum_-": [
+    0,
+    1392,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Agua_0": [
+    0,
+    1440,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Agua_1": [
+    0,
+    1488,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Ar_0": [
+    0,
+    1536,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Ar_1": [
+    0,
+    1584,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Fogo_0": [
+    0,
+    1632,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Fogo_1": [
+    0,
+    1680,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Gelo_0": [
+    0,
+    1728,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Gelo_1": [
+    0,
+    1776,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Raio_0": [
+    0,
+    1824,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Raio_1": [
+    0,
+    1872,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Terra_0": [
+    0,
+    1920,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Lendario_Terra_1": [
+    0,
+    1968,
+    1216,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Agua": [
+    0,
+    0,
+    1280,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Ar": [
+    0,
+    48,
+    1280,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Fogo": [
+    0,
+    96,
+    1280,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Gelo": [
+    0,
+    144,
+    1280,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Raio": [
+    0,
+    192,
+    1280,
+    48,
+    64
+   ],
+   "capacete_capuz_Tecido_Raro_Terra": [
+    0,
+    240,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Comum_-": [
+    0,
+    288,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Agua": [
+    0,
+    336,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Ar": [
+    0,
+    384,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Fogo": [
+    0,
+    432,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Gelo": [
+    0,
+    480,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Raio": [
+    0,
+    528,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Epico_Terra": [
+    0,
+    576,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Incomum_-": [
+    0,
+    624,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Agua_0": [
+    0,
+    672,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Agua_1": [
+    0,
+    720,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Ar_0": [
+    0,
+    768,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Ar_1": [
+    0,
+    816,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Fogo_0": [
+    0,
+    864,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Fogo_1": [
+    0,
+    912,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Gelo_0": [
+    0,
+    960,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Gelo_1": [
+    0,
+    1008,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Raio_0": [
+    0,
+    1056,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Raio_1": [
+    0,
+    1104,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Terra_0": [
+    0,
+    1152,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Lendario_Terra_1": [
+    0,
+    1200,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Agua": [
+    0,
+    1248,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Ar": [
+    0,
+    1296,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Fogo": [
+    0,
+    1344,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Gelo": [
+    0,
+    1392,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Raio": [
+    0,
+    1440,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Couro_Raro_Terra": [
+    0,
+    1488,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Comum_-": [
+    0,
+    1536,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Agua": [
+    0,
+    1584,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Ar": [
+    0,
+    1632,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Fogo": [
+    0,
+    1680,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Gelo": [
+    0,
+    1728,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Raio": [
+    0,
+    1776,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Epico_Terra": [
+    0,
+    1824,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Incomum_-": [
+    0,
+    1872,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Agua_0": [
+    0,
+    1920,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Agua_1": [
+    0,
+    1968,
+    1280,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Ar_0": [
+    0,
+    0,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Ar_1": [
+    0,
+    48,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Fogo_0": [
+    0,
+    96,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Fogo_1": [
+    0,
+    144,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Gelo_0": [
+    0,
+    192,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Gelo_1": [
+    0,
+    240,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Raio_0": [
+    0,
+    288,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Raio_1": [
+    0,
+    336,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Terra_0": [
+    0,
+    384,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Lendario_Terra_1": [
+    0,
+    432,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Agua": [
+    0,
+    480,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Ar": [
+    0,
+    528,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Fogo": [
+    0,
+    576,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Gelo": [
+    0,
+    624,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Raio": [
+    0,
+    672,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Ferro_Raro_Terra": [
+    0,
+    720,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Comum_-": [
+    0,
+    768,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Agua": [
+    0,
+    816,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Ar": [
+    0,
+    864,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Fogo": [
+    0,
+    912,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Gelo": [
+    0,
+    960,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Raio": [
+    0,
+    1008,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Epico_Terra": [
+    0,
+    1056,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Incomum_-": [
+    0,
+    1104,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Agua_0": [
+    0,
+    1152,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Agua_1": [
+    0,
+    1200,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Ar_0": [
+    0,
+    1248,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Ar_1": [
+    0,
+    1296,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Fogo_0": [
+    0,
+    1344,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Fogo_1": [
+    0,
+    1392,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Gelo_0": [
+    0,
+    1440,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Gelo_1": [
+    0,
+    1488,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Raio_0": [
+    0,
+    1536,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Raio_1": [
+    0,
+    1584,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Terra_0": [
+    0,
+    1632,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Lendario_Terra_1": [
+    0,
+    1680,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Agua": [
+    0,
+    1728,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Ar": [
+    0,
+    1776,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Fogo": [
+    0,
+    1824,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Gelo": [
+    0,
+    1872,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Raio": [
+    0,
+    1920,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_Tecido_Raro_Terra": [
+    0,
+    1968,
+    1344,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Comum_-": [
+    0,
+    0,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Agua": [
+    0,
+    48,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Ar": [
+    0,
+    96,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Fogo": [
+    0,
+    144,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Gelo": [
+    0,
+    192,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Raio": [
+    0,
+    240,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Epico_Terra": [
+    0,
+    288,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Incomum_-": [
+    0,
+    336,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Agua_0": [
+    0,
+    384,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Agua_1": [
+    0,
+    432,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Ar_0": [
+    0,
+    480,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Ar_1": [
+    0,
+    528,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Fogo_0": [
+    0,
+    576,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Fogo_1": [
+    0,
+    624,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Gelo_0": [
+    0,
+    672,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Gelo_1": [
+    0,
+    720,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Raio_0": [
+    0,
+    768,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Raio_1": [
+    0,
+    816,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Terra_0": [
+    0,
+    864,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Lendario_Terra_1": [
+    0,
+    912,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Agua": [
+    0,
+    960,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Ar": [
+    0,
+    1008,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Fogo": [
+    0,
+    1056,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Gelo": [
+    0,
+    1104,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Raio": [
+    0,
+    1152,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Couro_Raro_Terra": [
+    0,
+    1200,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Comum_-": [
+    0,
+    1248,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Agua": [
+    0,
+    1296,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Ar": [
+    0,
+    1344,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Fogo": [
+    0,
+    1392,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Gelo": [
+    0,
+    1440,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Raio": [
+    0,
+    1488,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Epico_Terra": [
+    0,
+    1536,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Incomum_-": [
+    0,
+    1584,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Agua_0": [
+    0,
+    1632,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Agua_1": [
+    0,
+    1680,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Ar_0": [
+    0,
+    1728,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Ar_1": [
+    0,
+    1776,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Fogo_0": [
+    0,
+    1824,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Fogo_1": [
+    0,
+    1872,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Gelo_0": [
+    0,
+    1920,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Gelo_1": [
+    0,
+    1968,
+    1408,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Raio_0": [
+    0,
+    0,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Raio_1": [
+    0,
+    48,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Terra_0": [
+    0,
+    96,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Lendario_Terra_1": [
+    0,
+    144,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Agua": [
+    0,
+    192,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Ar": [
+    0,
+    240,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Fogo": [
+    0,
+    288,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Gelo": [
+    0,
+    336,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Raio": [
+    0,
+    384,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Ferro_Raro_Terra": [
+    0,
+    432,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Comum_-": [
+    0,
+    480,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Agua": [
+    0,
+    528,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Ar": [
+    0,
+    576,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Fogo": [
+    0,
+    624,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Gelo": [
+    0,
+    672,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Raio": [
+    0,
+    720,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Epico_Terra": [
+    0,
+    768,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Incomum_-": [
+    0,
+    816,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Agua_0": [
+    0,
+    864,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Agua_1": [
+    0,
+    912,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Ar_0": [
+    0,
+    960,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Ar_1": [
+    0,
+    1008,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Fogo_0": [
+    0,
+    1056,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Fogo_1": [
+    0,
+    1104,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Gelo_0": [
+    0,
+    1152,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Gelo_1": [
+    0,
+    1200,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Raio_0": [
+    0,
+    1248,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Raio_1": [
+    0,
+    1296,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Terra_0": [
+    0,
+    1344,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Lendario_Terra_1": [
+    0,
+    1392,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Agua": [
+    0,
+    1440,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Ar": [
+    0,
+    1488,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Fogo": [
+    0,
+    1536,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Gelo": [
+    0,
+    1584,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Raio": [
+    0,
+    1632,
+    1472,
+    48,
+    64
+   ],
+   "capacete_elmo_crista_Tecido_Raro_Terra": [
+    0,
+    1680,
+    1472,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Comum_-": [
+    0,
+    1728,
+    1472,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Agua": [
+    0,
+    1776,
+    1472,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Ar": [
+    0,
+    1824,
+    1472,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Fogo": [
+    0,
+    1872,
+    1472,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Gelo": [
+    0,
+    1920,
+    1472,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Raio": [
+    0,
+    1968,
+    1472,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Epico_Terra": [
+    0,
+    0,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Incomum_-": [
+    0,
+    48,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Agua_0": [
+    0,
+    96,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Agua_1": [
+    0,
+    144,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Ar_0": [
+    0,
+    192,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Ar_1": [
+    0,
+    240,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Fogo_0": [
+    0,
+    288,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Fogo_1": [
+    0,
+    336,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Gelo_0": [
+    0,
+    384,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Gelo_1": [
+    0,
+    432,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Raio_0": [
+    0,
+    480,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Raio_1": [
+    0,
+    528,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Terra_0": [
+    0,
+    576,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Lendario_Terra_1": [
+    0,
+    624,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Agua": [
+    0,
+    672,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Ar": [
+    0,
+    720,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Fogo": [
+    0,
+    768,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Gelo": [
+    0,
+    816,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Raio": [
+    0,
+    864,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Couro_Raro_Terra": [
+    0,
+    912,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Comum_-": [
+    0,
+    960,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Agua": [
+    0,
+    1008,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Ar": [
+    0,
+    1056,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Fogo": [
+    0,
+    1104,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Gelo": [
+    0,
+    1152,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Raio": [
+    0,
+    1200,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Epico_Terra": [
+    0,
+    1248,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Incomum_-": [
+    0,
+    1296,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Agua_0": [
+    0,
+    1344,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Agua_1": [
+    0,
+    1392,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Ar_0": [
+    0,
+    1440,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Ar_1": [
+    0,
+    1488,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Fogo_0": [
+    0,
+    1536,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Fogo_1": [
+    0,
+    1584,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Gelo_0": [
+    0,
+    1632,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Gelo_1": [
+    0,
+    1680,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Raio_0": [
+    0,
+    1728,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Raio_1": [
+    0,
+    1776,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Terra_0": [
+    0,
+    1824,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Lendario_Terra_1": [
+    0,
+    1872,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Agua": [
+    0,
+    1920,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Ar": [
+    0,
+    1968,
+    1536,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Fogo": [
+    0,
+    0,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Gelo": [
+    0,
+    48,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Raio": [
+    0,
+    96,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Ferro_Raro_Terra": [
+    0,
+    144,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Comum_-": [
+    0,
+    192,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Agua": [
+    0,
+    240,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Ar": [
+    0,
+    288,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Fogo": [
+    0,
+    336,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Gelo": [
+    0,
+    384,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Raio": [
+    0,
+    432,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Epico_Terra": [
+    0,
+    480,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Incomum_-": [
+    0,
+    528,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Agua_0": [
+    0,
+    576,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Agua_1": [
+    0,
+    624,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Ar_0": [
+    0,
+    672,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Ar_1": [
+    0,
+    720,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Fogo_0": [
+    0,
+    768,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Fogo_1": [
+    0,
+    816,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Gelo_0": [
+    0,
+    864,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Gelo_1": [
+    0,
+    912,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Raio_0": [
+    0,
+    960,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Raio_1": [
+    0,
+    1008,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Terra_0": [
+    0,
+    1056,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Lendario_Terra_1": [
+    0,
+    1104,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Agua": [
+    0,
+    1152,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Ar": [
+    0,
+    1200,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Fogo": [
+    0,
+    1248,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Gelo": [
+    0,
+    1296,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Raio": [
+    0,
+    1344,
+    1600,
+    48,
+    64
+   ],
+   "capacete_tiara_Tecido_Raro_Terra": [
+    0,
+    1392,
+    1600,
+    48,
+    64
+   ],
+   "corpo_1_Pele-1": [
+    0,
+    1440,
+    1600,
+    48,
+    64
+   ],
+   "corpo_1_Pele-2": [
+    0,
+    1488,
+    1600,
+    48,
+    64
+   ],
+   "corpo_1_Pele-3": [
+    0,
+    1536,
+    1600,
+    48,
+    64
+   ],
+   "corpo_1_Pele-4": [
+    0,
+    1584,
+    1600,
+    48,
+    64
+   ],
+   "corpo_1_Pele-5": [
+    0,
+    1632,
+    1600,
+    48,
+    64
+   ],
+   "corpo_2_Pele-1": [
+    0,
+    1680,
+    1600,
+    48,
+    64
+   ],
+   "corpo_2_Pele-2": [
+    0,
+    1728,
+    1600,
+    48,
+    64
+   ],
+   "corpo_2_Pele-3": [
+    0,
+    1776,
+    1600,
+    48,
+    64
+   ],
+   "corpo_2_Pele-4": [
+    0,
+    1824,
+    1600,
+    48,
+    64
+   ],
+   "corpo_2_Pele-5": [
+    0,
+    1872,
+    1600,
+    48,
+    64
+   ],
+   "eq_brigantina_reforcada": [
+    0,
+    1920,
+    1600,
+    48,
+    64
+   ],
+   "eq_cajado_de_freixo": [
+    0,
+    1968,
+    1600,
+    48,
+    64
+   ],
+   "eq_cajado_de_ramo_gravado": [
+    0,
+    0,
+    1664,
+    48,
+    64
+   ],
+   "eq_capuz_de_batedor": [
+    0,
+    48,
+    1664,
+    48,
+    64
+   ],
+   "eq_capuz_de_viajante": [
+    0,
+    96,
+    1664,
+    48,
+    64
+   ],
+   "eq_chapeu_de_aba_larga_do_mensageiro": [
+    0,
+    144,
+    1664,
+    48,
+    64
+   ],
+   "eq_cota_de_aneis": [
+    0,
+    192,
+    1664,
+    48,
+    64
+   ],
+   "eq_cota_de_malha_da_guarda": [
+    0,
+    240,
+    1664,
+    48,
+    64
+   ],
+   "eq_elmo_com_viseira": [
+    0,
+    288,
+    1664,
+    48,
+    64
+   ],
+   "eq_elmo_de_ferro_batido": [
+    0,
+    336,
+    1664,
+    48,
+    64
+   ],
+   "eq_espada_de_aco_da_guarda": [
+    0,
+    384,
+    1664,
+    48,
+    64
+   ],
+   "eq_espada_de_ferro": [
+    0,
+    432,
+    1664,
+    48,
+    64
+   ],
+   "eq_faixa_de_cacador": [
+    0,
+    480,
+    1664,
+    48,
+    64
+   ],
+   "eq_gibao_de_couro": [
+    0,
+    528,
+    1664,
+    48,
+    64
+   ],
+   "eq_lanca_de_ponta_dupla": [
+    0,
+    576,
+    1664,
+    48,
+    64
+   ],
+   "eq_machadinha_de_lenhador": [
+    0,
+    624,
+    1664,
+    48,
+    64
+   ],
+   "eq_manto_de_la_grossa": [
+    0,
+    672,
+    1664,
+    48,
+    64
+   ],
+   "eq_tunica_acolchoada_de_viajante": [
+    0,
+    720,
+    1664,
+    48,
+    64
+   ],
+   "roupa_1": [
+    0,
+    768,
+    1664,
+    48,
+    64
+   ],
+   "roupa_2": [
+    0,
+    816,
+    1664,
+    48,
+    64
+   ]
+  }
+ },
+ "quadro": [
+  80,
+  64
+ ],
+ "desenho_x": 8,
+ "quadro_frente": [
+  48,
+  64
+ ],
+ "fps": 8,
+ "animacoes": {
+  "parado": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ataque": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "dano": [
+   9,
+   10
+  ],
+  "queda": [
+   11,
+   12,
+   13,
+   14
+  ]
+ },
+ "ordem_das_camadas": [
+  "corpo",
+  "roupa",
+  "armadura",
+  "barba",
+  "cabelo ou capacete",
+  "braco",
+  "braco_armadura",
+  "arma"
+ ],
+ "pecas_equipado": {
+  "espada_de_ferro": "espada",
+  "machadinha_de_lenhador": "machado",
+  "cajado_de_freixo": "cajado",
+  "espada_de_aco_da_guarda": "espada",
+  "lanca_de_ponta_dupla": "lanca_dupla",
+  "cajado_de_ramo_gravado": "cajado",
+  "gibao_de_couro": [
+   "gibao",
+   "Couro"
+  ],
+  "cota_de_aneis": [
+   "malha",
+   "Ferro"
+  ],
+  "manto_de_la_grossa": [
+   "manto",
+   "La"
+  ],
+  "brigantina_reforcada": [
+   "couro",
+   "Vermelho"
+  ],
+  "cota_de_malha_da_guarda": [
+   "malha",
+   "Azul"
+  ],
+  "tunica_acolchoada_de_viajante": [
+   "gibao",
+   "Verde"
+  ],
+  "capuz_de_viajante": [
+   "capuz",
+   "Tecido"
+  ],
+  "elmo_de_ferro_batido": [
+   "elmo",
+   "Ferro"
+  ],
+  "faixa_de_cacador": [
+   "faixa",
+   "Tira"
+  ],
+  "elmo_com_viseira": [
+   "elmo_crista",
+   "Ferro"
+  ],
+  "chapeu_de_aba_larga_do_mensageiro": [
+   "chapeu",
+   "Feltro"
+  ],
+  "capuz_de_batedor": [
+   "capuz",
+   "Verde"
+  ]
+ },
+ "notas": [
+  "Lendário: as camadas já trazem o brilho alternado entre quadros pares e ímpares. Queda 4 é o quadro de nocaute (fica parado).",
+  "Mesmo formato de personagem/v5/animacao_costas. Com chapéu, cortar o cabelo acima da linha 17 (a aba prende o cabelo). Arco: o ataque é um disparo (braço e mão do herói seguem as posições de FRAMES_ARCO em anim_eq.py); a flecha já vem na tira da arma. Quadro 80x64 desde 2026-11-04: o desenho de 48 px começa em x=8 (folga para a arma)."
+ ]
+}

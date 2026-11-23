@@ -1,0 +1,54 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
+[application]
+
+config/name="Kaerith: O Despertar"
+config/version="0.5.2"
+run/main_scene="res://cenas/principal.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.050980393, 0.05490196, 0.08235294, 1)
+boot_splash/stretch_mode=0
+boot_splash/image="uid://bri4rcwee6ueo"
+config/icon="res://web/icone_512.png"
+
+[autoload]
+
+Jogo="*res://scripts/jogo.gd"
+Tema="*res://scripts/tema.gd"
+
+[display]
+
+window/size/viewport_width=360
+window/size/viewport_height=640
+window/size/window_width_override=360
+window/size/window_height_override=640
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+window/stretch/scale_mode="integer"
+window/handheld/orientation=1
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://idiomas/textos.pt.translation", "res://idiomas/textos.en.translation")
+locale/fallback="pt"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+2d/snap/snap_2d_transforms_to_pixel=true
+2d/snap/snap_2d_vertices_to_pixel=true

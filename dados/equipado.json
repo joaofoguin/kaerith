@@ -1,0 +1,5348 @@
+{
+ "costas": {
+  "paginas": 9,
+  "imagens": {
+   "arco_da_asa_cinzenta_arma": [
+    0,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "arco_da_nevasca_arma": [
+    0,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "arco_do_ceu_aberto_arma": [
+    0,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "arco_do_inverno_sem_fim_arma": [
+    0,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "arco_do_sopro_frio_arma": [
+    0,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "arco_do_vendaval_arma": [
+    0,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "armadura_da_montanha_antiga_armadura": [
+    0,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "armadura_da_montanha_antiga_braco_armadura": [
+    0,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "armadura_da_rocha_viva_armadura": [
+    0,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "armadura_da_rocha_viva_braco_armadura": [
+    0,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "armadura_do_cascalho_armadura": [
+    0,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "armadura_do_cascalho_braco_armadura": [
+    0,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "armadura_do_cume_gelado_armadura": [
+    0,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "armadura_do_cume_gelado_braco_armadura": [
+    0,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "armadura_do_floco_branco_armadura": [
+    0,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "armadura_do_floco_branco_braco_armadura": [
+    0,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "armadura_do_gelo_eterno_armadura": [
+    0,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "armadura_do_gelo_eterno_braco_armadura": [
+    0,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "brigantina_da_brisa_armadura": [
+    0,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "brigantina_da_brisa_braco_armadura": [
+    0,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "brigantina_do_clarao_armadura": [
+    0,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "brigantina_do_clarao_braco_armadura": [
+    0,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "brigantina_do_estalo_armadura": [
+    0,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "brigantina_do_estalo_braco_armadura": [
+    0,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "brigantina_do_raio_branco_armadura": [
+    0,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "brigantina_do_raio_branco_braco_armadura": [
+    0,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "brigantina_do_vento_norte_armadura": [
+    0,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "brigantina_do_vento_norte_braco_armadura": [
+    0,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "brigantina_dos_quatro_ventos_armadura": [
+    0,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "brigantina_dos_quatro_ventos_braco_armadura": [
+    0,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "brigantina_reforcada_armadura": [
+    0,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "brigantina_reforcada_braco_armadura": [
+    0,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "cabelo_curto_Castanho-escuro_chapeu": [
+    1,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "cabelo_curto_Castanho_chapeu": [
+    1,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "cabelo_curto_Grisalho_chapeu": [
+    1,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "cabelo_curto_Loiro_chapeu": [
+    1,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "cabelo_curto_Platinado_chapeu": [
+    1,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "cabelo_curto_Preto_chapeu": [
+    1,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "cabelo_curto_Ruivo_chapeu": [
+    1,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "cabelo_longo_Castanho-escuro_chapeu": [
+    1,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "cabelo_longo_Castanho_chapeu": [
+    1,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "cabelo_longo_Grisalho_chapeu": [
+    1,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "cabelo_longo_Loiro_chapeu": [
+    1,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "cabelo_longo_Platinado_chapeu": [
+    1,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "cabelo_longo_Preto_chapeu": [
+    1,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "cabelo_longo_Ruivo_chapeu": [
+    1,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "cabelo_preso_Castanho-escuro_chapeu": [
+    1,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "cabelo_preso_Castanho_chapeu": [
+    1,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "cabelo_preso_Grisalho_chapeu": [
+    1,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "cabelo_preso_Loiro_chapeu": [
+    1,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "cabelo_preso_Platinado_chapeu": [
+    1,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "cabelo_preso_Preto_chapeu": [
+    1,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "cabelo_preso_Ruivo_chapeu": [
+    1,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "cajado_da_aurora_gelida_arma": [
+    1,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "cajado_da_chuva_mansa_arma": [
+    1,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "cajado_da_nuvem_carregada_arma": [
+    1,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "cajado_da_nuvem_negra_arma": [
+    1,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "cajado_das_cinzas_vivas_arma": [
+    1,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "cajado_de_freixo_arma": [
+    1,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "cajado_de_ramo_gravado_arma": [
+    1,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "cajado_do_aguaceiro_arma": [
+    1,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "cajado_do_carvao_rubro_arma": [
+    1,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "cajado_do_ceu_rasgado_arma": [
+    1,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "cajado_do_cristal_polar_arma": [
+    1,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "cajado_do_diluvio_arma": [
+    2,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "cajado_do_inverno_manso_arma": [
+    2,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "cajado_do_rubi_flamejante_arma": [
+    2,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "capuz_da_asa_cinzenta_capacete": [
+    2,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "capuz_da_aurora_gelida_capacete": [
+    2,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "capuz_da_chuva_mansa_capacete": [
+    2,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "capuz_da_nuvem_carregada_capacete": [
+    2,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "capuz_da_nuvem_negra_capacete": [
+    2,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "capuz_da_pedra_lisa_capacete": [
+    2,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "capuz_das_cinzas_vivas_capacete": [
+    2,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "capuz_de_batedor_capacete": [
+    2,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "capuz_de_viajante_capacete": [
+    2,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "capuz_do_aguaceiro_capacete": [
+    2,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "capuz_do_carvao_rubro_capacete": [
+    2,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "capuz_do_ceu_aberto_capacete": [
+    2,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "capuz_do_ceu_rasgado_capacete": [
+    2,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "capuz_do_cristal_polar_capacete": [
+    2,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "capuz_do_diluvio_capacete": [
+    2,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "capuz_do_granito_capacete": [
+    2,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "capuz_do_inverno_manso_capacete": [
+    2,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "capuz_do_monolito_capacete": [
+    2,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "capuz_do_rubi_flamejante_capacete": [
+    2,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "capuz_do_vendaval_capacete": [
+    2,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "chapeu_da_brisa_capacete": [
+    2,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "chapeu_da_cachoeira_alta_capacete": [
+    2,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "chapeu_da_nascente_pura_capacete": [
+    2,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "chapeu_de_aba_larga_do_mensageiro_capacete": [
+    2,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "chapeu_do_rio_claro_capacete": [
+    2,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "chapeu_do_vento_norte_capacete": [
+    2,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "chapeu_dos_quatro_ventos_capacete": [
+    2,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "cota_da_cachoeira_alta_armadura": [
+    2,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "cota_da_cachoeira_alta_braco_armadura": [
+    2,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "cota_da_faisca_armadura": [
+    3,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "cota_da_faisca_braco_armadura": [
+    3,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "cota_da_nascente_pura_armadura": [
+    3,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "cota_da_nascente_pura_braco_armadura": [
+    3,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "cota_da_tempestade_armadura": [
+    3,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "cota_da_tempestade_braco_armadura": [
+    3,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "cota_de_aneis_armadura": [
+    3,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "cota_de_aneis_braco_armadura": [
+    3,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "cota_de_malha_da_guarda_armadura": [
+    3,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "cota_de_malha_da_guarda_braco_armadura": [
+    3,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "cota_do_relampago_rei_armadura": [
+    3,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "cota_do_relampago_rei_braco_armadura": [
+    3,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "cota_do_rio_claro_armadura": [
+    3,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "cota_do_rio_claro_braco_armadura": [
+    3,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "couraca_da_brasa_armadura": [
+    3,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "couraca_da_brasa_braco_armadura": [
+    3,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "couraca_da_fornalha_viva_armadura": [
+    3,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "couraca_da_fornalha_viva_braco_armadura": [
+    3,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "couraca_do_coracao_ardente_armadura": [
+    3,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "couraca_do_coracao_ardente_braco_armadura": [
+    3,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "elmo_com_viseira_capacete": [
+    3,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "elmo_da_brasa_capacete": [
+    3,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "elmo_da_fornalha_viva_capacete": [
+    3,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "elmo_da_montanha_antiga_capacete": [
+    3,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "elmo_da_rocha_viva_capacete": [
+    3,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "elmo_de_ferro_batido_capacete": [
+    3,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "elmo_do_cascalho_capacete": [
+    3,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "elmo_do_clarao_capacete": [
+    3,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "elmo_do_coracao_ardente_capacete": [
+    3,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "elmo_do_cume_gelado_capacete": [
+    3,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "elmo_do_estalo_capacete": [
+    3,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "elmo_do_floco_branco_capacete": [
+    3,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "elmo_do_gelo_eterno_capacete": [
+    4,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "elmo_do_raio_branco_capacete": [
+    4,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "espada_da_brisa_arma": [
+    4,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "espada_da_cachoeira_alta_arma": [
+    4,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "espada_da_nascente_pura_arma": [
+    4,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "espada_de_aco_da_guarda_arma": [
+    4,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "espada_de_ferro_arma": [
+    4,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "espada_do_clarao_arma": [
+    4,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "espada_do_estalo_arma": [
+    4,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "espada_do_raio_branco_arma": [
+    4,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "espada_do_rio_claro_arma": [
+    4,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "espada_do_vento_norte_arma": [
+    4,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "espada_dos_quatro_ventos_arma": [
+    4,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "faixa_da_argila_capacete": [
+    4,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "faixa_da_bigorna_incandescente_capacete": [
+    4,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "faixa_da_chama_primeira_capacete": [
+    4,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "faixa_da_forja_capacete": [
+    4,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "faixa_da_pena_ligeira_capacete": [
+    4,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "faixa_da_terra_firme_capacete": [
+    4,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "faixa_de_cacador_capacete": [
+    4,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "faixa_do_barro_cozido_capacete": [
+    4,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "faixa_do_horizonte_capacete": [
+    4,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "faixa_do_voo_alto_capacete": [
+    4,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "gibao_da_argila_armadura": [
+    4,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "gibao_da_argila_braco_armadura": [
+    4,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "gibao_da_asa_cinzenta_armadura": [
+    4,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "gibao_da_asa_cinzenta_braco_armadura": [
+    4,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "gibao_da_nevasca_armadura": [
+    4,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "gibao_da_nevasca_braco_armadura": [
+    4,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "gibao_da_terra_firme_armadura": [
+    4,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "gibao_da_terra_firme_braco_armadura": [
+    4,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "gibao_de_couro_armadura": [
+    4,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "gibao_de_couro_braco_armadura": [
+    5,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "gibao_do_barro_cozido_armadura": [
+    5,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "gibao_do_barro_cozido_braco_armadura": [
+    5,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "gibao_do_ceu_aberto_armadura": [
+    5,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "gibao_do_ceu_aberto_braco_armadura": [
+    5,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "gibao_do_inverno_sem_fim_armadura": [
+    5,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "gibao_do_inverno_sem_fim_braco_armadura": [
+    5,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "gibao_do_sopro_frio_armadura": [
+    5,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "gibao_do_sopro_frio_braco_armadura": [
+    5,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "gibao_do_vendaval_armadura": [
+    5,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "gibao_do_vendaval_braco_armadura": [
+    5,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "lamina_da_brasa_arma": [
+    5,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "lamina_da_fornalha_viva_arma": [
+    5,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "lamina_do_coracao_ardente_arma": [
+    5,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "lanca_da_faisca_arma": [
+    5,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "lanca_da_pedra_lisa_arma": [
+    5,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "lanca_da_tempestade_arma": [
+    5,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "lanca_de_ponta_dupla_arma": [
+    5,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "lanca_do_cume_gelado_arma": [
+    5,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "lanca_do_floco_branco_arma": [
+    5,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "lanca_do_gelo_eterno_arma": [
+    5,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "lanca_do_granito_arma": [
+    5,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "lanca_do_monolito_arma": [
+    5,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "lanca_do_relampago_rei_arma": [
+    5,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "lanca_dupla_da_pena_ligeira_arma": [
+    5,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "lanca_dupla_do_horizonte_arma": [
+    5,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "lanca_dupla_do_voo_alto_arma": [
+    5,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "machadinha_de_lenhador_arma": [
+    5,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "machado_da_argila_arma": [
+    5,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "machado_da_bigorna_incandescente_arma": [
+    5,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "machado_da_chama_primeira_arma": [
+    5,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "machado_da_forja_arma": [
+    5,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "machado_da_terra_firme_arma": [
+    6,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "machado_do_barro_cozido_arma": [
+    6,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "manto_da_aurora_gelida_armadura": [
+    6,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "manto_da_aurora_gelida_braco_armadura": [
+    6,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "manto_da_correnteza_armadura": [
+    6,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "manto_da_correnteza_braco_armadura": [
+    6,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "manto_da_mare_funda_armadura": [
+    6,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "manto_da_mare_funda_braco_armadura": [
+    6,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "manto_da_nuvem_carregada_armadura": [
+    6,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "manto_da_nuvem_carregada_braco_armadura": [
+    6,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "manto_da_nuvem_negra_armadura": [
+    6,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "manto_da_nuvem_negra_braco_armadura": [
+    6,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "manto_da_pedra_lisa_armadura": [
+    6,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "manto_da_pedra_lisa_braco_armadura": [
+    6,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "manto_da_pena_ligeira_armadura": [
+    6,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "manto_da_pena_ligeira_braco_armadura": [
+    6,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "manto_das_cinzas_vivas_armadura": [
+    6,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "manto_das_cinzas_vivas_braco_armadura": [
+    6,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "manto_de_la_grossa_armadura": [
+    6,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "manto_de_la_grossa_braco_armadura": [
+    6,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "manto_do_abismo_sereno_armadura": [
+    6,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "manto_do_abismo_sereno_braco_armadura": [
+    6,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "manto_do_carvao_rubro_armadura": [
+    6,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "manto_do_carvao_rubro_braco_armadura": [
+    6,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "manto_do_ceu_rasgado_armadura": [
+    6,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "manto_do_ceu_rasgado_braco_armadura": [
+    6,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "manto_do_cristal_polar_armadura": [
+    6,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "manto_do_cristal_polar_braco_armadura": [
+    6,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "manto_do_granito_armadura": [
+    6,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "manto_do_granito_braco_armadura": [
+    6,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "manto_do_horizonte_armadura": [
+    6,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "manto_do_horizonte_braco_armadura": [
+    6,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "manto_do_inverno_manso_armadura": [
+    7,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "manto_do_inverno_manso_braco_armadura": [
+    7,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "manto_do_monolito_armadura": [
+    7,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "manto_do_monolito_braco_armadura": [
+    7,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "manto_do_rubi_flamejante_armadura": [
+    7,
+    0,
+    256,
+    1200,
+    64
+   ],
+   "manto_do_rubi_flamejante_braco_armadura": [
+    7,
+    0,
+    320,
+    1200,
+    64
+   ],
+   "manto_do_voo_alto_armadura": [
+    7,
+    0,
+    384,
+    1200,
+    64
+   ],
+   "manto_do_voo_alto_braco_armadura": [
+    7,
+    0,
+    448,
+    1200,
+    64
+   ],
+   "martelo_da_montanha_antiga_arma": [
+    7,
+    0,
+    512,
+    1200,
+    64
+   ],
+   "martelo_da_rocha_viva_arma": [
+    7,
+    0,
+    576,
+    1200,
+    64
+   ],
+   "martelo_do_cascalho_arma": [
+    7,
+    0,
+    640,
+    1200,
+    64
+   ],
+   "peitoral_da_bigorna_incandescente_armadura": [
+    7,
+    0,
+    704,
+    1200,
+    64
+   ],
+   "peitoral_da_bigorna_incandescente_braco_armadura": [
+    7,
+    0,
+    768,
+    1200,
+    64
+   ],
+   "peitoral_da_chama_primeira_armadura": [
+    7,
+    0,
+    832,
+    1200,
+    64
+   ],
+   "peitoral_da_chama_primeira_braco_armadura": [
+    7,
+    0,
+    896,
+    1200,
+    64
+   ],
+   "peitoral_da_forja_armadura": [
+    7,
+    0,
+    960,
+    1200,
+    64
+   ],
+   "peitoral_da_forja_braco_armadura": [
+    7,
+    0,
+    1024,
+    1200,
+    64
+   ],
+   "tiara_da_correnteza_capacete": [
+    7,
+    0,
+    1088,
+    1200,
+    64
+   ],
+   "tiara_da_mare_funda_capacete": [
+    7,
+    0,
+    1152,
+    1200,
+    64
+   ],
+   "tiara_da_nevasca_capacete": [
+    7,
+    0,
+    1216,
+    1200,
+    64
+   ],
+   "tiara_do_abismo_sereno_capacete": [
+    7,
+    0,
+    1280,
+    1200,
+    64
+   ],
+   "tiara_do_inverno_sem_fim_capacete": [
+    7,
+    0,
+    1344,
+    1200,
+    64
+   ],
+   "tiara_do_sopro_frio_capacete": [
+    7,
+    0,
+    1408,
+    1200,
+    64
+   ],
+   "tridente_da_correnteza_arma": [
+    7,
+    0,
+    1472,
+    1200,
+    64
+   ],
+   "tridente_da_mare_funda_arma": [
+    7,
+    0,
+    1536,
+    1200,
+    64
+   ],
+   "tridente_do_abismo_sereno_arma": [
+    7,
+    0,
+    1600,
+    1200,
+    64
+   ],
+   "tunica_acolchoada_de_viajante_armadura": [
+    7,
+    0,
+    1664,
+    1200,
+    64
+   ],
+   "tunica_acolchoada_de_viajante_braco_armadura": [
+    7,
+    0,
+    1728,
+    1200,
+    64
+   ],
+   "tunica_da_chuva_mansa_armadura": [
+    7,
+    0,
+    1792,
+    1200,
+    64
+   ],
+   "tunica_da_chuva_mansa_braco_armadura": [
+    7,
+    0,
+    1856,
+    1200,
+    64
+   ],
+   "tunica_do_aguaceiro_armadura": [
+    7,
+    0,
+    1920,
+    1200,
+    64
+   ],
+   "tunica_do_aguaceiro_braco_armadura": [
+    7,
+    0,
+    1984,
+    1200,
+    64
+   ],
+   "tunica_do_diluvio_armadura": [
+    8,
+    0,
+    0,
+    1200,
+    64
+   ],
+   "tunica_do_diluvio_braco_armadura": [
+    8,
+    0,
+    64,
+    1200,
+    64
+   ],
+   "viseira_da_faisca_capacete": [
+    8,
+    0,
+    128,
+    1200,
+    64
+   ],
+   "viseira_da_tempestade_capacete": [
+    8,
+    0,
+    192,
+    1200,
+    64
+   ],
+   "viseira_do_relampago_rei_capacete": [
+    8,
+    0,
+    256,
+    1200,
+    64
+   ]
+  }
+ },
+ "frente": {
+  "paginas": 1,
+  "imagens": {
+   "arco_da_asa_cinzenta_arma": [
+    0,
+    0,
+    0,
+    48,
+    64
+   ],
+   "arco_da_nevasca_arma": [
+    0,
+    48,
+    0,
+    48,
+    64
+   ],
+   "arco_do_ceu_aberto_arma": [
+    0,
+    96,
+    0,
+    48,
+    64
+   ],
+   "arco_do_inverno_sem_fim_arma": [
+    0,
+    144,
+    0,
+    48,
+    64
+   ],
+   "arco_do_sopro_frio_arma": [
+    0,
+    192,
+    0,
+    48,
+    64
+   ],
+   "arco_do_vendaval_arma": [
+    0,
+    240,
+    0,
+    48,
+    64
+   ],
+   "armadura_da_montanha_antiga_armadura": [
+    0,
+    288,
+    0,
+    48,
+    64
+   ],
+   "armadura_da_montanha_antiga_braco_armadura": [
+    0,
+    336,
+    0,
+    48,
+    64
+   ],
+   "armadura_da_rocha_viva_armadura": [
+    0,
+    384,
+    0,
+    48,
+    64
+   ],
+   "armadura_da_rocha_viva_braco_armadura": [
+    0,
+    432,
+    0,
+    48,
+    64
+   ],
+   "armadura_do_cascalho_armadura": [
+    0,
+    480,
+    0,
+    48,
+    64
+   ],
+   "armadura_do_cascalho_braco_armadura": [
+    0,
+    528,
+    0,
+    48,
+    64
+   ],
+   "armadura_do_cume_gelado_armadura": [
+    0,
+    576,
+    0,
+    48,
+    64
+   ],
+   "armadura_do_cume_gelado_braco_armadura": [
+    0,
+    624,
+    0,
+    48,
+    64
+   ],
+   "armadura_do_floco_branco_armadura": [
+    0,
+    672,
+    0,
+    48,
+    64
+   ],
+   "armadura_do_floco_branco_braco_armadura": [
+    0,
+    720,
+    0,
+    48,
+    64
+   ],
+   "armadura_do_gelo_eterno_armadura": [
+    0,
+    768,
+    0,
+    48,
+    64
+   ],
+   "armadura_do_gelo_eterno_braco_armadura": [
+    0,
+    816,
+    0,
+    48,
+    64
+   ],
+   "brigantina_da_brisa_armadura": [
+    0,
+    864,
+    0,
+    48,
+    64
+   ],
+   "brigantina_da_brisa_braco_armadura": [
+    0,
+    912,
+    0,
+    48,
+    64
+   ],
+   "brigantina_do_clarao_armadura": [
+    0,
+    960,
+    0,
+    48,
+    64
+   ],
+   "brigantina_do_clarao_braco_armadura": [
+    0,
+    1008,
+    0,
+    48,
+    64
+   ],
+   "brigantina_do_estalo_armadura": [
+    0,
+    1056,
+    0,
+    48,
+    64
+   ],
+   "brigantina_do_estalo_braco_armadura": [
+    0,
+    1104,
+    0,
+    48,
+    64
+   ],
+   "brigantina_do_raio_branco_armadura": [
+    0,
+    1152,
+    0,
+    48,
+    64
+   ],
+   "brigantina_do_raio_branco_braco_armadura": [
+    0,
+    1200,
+    0,
+    48,
+    64
+   ],
+   "brigantina_do_vento_norte_armadura": [
+    0,
+    1248,
+    0,
+    48,
+    64
+   ],
+   "brigantina_do_vento_norte_braco_armadura": [
+    0,
+    1296,
+    0,
+    48,
+    64
+   ],
+   "brigantina_dos_quatro_ventos_armadura": [
+    0,
+    1344,
+    0,
+    48,
+    64
+   ],
+   "brigantina_dos_quatro_ventos_braco_armadura": [
+    0,
+    1392,
+    0,
+    48,
+    64
+   ],
+   "brigantina_reforcada_armadura": [
+    0,
+    1440,
+    0,
+    48,
+    64
+   ],
+   "brigantina_reforcada_braco_armadura": [
+    0,
+    1488,
+    0,
+    48,
+    64
+   ],
+   "cabelo_curto_Castanho-escuro_chapeu": [
+    0,
+    1536,
+    0,
+    48,
+    64
+   ],
+   "cabelo_curto_Castanho_chapeu": [
+    0,
+    1584,
+    0,
+    48,
+    64
+   ],
+   "cabelo_curto_Grisalho_chapeu": [
+    0,
+    1632,
+    0,
+    48,
+    64
+   ],
+   "cabelo_curto_Loiro_chapeu": [
+    0,
+    1680,
+    0,
+    48,
+    64
+   ],
+   "cabelo_curto_Platinado_chapeu": [
+    0,
+    1728,
+    0,
+    48,
+    64
+   ],
+   "cabelo_curto_Preto_chapeu": [
+    0,
+    1776,
+    0,
+    48,
+    64
+   ],
+   "cabelo_curto_Ruivo_chapeu": [
+    0,
+    1824,
+    0,
+    48,
+    64
+   ],
+   "cabelo_longo_Castanho-escuro_chapeu": [
+    0,
+    1872,
+    0,
+    48,
+    64
+   ],
+   "cabelo_longo_Castanho_chapeu": [
+    0,
+    1920,
+    0,
+    48,
+    64
+   ],
+   "cabelo_longo_Grisalho_chapeu": [
+    0,
+    1968,
+    0,
+    48,
+    64
+   ],
+   "cabelo_longo_Loiro_chapeu": [
+    0,
+    0,
+    64,
+    48,
+    64
+   ],
+   "cabelo_longo_Platinado_chapeu": [
+    0,
+    48,
+    64,
+    48,
+    64
+   ],
+   "cabelo_longo_Preto_chapeu": [
+    0,
+    96,
+    64,
+    48,
+    64
+   ],
+   "cabelo_longo_Ruivo_chapeu": [
+    0,
+    144,
+    64,
+    48,
+    64
+   ],
+   "cabelo_preso_Castanho-escuro_chapeu": [
+    0,
+    192,
+    64,
+    48,
+    64
+   ],
+   "cabelo_preso_Castanho_chapeu": [
+    0,
+    240,
+    64,
+    48,
+    64
+   ],
+   "cabelo_preso_Grisalho_chapeu": [
+    0,
+    288,
+    64,
+    48,
+    64
+   ],
+   "cabelo_preso_Loiro_chapeu": [
+    0,
+    336,
+    64,
+    48,
+    64
+   ],
+   "cabelo_preso_Platinado_chapeu": [
+    0,
+    384,
+    64,
+    48,
+    64
+   ],
+   "cabelo_preso_Preto_chapeu": [
+    0,
+    432,
+    64,
+    48,
+    64
+   ],
+   "cabelo_preso_Ruivo_chapeu": [
+    0,
+    480,
+    64,
+    48,
+    64
+   ],
+   "cajado_da_aurora_gelida_arma": [
+    0,
+    528,
+    64,
+    48,
+    64
+   ],
+   "cajado_da_chuva_mansa_arma": [
+    0,
+    576,
+    64,
+    48,
+    64
+   ],
+   "cajado_da_nuvem_carregada_arma": [
+    0,
+    624,
+    64,
+    48,
+    64
+   ],
+   "cajado_da_nuvem_negra_arma": [
+    0,
+    672,
+    64,
+    48,
+    64
+   ],
+   "cajado_das_cinzas_vivas_arma": [
+    0,
+    720,
+    64,
+    48,
+    64
+   ],
+   "cajado_de_freixo_arma": [
+    0,
+    768,
+    64,
+    48,
+    64
+   ],
+   "cajado_de_ramo_gravado_arma": [
+    0,
+    816,
+    64,
+    48,
+    64
+   ],
+   "cajado_do_aguaceiro_arma": [
+    0,
+    864,
+    64,
+    48,
+    64
+   ],
+   "cajado_do_carvao_rubro_arma": [
+    0,
+    912,
+    64,
+    48,
+    64
+   ],
+   "cajado_do_ceu_rasgado_arma": [
+    0,
+    960,
+    64,
+    48,
+    64
+   ],
+   "cajado_do_cristal_polar_arma": [
+    0,
+    1008,
+    64,
+    48,
+    64
+   ],
+   "cajado_do_diluvio_arma": [
+    0,
+    1056,
+    64,
+    48,
+    64
+   ],
+   "cajado_do_inverno_manso_arma": [
+    0,
+    1104,
+    64,
+    48,
+    64
+   ],
+   "cajado_do_rubi_flamejante_arma": [
+    0,
+    1152,
+    64,
+    48,
+    64
+   ],
+   "capuz_da_asa_cinzenta_capacete": [
+    0,
+    1200,
+    64,
+    48,
+    64
+   ],
+   "capuz_da_aurora_gelida_capacete": [
+    0,
+    1248,
+    64,
+    48,
+    64
+   ],
+   "capuz_da_chuva_mansa_capacete": [
+    0,
+    1296,
+    64,
+    48,
+    64
+   ],
+   "capuz_da_nuvem_carregada_capacete": [
+    0,
+    1344,
+    64,
+    48,
+    64
+   ],
+   "capuz_da_nuvem_negra_capacete": [
+    0,
+    1392,
+    64,
+    48,
+    64
+   ],
+   "capuz_da_pedra_lisa_capacete": [
+    0,
+    1440,
+    64,
+    48,
+    64
+   ],
+   "capuz_das_cinzas_vivas_capacete": [
+    0,
+    1488,
+    64,
+    48,
+    64
+   ],
+   "capuz_de_batedor_capacete": [
+    0,
+    1536,
+    64,
+    48,
+    64
+   ],
+   "capuz_de_viajante_capacete": [
+    0,
+    1584,
+    64,
+    48,
+    64
+   ],
+   "capuz_do_aguaceiro_capacete": [
+    0,
+    1632,
+    64,
+    48,
+    64
+   ],
+   "capuz_do_carvao_rubro_capacete": [
+    0,
+    1680,
+    64,
+    48,
+    64
+   ],
+   "capuz_do_ceu_aberto_capacete": [
+    0,
+    1728,
+    64,
+    48,
+    64
+   ],
+   "capuz_do_ceu_rasgado_capacete": [
+    0,
+    1776,
+    64,
+    48,
+    64
+   ],
+   "capuz_do_cristal_polar_capacete": [
+    0,
+    1824,
+    64,
+    48,
+    64
+   ],
+   "capuz_do_diluvio_capacete": [
+    0,
+    1872,
+    64,
+    48,
+    64
+   ],
+   "capuz_do_granito_capacete": [
+    0,
+    1920,
+    64,
+    48,
+    64
+   ],
+   "capuz_do_inverno_manso_capacete": [
+    0,
+    1968,
+    64,
+    48,
+    64
+   ],
+   "capuz_do_monolito_capacete": [
+    0,
+    0,
+    128,
+    48,
+    64
+   ],
+   "capuz_do_rubi_flamejante_capacete": [
+    0,
+    48,
+    128,
+    48,
+    64
+   ],
+   "capuz_do_vendaval_capacete": [
+    0,
+    96,
+    128,
+    48,
+    64
+   ],
+   "chapeu_da_brisa_capacete": [
+    0,
+    144,
+    128,
+    48,
+    64
+   ],
+   "chapeu_da_cachoeira_alta_capacete": [
+    0,
+    192,
+    128,
+    48,
+    64
+   ],
+   "chapeu_da_nascente_pura_capacete": [
+    0,
+    240,
+    128,
+    48,
+    64
+   ],
+   "chapeu_de_aba_larga_do_mensageiro_capacete": [
+    0,
+    288,
+    128,
+    48,
+    64
+   ],
+   "chapeu_do_rio_claro_capacete": [
+    0,
+    336,
+    128,
+    48,
+    64
+   ],
+   "chapeu_do_vento_norte_capacete": [
+    0,
+    384,
+    128,
+    48,
+    64
+   ],
+   "chapeu_dos_quatro_ventos_capacete": [
+    0,
+    432,
+    128,
+    48,
+    64
+   ],
+   "cota_da_cachoeira_alta_armadura": [
+    0,
+    480,
+    128,
+    48,
+    64
+   ],
+   "cota_da_cachoeira_alta_braco_armadura": [
+    0,
+    528,
+    128,
+    48,
+    64
+   ],
+   "cota_da_faisca_armadura": [
+    0,
+    576,
+    128,
+    48,
+    64
+   ],
+   "cota_da_faisca_braco_armadura": [
+    0,
+    624,
+    128,
+    48,
+    64
+   ],
+   "cota_da_nascente_pura_armadura": [
+    0,
+    672,
+    128,
+    48,
+    64
+   ],
+   "cota_da_nascente_pura_braco_armadura": [
+    0,
+    720,
+    128,
+    48,
+    64
+   ],
+   "cota_da_tempestade_armadura": [
+    0,
+    768,
+    128,
+    48,
+    64
+   ],
+   "cota_da_tempestade_braco_armadura": [
+    0,
+    816,
+    128,
+    48,
+    64
+   ],
+   "cota_de_aneis_armadura": [
+    0,
+    864,
+    128,
+    48,
+    64
+   ],
+   "cota_de_aneis_braco_armadura": [
+    0,
+    912,
+    128,
+    48,
+    64
+   ],
+   "cota_de_malha_da_guarda_armadura": [
+    0,
+    960,
+    128,
+    48,
+    64
+   ],
+   "cota_de_malha_da_guarda_braco_armadura": [
+    0,
+    1008,
+    128,
+    48,
+    64
+   ],
+   "cota_do_relampago_rei_armadura": [
+    0,
+    1056,
+    128,
+    48,
+    64
+   ],
+   "cota_do_relampago_rei_braco_armadura": [
+    0,
+    1104,
+    128,
+    48,
+    64
+   ],
+   "cota_do_rio_claro_armadura": [
+    0,
+    1152,
+    128,
+    48,
+    64
+   ],
+   "cota_do_rio_claro_braco_armadura": [
+    0,
+    1200,
+    128,
+    48,
+    64
+   ],
+   "couraca_da_brasa_armadura": [
+    0,
+    1248,
+    128,
+    48,
+    64
+   ],
+   "couraca_da_brasa_braco_armadura": [
+    0,
+    1296,
+    128,
+    48,
+    64
+   ],
+   "couraca_da_fornalha_viva_armadura": [
+    0,
+    1344,
+    128,
+    48,
+    64
+   ],
+   "couraca_da_fornalha_viva_braco_armadura": [
+    0,
+    1392,
+    128,
+    48,
+    64
+   ],
+   "couraca_do_coracao_ardente_armadura": [
+    0,
+    1440,
+    128,
+    48,
+    64
+   ],
+   "couraca_do_coracao_ardente_braco_armadura": [
+    0,
+    1488,
+    128,
+    48,
+    64
+   ],
+   "elmo_com_viseira_capacete": [
+    0,
+    1536,
+    128,
+    48,
+    64
+   ],
+   "elmo_da_brasa_capacete": [
+    0,
+    1584,
+    128,
+    48,
+    64
+   ],
+   "elmo_da_fornalha_viva_capacete": [
+    0,
+    1632,
+    128,
+    48,
+    64
+   ],
+   "elmo_da_montanha_antiga_capacete": [
+    0,
+    1680,
+    128,
+    48,
+    64
+   ],
+   "elmo_da_rocha_viva_capacete": [
+    0,
+    1728,
+    128,
+    48,
+    64
+   ],
+   "elmo_de_ferro_batido_capacete": [
+    0,
+    1776,
+    128,
+    48,
+    64
+   ],
+   "elmo_do_cascalho_capacete": [
+    0,
+    1824,
+    128,
+    48,
+    64
+   ],
+   "elmo_do_clarao_capacete": [
+    0,
+    1872,
+    128,
+    48,
+    64
+   ],
+   "elmo_do_coracao_ardente_capacete": [
+    0,
+    1920,
+    128,
+    48,
+    64
+   ],
+   "elmo_do_cume_gelado_capacete": [
+    0,
+    1968,
+    128,
+    48,
+    64
+   ],
+   "elmo_do_estalo_capacete": [
+    0,
+    0,
+    192,
+    48,
+    64
+   ],
+   "elmo_do_floco_branco_capacete": [
+    0,
+    48,
+    192,
+    48,
+    64
+   ],
+   "elmo_do_gelo_eterno_capacete": [
+    0,
+    96,
+    192,
+    48,
+    64
+   ],
+   "elmo_do_raio_branco_capacete": [
+    0,
+    144,
+    192,
+    48,
+    64
+   ],
+   "espada_da_brisa_arma": [
+    0,
+    192,
+    192,
+    48,
+    64
+   ],
+   "espada_da_cachoeira_alta_arma": [
+    0,
+    240,
+    192,
+    48,
+    64
+   ],
+   "espada_da_nascente_pura_arma": [
+    0,
+    288,
+    192,
+    48,
+    64
+   ],
+   "espada_de_aco_da_guarda_arma": [
+    0,
+    336,
+    192,
+    48,
+    64
+   ],
+   "espada_de_ferro_arma": [
+    0,
+    384,
+    192,
+    48,
+    64
+   ],
+   "espada_do_clarao_arma": [
+    0,
+    432,
+    192,
+    48,
+    64
+   ],
+   "espada_do_estalo_arma": [
+    0,
+    480,
+    192,
+    48,
+    64
+   ],
+   "espada_do_raio_branco_arma": [
+    0,
+    528,
+    192,
+    48,
+    64
+   ],
+   "espada_do_rio_claro_arma": [
+    0,
+    576,
+    192,
+    48,
+    64
+   ],
+   "espada_do_vento_norte_arma": [
+    0,
+    624,
+    192,
+    48,
+    64
+   ],
+   "espada_dos_quatro_ventos_arma": [
+    0,
+    672,
+    192,
+    48,
+    64
+   ],
+   "faixa_da_argila_capacete": [
+    0,
+    720,
+    192,
+    48,
+    64
+   ],
+   "faixa_da_bigorna_incandescente_capacete": [
+    0,
+    768,
+    192,
+    48,
+    64
+   ],
+   "faixa_da_chama_primeira_capacete": [
+    0,
+    816,
+    192,
+    48,
+    64
+   ],
+   "faixa_da_forja_capacete": [
+    0,
+    864,
+    192,
+    48,
+    64
+   ],
+   "faixa_da_pena_ligeira_capacete": [
+    0,
+    912,
+    192,
+    48,
+    64
+   ],
+   "faixa_da_terra_firme_capacete": [
+    0,
+    960,
+    192,
+    48,
+    64
+   ],
+   "faixa_de_cacador_capacete": [
+    0,
+    1008,
+    192,
+    48,
+    64
+   ],
+   "faixa_do_barro_cozido_capacete": [
+    0,
+    1056,
+    192,
+    48,
+    64
+   ],
+   "faixa_do_horizonte_capacete": [
+    0,
+    1104,
+    192,
+    48,
+    64
+   ],
+   "faixa_do_voo_alto_capacete": [
+    0,
+    1152,
+    192,
+    48,
+    64
+   ],
+   "gibao_da_argila_armadura": [
+    0,
+    1200,
+    192,
+    48,
+    64
+   ],
+   "gibao_da_argila_braco_armadura": [
+    0,
+    1248,
+    192,
+    48,
+    64
+   ],
+   "gibao_da_asa_cinzenta_armadura": [
+    0,
+    1296,
+    192,
+    48,
+    64
+   ],
+   "gibao_da_asa_cinzenta_braco_armadura": [
+    0,
+    1344,
+    192,
+    48,
+    64
+   ],
+   "gibao_da_nevasca_armadura": [
+    0,
+    1392,
+    192,
+    48,
+    64
+   ],
+   "gibao_da_nevasca_braco_armadura": [
+    0,
+    1440,
+    192,
+    48,
+    64
+   ],
+   "gibao_da_terra_firme_armadura": [
+    0,
+    1488,
+    192,
+    48,
+    64
+   ],
+   "gibao_da_terra_firme_braco_armadura": [
+    0,
+    1536,
+    192,
+    48,
+    64
+   ],
+   "gibao_de_couro_armadura": [
+    0,
+    1584,
+    192,
+    48,
+    64
+   ],
+   "gibao_de_couro_braco_armadura": [
+    0,
+    1632,
+    192,
+    48,
+    64
+   ],
+   "gibao_do_barro_cozido_armadura": [
+    0,
+    1680,
+    192,
+    48,
+    64
+   ],
+   "gibao_do_barro_cozido_braco_armadura": [
+    0,
+    1728,
+    192,
+    48,
+    64
+   ],
+   "gibao_do_ceu_aberto_armadura": [
+    0,
+    1776,
+    192,
+    48,
+    64
+   ],
+   "gibao_do_ceu_aberto_braco_armadura": [
+    0,
+    1824,
+    192,
+    48,
+    64
+   ],
+   "gibao_do_inverno_sem_fim_armadura": [
+    0,
+    1872,
+    192,
+    48,
+    64
+   ],
+   "gibao_do_inverno_sem_fim_braco_armadura": [
+    0,
+    1920,
+    192,
+    48,
+    64
+   ],
+   "gibao_do_sopro_frio_armadura": [
+    0,
+    1968,
+    192,
+    48,
+    64
+   ],
+   "gibao_do_sopro_frio_braco_armadura": [
+    0,
+    0,
+    256,
+    48,
+    64
+   ],
+   "gibao_do_vendaval_armadura": [
+    0,
+    48,
+    256,
+    48,
+    64
+   ],
+   "gibao_do_vendaval_braco_armadura": [
+    0,
+    96,
+    256,
+    48,
+    64
+   ],
+   "lamina_da_brasa_arma": [
+    0,
+    144,
+    256,
+    48,
+    64
+   ],
+   "lamina_da_fornalha_viva_arma": [
+    0,
+    192,
+    256,
+    48,
+    64
+   ],
+   "lamina_do_coracao_ardente_arma": [
+    0,
+    240,
+    256,
+    48,
+    64
+   ],
+   "lanca_da_faisca_arma": [
+    0,
+    288,
+    256,
+    48,
+    64
+   ],
+   "lanca_da_pedra_lisa_arma": [
+    0,
+    336,
+    256,
+    48,
+    64
+   ],
+   "lanca_da_tempestade_arma": [
+    0,
+    384,
+    256,
+    48,
+    64
+   ],
+   "lanca_de_ponta_dupla_arma": [
+    0,
+    432,
+    256,
+    48,
+    64
+   ],
+   "lanca_do_cume_gelado_arma": [
+    0,
+    480,
+    256,
+    48,
+    64
+   ],
+   "lanca_do_floco_branco_arma": [
+    0,
+    528,
+    256,
+    48,
+    64
+   ],
+   "lanca_do_gelo_eterno_arma": [
+    0,
+    576,
+    256,
+    48,
+    64
+   ],
+   "lanca_do_granito_arma": [
+    0,
+    624,
+    256,
+    48,
+    64
+   ],
+   "lanca_do_monolito_arma": [
+    0,
+    672,
+    256,
+    48,
+    64
+   ],
+   "lanca_do_relampago_rei_arma": [
+    0,
+    720,
+    256,
+    48,
+    64
+   ],
+   "lanca_dupla_da_pena_ligeira_arma": [
+    0,
+    768,
+    256,
+    48,
+    64
+   ],
+   "lanca_dupla_do_horizonte_arma": [
+    0,
+    816,
+    256,
+    48,
+    64
+   ],
+   "lanca_dupla_do_voo_alto_arma": [
+    0,
+    864,
+    256,
+    48,
+    64
+   ],
+   "machadinha_de_lenhador_arma": [
+    0,
+    912,
+    256,
+    48,
+    64
+   ],
+   "machado_da_argila_arma": [
+    0,
+    960,
+    256,
+    48,
+    64
+   ],
+   "machado_da_bigorna_incandescente_arma": [
+    0,
+    1008,
+    256,
+    48,
+    64
+   ],
+   "machado_da_chama_primeira_arma": [
+    0,
+    1056,
+    256,
+    48,
+    64
+   ],
+   "machado_da_forja_arma": [
+    0,
+    1104,
+    256,
+    48,
+    64
+   ],
+   "machado_da_terra_firme_arma": [
+    0,
+    1152,
+    256,
+    48,
+    64
+   ],
+   "machado_do_barro_cozido_arma": [
+    0,
+    1200,
+    256,
+    48,
+    64
+   ],
+   "manto_da_aurora_gelida_armadura": [
+    0,
+    1248,
+    256,
+    48,
+    64
+   ],
+   "manto_da_aurora_gelida_braco_armadura": [
+    0,
+    1296,
+    256,
+    48,
+    64
+   ],
+   "manto_da_correnteza_armadura": [
+    0,
+    1344,
+    256,
+    48,
+    64
+   ],
+   "manto_da_correnteza_braco_armadura": [
+    0,
+    1392,
+    256,
+    48,
+    64
+   ],
+   "manto_da_mare_funda_armadura": [
+    0,
+    1440,
+    256,
+    48,
+    64
+   ],
+   "manto_da_mare_funda_braco_armadura": [
+    0,
+    1488,
+    256,
+    48,
+    64
+   ],
+   "manto_da_nuvem_carregada_armadura": [
+    0,
+    1536,
+    256,
+    48,
+    64
+   ],
+   "manto_da_nuvem_carregada_braco_armadura": [
+    0,
+    1584,
+    256,
+    48,
+    64
+   ],
+   "manto_da_nuvem_negra_armadura": [
+    0,
+    1632,
+    256,
+    48,
+    64
+   ],
+   "manto_da_nuvem_negra_braco_armadura": [
+    0,
+    1680,
+    256,
+    48,
+    64
+   ],
+   "manto_da_pedra_lisa_armadura": [
+    0,
+    1728,
+    256,
+    48,
+    64
+   ],
+   "manto_da_pedra_lisa_braco_armadura": [
+    0,
+    1776,
+    256,
+    48,
+    64
+   ],
+   "manto_da_pena_ligeira_armadura": [
+    0,
+    1824,
+    256,
+    48,
+    64
+   ],
+   "manto_da_pena_ligeira_braco_armadura": [
+    0,
+    1872,
+    256,
+    48,
+    64
+   ],
+   "manto_das_cinzas_vivas_armadura": [
+    0,
+    1920,
+    256,
+    48,
+    64
+   ],
+   "manto_das_cinzas_vivas_braco_armadura": [
+    0,
+    1968,
+    256,
+    48,
+    64
+   ],
+   "manto_de_la_grossa_armadura": [
+    0,
+    0,
+    320,
+    48,
+    64
+   ],
+   "manto_de_la_grossa_braco_armadura": [
+    0,
+    48,
+    320,
+    48,
+    64
+   ],
+   "manto_do_abismo_sereno_armadura": [
+    0,
+    96,
+    320,
+    48,
+    64
+   ],
+   "manto_do_abismo_sereno_braco_armadura": [
+    0,
+    144,
+    320,
+    48,
+    64
+   ],
+   "manto_do_carvao_rubro_armadura": [
+    0,
+    192,
+    320,
+    48,
+    64
+   ],
+   "manto_do_carvao_rubro_braco_armadura": [
+    0,
+    240,
+    320,
+    48,
+    64
+   ],
+   "manto_do_ceu_rasgado_armadura": [
+    0,
+    288,
+    320,
+    48,
+    64
+   ],
+   "manto_do_ceu_rasgado_braco_armadura": [
+    0,
+    336,
+    320,
+    48,
+    64
+   ],
+   "manto_do_cristal_polar_armadura": [
+    0,
+    384,
+    320,
+    48,
+    64
+   ],
+   "manto_do_cristal_polar_braco_armadura": [
+    0,
+    432,
+    320,
+    48,
+    64
+   ],
+   "manto_do_granito_armadura": [
+    0,
+    480,
+    320,
+    48,
+    64
+   ],
+   "manto_do_granito_braco_armadura": [
+    0,
+    528,
+    320,
+    48,
+    64
+   ],
+   "manto_do_horizonte_armadura": [
+    0,
+    576,
+    320,
+    48,
+    64
+   ],
+   "manto_do_horizonte_braco_armadura": [
+    0,
+    624,
+    320,
+    48,
+    64
+   ],
+   "manto_do_inverno_manso_armadura": [
+    0,
+    672,
+    320,
+    48,
+    64
+   ],
+   "manto_do_inverno_manso_braco_armadura": [
+    0,
+    720,
+    320,
+    48,
+    64
+   ],
+   "manto_do_monolito_armadura": [
+    0,
+    768,
+    320,
+    48,
+    64
+   ],
+   "manto_do_monolito_braco_armadura": [
+    0,
+    816,
+    320,
+    48,
+    64
+   ],
+   "manto_do_rubi_flamejante_armadura": [
+    0,
+    864,
+    320,
+    48,
+    64
+   ],
+   "manto_do_rubi_flamejante_braco_armadura": [
+    0,
+    912,
+    320,
+    48,
+    64
+   ],
+   "manto_do_voo_alto_armadura": [
+    0,
+    960,
+    320,
+    48,
+    64
+   ],
+   "manto_do_voo_alto_braco_armadura": [
+    0,
+    1008,
+    320,
+    48,
+    64
+   ],
+   "martelo_da_montanha_antiga_arma": [
+    0,
+    1056,
+    320,
+    48,
+    64
+   ],
+   "martelo_da_rocha_viva_arma": [
+    0,
+    1104,
+    320,
+    48,
+    64
+   ],
+   "martelo_do_cascalho_arma": [
+    0,
+    1152,
+    320,
+    48,
+    64
+   ],
+   "peitoral_da_bigorna_incandescente_armadura": [
+    0,
+    1200,
+    320,
+    48,
+    64
+   ],
+   "peitoral_da_bigorna_incandescente_braco_armadura": [
+    0,
+    1248,
+    320,
+    48,
+    64
+   ],
+   "peitoral_da_chama_primeira_armadura": [
+    0,
+    1296,
+    320,
+    48,
+    64
+   ],
+   "peitoral_da_chama_primeira_braco_armadura": [
+    0,
+    1344,
+    320,
+    48,
+    64
+   ],
+   "peitoral_da_forja_armadura": [
+    0,
+    1392,
+    320,
+    48,
+    64
+   ],
+   "peitoral_da_forja_braco_armadura": [
+    0,
+    1440,
+    320,
+    48,
+    64
+   ],
+   "tiara_da_correnteza_capacete": [
+    0,
+    1488,
+    320,
+    48,
+    64
+   ],
+   "tiara_da_mare_funda_capacete": [
+    0,
+    1536,
+    320,
+    48,
+    64
+   ],
+   "tiara_da_nevasca_capacete": [
+    0,
+    1584,
+    320,
+    48,
+    64
+   ],
+   "tiara_do_abismo_sereno_capacete": [
+    0,
+    1632,
+    320,
+    48,
+    64
+   ],
+   "tiara_do_inverno_sem_fim_capacete": [
+    0,
+    1680,
+    320,
+    48,
+    64
+   ],
+   "tiara_do_sopro_frio_capacete": [
+    0,
+    1728,
+    320,
+    48,
+    64
+   ],
+   "tridente_da_correnteza_arma": [
+    0,
+    1776,
+    320,
+    48,
+    64
+   ],
+   "tridente_da_mare_funda_arma": [
+    0,
+    1824,
+    320,
+    48,
+    64
+   ],
+   "tridente_do_abismo_sereno_arma": [
+    0,
+    1872,
+    320,
+    48,
+    64
+   ],
+   "tunica_acolchoada_de_viajante_armadura": [
+    0,
+    1920,
+    320,
+    48,
+    64
+   ],
+   "tunica_acolchoada_de_viajante_braco_armadura": [
+    0,
+    1968,
+    320,
+    48,
+    64
+   ],
+   "tunica_da_chuva_mansa_armadura": [
+    0,
+    0,
+    384,
+    48,
+    64
+   ],
+   "tunica_da_chuva_mansa_braco_armadura": [
+    0,
+    48,
+    384,
+    48,
+    64
+   ],
+   "tunica_do_aguaceiro_armadura": [
+    0,
+    96,
+    384,
+    48,
+    64
+   ],
+   "tunica_do_aguaceiro_braco_armadura": [
+    0,
+    144,
+    384,
+    48,
+    64
+   ],
+   "tunica_do_diluvio_armadura": [
+    0,
+    192,
+    384,
+    48,
+    64
+   ],
+   "tunica_do_diluvio_braco_armadura": [
+    0,
+    240,
+    384,
+    48,
+    64
+   ],
+   "viseira_da_faisca_capacete": [
+    0,
+    288,
+    384,
+    48,
+    64
+   ],
+   "viseira_da_tempestade_capacete": [
+    0,
+    336,
+    384,
+    48,
+    64
+   ],
+   "viseira_do_relampago_rei_capacete": [
+    0,
+    384,
+    384,
+    48,
+    64
+   ]
+  }
+ },
+ "pecas": {
+  "espada_de_ferro": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "machadinha_de_lenhador": {
+   "slot": "arma",
+   "forma": "machado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cajado_de_freixo": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_de_couro": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cota_de_aneis": {
+   "slot": "armadura",
+   "forma": "malha",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_de_la_grossa": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_de_viajante": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "elmo_de_ferro_batido": {
+   "slot": "capacete",
+   "forma": "elmo",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "faixa_de_cacador": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "espada_de_aco_da_guarda": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "lanca_de_ponta_dupla": {
+   "slot": "arma",
+   "forma": "lanca_dupla",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cajado_de_ramo_gravado": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "brigantina_reforcada": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cota_de_malha_da_guarda": {
+   "slot": "armadura",
+   "forma": "malha",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tunica_acolchoada_de_viajante": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_com_viseira": {
+   "slot": "capacete",
+   "forma": "elmo_crista",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "chapeu_de_aba_larga_do_mensageiro": {
+   "slot": "capacete",
+   "forma": "chapeu",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": true
+  },
+  "capuz_de_batedor": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "lamina_da_brasa": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "couraca_da_brasa": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_da_brasa": {
+   "slot": "capacete",
+   "forma": "elmo_crista",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "tridente_da_correnteza": {
+   "slot": "arma",
+   "forma": "tridente",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_da_correnteza": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tiara_da_correnteza": {
+   "slot": "capacete",
+   "forma": "tiara",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "martelo_do_cascalho": {
+   "slot": "arma",
+   "forma": "martelo",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "armadura_do_cascalho": {
+   "slot": "armadura",
+   "forma": "placas",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_do_cascalho": {
+   "slot": "capacete",
+   "forma": "elmo",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "arco_do_vendaval": {
+   "slot": "arma",
+   "forma": "arco",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_do_vendaval": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_vendaval": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "lanca_da_faisca": {
+   "slot": "arma",
+   "forma": "lanca",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cota_da_faisca": {
+   "slot": "armadura",
+   "forma": "malha",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "viseira_da_faisca": {
+   "slot": "capacete",
+   "forma": "viseira",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "cajado_do_inverno_manso": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_inverno_manso": {
+   "slot": "armadura",
+   "forma": "manto_pele",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_inverno_manso": {
+   "slot": "capacete",
+   "forma": "capuz_pele",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "machado_da_forja": {
+   "slot": "arma",
+   "forma": "machado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "peitoral_da_forja": {
+   "slot": "armadura",
+   "forma": "placas",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "faixa_da_forja": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cajado_do_carvao_rubro": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_carvao_rubro": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_carvao_rubro": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "cajado_da_chuva_mansa": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tunica_da_chuva_mansa": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_da_chuva_mansa": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "espada_do_rio_claro": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cota_do_rio_claro": {
+   "slot": "armadura",
+   "forma": "malha",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "chapeu_do_rio_claro": {
+   "slot": "capacete",
+   "forma": "chapeu",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": true
+  },
+  "machado_da_argila": {
+   "slot": "arma",
+   "forma": "machado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_da_argila": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "faixa_da_argila": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "lanca_da_pedra_lisa": {
+   "slot": "arma",
+   "forma": "lanca",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_da_pedra_lisa": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_da_pedra_lisa": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "espada_da_brisa": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "brigantina_da_brisa": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "chapeu_da_brisa": {
+   "slot": "capacete",
+   "forma": "chapeu",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": true
+  },
+  "lanca_dupla_da_pena_ligeira": {
+   "slot": "arma",
+   "forma": "lanca_dupla",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_da_pena_ligeira": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "faixa_da_pena_ligeira": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "espada_do_estalo": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "brigantina_do_estalo": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_do_estalo": {
+   "slot": "capacete",
+   "forma": "elmo",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "cajado_da_nuvem_carregada": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_da_nuvem_carregada": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_da_nuvem_carregada": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "arco_do_sopro_frio": {
+   "slot": "arma",
+   "forma": "arco",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_do_sopro_frio": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tiara_do_sopro_frio": {
+   "slot": "capacete",
+   "forma": "tiara",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "lanca_do_floco_branco": {
+   "slot": "arma",
+   "forma": "lanca",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "armadura_do_floco_branco": {
+   "slot": "armadura",
+   "forma": "placas",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_do_floco_branco": {
+   "slot": "capacete",
+   "forma": "elmo_crista",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "lamina_da_fornalha_viva": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "couraca_da_fornalha_viva": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_da_fornalha_viva": {
+   "slot": "capacete",
+   "forma": "elmo_crista",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "machado_da_bigorna_incandescente": {
+   "slot": "arma",
+   "forma": "machado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "peitoral_da_bigorna_incandescente": {
+   "slot": "armadura",
+   "forma": "placas",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "faixa_da_bigorna_incandescente": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cajado_das_cinzas_vivas": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_das_cinzas_vivas": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_das_cinzas_vivas": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "tridente_da_mare_funda": {
+   "slot": "arma",
+   "forma": "tridente",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_da_mare_funda": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tiara_da_mare_funda": {
+   "slot": "capacete",
+   "forma": "tiara",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cajado_do_aguaceiro": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tunica_do_aguaceiro": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_aguaceiro": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "espada_da_cachoeira_alta": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cota_da_cachoeira_alta": {
+   "slot": "armadura",
+   "forma": "malha",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "chapeu_da_cachoeira_alta": {
+   "slot": "capacete",
+   "forma": "chapeu",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": true
+  },
+  "martelo_da_rocha_viva": {
+   "slot": "arma",
+   "forma": "martelo",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "armadura_da_rocha_viva": {
+   "slot": "armadura",
+   "forma": "placas",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_da_rocha_viva": {
+   "slot": "capacete",
+   "forma": "elmo",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "machado_do_barro_cozido": {
+   "slot": "arma",
+   "forma": "machado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_do_barro_cozido": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "faixa_do_barro_cozido": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "lanca_do_granito": {
+   "slot": "arma",
+   "forma": "lanca",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_granito": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_granito": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "arco_da_asa_cinzenta": {
+   "slot": "arma",
+   "forma": "arco",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_da_asa_cinzenta": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_da_asa_cinzenta": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "espada_do_vento_norte": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "brigantina_do_vento_norte": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "chapeu_do_vento_norte": {
+   "slot": "capacete",
+   "forma": "chapeu",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": true
+  },
+  "lanca_dupla_do_voo_alto": {
+   "slot": "arma",
+   "forma": "lanca_dupla",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_voo_alto": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "faixa_do_voo_alto": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "lanca_da_tempestade": {
+   "slot": "arma",
+   "forma": "lanca",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cota_da_tempestade": {
+   "slot": "armadura",
+   "forma": "malha",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "viseira_da_tempestade": {
+   "slot": "capacete",
+   "forma": "viseira",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "espada_do_clarao": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "brigantina_do_clarao": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_do_clarao": {
+   "slot": "capacete",
+   "forma": "elmo",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "cajado_da_nuvem_negra": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_da_nuvem_negra": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_da_nuvem_negra": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "cajado_do_cristal_polar": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_cristal_polar": {
+   "slot": "armadura",
+   "forma": "manto_pele",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_cristal_polar": {
+   "slot": "capacete",
+   "forma": "capuz_pele",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "arco_da_nevasca": {
+   "slot": "arma",
+   "forma": "arco",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_da_nevasca": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tiara_da_nevasca": {
+   "slot": "capacete",
+   "forma": "tiara",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "lanca_do_gelo_eterno": {
+   "slot": "arma",
+   "forma": "lanca",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "armadura_do_gelo_eterno": {
+   "slot": "armadura",
+   "forma": "placas",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_do_gelo_eterno": {
+   "slot": "capacete",
+   "forma": "elmo_crista",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "lamina_do_coracao_ardente": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "couraca_do_coracao_ardente": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_do_coracao_ardente": {
+   "slot": "capacete",
+   "forma": "elmo_crista",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "machado_da_chama_primeira": {
+   "slot": "arma",
+   "forma": "machado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "peitoral_da_chama_primeira": {
+   "slot": "armadura",
+   "forma": "placas",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "faixa_da_chama_primeira": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cajado_do_rubi_flamejante": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_rubi_flamejante": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_rubi_flamejante": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "tridente_do_abismo_sereno": {
+   "slot": "arma",
+   "forma": "tridente",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_abismo_sereno": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tiara_do_abismo_sereno": {
+   "slot": "capacete",
+   "forma": "tiara",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cajado_do_diluvio": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tunica_do_diluvio": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_diluvio": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "espada_da_nascente_pura": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cota_da_nascente_pura": {
+   "slot": "armadura",
+   "forma": "malha",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "chapeu_da_nascente_pura": {
+   "slot": "capacete",
+   "forma": "chapeu",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": true
+  },
+  "martelo_da_montanha_antiga": {
+   "slot": "arma",
+   "forma": "martelo",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "armadura_da_montanha_antiga": {
+   "slot": "armadura",
+   "forma": "placas",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_da_montanha_antiga": {
+   "slot": "capacete",
+   "forma": "elmo",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "machado_da_terra_firme": {
+   "slot": "arma",
+   "forma": "machado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_da_terra_firme": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "faixa_da_terra_firme": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "lanca_do_monolito": {
+   "slot": "arma",
+   "forma": "lanca",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_monolito": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_monolito": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "arco_do_ceu_aberto": {
+   "slot": "arma",
+   "forma": "arco",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_do_ceu_aberto": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_ceu_aberto": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "espada_dos_quatro_ventos": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "brigantina_dos_quatro_ventos": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "chapeu_dos_quatro_ventos": {
+   "slot": "capacete",
+   "forma": "chapeu",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": true
+  },
+  "lanca_dupla_do_horizonte": {
+   "slot": "arma",
+   "forma": "lanca_dupla",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_horizonte": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "faixa_do_horizonte": {
+   "slot": "capacete",
+   "forma": "faixa",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "lanca_do_relampago_rei": {
+   "slot": "arma",
+   "forma": "lanca",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "cota_do_relampago_rei": {
+   "slot": "armadura",
+   "forma": "malha",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "viseira_do_relampago_rei": {
+   "slot": "capacete",
+   "forma": "viseira",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "espada_do_raio_branco": {
+   "slot": "arma",
+   "forma": "espada",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "brigantina_do_raio_branco": {
+   "slot": "armadura",
+   "forma": "couro",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_do_raio_branco": {
+   "slot": "capacete",
+   "forma": "elmo",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "cajado_do_ceu_rasgado": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_do_ceu_rasgado": {
+   "slot": "armadura",
+   "forma": "manto",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_do_ceu_rasgado": {
+   "slot": "capacete",
+   "forma": "capuz",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "cajado_da_aurora_gelida": {
+   "slot": "arma",
+   "forma": "cajado",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "manto_da_aurora_gelida": {
+   "slot": "armadura",
+   "forma": "manto_pele",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "capuz_da_aurora_gelida": {
+   "slot": "capacete",
+   "forma": "capuz_pele",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  },
+  "arco_do_inverno_sem_fim": {
+   "slot": "arma",
+   "forma": "arco",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "gibao_do_inverno_sem_fim": {
+   "slot": "armadura",
+   "forma": "gibao",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "tiara_do_inverno_sem_fim": {
+   "slot": "capacete",
+   "forma": "tiara",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "lanca_do_cume_gelado": {
+   "slot": "arma",
+   "forma": "lanca",
+   "camadas": [
+    "arma"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "armadura_do_cume_gelado": {
+   "slot": "armadura",
+   "forma": "placas",
+   "camadas": [
+    "armadura",
+    "braco_armadura"
+   ],
+   "esconde_cabelo": false,
+   "corta_cabelo": false
+  },
+  "elmo_do_cume_gelado": {
+   "slot": "capacete",
+   "forma": "elmo_crista",
+   "camadas": [
+    "capacete"
+   ],
+   "esconde_cabelo": true,
+   "corta_cabelo": false
+  }
+ }
+}

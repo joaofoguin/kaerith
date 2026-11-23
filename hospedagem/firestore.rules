@@ -1,0 +1,56 @@
+rules_version = '2';
+// Regras do Firestore do Kaerith (etapa 10, Firebase Spark).
+// Cada jogador só escreve o próprio documento; todos os jogadores logados leem os rankings.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /jogadores/{uid} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.nome is string && request.resource.data.nome.size() <= 12
+        && request.resource.data.nivel is int
+        && request.resource.data.pts_nivel is int
+        && request.resource.data.pts_cacador is int
+        && request.resource.data.pts_bestiario is int;
+    }
+    // progresso na nuvem (contas Google): só o próprio jogador lê e escreve
+    match /saves/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if request.auth != null && request.auth.uid == uid && request.resource.data.dados is string;
+    }
+    // (2026-11-23) histórico das partidas: cada partida tem um ID criado no aparelho; o jogo grava com
+    // currentDocument.exists=false, então um reenvio do mesmo ID volta 409 e não duplica nada
+    match /partidas/{uid}/lista/{id} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['tipo', 'onde', 'vitoria', 'xp', 'moedas', 'nivel', 'em', 'aparelho'])
+        && request.resource.data.tipo in ['fase', 'qr', 'evento']
+        && request.resource.data.vitoria is bool
+        && request.resource.data.onde is int && request.resource.data.xp is int
+        && request.resource.data.moedas is int && request.resource.data.nivel is int
+        && request.resource.data.em is int && request.resource.data.aparelho is string;
+    }
+    // (2026-11-22) promoções e QR controlados pelo console do Firebase: o jogo só lê; ninguém escreve pelo app
+    match /promocoes/{id} {
+      allow read: if true;
+    }
+    match /qr_bloqueados/{numero} {
+      allow read: if true;
+    }
+    match /config/{doc} {
+      allow read: if true;
+    }
+    // ranking do QR por código e por dia: só a primeira vitória de cada jogador conta
+    match /qr/{codigo_dia}/vitorias/{uid} {
+      allow read: if request.auth != null;
+      // (2026-11-22) só os campos do jogo, e a hora tem que ser a de agora (±10 min): ninguém se coloca
+      // em 1º mandando uma hora inventada pela API
+      allow create: if request.auth != null && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['nome', 'hora', 'elemento'])
+        && request.resource.data.nome is string && request.resource.data.nome.size() <= 12
+        && request.resource.data.elemento is string && request.resource.data.elemento.size() <= 12
+        && request.resource.data.hora is int
+        && request.resource.data.hora > request.time.toMillis() / 1000 - 600
+        && request.resource.data.hora < request.time.toMillis() / 1000 + 600;
+    }
+  }
+}

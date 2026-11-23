@@ -1,0 +1,13 @@
+.godot/
+*.import
+hospedagem/site/
+hospedagem/.firebase/
+hospedagem/site_adm/
+# chave do projeto Firebase (cada um cria a sua; ver README)
+dados/online.json
+
+# segredos de exportação
+export_credentials.cfg
+*.keystore
+*.jks
+.env

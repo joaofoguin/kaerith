@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suporte · Kaerith: O Despertar</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #120d22; color: #e8e2f4; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { color: #f2d27a; font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { color: #f2d27a; font-size: 1.15rem; margin-top: 2em; }
+  .data { color: #a89cc4; margin: 0 0 2em; }
+  a { color: #f2d27a; }
+  .caixa { background: #1b1433; border: 1px solid #3a2f5c; border-radius: 6px; padding: 16px; }
+  .botao { display: inline-block; background: #f2d27a; color: #2a1608; font-weight: 700; text-decoration: none;
+           padding: 12px 18px; border-radius: 6px; margin: 8px 0; }
+  .botao.desligado { background: #3a2f5c; color: #a89cc4; pointer-events: none; }
+  .info { color: #a89cc4; font-size: .9rem; }
+  code { background: #0c0918; padding: 1px 6px; border-radius: 4px; }
+  details { border-bottom: 1px solid #3a2f5c; padding: 10px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  hr { border: 0; border-top: 1px solid #3a2f5c; margin: 3em 0; }
+  nav a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Suporte</h1>
+<p class="data">Kaerith: O Despertar</p>
+
+<div class="caixa">
+  <p><strong>Fale com a gente.</strong> Conte o que aconteceu, em que tela e, se puder, mande um print. Respondemos em até 3 dias úteis.</p>
+  <a id="email" class="botao desligado" href="#">E-mail de suporte em breve</a>
+  <p class="info" id="dados">Informe também o ID do jogador (Configurações &gt; Conta &gt; Copiar) e a versão do jogo (Configurações &gt; Ajuda e sobre).</p>
+</div>
+
+<h2>Perguntas frequentes</h2>
+<details><summary>O QR Code não lê.</summary>
+<p>Na versão Web, a câmera só funciona no endereço com <code>https</code> e depois que você permite o acesso. Aproxime o código, com boa luz, e deixe ele inteiro dentro do quadro. Se a câmera não abrir, use "Escolher imagem" com uma foto do QR.</p></details>
+<details><summary>O jogo diz que o QR é falso ou inválido.</summary>
+<p>Cada QR do jogo tem uma assinatura. Códigos copiados, editados ou de outro lugar são recusados. Se for um QR oficial do evento, mande uma foto dele para o suporte.</p></details>
+<details><summary>Acabaram as vidas.</summary>
+<p>Uma vida volta a cada 40 minutos, mesmo com o jogo fechado. Com zero vidas, dá para assistir a um vídeo para ganhar uma vida ou recarregar todas com cristais.</p></details>
+<details><summary>Perdi meu progresso / troquei de celular.</summary>
+<p>Como visitante, o progresso fica só no aparelho. Para levar para outro aparelho, vá em Configurações &gt; Conta &gt; "Salvar progresso com Google" e depois entre com a mesma conta no aparelho novo.</p></details>
+<details><summary>Como entro com outra conta?</summary>
+<p>Em Configurações &gt; Conta, toque em "Sair da conta". O progresso é salvo na nuvem e o jogo volta para a tela de entrada, onde você escolhe outra conta Google ou joga como visitante.</p></details>
+<details><summary>Posso comprar cristais?</summary>
+<p>Ainda não. As compras com dinheiro real chegam quando o jogo estiver nas lojas oficiais.</p></details>
+<details><summary>Quero apagar meus dados.</summary>
+<p>Mande um pedido pelo e-mail de suporte com o ID do jogador e o e-mail da conta Google (se usar). Veja a <a href="privacidade.html">política de privacidade</a>.</p></details>
+
+<h2>Sobre o jogo</h2>
+<p>Kaerith: O Despertar é um RPG de turnos em pixel art que mistura o mapa do jogo com QR Codes espalhados pelo mundo real. Criado por João Pedro. Feito com Godot Engine.</p>
+<p><a href="index.html">Jogar agora</a></p>
+<nav><a href="privacidade.html">Privacidade</a><a href="termos.html">Termos de uso</a></nav>
+
+<hr>
+<h1>Support</h1>
+<p>Tell us what happened and on which screen, with a screenshot if you can. Please include your Player ID (Settings &gt; Account &gt; Copy) and the game version (Settings &gt; Help &amp; about). Use the e-mail button above. See also our <a href="privacidade.html">privacy policy</a> and <a href="termos.html">terms of use</a>.</p>
+</main>
+<script>
+  // E-mail de suporte: preencha aqui (ex.: "suporte.kaerith@gmail.com"). Vazio = botão "em breve".
+  var EMAIL = "";
+  // O jogo abre esta página com ?id=<ID do jogador>&v=<versão>; isso entra no assunto do e-mail.
+  var q = new URLSearchParams(location.search);
+  var id = (q.get("id") || "").replace(/[^A-Za-z0-9_-]/g, "").slice(0, 40);
+  var v = (q.get("v") || "").replace(/[^A-Za-z0-9 ._-]/g, "").slice(0, 20);
+  if (id || v) {
+    var d = document.getElementById("dados");
+    d.textContent = "Seu ID do jogador: " + (id || "?") + " · versão " + (v || "?") + ". Eles já vão no assunto do e-mail.";
+  }
+  if (EMAIL) {
+    var a = document.getElementById("email");
+    var assunto = "Suporte Kaerith" + (v ? " " + v : "") + (id ? " · ID " + id : "");
+    a.href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent(assunto);
+    a.textContent = "Enviar e-mail (" + EMAIL + ")";
+    a.classList.remove("desligado");
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,7489 @@
+{
+ "atlas": {
+  "paginas": 4,
+  "imagens": {
+   "semeadora_velada_ataque": [
+    0,
+    0,
+    0,
+    1232,
+    128
+   ],
+   "semeadora_velada_ataque2": [
+    0,
+    0,
+    128,
+    1232,
+    128
+   ],
+   "ysmera_ataque": [
+    0,
+    0,
+    256,
+    1232,
+    128
+   ],
+   "ysmera_ataque2": [
+    0,
+    0,
+    384,
+    1232,
+    128
+   ],
+   "semeadora_velada_derrota": [
+    0,
+    0,
+    512,
+    880,
+    128
+   ],
+   "ysmera_derrota": [
+    0,
+    880,
+    512,
+    880,
+    128
+   ],
+   "semeadora_velada_dano": [
+    0,
+    0,
+    640,
+    352,
+    128
+   ],
+   "ysmera_dano": [
+    0,
+    352,
+    640,
+    352,
+    128
+   ],
+   "mestre_calder_ataque": [
+    0,
+    704,
+    640,
+    1120,
+    112
+   ],
+   "mestre_calder_ataque2": [
+    0,
+    0,
+    768,
+    1120,
+    112
+   ],
+   "thessa_vurn_ataque": [
+    0,
+    0,
+    880,
+    1120,
+    112
+   ],
+   "thessa_vurn_ataque2": [
+    0,
+    0,
+    992,
+    1120,
+    112
+   ],
+   "thessa_vurn_derrota": [
+    0,
+    1120,
+    992,
+    800,
+    112
+   ],
+   "mestre_calder_derrota": [
+    0,
+    0,
+    1104,
+    640,
+    112
+   ],
+   "semeadora_velada_parado": [
+    0,
+    640,
+    1104,
+    448,
+    112
+   ],
+   "ysmera_parado": [
+    0,
+    1088,
+    1104,
+    448,
+    112
+   ],
+   "mestre_calder_dano": [
+    0,
+    1536,
+    1104,
+    320,
+    112
+   ],
+   "thessa_vurn_dano": [
+    0,
+    0,
+    1216,
+    320,
+    112
+   ],
+   "bastiao_do_selo_ataque": [
+    0,
+    320,
+    1216,
+    864,
+    96
+   ],
+   "cacador_de_recompensas_ataque": [
+    0,
+    1184,
+    1216,
+    864,
+    96
+   ],
+   "capitao_de_estrada_ataque": [
+    0,
+    0,
+    1328,
+    864,
+    96
+   ],
+   "olho_de_ysmera_ataque": [
+    0,
+    864,
+    1328,
+    864,
+    96
+   ],
+   "alfa_da_ultima_geada_ataque": [
+    0,
+    0,
+    1424,
+    720,
+    96
+   ],
+   "besta_sem_nome_ataque": [
+    0,
+    720,
+    1424,
+    720,
+    96
+   ],
+   "presa_mestra_ataque": [
+    0,
+    0,
+    1520,
+    720,
+    96
+   ],
+   "rei_da_galhada_ataque": [
+    0,
+    720,
+    1520,
+    720,
+    96
+   ],
+   "alfa_da_ultima_geada_derrota": [
+    0,
+    1440,
+    1520,
+    576,
+    96
+   ],
+   "bastiao_do_selo_derrota": [
+    0,
+    0,
+    1616,
+    576,
+    96
+   ],
+   "besta_sem_nome_derrota": [
+    0,
+    576,
+    1616,
+    576,
+    96
+   ],
+   "cacador_de_recompensas_derrota": [
+    0,
+    1152,
+    1616,
+    576,
+    96
+   ],
+   "capitao_de_estrada_derrota": [
+    0,
+    0,
+    1712,
+    576,
+    96
+   ],
+   "olho_de_ysmera_derrota": [
+    0,
+    576,
+    1712,
+    576,
+    96
+   ],
+   "presa_mestra_derrota": [
+    0,
+    1152,
+    1712,
+    576,
+    96
+   ],
+   "rei_da_galhada_derrota": [
+    0,
+    0,
+    1808,
+    576,
+    96
+   ],
+   "mestre_calder_parado": [
+    0,
+    576,
+    1808,
+    384,
+    96
+   ],
+   "thessa_vurn_parado": [
+    0,
+    960,
+    1808,
+    384,
+    96
+   ],
+   "alfa_da_ultima_geada_dano": [
+    0,
+    1344,
+    1808,
+    288,
+    96
+   ],
+   "bastiao_do_selo_dano": [
+    0,
+    1632,
+    1808,
+    288,
+    96
+   ],
+   "besta_sem_nome_dano": [
+    0,
+    0,
+    1904,
+    288,
+    96
+   ],
+   "cacador_de_recompensas_dano": [
+    0,
+    288,
+    1904,
+    288,
+    96
+   ],
+   "capitao_de_estrada_dano": [
+    0,
+    576,
+    1904,
+    288,
+    96
+   ],
+   "olho_de_ysmera_dano": [
+    0,
+    864,
+    1904,
+    288,
+    96
+   ],
+   "presa_mestra_dano": [
+    0,
+    1152,
+    1904,
+    288,
+    96
+   ],
+   "rei_da_galhada_dano": [
+    0,
+    1440,
+    1904,
+    288,
+    96
+   ],
+   "atirador_geada_elite_ataque": [
+    1,
+    0,
+    0,
+    768,
+    80
+   ],
+   "batedor_elite_ataque": [
+    1,
+    768,
+    0,
+    768,
+    80
+   ],
+   "brutamontes_elite_ataque": [
+    1,
+    0,
+    80,
+    768,
+    80
+   ],
+   "contrabandista_elite_ataque": [
+    1,
+    768,
+    80,
+    768,
+    80
+   ],
+   "escudeiro_gelo_elite_ataque": [
+    1,
+    0,
+    160,
+    768,
+    80
+   ],
+   "incendiaria_elite_ataque": [
+    1,
+    768,
+    160,
+    768,
+    80
+   ],
+   "rastreador_elite_ataque": [
+    1,
+    0,
+    240,
+    768,
+    80
+   ],
+   "soldado_geada_elite_ataque": [
+    1,
+    768,
+    240,
+    768,
+    80
+   ],
+   "abutre_elite_ataque": [
+    1,
+    0,
+    320,
+    640,
+    80
+   ],
+   "arminho_geada_elite_ataque": [
+    1,
+    640,
+    320,
+    640,
+    80
+   ],
+   "brotado_elite_ataque": [
+    1,
+    1280,
+    320,
+    640,
+    80
+   ],
+   "cervo_elite_ataque": [
+    1,
+    0,
+    400,
+    640,
+    80
+   ],
+   "cobra_elite_ataque": [
+    1,
+    640,
+    400,
+    640,
+    80
+   ],
+   "corvo_elite_ataque": [
+    1,
+    1280,
+    400,
+    640,
+    80
+   ],
+   "curandeiro_elite_ataque": [
+    1,
+    0,
+    480,
+    640,
+    80
+   ],
+   "eco_mudo_elite_ataque": [
+    1,
+    640,
+    480,
+    640,
+    80
+   ],
+   "galgo_elite_ataque": [
+    1,
+    1280,
+    480,
+    640,
+    80
+   ],
+   "javali_elite_ataque": [
+    1,
+    0,
+    560,
+    640,
+    80
+   ],
+   "javali_ferro_elite_ataque": [
+    1,
+    640,
+    560,
+    640,
+    80
+   ],
+   "javali_neve_elite_ataque": [
+    1,
+    1280,
+    560,
+    640,
+    80
+   ],
+   "javali_raiz_elite_ataque": [
+    1,
+    0,
+    640,
+    640,
+    80
+   ],
+   "lebre_elite_ataque": [
+    1,
+    640,
+    640,
+    640,
+    80
+   ],
+   "lebre_faisca_elite_ataque": [
+    1,
+    1280,
+    640,
+    640,
+    80
+   ],
+   "lebre_neve_elite_ataque": [
+    1,
+    0,
+    720,
+    640,
+    80
+   ],
+   "lebre_orvalho_elite_ataque": [
+    1,
+    640,
+    720,
+    640,
+    80
+   ],
+   "lobo_geada_elite_ataque": [
+    1,
+    1280,
+    720,
+    640,
+    80
+   ],
+   "lodo_elite_ataque": [
+    1,
+    0,
+    800,
+    640,
+    80
+   ],
+   "mamute_glacial_elite_ataque": [
+    1,
+    640,
+    800,
+    640,
+    80
+   ],
+   "mariposa_elite_ataque": [
+    1,
+    1280,
+    800,
+    640,
+    80
+   ],
+   "tecelao_geada_elite_ataque": [
+    1,
+    0,
+    880,
+    640,
+    80
+   ],
+   "urso_de_barranco_ataque": [
+    1,
+    640,
+    880,
+    640,
+    80
+   ],
+   "verme_geada_elite_ataque": [
+    1,
+    1280,
+    880,
+    640,
+    80
+   ],
+   "abutre_elite_derrota": [
+    1,
+    0,
+    960,
+    512,
+    80
+   ],
+   "arminho_geada_elite_derrota": [
+    1,
+    512,
+    960,
+    512,
+    80
+   ],
+   "atirador_geada_elite_derrota": [
+    1,
+    1024,
+    960,
+    512,
+    80
+   ],
+   "batedor_elite_derrota": [
+    1,
+    1536,
+    960,
+    512,
+    80
+   ],
+   "brotado_elite_derrota": [
+    1,
+    0,
+    1040,
+    512,
+    80
+   ],
+   "brutamontes_elite_derrota": [
+    1,
+    512,
+    1040,
+    512,
+    80
+   ],
+   "cervo_elite_derrota": [
+    1,
+    1024,
+    1040,
+    512,
+    80
+   ],
+   "cobra_elite_derrota": [
+    1,
+    1536,
+    1040,
+    512,
+    80
+   ],
+   "contrabandista_elite_derrota": [
+    1,
+    0,
+    1120,
+    512,
+    80
+   ],
+   "corvo_elite_derrota": [
+    1,
+    512,
+    1120,
+    512,
+    80
+   ],
+   "curandeiro_elite_derrota": [
+    1,
+    1024,
+    1120,
+    512,
+    80
+   ],
+   "eco_mudo_elite_derrota": [
+    1,
+    1536,
+    1120,
+    512,
+    80
+   ],
+   "escudeiro_gelo_elite_derrota": [
+    1,
+    0,
+    1200,
+    512,
+    80
+   ],
+   "galgo_elite_derrota": [
+    1,
+    512,
+    1200,
+    512,
+    80
+   ],
+   "incendiaria_elite_derrota": [
+    1,
+    1024,
+    1200,
+    512,
+    80
+   ],
+   "javali_elite_derrota": [
+    1,
+    1536,
+    1200,
+    512,
+    80
+   ],
+   "javali_ferro_elite_derrota": [
+    1,
+    0,
+    1280,
+    512,
+    80
+   ],
+   "javali_neve_elite_derrota": [
+    1,
+    512,
+    1280,
+    512,
+    80
+   ],
+   "javali_raiz_elite_derrota": [
+    1,
+    1024,
+    1280,
+    512,
+    80
+   ],
+   "lebre_elite_derrota": [
+    1,
+    1536,
+    1280,
+    512,
+    80
+   ],
+   "lebre_faisca_elite_derrota": [
+    1,
+    0,
+    1360,
+    512,
+    80
+   ],
+   "lebre_neve_elite_derrota": [
+    1,
+    512,
+    1360,
+    512,
+    80
+   ],
+   "lebre_orvalho_elite_derrota": [
+    1,
+    1024,
+    1360,
+    512,
+    80
+   ],
+   "lobo_geada_elite_derrota": [
+    1,
+    1536,
+    1360,
+    512,
+    80
+   ],
+   "lodo_elite_derrota": [
+    1,
+    0,
+    1440,
+    512,
+    80
+   ],
+   "mamute_glacial_elite_derrota": [
+    1,
+    512,
+    1440,
+    512,
+    80
+   ],
+   "mariposa_elite_derrota": [
+    1,
+    1024,
+    1440,
+    512,
+    80
+   ],
+   "rastreador_elite_derrota": [
+    1,
+    1536,
+    1440,
+    512,
+    80
+   ],
+   "soldado_geada_elite_derrota": [
+    1,
+    0,
+    1520,
+    512,
+    80
+   ],
+   "tecelao_geada_elite_derrota": [
+    1,
+    512,
+    1520,
+    512,
+    80
+   ],
+   "urso_de_barranco_derrota": [
+    1,
+    1024,
+    1520,
+    512,
+    80
+   ],
+   "verme_geada_elite_derrota": [
+    1,
+    1536,
+    1520,
+    512,
+    80
+   ],
+   "alfa_da_ultima_geada_parado": [
+    1,
+    0,
+    1600,
+    320,
+    80
+   ],
+   "bastiao_do_selo_parado": [
+    1,
+    320,
+    1600,
+    320,
+    80
+   ],
+   "besta_sem_nome_parado": [
+    1,
+    640,
+    1600,
+    320,
+    80
+   ],
+   "cacador_de_recompensas_parado": [
+    1,
+    960,
+    1600,
+    320,
+    80
+   ],
+   "capitao_de_estrada_parado": [
+    1,
+    1280,
+    1600,
+    320,
+    80
+   ],
+   "olho_de_ysmera_parado": [
+    1,
+    1600,
+    1600,
+    320,
+    80
+   ],
+   "presa_mestra_parado": [
+    1,
+    0,
+    1680,
+    320,
+    80
+   ],
+   "rei_da_galhada_parado": [
+    1,
+    320,
+    1680,
+    320,
+    80
+   ],
+   "abutre_elite_dano": [
+    1,
+    640,
+    1680,
+    256,
+    80
+   ],
+   "arminho_geada_elite_dano": [
+    1,
+    896,
+    1680,
+    256,
+    80
+   ],
+   "atirador_geada_elite_dano": [
+    1,
+    1152,
+    1680,
+    256,
+    80
+   ],
+   "batedor_elite_dano": [
+    1,
+    1408,
+    1680,
+    256,
+    80
+   ],
+   "brotado_elite_dano": [
+    1,
+    1664,
+    1680,
+    256,
+    80
+   ],
+   "brutamontes_elite_dano": [
+    1,
+    0,
+    1760,
+    256,
+    80
+   ],
+   "cervo_elite_dano": [
+    1,
+    256,
+    1760,
+    256,
+    80
+   ],
+   "cobra_elite_dano": [
+    1,
+    512,
+    1760,
+    256,
+    80
+   ],
+   "contrabandista_elite_dano": [
+    1,
+    768,
+    1760,
+    256,
+    80
+   ],
+   "corvo_elite_dano": [
+    1,
+    1024,
+    1760,
+    256,
+    80
+   ],
+   "curandeiro_elite_dano": [
+    1,
+    1280,
+    1760,
+    256,
+    80
+   ],
+   "eco_mudo_elite_dano": [
+    1,
+    1536,
+    1760,
+    256,
+    80
+   ],
+   "escudeiro_gelo_elite_dano": [
+    1,
+    1792,
+    1760,
+    256,
+    80
+   ],
+   "galgo_elite_dano": [
+    1,
+    0,
+    1840,
+    256,
+    80
+   ],
+   "incendiaria_elite_dano": [
+    1,
+    256,
+    1840,
+    256,
+    80
+   ],
+   "javali_elite_dano": [
+    1,
+    512,
+    1840,
+    256,
+    80
+   ],
+   "javali_ferro_elite_dano": [
+    1,
+    768,
+    1840,
+    256,
+    80
+   ],
+   "javali_neve_elite_dano": [
+    1,
+    1024,
+    1840,
+    256,
+    80
+   ],
+   "javali_raiz_elite_dano": [
+    1,
+    1280,
+    1840,
+    256,
+    80
+   ],
+   "lebre_elite_dano": [
+    1,
+    1536,
+    1840,
+    256,
+    80
+   ],
+   "lebre_faisca_elite_dano": [
+    1,
+    1792,
+    1840,
+    256,
+    80
+   ],
+   "lebre_neve_elite_dano": [
+    1,
+    0,
+    1920,
+    256,
+    80
+   ],
+   "lebre_orvalho_elite_dano": [
+    1,
+    256,
+    1920,
+    256,
+    80
+   ],
+   "lobo_geada_elite_dano": [
+    1,
+    512,
+    1920,
+    256,
+    80
+   ],
+   "lodo_elite_dano": [
+    1,
+    768,
+    1920,
+    256,
+    80
+   ],
+   "mamute_glacial_elite_dano": [
+    1,
+    1024,
+    1920,
+    256,
+    80
+   ],
+   "mariposa_elite_dano": [
+    1,
+    1280,
+    1920,
+    256,
+    80
+   ],
+   "rastreador_elite_dano": [
+    1,
+    1536,
+    1920,
+    256,
+    80
+   ],
+   "soldado_geada_elite_dano": [
+    1,
+    1792,
+    1920,
+    256,
+    80
+   ],
+   "tecelao_geada_elite_dano": [
+    2,
+    0,
+    0,
+    256,
+    80
+   ],
+   "urso_de_barranco_dano": [
+    2,
+    256,
+    0,
+    256,
+    80
+   ],
+   "verme_geada_elite_dano": [
+    2,
+    512,
+    0,
+    256,
+    80
+   ],
+   "atirador_geada_comum_ataque": [
+    2,
+    768,
+    0,
+    672,
+    64
+   ],
+   "atirador_geada_veterano_ataque": [
+    2,
+    0,
+    80,
+    672,
+    64
+   ],
+   "batedor_comum_ataque": [
+    2,
+    672,
+    80,
+    672,
+    64
+   ],
+   "batedor_veterano_ataque": [
+    2,
+    1344,
+    80,
+    672,
+    64
+   ],
+   "brutamontes_comum_ataque": [
+    2,
+    0,
+    144,
+    672,
+    64
+   ],
+   "brutamontes_veterano_ataque": [
+    2,
+    672,
+    144,
+    672,
+    64
+   ],
+   "contrabandista_comum_ataque": [
+    2,
+    1344,
+    144,
+    672,
+    64
+   ],
+   "contrabandista_veterano_ataque": [
+    2,
+    0,
+    208,
+    672,
+    64
+   ],
+   "escudeiro_gelo_comum_ataque": [
+    2,
+    672,
+    208,
+    672,
+    64
+   ],
+   "escudeiro_gelo_veterano_ataque": [
+    2,
+    1344,
+    208,
+    672,
+    64
+   ],
+   "incendiaria_comum_ataque": [
+    2,
+    0,
+    272,
+    672,
+    64
+   ],
+   "incendiaria_veterano_ataque": [
+    2,
+    672,
+    272,
+    672,
+    64
+   ],
+   "rastreador_comum_ataque": [
+    2,
+    1344,
+    272,
+    672,
+    64
+   ],
+   "rastreador_veterano_ataque": [
+    2,
+    0,
+    336,
+    672,
+    64
+   ],
+   "soldado_geada_comum_ataque": [
+    2,
+    672,
+    336,
+    672,
+    64
+   ],
+   "soldado_geada_veterano_ataque": [
+    2,
+    1344,
+    336,
+    672,
+    64
+   ],
+   "abutre_comum_ataque": [
+    2,
+    0,
+    400,
+    560,
+    64
+   ],
+   "abutre_veterano_ataque": [
+    2,
+    560,
+    400,
+    560,
+    64
+   ],
+   "arminho_geada_comum_ataque": [
+    2,
+    1120,
+    400,
+    560,
+    64
+   ],
+   "arminho_geada_veterano_ataque": [
+    2,
+    0,
+    464,
+    560,
+    64
+   ],
+   "brotado_comum_ataque": [
+    2,
+    560,
+    464,
+    560,
+    64
+   ],
+   "brotado_veterano_ataque": [
+    2,
+    1120,
+    464,
+    560,
+    64
+   ],
+   "cervo_comum_ataque": [
+    2,
+    0,
+    528,
+    560,
+    64
+   ],
+   "cervo_veterano_ataque": [
+    2,
+    560,
+    528,
+    560,
+    64
+   ],
+   "cobra_comum_ataque": [
+    2,
+    1120,
+    528,
+    560,
+    64
+   ],
+   "cobra_veterano_ataque": [
+    2,
+    0,
+    592,
+    560,
+    64
+   ],
+   "corvo_comum_ataque": [
+    2,
+    560,
+    592,
+    560,
+    64
+   ],
+   "corvo_veterano_ataque": [
+    2,
+    1120,
+    592,
+    560,
+    64
+   ],
+   "curandeiro_comum_ataque": [
+    2,
+    0,
+    656,
+    560,
+    64
+   ],
+   "curandeiro_veterano_ataque": [
+    2,
+    560,
+    656,
+    560,
+    64
+   ],
+   "eco_mudo_comum_ataque": [
+    2,
+    1120,
+    656,
+    560,
+    64
+   ],
+   "eco_mudo_veterano_ataque": [
+    2,
+    0,
+    720,
+    560,
+    64
+   ],
+   "galgo_comum_ataque": [
+    2,
+    560,
+    720,
+    560,
+    64
+   ],
+   "galgo_veterano_ataque": [
+    2,
+    1120,
+    720,
+    560,
+    64
+   ],
+   "javali_comum_ataque": [
+    2,
+    0,
+    784,
+    560,
+    64
+   ],
+   "javali_ferro_comum_ataque": [
+    2,
+    560,
+    784,
+    560,
+    64
+   ],
+   "javali_ferro_veterano_ataque": [
+    2,
+    1120,
+    784,
+    560,
+    64
+   ],
+   "javali_neve_comum_ataque": [
+    2,
+    0,
+    848,
+    560,
+    64
+   ],
+   "javali_neve_veterano_ataque": [
+    2,
+    560,
+    848,
+    560,
+    64
+   ],
+   "javali_raiz_comum_ataque": [
+    2,
+    1120,
+    848,
+    560,
+    64
+   ],
+   "javali_raiz_veterano_ataque": [
+    2,
+    0,
+    912,
+    560,
+    64
+   ],
+   "javali_veterano_ataque": [
+    2,
+    560,
+    912,
+    560,
+    64
+   ],
+   "lebre_comum_ataque": [
+    2,
+    1120,
+    912,
+    560,
+    64
+   ],
+   "lebre_faisca_comum_ataque": [
+    2,
+    0,
+    976,
+    560,
+    64
+   ],
+   "lebre_faisca_veterano_ataque": [
+    2,
+    560,
+    976,
+    560,
+    64
+   ],
+   "lebre_neve_comum_ataque": [
+    2,
+    1120,
+    976,
+    560,
+    64
+   ],
+   "lebre_neve_veterano_ataque": [
+    2,
+    0,
+    1040,
+    560,
+    64
+   ],
+   "lebre_orvalho_comum_ataque": [
+    2,
+    560,
+    1040,
+    560,
+    64
+   ],
+   "lebre_orvalho_veterano_ataque": [
+    2,
+    1120,
+    1040,
+    560,
+    64
+   ],
+   "lebre_veterano_ataque": [
+    2,
+    0,
+    1104,
+    560,
+    64
+   ],
+   "lobo_geada_comum_ataque": [
+    2,
+    560,
+    1104,
+    560,
+    64
+   ],
+   "lobo_geada_veterano_ataque": [
+    2,
+    1120,
+    1104,
+    560,
+    64
+   ],
+   "lodo_comum_ataque": [
+    2,
+    0,
+    1168,
+    560,
+    64
+   ],
+   "lodo_veterano_ataque": [
+    2,
+    560,
+    1168,
+    560,
+    64
+   ],
+   "mamute_glacial_comum_ataque": [
+    2,
+    1120,
+    1168,
+    560,
+    64
+   ],
+   "mamute_glacial_veterano_ataque": [
+    2,
+    0,
+    1232,
+    560,
+    64
+   ],
+   "mariposa_comum_ataque": [
+    2,
+    560,
+    1232,
+    560,
+    64
+   ],
+   "mariposa_veterano_ataque": [
+    2,
+    1120,
+    1232,
+    560,
+    64
+   ],
+   "tecelao_geada_comum_ataque": [
+    2,
+    0,
+    1296,
+    560,
+    64
+   ],
+   "tecelao_geada_veterano_ataque": [
+    2,
+    560,
+    1296,
+    560,
+    64
+   ],
+   "verme_geada_comum_ataque": [
+    2,
+    1120,
+    1296,
+    560,
+    64
+   ],
+   "verme_geada_veterano_ataque": [
+    2,
+    0,
+    1360,
+    560,
+    64
+   ],
+   "abutre_comum_derrota": [
+    2,
+    560,
+    1360,
+    448,
+    64
+   ],
+   "abutre_veterano_derrota": [
+    2,
+    1008,
+    1360,
+    448,
+    64
+   ],
+   "arminho_geada_comum_derrota": [
+    2,
+    1456,
+    1360,
+    448,
+    64
+   ],
+   "arminho_geada_veterano_derrota": [
+    2,
+    0,
+    1424,
+    448,
+    64
+   ],
+   "atirador_geada_comum_derrota": [
+    2,
+    448,
+    1424,
+    448,
+    64
+   ],
+   "atirador_geada_veterano_derrota": [
+    2,
+    896,
+    1424,
+    448,
+    64
+   ],
+   "batedor_comum_derrota": [
+    2,
+    1344,
+    1424,
+    448,
+    64
+   ],
+   "batedor_veterano_derrota": [
+    2,
+    0,
+    1488,
+    448,
+    64
+   ],
+   "brotado_comum_derrota": [
+    2,
+    448,
+    1488,
+    448,
+    64
+   ],
+   "brotado_veterano_derrota": [
+    2,
+    896,
+    1488,
+    448,
+    64
+   ],
+   "brutamontes_comum_derrota": [
+    2,
+    1344,
+    1488,
+    448,
+    64
+   ],
+   "brutamontes_veterano_derrota": [
+    2,
+    0,
+    1552,
+    448,
+    64
+   ],
+   "cervo_comum_derrota": [
+    2,
+    448,
+    1552,
+    448,
+    64
+   ],
+   "cervo_veterano_derrota": [
+    2,
+    896,
+    1552,
+    448,
+    64
+   ],
+   "cobra_comum_derrota": [
+    2,
+    1344,
+    1552,
+    448,
+    64
+   ],
+   "cobra_veterano_derrota": [
+    2,
+    0,
+    1616,
+    448,
+    64
+   ],
+   "contrabandista_comum_derrota": [
+    2,
+    448,
+    1616,
+    448,
+    64
+   ],
+   "contrabandista_veterano_derrota": [
+    2,
+    896,
+    1616,
+    448,
+    64
+   ],
+   "corvo_comum_derrota": [
+    2,
+    1344,
+    1616,
+    448,
+    64
+   ],
+   "corvo_veterano_derrota": [
+    2,
+    0,
+    1680,
+    448,
+    64
+   ],
+   "curandeiro_comum_derrota": [
+    2,
+    448,
+    1680,
+    448,
+    64
+   ],
+   "curandeiro_veterano_derrota": [
+    2,
+    896,
+    1680,
+    448,
+    64
+   ],
+   "eco_mudo_comum_derrota": [
+    2,
+    1344,
+    1680,
+    448,
+    64
+   ],
+   "eco_mudo_veterano_derrota": [
+    2,
+    0,
+    1744,
+    448,
+    64
+   ],
+   "escudeiro_gelo_comum_derrota": [
+    2,
+    448,
+    1744,
+    448,
+    64
+   ],
+   "escudeiro_gelo_veterano_derrota": [
+    2,
+    896,
+    1744,
+    448,
+    64
+   ],
+   "galgo_comum_derrota": [
+    2,
+    1344,
+    1744,
+    448,
+    64
+   ],
+   "galgo_veterano_derrota": [
+    2,
+    0,
+    1808,
+    448,
+    64
+   ],
+   "incendiaria_comum_derrota": [
+    2,
+    448,
+    1808,
+    448,
+    64
+   ],
+   "incendiaria_veterano_derrota": [
+    2,
+    896,
+    1808,
+    448,
+    64
+   ],
+   "javali_comum_derrota": [
+    2,
+    1344,
+    1808,
+    448,
+    64
+   ],
+   "javali_ferro_comum_derrota": [
+    2,
+    0,
+    1872,
+    448,
+    64
+   ],
+   "javali_ferro_veterano_derrota": [
+    2,
+    448,
+    1872,
+    448,
+    64
+   ],
+   "javali_neve_comum_derrota": [
+    2,
+    896,
+    1872,
+    448,
+    64
+   ],
+   "javali_neve_veterano_derrota": [
+    2,
+    1344,
+    1872,
+    448,
+    64
+   ],
+   "javali_raiz_comum_derrota": [
+    2,
+    0,
+    1936,
+    448,
+    64
+   ],
+   "javali_raiz_veterano_derrota": [
+    2,
+    448,
+    1936,
+    448,
+    64
+   ],
+   "javali_veterano_derrota": [
+    2,
+    896,
+    1936,
+    448,
+    64
+   ],
+   "lebre_comum_derrota": [
+    2,
+    1344,
+    1936,
+    448,
+    64
+   ],
+   "lebre_faisca_comum_derrota": [
+    3,
+    0,
+    0,
+    448,
+    64
+   ],
+   "lebre_faisca_veterano_derrota": [
+    3,
+    448,
+    0,
+    448,
+    64
+   ],
+   "lebre_neve_comum_derrota": [
+    3,
+    896,
+    0,
+    448,
+    64
+   ],
+   "lebre_neve_veterano_derrota": [
+    3,
+    1344,
+    0,
+    448,
+    64
+   ],
+   "lebre_orvalho_comum_derrota": [
+    3,
+    0,
+    64,
+    448,
+    64
+   ],
+   "lebre_orvalho_veterano_derrota": [
+    3,
+    448,
+    64,
+    448,
+    64
+   ],
+   "lebre_veterano_derrota": [
+    3,
+    896,
+    64,
+    448,
+    64
+   ],
+   "lobo_geada_comum_derrota": [
+    3,
+    1344,
+    64,
+    448,
+    64
+   ],
+   "lobo_geada_veterano_derrota": [
+    3,
+    0,
+    128,
+    448,
+    64
+   ],
+   "lodo_comum_derrota": [
+    3,
+    448,
+    128,
+    448,
+    64
+   ],
+   "lodo_veterano_derrota": [
+    3,
+    896,
+    128,
+    448,
+    64
+   ],
+   "mamute_glacial_comum_derrota": [
+    3,
+    1344,
+    128,
+    448,
+    64
+   ],
+   "mamute_glacial_veterano_derrota": [
+    3,
+    0,
+    192,
+    448,
+    64
+   ],
+   "mariposa_comum_derrota": [
+    3,
+    448,
+    192,
+    448,
+    64
+   ],
+   "mariposa_veterano_derrota": [
+    3,
+    896,
+    192,
+    448,
+    64
+   ],
+   "rastreador_comum_derrota": [
+    3,
+    1344,
+    192,
+    448,
+    64
+   ],
+   "rastreador_veterano_derrota": [
+    3,
+    0,
+    256,
+    448,
+    64
+   ],
+   "soldado_geada_comum_derrota": [
+    3,
+    448,
+    256,
+    448,
+    64
+   ],
+   "soldado_geada_veterano_derrota": [
+    3,
+    896,
+    256,
+    448,
+    64
+   ],
+   "tecelao_geada_comum_derrota": [
+    3,
+    1344,
+    256,
+    448,
+    64
+   ],
+   "tecelao_geada_veterano_derrota": [
+    3,
+    0,
+    320,
+    448,
+    64
+   ],
+   "verme_geada_comum_derrota": [
+    3,
+    448,
+    320,
+    448,
+    64
+   ],
+   "verme_geada_veterano_derrota": [
+    3,
+    896,
+    320,
+    448,
+    64
+   ],
+   "abutre_elite_parado": [
+    3,
+    1344,
+    320,
+    256,
+    64
+   ],
+   "arminho_geada_elite_parado": [
+    3,
+    1600,
+    320,
+    256,
+    64
+   ],
+   "atirador_geada_elite_parado": [
+    3,
+    0,
+    384,
+    256,
+    64
+   ],
+   "batedor_elite_parado": [
+    3,
+    256,
+    384,
+    256,
+    64
+   ],
+   "brotado_elite_parado": [
+    3,
+    512,
+    384,
+    256,
+    64
+   ],
+   "brutamontes_elite_parado": [
+    3,
+    768,
+    384,
+    256,
+    64
+   ],
+   "cervo_elite_parado": [
+    3,
+    1024,
+    384,
+    256,
+    64
+   ],
+   "cobra_elite_parado": [
+    3,
+    1280,
+    384,
+    256,
+    64
+   ],
+   "contrabandista_elite_parado": [
+    3,
+    1536,
+    384,
+    256,
+    64
+   ],
+   "corvo_elite_parado": [
+    3,
+    1792,
+    384,
+    256,
+    64
+   ],
+   "curandeiro_elite_parado": [
+    3,
+    0,
+    448,
+    256,
+    64
+   ],
+   "eco_mudo_elite_parado": [
+    3,
+    256,
+    448,
+    256,
+    64
+   ],
+   "escudeiro_gelo_elite_parado": [
+    3,
+    512,
+    448,
+    256,
+    64
+   ],
+   "galgo_elite_parado": [
+    3,
+    768,
+    448,
+    256,
+    64
+   ],
+   "incendiaria_elite_parado": [
+    3,
+    1024,
+    448,
+    256,
+    64
+   ],
+   "javali_elite_parado": [
+    3,
+    1280,
+    448,
+    256,
+    64
+   ],
+   "javali_ferro_elite_parado": [
+    3,
+    1536,
+    448,
+    256,
+    64
+   ],
+   "javali_neve_elite_parado": [
+    3,
+    1792,
+    448,
+    256,
+    64
+   ],
+   "javali_raiz_elite_parado": [
+    3,
+    0,
+    512,
+    256,
+    64
+   ],
+   "lebre_elite_parado": [
+    3,
+    256,
+    512,
+    256,
+    64
+   ],
+   "lebre_faisca_elite_parado": [
+    3,
+    512,
+    512,
+    256,
+    64
+   ],
+   "lebre_neve_elite_parado": [
+    3,
+    768,
+    512,
+    256,
+    64
+   ],
+   "lebre_orvalho_elite_parado": [
+    3,
+    1024,
+    512,
+    256,
+    64
+   ],
+   "lobo_geada_elite_parado": [
+    3,
+    1280,
+    512,
+    256,
+    64
+   ],
+   "lodo_elite_parado": [
+    3,
+    1536,
+    512,
+    256,
+    64
+   ],
+   "mamute_glacial_elite_parado": [
+    3,
+    1792,
+    512,
+    256,
+    64
+   ],
+   "mariposa_elite_parado": [
+    3,
+    0,
+    576,
+    256,
+    64
+   ],
+   "rastreador_elite_parado": [
+    3,
+    256,
+    576,
+    256,
+    64
+   ],
+   "soldado_geada_elite_parado": [
+    3,
+    512,
+    576,
+    256,
+    64
+   ],
+   "tecelao_geada_elite_parado": [
+    3,
+    768,
+    576,
+    256,
+    64
+   ],
+   "urso_de_barranco_parado": [
+    3,
+    1024,
+    576,
+    256,
+    64
+   ],
+   "verme_geada_elite_parado": [
+    3,
+    1280,
+    576,
+    256,
+    64
+   ],
+   "abutre_comum_dano": [
+    3,
+    1536,
+    576,
+    224,
+    64
+   ],
+   "abutre_veterano_dano": [
+    3,
+    1760,
+    576,
+    224,
+    64
+   ],
+   "arminho_geada_comum_dano": [
+    3,
+    0,
+    640,
+    224,
+    64
+   ],
+   "arminho_geada_veterano_dano": [
+    3,
+    224,
+    640,
+    224,
+    64
+   ],
+   "atirador_geada_comum_dano": [
+    3,
+    448,
+    640,
+    224,
+    64
+   ],
+   "atirador_geada_veterano_dano": [
+    3,
+    672,
+    640,
+    224,
+    64
+   ],
+   "batedor_comum_dano": [
+    3,
+    896,
+    640,
+    224,
+    64
+   ],
+   "batedor_veterano_dano": [
+    3,
+    1120,
+    640,
+    224,
+    64
+   ],
+   "brotado_comum_dano": [
+    3,
+    1344,
+    640,
+    224,
+    64
+   ],
+   "brotado_veterano_dano": [
+    3,
+    1568,
+    640,
+    224,
+    64
+   ],
+   "brutamontes_comum_dano": [
+    3,
+    1792,
+    640,
+    224,
+    64
+   ],
+   "brutamontes_veterano_dano": [
+    3,
+    0,
+    704,
+    224,
+    64
+   ],
+   "cervo_comum_dano": [
+    3,
+    224,
+    704,
+    224,
+    64
+   ],
+   "cervo_veterano_dano": [
+    3,
+    448,
+    704,
+    224,
+    64
+   ],
+   "cobra_comum_dano": [
+    3,
+    672,
+    704,
+    224,
+    64
+   ],
+   "cobra_veterano_dano": [
+    3,
+    896,
+    704,
+    224,
+    64
+   ],
+   "contrabandista_comum_dano": [
+    3,
+    1120,
+    704,
+    224,
+    64
+   ],
+   "contrabandista_veterano_dano": [
+    3,
+    1344,
+    704,
+    224,
+    64
+   ],
+   "corvo_comum_dano": [
+    3,
+    1568,
+    704,
+    224,
+    64
+   ],
+   "corvo_veterano_dano": [
+    3,
+    1792,
+    704,
+    224,
+    64
+   ],
+   "curandeiro_comum_dano": [
+    3,
+    0,
+    768,
+    224,
+    64
+   ],
+   "curandeiro_veterano_dano": [
+    3,
+    224,
+    768,
+    224,
+    64
+   ],
+   "eco_mudo_comum_dano": [
+    3,
+    448,
+    768,
+    224,
+    64
+   ],
+   "eco_mudo_veterano_dano": [
+    3,
+    672,
+    768,
+    224,
+    64
+   ],
+   "escudeiro_gelo_comum_dano": [
+    3,
+    896,
+    768,
+    224,
+    64
+   ],
+   "escudeiro_gelo_veterano_dano": [
+    3,
+    1120,
+    768,
+    224,
+    64
+   ],
+   "galgo_comum_dano": [
+    3,
+    1344,
+    768,
+    224,
+    64
+   ],
+   "galgo_veterano_dano": [
+    3,
+    1568,
+    768,
+    224,
+    64
+   ],
+   "incendiaria_comum_dano": [
+    3,
+    1792,
+    768,
+    224,
+    64
+   ],
+   "incendiaria_veterano_dano": [
+    3,
+    0,
+    832,
+    224,
+    64
+   ],
+   "javali_comum_dano": [
+    3,
+    224,
+    832,
+    224,
+    64
+   ],
+   "javali_ferro_comum_dano": [
+    3,
+    448,
+    832,
+    224,
+    64
+   ],
+   "javali_ferro_veterano_dano": [
+    3,
+    672,
+    832,
+    224,
+    64
+   ],
+   "javali_neve_comum_dano": [
+    3,
+    896,
+    832,
+    224,
+    64
+   ],
+   "javali_neve_veterano_dano": [
+    3,
+    1120,
+    832,
+    224,
+    64
+   ],
+   "javali_raiz_comum_dano": [
+    3,
+    1344,
+    832,
+    224,
+    64
+   ],
+   "javali_raiz_veterano_dano": [
+    3,
+    1568,
+    832,
+    224,
+    64
+   ],
+   "javali_veterano_dano": [
+    3,
+    1792,
+    832,
+    224,
+    64
+   ],
+   "lebre_comum_dano": [
+    3,
+    0,
+    896,
+    224,
+    64
+   ],
+   "lebre_faisca_comum_dano": [
+    3,
+    224,
+    896,
+    224,
+    64
+   ],
+   "lebre_faisca_veterano_dano": [
+    3,
+    448,
+    896,
+    224,
+    64
+   ],
+   "lebre_neve_comum_dano": [
+    3,
+    672,
+    896,
+    224,
+    64
+   ],
+   "lebre_neve_veterano_dano": [
+    3,
+    896,
+    896,
+    224,
+    64
+   ],
+   "lebre_orvalho_comum_dano": [
+    3,
+    1120,
+    896,
+    224,
+    64
+   ],
+   "lebre_orvalho_veterano_dano": [
+    3,
+    1344,
+    896,
+    224,
+    64
+   ],
+   "lebre_veterano_dano": [
+    3,
+    1568,
+    896,
+    224,
+    64
+   ],
+   "lobo_geada_comum_dano": [
+    3,
+    1792,
+    896,
+    224,
+    64
+   ],
+   "lobo_geada_veterano_dano": [
+    3,
+    0,
+    960,
+    224,
+    64
+   ],
+   "lodo_comum_dano": [
+    3,
+    224,
+    960,
+    224,
+    64
+   ],
+   "lodo_veterano_dano": [
+    3,
+    448,
+    960,
+    224,
+    64
+   ],
+   "mamute_glacial_comum_dano": [
+    3,
+    672,
+    960,
+    224,
+    64
+   ],
+   "mamute_glacial_veterano_dano": [
+    3,
+    896,
+    960,
+    224,
+    64
+   ],
+   "mariposa_comum_dano": [
+    3,
+    1120,
+    960,
+    224,
+    64
+   ],
+   "mariposa_veterano_dano": [
+    3,
+    1344,
+    960,
+    224,
+    64
+   ],
+   "rastreador_comum_dano": [
+    3,
+    1568,
+    960,
+    224,
+    64
+   ],
+   "rastreador_veterano_dano": [
+    3,
+    1792,
+    960,
+    224,
+    64
+   ],
+   "soldado_geada_comum_dano": [
+    3,
+    0,
+    1024,
+    224,
+    64
+   ],
+   "soldado_geada_veterano_dano": [
+    3,
+    224,
+    1024,
+    224,
+    64
+   ],
+   "tecelao_geada_comum_dano": [
+    3,
+    448,
+    1024,
+    224,
+    64
+   ],
+   "tecelao_geada_veterano_dano": [
+    3,
+    672,
+    1024,
+    224,
+    64
+   ],
+   "verme_geada_comum_dano": [
+    3,
+    896,
+    1024,
+    224,
+    64
+   ],
+   "verme_geada_veterano_dano": [
+    3,
+    1120,
+    1024,
+    224,
+    64
+   ],
+   "abutre_comum_parado": [
+    3,
+    1344,
+    1024,
+    192,
+    48
+   ],
+   "abutre_veterano_parado": [
+    3,
+    1536,
+    1024,
+    192,
+    48
+   ],
+   "arminho_geada_comum_parado": [
+    3,
+    1728,
+    1024,
+    192,
+    48
+   ],
+   "arminho_geada_veterano_parado": [
+    3,
+    0,
+    1088,
+    192,
+    48
+   ],
+   "atirador_geada_comum_parado": [
+    3,
+    192,
+    1088,
+    192,
+    48
+   ],
+   "atirador_geada_veterano_parado": [
+    3,
+    384,
+    1088,
+    192,
+    48
+   ],
+   "batedor_comum_parado": [
+    3,
+    576,
+    1088,
+    192,
+    48
+   ],
+   "batedor_veterano_parado": [
+    3,
+    768,
+    1088,
+    192,
+    48
+   ],
+   "brotado_comum_parado": [
+    3,
+    960,
+    1088,
+    192,
+    48
+   ],
+   "brotado_veterano_parado": [
+    3,
+    1152,
+    1088,
+    192,
+    48
+   ],
+   "brutamontes_comum_parado": [
+    3,
+    1344,
+    1088,
+    192,
+    48
+   ],
+   "brutamontes_veterano_parado": [
+    3,
+    1536,
+    1088,
+    192,
+    48
+   ],
+   "cervo_comum_parado": [
+    3,
+    1728,
+    1088,
+    192,
+    48
+   ],
+   "cervo_veterano_parado": [
+    3,
+    0,
+    1136,
+    192,
+    48
+   ],
+   "cobra_comum_parado": [
+    3,
+    192,
+    1136,
+    192,
+    48
+   ],
+   "cobra_veterano_parado": [
+    3,
+    384,
+    1136,
+    192,
+    48
+   ],
+   "contrabandista_comum_parado": [
+    3,
+    576,
+    1136,
+    192,
+    48
+   ],
+   "contrabandista_veterano_parado": [
+    3,
+    768,
+    1136,
+    192,
+    48
+   ],
+   "corvo_comum_parado": [
+    3,
+    960,
+    1136,
+    192,
+    48
+   ],
+   "corvo_veterano_parado": [
+    3,
+    1152,
+    1136,
+    192,
+    48
+   ],
+   "curandeiro_comum_parado": [
+    3,
+    1344,
+    1136,
+    192,
+    48
+   ],
+   "curandeiro_veterano_parado": [
+    3,
+    1536,
+    1136,
+    192,
+    48
+   ],
+   "eco_mudo_comum_parado": [
+    3,
+    1728,
+    1136,
+    192,
+    48
+   ],
+   "eco_mudo_veterano_parado": [
+    3,
+    0,
+    1184,
+    192,
+    48
+   ],
+   "escudeiro_gelo_comum_parado": [
+    3,
+    192,
+    1184,
+    192,
+    48
+   ],
+   "escudeiro_gelo_veterano_parado": [
+    3,
+    384,
+    1184,
+    192,
+    48
+   ],
+   "galgo_comum_parado": [
+    3,
+    576,
+    1184,
+    192,
+    48
+   ],
+   "galgo_veterano_parado": [
+    3,
+    768,
+    1184,
+    192,
+    48
+   ],
+   "incendiaria_comum_parado": [
+    3,
+    960,
+    1184,
+    192,
+    48
+   ],
+   "incendiaria_veterano_parado": [
+    3,
+    1152,
+    1184,
+    192,
+    48
+   ],
+   "javali_comum_parado": [
+    3,
+    1344,
+    1184,
+    192,
+    48
+   ],
+   "javali_ferro_comum_parado": [
+    3,
+    1536,
+    1184,
+    192,
+    48
+   ],
+   "javali_ferro_veterano_parado": [
+    3,
+    1728,
+    1184,
+    192,
+    48
+   ],
+   "javali_neve_comum_parado": [
+    3,
+    0,
+    1232,
+    192,
+    48
+   ],
+   "javali_neve_veterano_parado": [
+    3,
+    192,
+    1232,
+    192,
+    48
+   ],
+   "javali_raiz_comum_parado": [
+    3,
+    384,
+    1232,
+    192,
+    48
+   ],
+   "javali_raiz_veterano_parado": [
+    3,
+    576,
+    1232,
+    192,
+    48
+   ],
+   "javali_veterano_parado": [
+    3,
+    768,
+    1232,
+    192,
+    48
+   ],
+   "lebre_comum_parado": [
+    3,
+    960,
+    1232,
+    192,
+    48
+   ],
+   "lebre_faisca_comum_parado": [
+    3,
+    1152,
+    1232,
+    192,
+    48
+   ],
+   "lebre_faisca_veterano_parado": [
+    3,
+    1344,
+    1232,
+    192,
+    48
+   ],
+   "lebre_neve_comum_parado": [
+    3,
+    1536,
+    1232,
+    192,
+    48
+   ],
+   "lebre_neve_veterano_parado": [
+    3,
+    1728,
+    1232,
+    192,
+    48
+   ],
+   "lebre_orvalho_comum_parado": [
+    3,
+    0,
+    1280,
+    192,
+    48
+   ],
+   "lebre_orvalho_veterano_parado": [
+    3,
+    192,
+    1280,
+    192,
+    48
+   ],
+   "lebre_veterano_parado": [
+    3,
+    384,
+    1280,
+    192,
+    48
+   ],
+   "lobo_geada_comum_parado": [
+    3,
+    576,
+    1280,
+    192,
+    48
+   ],
+   "lobo_geada_veterano_parado": [
+    3,
+    768,
+    1280,
+    192,
+    48
+   ],
+   "lodo_comum_parado": [
+    3,
+    960,
+    1280,
+    192,
+    48
+   ],
+   "lodo_veterano_parado": [
+    3,
+    1152,
+    1280,
+    192,
+    48
+   ],
+   "mamute_glacial_comum_parado": [
+    3,
+    1344,
+    1280,
+    192,
+    48
+   ],
+   "mamute_glacial_veterano_parado": [
+    3,
+    1536,
+    1280,
+    192,
+    48
+   ],
+   "mariposa_comum_parado": [
+    3,
+    1728,
+    1280,
+    192,
+    48
+   ],
+   "mariposa_veterano_parado": [
+    3,
+    0,
+    1328,
+    192,
+    48
+   ],
+   "rastreador_comum_parado": [
+    3,
+    192,
+    1328,
+    192,
+    48
+   ],
+   "rastreador_veterano_parado": [
+    3,
+    384,
+    1328,
+    192,
+    48
+   ],
+   "soldado_geada_comum_parado": [
+    3,
+    576,
+    1328,
+    192,
+    48
+   ],
+   "soldado_geada_veterano_parado": [
+    3,
+    768,
+    1328,
+    192,
+    48
+   ],
+   "tecelao_geada_comum_parado": [
+    3,
+    960,
+    1328,
+    192,
+    48
+   ],
+   "tecelao_geada_veterano_parado": [
+    3,
+    1152,
+    1328,
+    192,
+    48
+   ],
+   "verme_geada_comum_parado": [
+    3,
+    1344,
+    1328,
+    192,
+    48
+   ],
+   "verme_geada_veterano_parado": [
+    3,
+    1536,
+    1328,
+    192,
+    48
+   ]
+  }
+ },
+ "inimigos": {
+  "batedor_comum": {
+   "id": "batedor",
+   "versao": "comum",
+   "nome": "Batedor de Estrada",
+   "familia": "Bandidos",
+   "elemento": null,
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "batedor_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "batedor_comum_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "batedor_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "batedor_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "batedor_veterano": {
+   "id": "batedor",
+   "versao": "veterano",
+   "nome": "Salteador",
+   "familia": "Bandidos",
+   "elemento": null,
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "batedor_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "batedor_veterano_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "batedor_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "batedor_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "batedor_elite": {
+   "id": "batedor",
+   "versao": "elite",
+   "nome": "Capitão de Estrada",
+   "familia": "Bandidos",
+   "elemento": null,
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "batedor_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "batedor_elite_ataque",
+     "quadros": 6,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "batedor_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "batedor_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "brutamontes_comum": {
+   "id": "brutamontes",
+   "versao": "comum",
+   "nome": "Brutamontes de Aluguel",
+   "familia": "Bandidos",
+   "elemento": null,
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "brutamontes_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "brutamontes_comum_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "brutamontes_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "brutamontes_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "brutamontes_veterano": {
+   "id": "brutamontes",
+   "versao": "veterano",
+   "nome": "Quebra-Ossos",
+   "familia": "Bandidos",
+   "elemento": null,
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "brutamontes_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "brutamontes_veterano_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "brutamontes_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "brutamontes_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "brutamontes_elite": {
+   "id": "brutamontes",
+   "versao": "elite",
+   "nome": "Muralha Paga",
+   "familia": "Bandidos",
+   "elemento": null,
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "brutamontes_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "brutamontes_elite_ataque",
+     "quadros": 6,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "brutamontes_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "brutamontes_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "contrabandista_comum": {
+   "id": "contrabandista",
+   "versao": "comum",
+   "nome": "Contrabandista de Frascos",
+   "familia": "Bandidos",
+   "elemento": "ar",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "contrabandista_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "contrabandista_comum_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "contrabandista_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "contrabandista_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "contrabandista_veterano": {
+   "id": "contrabandista",
+   "versao": "veterano",
+   "nome": "Atravessador",
+   "familia": "Bandidos",
+   "elemento": "ar",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "contrabandista_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "contrabandista_veterano_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "contrabandista_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "contrabandista_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "contrabandista_elite": {
+   "id": "contrabandista",
+   "versao": "elite",
+   "nome": "Mercador de Ecos",
+   "familia": "Bandidos",
+   "elemento": "ar",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "contrabandista_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "contrabandista_elite_ataque",
+     "quadros": 6,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "contrabandista_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "contrabandista_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "incendiaria_comum": {
+   "id": "incendiaria",
+   "versao": "comum",
+   "nome": "Incendiária do Bando",
+   "familia": "Bandidos",
+   "elemento": "fogo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "incendiaria_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "incendiaria_comum_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "incendiaria_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "incendiaria_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "incendiaria_veterano": {
+   "id": "incendiaria",
+   "versao": "veterano",
+   "nome": "Tocha Viva",
+   "familia": "Bandidos",
+   "elemento": "fogo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "incendiaria_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "incendiaria_veterano_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "incendiaria_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "incendiaria_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "incendiaria_elite": {
+   "id": "incendiaria",
+   "versao": "elite",
+   "nome": "Senhora das Cinzas",
+   "familia": "Bandidos",
+   "elemento": "fogo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "incendiaria_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "incendiaria_elite_ataque",
+     "quadros": 6,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "incendiaria_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "incendiaria_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "curandeiro_comum": {
+   "id": "curandeiro",
+   "versao": "comum",
+   "nome": "Curandeiro Clandestino",
+   "familia": "Bandidos",
+   "elemento": "agua",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "curandeiro_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "curandeiro_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "curandeiro_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "curandeiro_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "curandeiro_veterano": {
+   "id": "curandeiro",
+   "versao": "veterano",
+   "nome": "Boticário do Bando",
+   "familia": "Bandidos",
+   "elemento": "agua",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "curandeiro_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "curandeiro_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "curandeiro_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "curandeiro_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "curandeiro_elite": {
+   "id": "curandeiro",
+   "versao": "elite",
+   "nome": "Mestre dos Frascos",
+   "familia": "Bandidos",
+   "elemento": "agua",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "curandeiro_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "curandeiro_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "curandeiro_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "curandeiro_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_comum": {
+   "id": "javali",
+   "versao": "comum",
+   "nome": "Javali",
+   "familia": "Feras locais",
+   "elemento": "terra",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_veterano": {
+   "id": "javali",
+   "versao": "veterano",
+   "nome": "Javali Velho",
+   "familia": "Feras locais",
+   "elemento": "terra",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_elite": {
+   "id": "javali",
+   "versao": "elite",
+   "nome": "Presa-Mestra",
+   "familia": "Feras locais",
+   "elemento": "terra",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_comum": {
+   "id": "lebre",
+   "versao": "comum",
+   "nome": "Lebre",
+   "familia": "Feras locais",
+   "elemento": "fogo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_veterano": {
+   "id": "lebre",
+   "versao": "veterano",
+   "nome": "Lebre Arisca",
+   "familia": "Feras locais",
+   "elemento": "fogo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_elite": {
+   "id": "lebre",
+   "versao": "elite",
+   "nome": "Lebre-Fantasma",
+   "familia": "Feras locais",
+   "elemento": "fogo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "corvo_comum": {
+   "id": "corvo",
+   "versao": "comum",
+   "nome": "Corvo",
+   "familia": "Feras locais",
+   "elemento": "ar",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "corvo_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "corvo_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "corvo_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "corvo_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "corvo_veterano": {
+   "id": "corvo",
+   "versao": "veterano",
+   "nome": "Corvo Ancião",
+   "familia": "Feras locais",
+   "elemento": "ar",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "corvo_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "corvo_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "corvo_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "corvo_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "corvo_elite": {
+   "id": "corvo",
+   "versao": "elite",
+   "nome": "Rainha do Bando",
+   "familia": "Feras locais",
+   "elemento": "ar",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "corvo_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "corvo_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "corvo_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "corvo_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "presa_mestra": {
+   "id": "presa_mestra",
+   "versao": null,
+   "nome": "Presa-Mestra",
+   "familia": null,
+   "elemento": "terra",
+   "tamanho": 80,
+   "acoes": {
+    "parado": {
+     "imagem": "presa_mestra_parado",
+     "quadros": 4,
+     "largura": 80,
+     "altura": 80,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "presa_mestra_ataque",
+     "quadros": 5,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "presa_mestra_dano",
+     "quadros": 2,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "presa_mestra_derrota",
+     "quadros": 4,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "capitao_de_estrada": {
+   "id": "capitao_de_estrada",
+   "versao": null,
+   "nome": "Capitão de Estrada",
+   "familia": null,
+   "elemento": null,
+   "tamanho": 80,
+   "acoes": {
+    "parado": {
+     "imagem": "capitao_de_estrada_parado",
+     "quadros": 4,
+     "largura": 80,
+     "altura": 80,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "capitao_de_estrada_ataque",
+     "quadros": 6,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "capitao_de_estrada_dano",
+     "quadros": 2,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "capitao_de_estrada_derrota",
+     "quadros": 4,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "urso_de_barranco": {
+   "id": "urso_de_barranco",
+   "versao": null,
+   "nome": "Urso de Barranco",
+   "familia": null,
+   "elemento": "terra",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "urso_de_barranco_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "urso_de_barranco_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "urso_de_barranco_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "urso_de_barranco_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "mestre_calder": {
+   "id": "mestre_calder",
+   "versao": null,
+   "nome": "Mestre Calder, o Receptador",
+   "familia": null,
+   "elemento": "ar",
+   "tamanho": 96,
+   "acoes": {
+    "parado": {
+     "imagem": "mestre_calder_parado",
+     "quadros": 4,
+     "largura": 96,
+     "altura": 96,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "mestre_calder_ataque",
+     "quadros": 7,
+     "largura": 160,
+     "altura": 112,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "ataque2": {
+     "imagem": "mestre_calder_ataque2",
+     "quadros": 7,
+     "largura": 160,
+     "altura": 112,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "mestre_calder_dano",
+     "quadros": 2,
+     "largura": 160,
+     "altura": 112,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "mestre_calder_derrota",
+     "quadros": 4,
+     "largura": 160,
+     "altura": 112,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "cervo_comum": {
+   "id": "cervo",
+   "versao": "comum",
+   "nome": "Cervo Faiscante",
+   "familia": "Feras anômalas",
+   "elemento": "raio",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "cervo_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "cervo_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "cervo_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "cervo_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "cervo_veterano": {
+   "id": "cervo",
+   "versao": "veterano",
+   "nome": "Cervo de Galhada Elétrica",
+   "familia": "Feras anômalas",
+   "elemento": "raio",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "cervo_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "cervo_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "cervo_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "cervo_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "cervo_elite": {
+   "id": "cervo",
+   "versao": "elite",
+   "nome": "Rei da Galhada",
+   "familia": "Feras anômalas",
+   "elemento": "raio",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "cervo_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "cervo_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "cervo_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "cervo_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lodo_comum": {
+   "id": "lodo",
+   "versao": "comum",
+   "nome": "Rastejante do Lodo",
+   "familia": "Feras anômalas",
+   "elemento": "agua",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lodo_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lodo_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lodo_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lodo_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lodo_veterano": {
+   "id": "lodo",
+   "versao": "veterano",
+   "nome": "Lodo Faminto",
+   "familia": "Feras anômalas",
+   "elemento": "agua",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lodo_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lodo_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lodo_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lodo_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lodo_elite": {
+   "id": "lodo",
+   "versao": "elite",
+   "nome": "Boca do Brejo",
+   "familia": "Feras anômalas",
+   "elemento": "agua",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "lodo_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lodo_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lodo_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lodo_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "abutre_comum": {
+   "id": "abutre",
+   "versao": "comum",
+   "nome": "Abutre de Brasa",
+   "familia": "Feras anômalas",
+   "elemento": "fogo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "abutre_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "abutre_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "abutre_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "abutre_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "abutre_veterano": {
+   "id": "abutre",
+   "versao": "veterano",
+   "nome": "Abutre Incandescente",
+   "familia": "Feras anômalas",
+   "elemento": "fogo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "abutre_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "abutre_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "abutre_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "abutre_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "abutre_elite": {
+   "id": "abutre",
+   "versao": "elite",
+   "nome": "Senhor do Carvão",
+   "familia": "Feras anômalas",
+   "elemento": "fogo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "abutre_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "abutre_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "abutre_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "abutre_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "brotado_comum": {
+   "id": "brotado",
+   "versao": "comum",
+   "nome": "Brotado",
+   "familia": "Feras anômalas",
+   "elemento": "terra",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "brotado_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "brotado_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "brotado_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "brotado_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "brotado_veterano": {
+   "id": "brotado",
+   "versao": "veterano",
+   "nome": "Tronco Errante",
+   "familia": "Feras anômalas",
+   "elemento": "terra",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "brotado_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "brotado_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "brotado_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "brotado_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "brotado_elite": {
+   "id": "brotado",
+   "versao": "elite",
+   "nome": "Colosso de Raiz",
+   "familia": "Feras anômalas",
+   "elemento": "terra",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "brotado_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "brotado_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "brotado_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "brotado_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "galgo_comum": {
+   "id": "galgo",
+   "versao": "comum",
+   "nome": "Galgo Sem Rosto",
+   "familia": "Feras anômalas",
+   "elemento": "ar",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "galgo_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "galgo_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "galgo_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "galgo_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "galgo_veterano": {
+   "id": "galgo",
+   "versao": "veterano",
+   "nome": "Galgo Uivante",
+   "familia": "Feras anômalas",
+   "elemento": "ar",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "galgo_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "galgo_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "galgo_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "galgo_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "galgo_elite": {
+   "id": "galgo",
+   "versao": "elite",
+   "nome": "Matilheiro Sem Rosto",
+   "familia": "Feras anômalas",
+   "elemento": "ar",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "galgo_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "galgo_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "galgo_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "galgo_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "mariposa_comum": {
+   "id": "mariposa",
+   "versao": "comum",
+   "nome": "Mariposa Trovejante",
+   "familia": "Feras anômalas",
+   "elemento": "raio",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "mariposa_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "mariposa_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "mariposa_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "mariposa_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "mariposa_veterano": {
+   "id": "mariposa",
+   "versao": "veterano",
+   "nome": "Mariposa de Tempestade",
+   "familia": "Feras anômalas",
+   "elemento": "raio",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "mariposa_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "mariposa_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "mariposa_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "mariposa_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "mariposa_elite": {
+   "id": "mariposa",
+   "versao": "elite",
+   "nome": "Rainha Elétrica",
+   "familia": "Feras anômalas",
+   "elemento": "raio",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "mariposa_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "mariposa_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "mariposa_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "mariposa_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_raiz_comum": {
+   "id": "javali_raiz",
+   "versao": "comum",
+   "nome": "Javali",
+   "familia": "Feras locais",
+   "elemento": "terra",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_raiz_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_raiz_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_raiz_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_raiz_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_raiz_veterano": {
+   "id": "javali_raiz",
+   "versao": "veterano",
+   "nome": "Javali Velho",
+   "familia": "Feras locais",
+   "elemento": "terra",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_raiz_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_raiz_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_raiz_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_raiz_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_raiz_elite": {
+   "id": "javali_raiz",
+   "versao": "elite",
+   "nome": "Presa-Mestra",
+   "familia": "Feras locais",
+   "elemento": "terra",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_raiz_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_raiz_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_raiz_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_raiz_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_orvalho_comum": {
+   "id": "lebre_orvalho",
+   "versao": "comum",
+   "nome": "Lebre",
+   "familia": "Feras locais",
+   "elemento": "agua",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_orvalho_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_orvalho_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_orvalho_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_orvalho_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_orvalho_veterano": {
+   "id": "lebre_orvalho",
+   "versao": "veterano",
+   "nome": "Lebre Arisca",
+   "familia": "Feras locais",
+   "elemento": "agua",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_orvalho_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_orvalho_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_orvalho_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_orvalho_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_orvalho_elite": {
+   "id": "lebre_orvalho",
+   "versao": "elite",
+   "nome": "Lebre-Fantasma",
+   "familia": "Feras locais",
+   "elemento": "agua",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_orvalho_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_orvalho_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_orvalho_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_orvalho_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "cobra_comum": {
+   "id": "cobra",
+   "versao": "comum",
+   "nome": "Cobra-d'Água",
+   "familia": "Feras locais",
+   "elemento": "agua",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "cobra_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "cobra_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "cobra_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "cobra_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "cobra_veterano": {
+   "id": "cobra",
+   "versao": "veterano",
+   "nome": "Sucuri do Brejo",
+   "familia": "Feras locais",
+   "elemento": "agua",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "cobra_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "cobra_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "cobra_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "cobra_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "cobra_elite": {
+   "id": "cobra",
+   "versao": "elite",
+   "nome": "Mãe do Brejo",
+   "familia": "Feras locais",
+   "elemento": "agua",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "cobra_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "cobra_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "cobra_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "cobra_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "rei_da_galhada": {
+   "id": "rei_da_galhada",
+   "versao": null,
+   "nome": "Rei da Galhada",
+   "familia": null,
+   "elemento": "raio",
+   "tamanho": 80,
+   "acoes": {
+    "parado": {
+     "imagem": "rei_da_galhada_parado",
+     "quadros": 4,
+     "largura": 80,
+     "altura": 80,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "rei_da_galhada_ataque",
+     "quadros": 5,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "rei_da_galhada_dano",
+     "quadros": 2,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "rei_da_galhada_derrota",
+     "quadros": 4,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "besta_sem_nome": {
+   "id": "besta_sem_nome",
+   "versao": null,
+   "nome": "Besta Sem Nome",
+   "familia": null,
+   "elemento": "terra",
+   "tamanho": 80,
+   "acoes": {
+    "parado": {
+     "imagem": "besta_sem_nome_parado",
+     "quadros": 4,
+     "largura": 80,
+     "altura": 80,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "besta_sem_nome_ataque",
+     "quadros": 5,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "besta_sem_nome_dano",
+     "quadros": 2,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "besta_sem_nome_derrota",
+     "quadros": 4,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "semeadora_velada": {
+   "id": "semeadora_velada",
+   "versao": null,
+   "nome": "A Semeadora Velada",
+   "familia": null,
+   "elemento": "terra",
+   "tamanho": 112,
+   "acoes": {
+    "parado": {
+     "imagem": "semeadora_velada_parado",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 112,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "semeadora_velada_ataque",
+     "quadros": 7,
+     "largura": 176,
+     "altura": 128,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "ataque2": {
+     "imagem": "semeadora_velada_ataque2",
+     "quadros": 7,
+     "largura": 176,
+     "altura": 128,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "semeadora_velada_dano",
+     "quadros": 2,
+     "largura": 176,
+     "altura": 128,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "semeadora_velada_derrota",
+     "quadros": 5,
+     "largura": 176,
+     "altura": 128,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "rastreador_comum": {
+   "id": "rastreador",
+   "versao": "comum",
+   "nome": "Rastreador de Aluguel",
+   "familia": "Bandidos",
+   "elemento": "raio",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "rastreador_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "rastreador_comum_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "rastreador_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "rastreador_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "rastreador_veterano": {
+   "id": "rastreador",
+   "versao": "veterano",
+   "nome": "Farejador de Ecos",
+   "familia": "Bandidos",
+   "elemento": "raio",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "rastreador_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "rastreador_veterano_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "rastreador_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "rastreador_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "rastreador_elite": {
+   "id": "rastreador",
+   "versao": "elite",
+   "nome": "Caçador de Recompensas",
+   "familia": "Bandidos",
+   "elemento": "raio",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "rastreador_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "rastreador_elite_ataque",
+     "quadros": 6,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "rastreador_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "rastreador_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "soldado_geada_comum": {
+   "id": "soldado_geada",
+   "versao": "comum",
+   "nome": "Soldado da Geada",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "soldado_geada_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "soldado_geada_comum_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "soldado_geada_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "soldado_geada_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "soldado_geada_veterano": {
+   "id": "soldado_geada",
+   "versao": "veterano",
+   "nome": "Lanceiro da Geada",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "soldado_geada_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "soldado_geada_veterano_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "soldado_geada_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "soldado_geada_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "soldado_geada_elite": {
+   "id": "soldado_geada",
+   "versao": "elite",
+   "nome": "Capitão Branco",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "soldado_geada_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "soldado_geada_elite_ataque",
+     "quadros": 6,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "soldado_geada_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "soldado_geada_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "escudeiro_gelo_comum": {
+   "id": "escudeiro_gelo",
+   "versao": "comum",
+   "nome": "Escudeiro de Gelo",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "escudeiro_gelo_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "escudeiro_gelo_comum_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "escudeiro_gelo_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "escudeiro_gelo_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "escudeiro_gelo_veterano": {
+   "id": "escudeiro_gelo",
+   "versao": "veterano",
+   "nome": "Muralha de Gelo",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "escudeiro_gelo_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "escudeiro_gelo_veterano_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "escudeiro_gelo_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "escudeiro_gelo_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "escudeiro_gelo_elite": {
+   "id": "escudeiro_gelo",
+   "versao": "elite",
+   "nome": "Bastião do Selo",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "escudeiro_gelo_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "escudeiro_gelo_elite_ataque",
+     "quadros": 6,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "escudeiro_gelo_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "escudeiro_gelo_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "atirador_geada_comum": {
+   "id": "atirador_geada",
+   "versao": "comum",
+   "nome": "Atirador da Geada",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "atirador_geada_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "atirador_geada_comum_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "atirador_geada_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "atirador_geada_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "atirador_geada_veterano": {
+   "id": "atirador_geada",
+   "versao": "veterano",
+   "nome": "Atirador de Gelo Fino",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "atirador_geada_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "atirador_geada_veterano_ataque",
+     "quadros": 6,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "atirador_geada_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "atirador_geada_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "atirador_geada_elite": {
+   "id": "atirador_geada",
+   "versao": "elite",
+   "nome": "Olho de Ysmera",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "atirador_geada_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "atirador_geada_elite_ataque",
+     "quadros": 6,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "atirador_geada_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "atirador_geada_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_ferro_comum": {
+   "id": "javali_ferro",
+   "versao": "comum",
+   "nome": "Javali",
+   "familia": "Feras locais",
+   "elemento": "terra",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_ferro_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_ferro_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_ferro_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_ferro_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_ferro_veterano": {
+   "id": "javali_ferro",
+   "versao": "veterano",
+   "nome": "Javali Velho",
+   "familia": "Feras locais",
+   "elemento": "terra",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_ferro_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_ferro_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_ferro_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_ferro_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_ferro_elite": {
+   "id": "javali_ferro",
+   "versao": "elite",
+   "nome": "Presa-Mestra",
+   "familia": "Feras locais",
+   "elemento": "terra",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_ferro_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_ferro_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_ferro_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_ferro_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_faisca_comum": {
+   "id": "lebre_faisca",
+   "versao": "comum",
+   "nome": "Lebre",
+   "familia": "Feras locais",
+   "elemento": "raio",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_faisca_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_faisca_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_faisca_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_faisca_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_faisca_veterano": {
+   "id": "lebre_faisca",
+   "versao": "veterano",
+   "nome": "Lebre Arisca",
+   "familia": "Feras locais",
+   "elemento": "raio",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_faisca_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_faisca_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_faisca_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_faisca_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_faisca_elite": {
+   "id": "lebre_faisca",
+   "versao": "elite",
+   "nome": "Lebre-Fantasma",
+   "familia": "Feras locais",
+   "elemento": "raio",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_faisca_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_faisca_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_faisca_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_faisca_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "cacador_de_recompensas": {
+   "id": "cacador_de_recompensas",
+   "versao": null,
+   "nome": "Caçador de Recompensas",
+   "familia": null,
+   "elemento": "raio",
+   "tamanho": 80,
+   "acoes": {
+    "parado": {
+     "imagem": "cacador_de_recompensas_parado",
+     "quadros": 4,
+     "largura": 80,
+     "altura": 80,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "cacador_de_recompensas_ataque",
+     "quadros": 6,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "cacador_de_recompensas_dano",
+     "quadros": 2,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "cacador_de_recompensas_derrota",
+     "quadros": 4,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "olho_de_ysmera": {
+   "id": "olho_de_ysmera",
+   "versao": null,
+   "nome": "Olho de Ysmera",
+   "familia": null,
+   "elemento": "gelo",
+   "tamanho": 80,
+   "acoes": {
+    "parado": {
+     "imagem": "olho_de_ysmera_parado",
+     "quadros": 4,
+     "largura": 80,
+     "altura": 80,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "olho_de_ysmera_ataque",
+     "quadros": 6,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "olho_de_ysmera_dano",
+     "quadros": 2,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "olho_de_ysmera_derrota",
+     "quadros": 4,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "thessa_vurn": {
+   "id": "thessa_vurn",
+   "versao": null,
+   "nome": "Thessa Vurn, a Caçadora Contratada",
+   "familia": null,
+   "elemento": "raio",
+   "tamanho": 96,
+   "acoes": {
+    "parado": {
+     "imagem": "thessa_vurn_parado",
+     "quadros": 4,
+     "largura": 96,
+     "altura": 96,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "thessa_vurn_ataque",
+     "quadros": 7,
+     "largura": 160,
+     "altura": 112,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "ataque2": {
+     "imagem": "thessa_vurn_ataque2",
+     "quadros": 7,
+     "largura": 160,
+     "altura": 112,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "thessa_vurn_dano",
+     "quadros": 2,
+     "largura": 160,
+     "altura": 112,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "thessa_vurn_derrota",
+     "quadros": 5,
+     "largura": 160,
+     "altura": 112,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "arminho_geada_comum": {
+   "id": "arminho_geada",
+   "versao": "comum",
+   "nome": "Arminho da Geada",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "arminho_geada_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "arminho_geada_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "arminho_geada_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "arminho_geada_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "arminho_geada_veterano": {
+   "id": "arminho_geada",
+   "versao": "veterano",
+   "nome": "Arminho de Pelagem Branca",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "arminho_geada_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "arminho_geada_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "arminho_geada_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "arminho_geada_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "arminho_geada_elite": {
+   "id": "arminho_geada",
+   "versao": "elite",
+   "nome": "Rei dos Arminhos",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "arminho_geada_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "arminho_geada_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "arminho_geada_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "arminho_geada_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lobo_geada_comum": {
+   "id": "lobo_geada",
+   "versao": "comum",
+   "nome": "Lobo da Geada",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lobo_geada_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lobo_geada_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lobo_geada_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lobo_geada_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lobo_geada_veterano": {
+   "id": "lobo_geada",
+   "versao": "veterano",
+   "nome": "Lobo de Presas Brancas",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lobo_geada_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lobo_geada_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lobo_geada_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lobo_geada_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lobo_geada_elite": {
+   "id": "lobo_geada",
+   "versao": "elite",
+   "nome": "Alfa da Última Geada",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "lobo_geada_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lobo_geada_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lobo_geada_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lobo_geada_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "verme_geada_comum": {
+   "id": "verme_geada",
+   "versao": "comum",
+   "nome": "Verme da Geada",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "verme_geada_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "verme_geada_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "verme_geada_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "verme_geada_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "verme_geada_veterano": {
+   "id": "verme_geada",
+   "versao": "veterano",
+   "nome": "Verme Abissal",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "verme_geada_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "verme_geada_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "verme_geada_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "verme_geada_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "verme_geada_elite": {
+   "id": "verme_geada",
+   "versao": "elite",
+   "nome": "Devorador Glacial",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "verme_geada_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "verme_geada_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "verme_geada_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "verme_geada_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "mamute_glacial_comum": {
+   "id": "mamute_glacial",
+   "versao": "comum",
+   "nome": "Mamute Glacial",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "mamute_glacial_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "mamute_glacial_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "mamute_glacial_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "mamute_glacial_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "mamute_glacial_veterano": {
+   "id": "mamute_glacial",
+   "versao": "veterano",
+   "nome": "Mamute de Presas de Gelo",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "mamute_glacial_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "mamute_glacial_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "mamute_glacial_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "mamute_glacial_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "mamute_glacial_elite": {
+   "id": "mamute_glacial",
+   "versao": "elite",
+   "nome": "Ancião da Geleira",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "mamute_glacial_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "mamute_glacial_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "mamute_glacial_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "mamute_glacial_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "eco_mudo_comum": {
+   "id": "eco_mudo",
+   "versao": "comum",
+   "nome": "Eco Mudo",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "eco_mudo_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "eco_mudo_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "eco_mudo_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "eco_mudo_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "eco_mudo_veterano": {
+   "id": "eco_mudo",
+   "versao": "veterano",
+   "nome": "Eco Calado",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "eco_mudo_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "eco_mudo_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "eco_mudo_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "eco_mudo_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "eco_mudo_elite": {
+   "id": "eco_mudo",
+   "versao": "elite",
+   "nome": "Coro Silente",
+   "familia": "Monstros glaciais",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "eco_mudo_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "eco_mudo_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "eco_mudo_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "eco_mudo_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "tecelao_geada_comum": {
+   "id": "tecelao_geada",
+   "versao": "comum",
+   "nome": "Tecelão de Geada",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "tecelao_geada_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "tecelao_geada_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "tecelao_geada_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "tecelao_geada_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "tecelao_geada_veterano": {
+   "id": "tecelao_geada",
+   "versao": "veterano",
+   "nome": "Tecelão do Inverno",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "tecelao_geada_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "tecelao_geada_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "tecelao_geada_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "tecelao_geada_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "tecelao_geada_elite": {
+   "id": "tecelao_geada",
+   "versao": "elite",
+   "nome": "Mestre da Geada",
+   "familia": "Soldados de gelo",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "tecelao_geada_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "tecelao_geada_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "tecelao_geada_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "tecelao_geada_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_neve_comum": {
+   "id": "javali_neve",
+   "versao": "comum",
+   "nome": "Javali",
+   "familia": "Feras locais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_neve_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_neve_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_neve_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_neve_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_neve_veterano": {
+   "id": "javali_neve",
+   "versao": "veterano",
+   "nome": "Javali Velho",
+   "familia": "Feras locais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_neve_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_neve_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_neve_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_neve_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "javali_neve_elite": {
+   "id": "javali_neve",
+   "versao": "elite",
+   "nome": "Presa-Mestra",
+   "familia": "Feras locais",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "javali_neve_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "javali_neve_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "javali_neve_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "javali_neve_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_neve_comum": {
+   "id": "lebre_neve",
+   "versao": "comum",
+   "nome": "Lebre",
+   "familia": "Feras locais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_neve_comum_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_neve_comum_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_neve_comum_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_neve_comum_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_neve_veterano": {
+   "id": "lebre_neve",
+   "versao": "veterano",
+   "nome": "Lebre Arisca",
+   "familia": "Feras locais",
+   "elemento": "gelo",
+   "tamanho": 48,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_neve_veterano_parado",
+     "quadros": 4,
+     "largura": 48,
+     "altura": 48,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_neve_veterano_ataque",
+     "quadros": 5,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_neve_veterano_dano",
+     "quadros": 2,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_neve_veterano_derrota",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 64,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "lebre_neve_elite": {
+   "id": "lebre_neve",
+   "versao": "elite",
+   "nome": "Lebre-Fantasma",
+   "familia": "Feras locais",
+   "elemento": "gelo",
+   "tamanho": 64,
+   "acoes": {
+    "parado": {
+     "imagem": "lebre_neve_elite_parado",
+     "quadros": 4,
+     "largura": 64,
+     "altura": 64,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "lebre_neve_elite_ataque",
+     "quadros": 5,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "lebre_neve_elite_dano",
+     "quadros": 2,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "lebre_neve_elite_derrota",
+     "quadros": 4,
+     "largura": 128,
+     "altura": 80,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "alfa_da_ultima_geada": {
+   "id": "alfa_da_ultima_geada",
+   "versao": null,
+   "nome": "Alfa da Última Geada",
+   "familia": null,
+   "elemento": "gelo",
+   "tamanho": 80,
+   "acoes": {
+    "parado": {
+     "imagem": "alfa_da_ultima_geada_parado",
+     "quadros": 4,
+     "largura": 80,
+     "altura": 80,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "alfa_da_ultima_geada_ataque",
+     "quadros": 5,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "alfa_da_ultima_geada_dano",
+     "quadros": 2,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "alfa_da_ultima_geada_derrota",
+     "quadros": 4,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "bastiao_do_selo": {
+   "id": "bastiao_do_selo",
+   "versao": null,
+   "nome": "Bastião do Selo",
+   "familia": null,
+   "elemento": "gelo",
+   "tamanho": 80,
+   "acoes": {
+    "parado": {
+     "imagem": "bastiao_do_selo_parado",
+     "quadros": 4,
+     "largura": 80,
+     "altura": 80,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "bastiao_do_selo_ataque",
+     "quadros": 6,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "bastiao_do_selo_dano",
+     "quadros": 2,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "bastiao_do_selo_derrota",
+     "quadros": 4,
+     "largura": 144,
+     "altura": 96,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  },
+  "ysmera": {
+   "id": "ysmera",
+   "versao": null,
+   "nome": "Ysmera, a Arauto da Última Geada",
+   "familia": null,
+   "elemento": "gelo",
+   "tamanho": 112,
+   "acoes": {
+    "parado": {
+     "imagem": "ysmera_parado",
+     "quadros": 4,
+     "largura": 112,
+     "altura": 112,
+     "pivo_x": 0,
+     "fps": 8
+    },
+    "ataque": {
+     "imagem": "ysmera_ataque",
+     "quadros": 7,
+     "largura": 176,
+     "altura": 128,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "ataque2": {
+     "imagem": "ysmera_ataque2",
+     "quadros": 7,
+     "largura": 176,
+     "altura": 128,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "dano": {
+     "imagem": "ysmera_dano",
+     "quadros": 2,
+     "largura": 176,
+     "altura": 128,
+     "pivo_x": 32,
+     "fps": 10
+    },
+    "derrota": {
+     "imagem": "ysmera_derrota",
+     "quadros": 5,
+     "largura": 176,
+     "altura": 128,
+     "pivo_x": 32,
+     "fps": 10
+    }
+   }
+  }
+ }
+}

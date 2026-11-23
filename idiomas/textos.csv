@@ -1,0 +1,754 @@
+keys,pt,en
+TITULO_JOGO,Kaerith: O Despertar,Kaerith: The Awakening
+ABA_LOJA,Loja,Shop
+ABA_DIARIO,Diário,Journal
+ABA_INICIO,Início,Home
+ABA_INVENTARIO,Inventário,Inventory
+ABA_RANKING,Ranking,Ranking
+JOGAR_FASE,Jogar fase %d,Play stage %d
+LER_QR,Ler QR,Scan QR
+TEMPORADA_1,Temporada 1,Season 1
+ATO_N,Ato %d,Act %d
+EVENTOS,Eventos,Events
+MAPA_TITULO,Mapa de fases,Stage map
+VOLTAR,Voltar,Back
+EM_BREVE,Em breve,Coming soon
+CONFIG,Configurações,Settings
+IDIOMA,Idioma,Language
+NIVEL_N,Nv. %d,Lv. %d
+GALERIA,Galeria (teste),Gallery (test)
+GAL_HEROI,Herói,Hero
+GAL_INIMIGOS,Inimigos,Enemies
+GAL_ITENS,Itens,Items
+GAL_ARMA,Trocar arma,Change weapon
+GAL_ARMADURA,Trocar armadura,Change armor
+GAL_HEROI_INFO,"%d camadas de costas, %d de frente","%d back layers, %d front layers"
+GAL_ITENS_INFO,%d itens (toque para ver o nome),%d items (tap to see the name)
+TEMPORADA_ATO,Temporada 1 · Ato %d,Season 1 · Act %d
+FASE_N,Fase %d,Stage %d
+TIPO_COMBATE,Combate,Battle
+TIPO_ONDAS,Ondas de inimigos,Enemy waves
+TIPO_ELITE,Elite,Elite
+TIPO_SUPREMA,Elite Suprema,Supreme Elite
+TIPO_CHEFE,Chefe do ato,Act boss
+FASE_BLOQUEADA,Vença as fases anteriores para liberar esta.,Win the previous stages to unlock this one.
+JOGAR,Jogar,Play
+VENCER_TESTE,Vencer (teste),Win (test)
+FECHAR,Fechar,Close
+HEROI_NOME,Você,You
+VOCE,Você,You
+VOCE_CURTO,EU,ME
+VEZ,VEZ,TURN
+LUTA,Luta,Fight
+INVENTARIO,Inventário,Inventory
+SEM_POCOES,Sem poções.,No potions.
+MSG_INICIO,Fase %d: prepare-se!,Stage %d: get ready!
+MSG_SUA_VEZ,Sua vez. Toque num inimigo para mirar.,Your turn. Tap an enemy to aim.
+USAR_POCAO,Usar %s? Gasta o turno.,Use %s? It costs your turn.
+SIM,Sim,Yes
+NAO,Não,No
+ONDA_N,ONDA %d/%d,WAVE %d/%d
+MSG_ONDA,Onda %d de %d!,Wave %d of %d!
+MSG_CHEGOU,%s entrou na luta!,%s joined the fight!
+MSG_USOU,%s usou %s!,%s used %s!
+MSG_QUEIMA,%s queima: %d de dano.,%s burns: %d damage.
+MSG_VOCE_RECEBEU,Você recebeu %d de dano.,You took %d damage.
+MSG_RECEBEU,%s recebeu %d de dano.,%s took %d damage.
+EFICAZ,EFICAZ!,EFFECTIVE!
+RESISTE,RESISTE,RESISTS
+ESCUDO_ABS,ESCUDO -%d,SHIELD -%d
+ERROU,ERROU,MISS
+MSG_ERROU,O golpe errou!,The attack missed!
+MSG_COND,%s: %s,%s: %s
+MSG_POCAO,Você usou uma poção.,You used a potion.
+MSG_VOCE_CAIU,Você caiu...,You fell...
+MSG_CAIU,%s caiu!,%s is down!
+MSG_INTERROMPIDO,%s foi interrompido e perdeu a ação!,%s was interrupted and lost the action!
+MSG_ATORDOADO,%s está atordoado e não age!,%s is stunned and can't act!
+MSG_CONTRAGOLPE,%s contra-ataca!,%s counters!
+MSG_FRENESI,%s entra em frenesi!,%s goes into a frenzy!
+MSG_FASE2,%s muda de postura!,%s changes stance!
+PAUSA_TEXTO,Pausa. Desistir conta como derrota e gasta 1 vida.,Paused. Giving up counts as a defeat and costs 1 life.
+CONTINUAR,Continuar,Continue
+DESISTIR,Desistir,Give up
+VITORIA,Vitória!,Victory!
+DERROTA,Derrota,Defeat
+RES_XP,+%d de XP,+%d XP
+RES_NIVEL,Subiu para o nível %d!,Reached level %d!
+RES_MOEDAS,+%d moedas,+%d coins
+RES_FRAG,+%d fragmentos de %s,+%d %s fragments
+RES_VIDA,-1 vida,-1 life
+RES_PERDA,-%d moedas,-%d coins
+SEM_VIDAS,Sem vidas. Espere recarregar para jogar.,No lives left. Wait for them to refill.
+EL_FOGO,Fogo,Fire
+EL_AGUA,Água,Water
+EL_TERRA,Terra,Earth
+EL_AR,Ar,Air
+EL_RAIO,Raio,Lightning
+EL_GELO,Gelo,Ice
+COND_QUEIMADURA,Queimadura,Burn
+COND_ENCHARCADO,Encharcado,Soaked
+COND_LENTIDAO,Lentidão,Slow
+COND_ENFRAQUECIDO,Enfraquecimento,Weakened
+COND_ATORDOADO,Atordoamento,Stun
+COND_CONGELADO,Congelamento,Frozen
+COND_MARCADO,Marca de Caça,Hunter's Mark
+COND_ESCUDO,Escudo,Shield
+COND_FURIA,Fúria,Fury
+COND_FORTIFICADO,Fortificado,Fortified
+COND_IMPETO,Ímpeto,Haste
+COND_REGENERACAO,Regeneração,Regeneration
+COND_FIRMEZA,Firmeza,Steadfast
+COND_CAMPO,Campo Estático,Static Field
+COND_SOBRECARGA,Sobrecarga,Overcharge
+COND_P_REFLEXO,Tônico de Reflexo,Reflex Tonic
+COND_P_SANGUE,Sangue Quente,Hot Blood
+COND_P_GRANITO,Elixir de Granito,Granite Elixir
+COND_P_FALCAO,Olho de Falcão,Falcon Eye
+COND_P_RESSONANCIA,Elixir de Ressonância,Resonance Elixir
+ELEMENTO_TESTE,Elemento: %s (teste),Element: %s (test)
+REINICIAR_TESTE,Reiniciar jogo (teste),Restart game (test)
+REINICIAR_CONFIRMA,Toque de novo para zerar tudo,Tap again to reset everything
+PROLOGO_1,Você consegue me ouvir?,Can you hear me?
+PROLOGO_2,Não tema o silêncio. Ele não é vazio. É apenas aquilo que permanece quando todas as coisas deixam de responder.,Do not fear the silence. It is not empty. It is only what remains when all things stop answering.
+PROLOGO_3,"Durante muito tempo, observei. Vi o mundo mudar. E, em cada mudança, algo permaneceu.","For a long time, I watched. I saw the world change. And in every change, something remained."
+PROLOGO_4,Um vestígio. Uma lembrança. Uma vibração que não deveria continuar existindo. Um Eco.,A trace. A memory. A vibration that should no longer exist. An Echo.
+PROLOGO_5,A maioria ignora. Mas alguns escutam. Você é um desses poucos.,Most ignore it. But some listen. You are one of those few.
+PROLOGO_6,Você chegou até aqui porque procurou. E agora os Ecos respondem à sua presença.,You came this far because you searched. And now the Echoes answer your presence.
+PROLOGO_7,Mas tenha cuidado. Nem tudo o que está disperso deseja ser reunido. E nem toda voz que responde quando você chama está tentando ajudá-lo.,But be careful. Not everything that is scattered wishes to be gathered. And not every voice that answers when you call is trying to help you.
+PROLOGO_8,Não posso lhe dizer quem sou. Ainda não.,I cannot tell you who I am. Not yet.
+PROLOGO_9,Os Ecos estão despertando. Escute com atenção. O próximo Eco pode estar mais perto do que você imagina.,The Echoes are awakening. Listen closely. The next Echo may be closer than you think.
+PULAR,Pular,Skip
+CRI_TITULO,Quem é você?,Who are you?
+CRI_NOME,Seu nome,Your name
+CRI_SEXO,Corpo,Body
+CRI_PELE,Pele,Skin
+CRI_CABELO,Cabelo,Hair
+CRI_BARBA,Barba,Beard
+CRI_PELOS,Cor dos pelos,Hair color
+CRI_CORPO_1,Tipo 1,Type 1
+CRI_CORPO_2,Tipo 2,Type 2
+CRI_TOM,Tom %d,Tone %d
+CRI_SEM_BARBA,Sem barba,None
+CRI_BARBA_CURTA,Curta,Short
+CRI_BARBA_CHEIA,Cheia,Full
+CRI_CABELO_CURTO,Curto,Short
+CRI_CABELO_LONGO,Longo,Long
+CRI_CABELO_PRESO,Preso,Tied
+COR_CASTANHO,Castanho,Brown
+COR_CASTANHO_ESCURO,Castanho-escuro,Dark brown
+COR_PRETO,Preto,Black
+COR_LOIRO,Loiro,Blond
+COR_RUIVO,Ruivo,Red
+COR_GRISALHO,Grisalho,Gray
+COR_PLATINADO,Platinado,Platinum
+CRI_COMECAR,Começar,Begin
+TUT_INICIO,Um bandido bloqueia a estrada. Escolha uma habilidade para agir.,A bandit blocks the road. Pick a skill to act.
+TUT1_1,Golpe é o ataque básico e nunca acaba. Use-o à vontade.,Strike is the basic attack and never runs out. Use it freely.
+TUT1_2,Guarda corta pela metade o dano que você recebe até o seu próximo turno.,Guard halves the damage you take until your next turn.
+TUT1_3,Quem tem mais Agilidade age primeiro. A fila mostra a ordem da rodada.,Whoever has more Agility acts first. The queue shows the round order.
+TUT2_1,Dois inimigos! Golpe Rápido age antes de todos.,Two enemies! Quick Strike acts before everyone.
+TUT2_2,Varredura atinge todos os inimigos de uma vez.,Sweep hits every enemy at once.
+TUT2_3,"Vida baixa? Na aba Inventário, use a Poção de Vida.",Low on Vida? Use the Health Potion in the Inventory tab.
+TUT_DESPERTOU,Um poder novo corre em você. Use a sua habilidade de elemento!,A new power runs through you. Use your element skill!
+TUT_DERROTA,"Não foi desta vez. No tutorial, perder não custa vidas.","Not this time. In the tutorial, losing costs no lives."
+TENTAR_DE_NOVO,Tentar de novo,Try again
+PRESENTE,"Presente de boas-vindas: 500 moedas, 20 cristais e 3 Poções de Vida I.","Welcome gift: 500 coins, 20 crystals and 3 Health Potions I."
+DESP_ESCOLHA,Os Ecos respondem a você. Escolha aquele que vai acompanhá-lo.,The Echoes answer you. Choose the one that will walk with you.
+DESP_ESCOLHER,Escolher este elemento,Choose this element
+DESP_HAB,Escolha a sua primeira habilidade de elemento:,Choose your first element skill:
+DESP_TROCAR,Qual habilidade comum ela vai substituir?,Which common skill will it replace?
+DESP_OUVIU,Você ouviu. Poucos ouvem.,You heard. Few do.
+DESP_FOGO,O fogo reconheceu a sua vontade.,Fire recognized your will.
+DESP_AGUA,A água acompanhou o seu movimento.,Water followed your movement.
+DESP_TERRA,A terra sentiu o peso da sua decisão.,Earth felt the weight of your decision.
+DESP_AR,"O ar trouxe um sinal, e você o entendeu.","Air brought a sign, and you understood it."
+DESP_RAIO,O raio anunciou uma mudança: você.,Lightning announced a change: you.
+DESP_GELO,O gelo confiou a você um segredo.,Ice entrusted you with a secret.
+DESP_GUARDE,Guarde este momento. O mundo vai tentar fazer você esquecê-lo.,Hold on to this moment. The world will try to make you forget it.
+FUNCAO_FOGO,Dano direto e explosivo.,"Direct, explosive damage."
+FUNCAO_AGUA,Suporte e recuperação.,Support and recovery.
+FUNCAO_TERRA,Defesa.,Defense.
+FUNCAO_AR,"Mobilidade, reposicionamento e controle.","Mobility, repositioning and control."
+FUNCAO_RAIO,Pressão e interrupção.,Pressure and interruption.
+FUNCAO_GELO,"Restrição, lentidão e enfraquecimento.","Restriction, slowing and weakening."
+CAT_COMUM,Comum,Common
+CAT_OFENSIVA,Ofensiva (%d usos),Offensive (%d uses)
+CAT_DEFENSIVA,Defensiva (%d usos),Defensive (%d uses)
+CAT_UTILITARIA,Utilitária (%d usos),Utility (%d uses)
+ATR_FORCA,Força,Strength
+ATR_PERCEPCAO,Percepção,Perception
+ATR_AGILIDADE,Agilidade,Agility
+ATR_RESISTENCIA,Resistência,Resistance
+ATR_RESSONANCIA,Ressonância,Resonance
+ATR_VIDA,Vida,Vida
+DESC_DANO,dano de %d%% da %s %s,%d%% %s damage %s
+DESC_GOLPES,%d golpes de %d%% da %s %s,%d hits of %d%% %s %s
+DESC_UM,em um inimigo,to one enemy
+DESC_TODOS,em todos os inimigos,to all enemies
+DESC_PRIO,age primeiro,acts first
+DESC_CERTEIRO,nunca erra,never misses
+DESC_CRIT,+%d%% de chance de crítico,+%d%% critical chance
+DESC_DRENO,recupera %d%% do dano causado,heals %d%% of the damage dealt
+DESC_COND,aplica %s,applies %s
+DESC_ESCUDO,escudo de %d%% da Ressonância,shield worth %d%% of Resonance
+DESC_CURA,cura %d%% da Vida máxima,heals %d%% of max Vida
+DESC_COND_SI,concede %s,grants %s
+DESC_REFLEXO,quem atacar o escudo recebe %s,attackers hitting the shield get %s
+DESC_BONUS,+%d%% de dano em alvos com %s,+%d%% damage to targets with %s
+DESC_ALIADOS,afeta você e seus aliados,affects you and your allies
+DESC_X_GUARDA,corta pela metade o dano recebido até o seu próximo turno,halves damage taken until your next turn
+DESC_X_EXPOSTO,você recebe +20% de dano até o seu próximo turno,you take +20% damage until your next turn
+DESC_X_CONTRAGOLPE,revida o próximo golpe recebido com 150% da Força,answers the next hit taken with 150% Strength
+DESC_X_PURIFICA1,remove 1 condição negativa,removes 1 negative condition
+DESC_X_PUNHO,+20% de dano se você tiver Escudo ou Fortificado,+20% damage while you have Shield or Fortified
+DESC_X_SENTENCA,soma a sua Resistência ao dano,adds your Resistance to the damage
+DESC_X_PLUMA,+15% de esquiva enquanto durar,+15% dodge while it lasts
+DESC_X_TIRA_POSITIVO,remove 1 condição positiva de cada alvo atingido,removes 1 positive condition from each target hit
+DESC_X_DEVOLVE_USO,devolve 1 uso à habilidade de elemento mais gasta,restores 1 use to your most spent element skill
+DESC_X_INTERROMPE,o alvo perde a ação se ainda não agiu,the target loses its action if it has not acted yet
+DESC_X_CADEIA,salta para até 2 outros inimigos com 90%,jumps to up to 2 other enemies at 90%
+DESC_X_CRIT_ATORDOA,"no crítico, aplica Atordoamento","on a critical hit, applies Stun"
+PERSONAGEM,Personagem,Character
+XP_N,XP %d / %d,XP %d / %d
+SEM_ELEMENTO,Sem elemento,No element
+HABILIDADES,Habilidades,Skills
+ATRIBUTOS,Atributos,Attributes
+TOQUE_HEROI,Toque no herói para ver o personagem,Tap the hero to see your character
+CHEG_REGIAO,Campos de Auren,Fields of Auren
+CHEG_1,"Campos de Auren. Trigo até onde a vista alcança, e estradas que ninguém mais vigia.","The Fields of Auren. Wheat as far as the eye can see, and roads no one watches anymore."
+CHEG_2,"Desde que os Ecos começaram a despertar, há quem os cace. Um fragmento vale mais que uma colheita inteira.","Ever since the Echoes began to awaken, there are those who hunt them. A single fragment is worth more than a whole harvest."
+CHEG_3,"Bandidos rondam estas estradas com frascos vazios, esperando quem carrega um Eco.","Bandits roam these roads with empty flasks, waiting for anyone who carries an Echo."
+CHEG_4,Você ainda não carrega nenhum. Mas eles não sabem disso.,You carry none yet. But they don't know that.
+CHEG_BATEDOR,Batedor,Scout
+CHEG_5,Alto lá! Quem passa por esta estrada deixa alguma coisa para trás.,Halt! Whoever walks this road leaves something behind.
+CHEG_6,"Não fuja. Lute, e escute o que a luta tem a ensinar.","Don't run. Fight, and listen to what the fight can teach you."
+TUT1_INICIO,O Batedor ataca! Escolha uma habilidade para agir.,The Scout attacks! Pick a skill to act.
+TUT2_INICIO,O primeiro chamou ajuda. Agora são dois.,The first one called for help. Now there are two.
+DESP_INTRO_1,Espere. Ainda não é a sua hora de cair.,Wait. It is not your time to fall yet.
+DESP_INTRO_2,Os Ecos sentiram você. Cada um carrega uma força diferente. Veja.,The Echoes have sensed you. Each one carries a different strength. Look.
+DESP_TOQUE,Toque em um elemento,Tap an element
+DESP_TITULO,O Despertar,The Awakening
+RES_RECOMPENSAS,Recompensas,Rewards
+RES_PERDAS,Perdas,Losses
+RES_L_XP,XP,XP
+RES_L_MOEDAS,Moedas,Coins
+RES_L_FRAG,Fragmentos de %s,%s fragments
+RES_L_VIDA,Vida,Life
+RES_NV,NV %d,LV %d
+RES_SUBIU,SUBIU!,LEVEL UP!
+MAPA,Mapa,Map
+PROXIMA,Próxima,Next
+INTRO_BATALHA_1,Primeira batalha,First battle
+INTRO_ELEMENTO,Elemento,Element
+INTRO_FIM,Introdução concluída!,Introduction complete!
+INTRO_SUB,O Despertar,The Awakening
+INTRO_SEGUIR,Começar a jornada,Begin the journey
+INTRO_TEXTO,"%s, seu elemento despertou. Agora os Campos de Auren esperam por você.","%s, your element has awakened. Now the Fields of Auren await you."
+BV_TITULO,Boas-vindas!,Welcome!
+BV_SUB,Presente de boas-vindas,Welcome gift
+BV_TEXTO,"Para começar bem, %s, leve estes presentes.","To start off well, %s, take these gifts."
+BV_COLETAR,Coletar,Collect
+BV_RECEBE,Você recebe,You receive
+BV_L_MOEDAS,Moedas,Coins
+BV_L_CRISTAIS,Cristais,Crystals
+BV_L_POCAO,Poção de Vida I,Health Potion I
+EQ_CABECA,Cabeça,Head
+EQ_ARMA,Arma,Weapon
+EQ_ARMADURA,Armadura,Armor
+EQ_ACESSORIO,Acessório,Accessory
+EQ_ACESSORIO_1,Acess. 1,Acc. 1
+EQ_ACESSORIO_2,Acess. 2,Acc. 2
+EQ_FICHA,Ver ficha,Stats
+EQ_CONJ_3,3 peças: +10% Ressonância,3 pieces: +10% Resonance
+EQ_CONJ_5,5 peças: +20% Ressonância,5 pieces: +20% Resonance
+EQ_CONJ_FALTA,faltam %d para o bônus,%d more for the bonus
+EQ_SEM_CONJUNTO,Peças Raras ou melhores formam conjuntos.,Rare or better pieces form sets.
+EQ_ABA_EQUIP,Equipamentos,Equipment
+EQ_ABA_CONSUMIVEIS,Consumíveis,Consumables
+EQ_ABA_FRAGMENTOS,Fragmentos,Fragments
+EQ_FILTRO,Espaço: %s,Slot: %s
+EQ_F_TODOS,Todos,All
+EQ_F_ARMA,Arma,Weapon
+EQ_F_ARMADURA,Armadura,Armor
+EQ_F_CABECA,Cabeça,Head
+EQ_F_ACESSORIO,Acessório,Accessory
+EQ_TESTE,Ganhar peças (teste),Get pieces (test)
+EQ_VAZIO,Nenhuma peça aqui ainda. Vença fases de Elite e chefes para ganhar equipamentos.,No pieces here yet. Beat Elite and boss stages to earn equipment.
+EQ_NOTA_CONSUMIVEIS,Consumíveis não podem ser vendidos nem excluídos.,Consumables can't be sold or deleted.
+EQ_NOTA_FRAGMENTOS,Os fragmentos evoluem os Orbes de cada elemento.,Fragments upgrade the Orbs of each element.
+RAR_COMUM,Comum,Common
+RAR_INCOMUM,Incomum,Uncommon
+RAR_RARO,Raro,Rare
+RAR_EPICO,Épico,Epic
+RAR_LENDARIO,Lendário,Legendary
+EQ_EXTRA,Extra,Bonus
+EQ_HAB_EL,Habilidades de %s,%s skills
+EQ_EQUIPADA_AGORA,Equipada agora: %s,Equipped now: %s
+EQ_ESPACO_VAZIO,O espaço desta peça está vazio.,This piece's slot is empty.
+EQ_TIRAR,Tirar,Unequip
+EQ_EQUIPAR,Equipar,Equip
+EQ_EQUIPAR_NO,Equipar no espaço %d,Equip in slot %d
+EQ_VENDER,Vender · %d moedas,Sell · %d coins
+EQ_EXCLUIR,Excluir,Delete
+EQ_EXCLUIR_PERGUNTA,Excluir %s? Não dá para desfazer.,Delete %s? This can't be undone.
+EQ_EXTRA_VIDA,+%d%% Vida,+%d%% Life
+EQ_EXTRA_CRIT,+%d%% dano crítico,+%d%% critical damage
+RES_L_ITEM,Peça nova,New piece
+RES_L_CRISTAIS,Cristais,Crystals
+EQ_ACESS_AGORA,Acessórios equipados: %s e %s,Equipped accessories: %s and %s
+EQ_VAZIO_CURTO,vazio,empty
+EQ_TROCANDO,Comparando com %s,Comparing with %s
+EQ_CONJ_REGRA,3 peças: +10% Ressonância · 5 peças: +20%,3 pieces: +10% Resonance · 5 pieces: +20%
+EQ_ESCOLHA_ACESS,Toque no Acess. 1 ou no Acess. 2,Tap Acc. 1 or Acc. 2
+EQ_PECAS_N,%d peças,%d pieces
+CANCELAR,Cancelar,Cancel
+OK,OK,OK
+QR_TITULO,Ler QR Code,Scan QR Code
+QR_APONTE,Aponte a câmera para um QR Code de Kaerith.,Point the camera at a Kaerith QR Code.
+QR_ESCOLHER_IMAGEM,Escolher imagem,Choose image
+QR_TESTE_HORARIO,Sem horário (teste),Any time (test)
+QR_TESTE_RARO,Forçar raro (teste),Force rare (test)
+QR_SEM_CAMERA,"Este aparelho não tem câmera disponível. Use um celular com câmera para ler o QR.","No camera available on this device. Use a phone with a camera to scan the QR."
+QR_WEB_PEDINDO,"Toque em ""Permitir"" para o jogo usar a câmera.","Tap ""Allow"" so the game can use the camera."
+QR_WEB_NEGADA,"A câmera foi bloqueada. Libere nas permissões do navegador (cadeado ao lado do endereço).","The camera was blocked. Allow it in the browser's permissions (padlock next to the address)."
+QR_WEB_HTTPS,"A câmera só abre em páginas seguras (https). Abra o jogo pelo endereço https.","The camera only opens on secure pages (https). Open the game from its https address."
+QR_ERRO_IMAGEM,Não consegui abrir essa imagem.,Couldn't open that image.
+QR_LENDO,Lendo a imagem...,Reading the image...
+QR_NAO_ACHOU,Nenhum QR Code encontrado nessa imagem.,No QR Code found in that image.
+QR_LIDO,QR Code lido!,QR Code scanned!
+QR_ERRO_OUTRO,Esse QR Code não é de Kaerith.,This QR Code isn't from Kaerith.
+QR_ERRO_FALSO,QR Code inválido: a assinatura não confere.,Invalid QR Code: the signature doesn't match.
+QR_ERRO_VERSAO,Esse QR Code é de uma versão mais nova do jogo.,This QR Code is from a newer version of the game.
+QR_SEM_VIDAS,Sem vidas: espere uma vida voltar para ler QR Codes.,No lives: wait for a life to come back to scan QR Codes.
+QR_FORA_HORARIO,Esse QR só funciona das 10h às 23h no horário de onde ele está.,"This QR only works from 10 AM to 11 PM, local time where it is."
+QR_EVENTO_ATIVO,Você já tem um Evento aberto no mapa. Termine-o primeiro.,You already have an Event open on the map. Finish it first.
+QR_INFO_TESTE,Modo teste: qualquer horário,Test mode: any time
+QR_INFO_PRONTO,Pronto para ler,Ready to scan
+QR_INFO_HORARIO,QR das 10h às 23h,QR from 10 AM to 11 PM
+QR_N,QR Nº %d,QR No. %d
+QR_T_RECURSO,Recurso encontrado!,Resource found!
+QR_T_RECURSO_RARO,Recurso raro!,Rare resource!
+QR_D_RECURSO,A Ressonância deste ponto deixou algo para você.,This point's Resonance left something for you.
+QR_BAU_COMUM,Baú,Chest
+QR_BAU_DOURADO,Baú dourado!,Golden chest!
+QR_BAU_AVISO,"Se fechar agora, o baú se perde.","If you close now, the chest is lost."
+QR_ABRIR_BAU,Abrir baú,Open chest
+QR_AGORA_NAO,Agora não,Not now
+QR_T_BAU,Baú aberto!,Chest opened!
+QR_T_BAU_DOURADO,Baú dourado aberto!,Golden chest opened!
+QR_SUPREMA,Elite Suprema!,Supreme Elite!
+QR_INIMIGO_AVISO,Vencer dá a recompensa de Elite e entra no ranking do dia deste QR. Perder gasta 1 vida.,Winning gives the Elite reward and enters this QR's daily ranking. Losing costs 1 life.
+QR_LUTAR,Lutar,Fight
+QR_T_EVENTO,Um caminho se abriu!,A path has opened!
+QR_T_EVENTO_RARO,Um caminho raro se abriu!,A rare path has opened!
+QR_D_EVENTO,"Um caminho de 5 fases apareceu no mapa, ao lado da sua fase atual. Ele fica aberto por 24 horas e tem um prêmio no fim.","A 5-stage path has appeared on the map, next to your current stage. It stays open for 24 hours and has a prize at the end."
+QR_VER_MAPA,Ver no mapa,See on map
+QR_DEPOIS,Depois,Later
+QR_POCAO_I,Poção de Vida I,Health Potion I
+QR_POCAO_II,Poção de Vida II,Health Potion II
+QR_VOLTAR_INICIO,Voltar ao Início,Back to Home
+MSG_INICIO_QR,Uma Elite surge do Ponto de Ressonância!,An Elite emerges from the Resonance Point!
+MSG_INICIO_EVENTO,"Evento, fase %d: prepare-se!","Event, stage %d: get ready!"
+EVENTO_FASE,Evento · Fase %d/5,Event · Stage %d/5
+EVENTO_CONCLUIDO,Evento concluído!,Event complete!
+EVENTO_CURTO,EVENTO,EVENT
+EVENTO_PREMIO,"Prêmio no fim: 1 peça Rara, 15 fragmentos e 20 cristais.","Final prize: 1 Rare piece, 15 fragments and 20 crystals."
+EVENTO_VENCIDA,Você já venceu esta fase do Evento.,You already beat this Event stage.
+VIDAS_TITULO,Vidas,Lives
+VIDAS_CHEIAS,Suas vidas estão cheias.,Your lives are full.
+VIDAS_PROXIMA,%d de %d vidas. Próxima vida em:,%d of %d lives. Next life in:
+VIDAS_RECARREGAR,Recarregar tudo · %d,Refill all · %d
+VIDAS_SEM_CRISTAIS,Faltam cristais (%d),Not enough crystals (%d)
+VIDAS_TESTE_MENOS,-1 vida (teste),-1 life (test)
+VIDAS_TESTE_RAPIDO,1 vida a cada 40 s (teste),1 life every 40 s (test)
+VIDAS_VER,Ver vidas,See lives
+LOJA_BLOQUEADA,A Loja abre depois da fase 5.,The Shop opens after stage 5.
+LOJA_ABRIR_TESTE,Abrir a Loja (teste),Open the Shop (test)
+LOJA_PROMOCOES,PROMOÇÕES,OFFERS
+LOJA_SO_ENQUANTO,1 por conta,1 per account
+LOJA_ITENS_DIA,ITENS DO DIA,ITEMS OF THE DAY
+LOJA_EQUIP_DIA,EQUIPAMENTOS DO DIA,GEAR OF THE DAY
+LOJA_CRISTAIS,CRISTAIS,CRYSTALS
+LOJA_DOBRO,1ª compra em dobro,1st purchase doubled
+LOJA_MOEDAS,MOEDAS,COINS
+LOJA_TROCA,troque cristais,trade crystals
+LOJA_TOQUE_VER,toque para ver,tap to view
+LOJA_RENOVA,RENOVA EM %s,RENEWS IN %s
+LOJA_GRATIS,GRÁTIS,FREE
+LOJA_VENDIDO,VENDIDO,SOLD
+LOJA_PACOTE_CRISTAIS,%d cristais,%d crystals
+LOJA_PACOTE_MOEDAS,%s moedas,%s coins
+LOJA_CONFIRMAR,Confirmar compra,Confirm purchase
+LOJA_COMPRAR,Comprar,Buy
+LOJA_COMPRAR_REAL,Comprar,Buy
+LOJA_REAL_DEPOIS,Compras com dinheiro real (%s) chegam na versão das lojas oficiais.,Real-money purchases (%s) arrive with the official store version.
+LOJA_PROMO_LIMITE,1 compra por conta enquanto a promoção estiver ativa.,1 purchase per account while the offer is active.
+LOJA_SEM_SALDO,Saldo insuficiente.,Not enough funds.
+PROMO_BOLSA,Bolsa de Ecos,Echo Pouch
+PROMO_BOLSA_DESC,100 fragmentos do elemento que você escolher + 50 cristais.,100 fragments of the element you choose + 50 crystals.
+PROMO_CONJUNTO,Conjunto Elemental,Elemental Set
+PROMO_CONJUNTO_DESC,3 peças Épicas do mesmo elemento.,3 Epic pieces of the same element.
+DIARIO_HISTORIA,História,Story
+DIARIO_MISSOES,Missões,Quests
+DIARIO_PERSONAGENS,Personagens,Characters
+DIARIO_BESTIARIO,Bestiário,Bestiary
+DIARIO_MISSOES_VAZIO,Nenhuma missão por enquanto. Os pedidos dos moradores aparecem aqui.,No quests yet. Requests from locals will appear here.
+DIARIO_PERSONAGENS_VAZIO,Ninguém encontrado ainda.,No one met yet.
+DIARIO_NOVO,NOVO,NEW
+DIARIO_CAP_PROLOGO,A Voz Entre os Ecos,The Voice Among the Echoes
+DIARIO_SUB_PROLOGO,Prólogo,Prologue
+DIARIO_SUB_CHEGADA,A chegada,The arrival
+DIARIO_SUB_DESPERTAR,A Voz no Despertar,The Voice at the Awakening
+DIARIO_TEMPORADA_1,TEMPORADA 1,SEASON 1
+DIARIO_CAPITULO_N,Cap. %d,Ch. %d
+DIARIO_CAP_1,O Primeiro Chamado,The First Call
+DIARIO_CAP_2,A Mata Que Não Canta,The Forest That Does Not Sing
+DIARIO_CAP_3,Os Que Ainda Falam,Those Who Still Speak
+DIARIO_CAP_4,Onde o Vento Para,Where the Wind Stops
+DIARIO_EM_BREVE,Ainda não vivido,Not yet lived
+DIARIO_VOZ,A Voz,The Voice
+DIARIO_VOZ_DESC,Fala com você desde o começo. Ninguém sabe de onde.,It has spoken to you since the beginning. No one knows from where.
+DIARIO_VISTO_EM,Visto em: %s,Seen in: %s
+DIARIO_ELEMENTO,Elemento: %s,Element: %s
+DIARIO_SEM_ELEMENTO,nenhum,none
+DIARIO_FAMILIA,Família: %s,Family: %s
+DIARIO_VITORIAS,Vitórias: %d,Wins: %d
+DIARIO_HABILIDADES,Habilidades: %s,Skills: %s
+DIARIO_FRAQUEZAS,Fraco contra: %s,Weak against: %s
+DIARIO_SEM_FRAQUEZA,nenhum elemento,no element
+DIARIO_REVELA_3,Vença mais %d para revelar habilidades e fraquezas.,Win %d more to reveal skills and weaknesses.
+DIARIO_REVELA_VETERANO,Vença o Veterano para revelar uma frase da história.,Defeat the Veteran to reveal a story line.
+DIARIO_REVELA_ELITE,Vença a Elite para revelar uma frase da história.,Defeat the Elite to reveal a story line.
+BEST_FRASE_PENDENTE,(frase da história ainda não escrita),(story line not written yet)
+DIARIO_DESCOBERTOS,%d de %d descobertos,%d of %d discovered
+DIARIO_ONDE_QR,QR Code,QR Code
+DIARIO_ONDE_EVENTO,Evento do QR,QR Event
+RES_CONTINUAR_VIDEO,Continuar com vídeo,Continue with video
+MSG_CONTINUOU,Você se levanta mais uma vez!,You rise once more!
+VIDAS_VIDEO,Assistir vídeo: +1 vida,Watch video: +1 life
+ANUNCIO_TESTE,Anúncio de teste,Test ad
+ANUNCIO_TESTE_DESC,Aqui vai aparecer o vídeo do AdMob. Por enquanto é só uma espera de 5 segundos.,The AdMob video will appear here. For now it is just a 5-second wait.
+ANUNCIO_RECEBER,Receber prêmio,Get reward
+RANK_NIVEL,Nível,Level
+RANK_CACADOR,Caçador,Hunter
+RANK_BESTIARIO,Bestiário,Bestiary
+RANK_GERAL,Geral,Overall
+RANK_ATUALIZAR,Atualizar,Refresh
+RANK_QR,Ranking do QR (por inimigo),QR ranking (per enemy)
+RANK_GERAL_FECHADO,"O ranking Geral abre no fechamento da temporada: é a soma dos rankings Nível, Caçador e Bestiário.","The Overall ranking opens when the season closes: it adds up the Level, Hunter and Bestiary rankings."
+RANK_SEM_ONLINE,O ranking online ainda não está ligado neste jogo (falta configurar o Firebase). Seus pontos aparecem embaixo.,The online ranking is not enabled in this game yet (Firebase still needs to be set up). Your points are shown below.
+RANK_CARREGANDO,Carregando...,Loading...
+RANK_SEM_CONEXAO,Sem conexão. O jogo continua offline; tente de novo depois.,No connection. The game keeps working offline; try again later.
+RANK_VAZIO,Ninguém no ranking ainda.,No one in the ranking yet.
+RANK_PTS,%d pts,%d pts
+RANK_VOCE,VOCÊ,YOU
+RANK_QR_NENHUM,Vença um QR Inimigo para entrar no ranking dele.,Defeat a QR Enemy to enter its ranking.
+RANK_QR_ESCOLHA,Escolha o inimigo do QR,Choose the QR enemy
+RANK_QR_VOLTAR,Voltar,Back
+RANK_QR_PREMIO,Quem vence primeiro fica em cima. Às 23h o ranking do dia fecha e os 3 primeiros ganham 30 cristais.,Whoever wins first is on top. At 11 PM the day's ranking closes and the top 3 get 30 crystals.
+EVENTO,Evento,Event
+PROMOCAO,Promoção,Offer
+EM_BREVE_TEXTO,Os eventos do jogo abrem depois da fase 15.,Game events open after stage 15.
+IDIOMA_TROCAR,Idioma: Português / English,Language: Português / English
+REINICIAR_SIM,Zerar tudo,Reset everything
+REINICIAR_AVISO,Isso apaga todo o progresso deste aparelho e volta ao Prólogo.,This erases all progress on this device and goes back to the Prologue.
+MAPA_ATO_BLOQUEADO,Vença o chefe do Ato %d para liberar,Defeat the Act %d boss to unlock
+MAPA_IR_ATUAL,FASE ATUAL,CURRENT STAGE
+HAB_DICA,Toque numa habilidade para trocar. Segure para ver os detalhes.,Tap a skill to swap it. Hold it to see the details.
+HAB_GUARDADAS,Guardadas,Stored
+HAB_NENHUMA,Nenhuma outra habilidade por enquanto. Os Orbes ensinam novas.,No other skills yet. Orbs teach new ones.
+HAB_TROCAR,Trocar o espaço %d,Swap slot %d
+HAB_LIMITE_FORA,Só pode ter 1 habilidade de outro elemento ou combinada entre as 4.,Only 1 skill from another element or combined among the 4.
+DIARIO_VOLTAR,< Voltar ao índice,< Back to contents
+HAB_ONDE_TROCAR,Troque em Inventário > Habilidades,Swap them in Inventory > Skills
+EQ_ABA_PECAS,Peças,Gear
+EQ_FICHA_CURTA,Ficha,Sheet
+FICHA_TITULO,Ficha,Character Sheet
+FICHA_EXPERIENCIA,Experiência,Experience
+FICHA_EQUIPAMENTOS,Equipamentos,Equipment
+RES_VOLTAR_MAPA,Voltar ao mapa,Back to map
+ATO_EM_CURSO,Em curso,In progress
+ATO_TERMINA_EM,Termina em,Ends in
+ATO_COMECA_EM,Começa em,Starts in
+ATO_ENCERRADO,Encerrado,Ended
+ATO_JORNADA,Sua jornada,Your journey
+ATO_FASES_VENCIDAS,Fases vencidas neste ato,Stages cleared in this act
+ATO_CHEFE,Chefe,Boss
+ATO_CRIATURAS,Criaturas encontradas,Creatures found
+ATO_VER_MAPA,Ver mapa,View map
+ATO_DESC_1,"Estradas de terra, cercas e moinhos. Bandidos tomaram os caminhos de Auren e os animais andam inquietos. Algo despertou nos campos, e é aqui que a sua jornada começa.","Dirt roads, fences and windmills. Bandits have taken the roads of Auren and the animals are restless. Something has woken in the fields, and this is where your journey begins."
+ATO_DESC_2,Uma mata fechada onde a névoa repete o que ninguém disse. Feras tocadas por uma força estranha guardam trilhas que não aparecem em mapa nenhum.,A dense forest where the mist repeats what no one said. Beasts touched by a strange force guard trails that appear on no map.
+ATO_DESC_3,"Pedra, lama e neve na fronteira. Caçadores de recompensa vigiam a passagem, e o frio chega antes da hora trazendo soldados que não deveriam estar ali.","Stone, mud and snow on the border. Bounty hunters watch the pass, and the cold arrives too early, bringing soldiers who should not be there."
+ATO_DESC_4,"O vale onde o som se apaga. O gelo cobre tudo, e só os passos de quem segue em frente quebram o silêncio. O fim da temporada espera do outro lado.","The valley where sound fades away. Ice covers everything, and only the steps of those who press on break the silence. The end of the season waits on the other side."
+PROMO_OFERTA,Oferta especial,Special offer
+PROMO_UMA_POR_CONTA,1 por conta,1 per account
+PROMO_TERMINA_EM,A oferta termina em,Offer ends in
+PROMO_ITENS,Itens da promoção,Offer items
+PROMO_ITEM_FRAGMENTOS,Fragmentos,Fragments
+PROMO_ITEM_CRISTAIS,Cristais,Crystals
+PROMO_ESCOLHA_ELEMENTO,Você escolhe o elemento dos fragmentos,You choose the fragments' element
+CFG_SOM,Som,Sound
+CFG_MUSICA,Música,Music
+CFG_EFEITOS,Efeitos sonoros,Sound effects
+CFG_VIBRACAO,Vibração,Vibration
+CFG_TELA,Tela e desempenho,Display & performance
+CFG_ECONOMIA,Economia de bateria,Battery saver
+CFG_ECONOMIA_DESC,Limita a 30 quadros por segundo.,Limits to 30 frames per second.
+CFG_TREMOR,Tremor de tela,Screen shake
+CFG_NOTIFICACOES,Notificações,Notifications
+CFG_NOTIF_VIDAS,Vidas cheias,Lives refilled
+CFG_NOTIF_EVENTOS,Eventos e promoções,Events and offers
+CFG_IDIOMA,Idioma,Language
+CFG_CONTA,Conta,Account
+CFG_NOME,Herói,Hero
+CFG_ID,ID do jogador,Player ID
+CFG_COPIAR,Copiar,Copy
+CFG_COPIADO,Copiado,Copied
+CFG_ONLINE,Online,Online
+CFG_CONECTADO,Conectado,Connected
+CFG_OFFLINE,Sem conexão,Offline
+CFG_AJUDA,Ajuda e sobre,Help & about
+CFG_SUPORTE,Suporte,Support
+CFG_PRIVACIDADE,Política de privacidade,Privacy policy
+CFG_TERMOS,Termos de uso,Terms of use
+CFG_CREDITOS,Créditos,Credits
+CFG_CREDITOS_TEXTO,"Kaerith: O Despertar
+Criado por João Pedro.
+
+Fontes: Pixelify Sans e Silkscreen (SIL Open Font License).
+Feito com Godot Engine.","Kaerith: The Awakening
+Created by João Pedro.
+
+Fonts: Pixelify Sans and Silkscreen (SIL Open Font License).
+Made with Godot Engine."
+CFG_VERSAO,Versão %s,Version %s
+CFG_TESTE,Teste,Testing
+PROMO_ESCOLHA_CURTO,Escolha o elemento,Pick the element
+PROMO_EPICAS_DO,3 peças Épicas de %s,3 Epic pieces of %s
+PROMO_DISPONIVEL,Disponível %d/%d,Available %d/%d
+PROMO_POR_CONTA,por conta,per account
+RES_JOGAR_NOVAMENTE,Jogar novamente,Play again
+ORBE_TITULO,Orbe de %s,%s Orb
+ORBE_NIVEL,NÍVEL %d/%d,LEVEL %d/%d
+ORBE_NAO_OBTIDO,NÃO OBTIDO,NOT OBTAINED
+ORBE_BASE,ELEMENTO BASE,BASE ELEMENT
+ORBE_PRECISA,Para evoluir,To upgrade
+ORBE_PRECISA_OBTER,Para obter,To obtain
+ORBE_REQ_FRAG,%d fragmentos de %s,%d %s fragments
+ORBE_REQ_NIVEL,Personagem no nível %d,Character at level %d
+ORBE_FALTA,FALTA,MISSING
+ORBE_EVOLUIR,Evoluir Orbe,Upgrade Orb
+ORBE_OBTER,Obter Orbe,Obtain Orb
+ORBE_MAXIMO,NÍVEL MÁXIMO,MAX LEVEL
+ORBE_LIMITE_NOVOS,Você já tem todos os Orbes novos desta temporada.,You already have every new Orb this season.
+ORBE_HABILIDADES,Habilidades,Abilities
+ORBE_CAT_OFENSIVA,OFENS.,OFF.
+ORBE_CAT_DEFENSIVA,DEFES.,DEF.
+ORBE_CAT_UTILITARIA,UTIL.,UTIL.
+ORBE_CONHECIDA,CONHECIDA,KNOWN
+ORBE_BLOQUEADA,NÃO APRENDIDA,NOT LEARNED
+ORBE_MELHORADA,+%d%%,+%d%%
+ORBE_BONUS,Bônus por nível,Bonus per level
+ORBE_BONUS_TEXTO,"Cada nível: +2 de Ressonância, +1 uso nas habilidades de %s e aprender ou melhorar uma habilidade.","Each level: +2 Resonance, +1 use on %s abilities, and learn or improve one ability."
+ORBE_NIVEIS,Níveis do Orbe,Orb levels
+ORBE_NIVEL_CELULA,NV %d,LV %d
+ORBE_CELULA_CUSTO,%d frag.,%d frag.
+ORBE_CELULA_NIVEL,pede nv %d,needs lv %d
+ORBE_ESCOLHA,Escolha uma,Choose one
+ORBE_ESCOLHA_TEXTO,Seu Orbe subiu! Aprenda uma habilidade nova ou melhore uma que já conhece (+20%).,Your Orb leveled up! Learn a new ability or improve one you know (+20%).
+ORBE_ESCOLHA_NOVO,Orbe obtido! Escolha a primeira habilidade dele.,Orb obtained! Choose its first ability.
+ORBE_APRENDER,Aprender,Learn
+ORBE_MELHORAR,Melhorar,Improve
+ORBE_SEM_ELEMENTO,Os Orbes aparecem depois do Despertar.,Orbs appear after the Awakening.
+ORBE_TOQUE,"Toque num elemento para ver o Orbe dele, os níveis e as habilidades.","Tap an element to see its Orb, levels and abilities."
+ORBE_PENDENTE_OUTRO,Termine antes a escolha do Orbe de %s.,First finish the %s Orb choice.
+ORBE_OBTIDO_N,Orbes novos: %d/5,New Orbs: %d/5
+ORBE_NV_CURTO,Orbe nv %d,Orb lv %d
+ORBE_SEM,Sem Orbe,No Orb
+ORBE_PRONTO,PRONTO!,READY!
+ORBE_TESTE,+500 fragm. (teste),+500 frag. (test)
+ORBE_TESTE_NIVEL,+5 níveis (teste),+5 levels (test)
+RES_L_REPETICOES,Prêmios desta fase hoje,Rewards from this stage today
+FASE_ONDAS,Ondas e inimigos,Waves and enemies
+FASE_ONDAS_N,%d ondas,%d waves
+FASE_ONDA_1,1 onda,1 wave
+FASE_ONDA_I,Onda %d,Wave %d
+FASE_INIMIGOS_OCULTOS,Jogue a fase uma vez para ver quem você vai enfrentar.,Play this stage once to see who you will face.
+FASE_PREMIOS,Prêmios possíveis,Possible rewards
+FASE_PREMIOS_HOJE,"Ao rejogar, os prêmios valem até 20 vezes por dia.","When replaying, rewards count up to 20 times a day."
+FASE_PREMIOS_ESGOTADOS,Limite de hoje atingido: esta fase só dá moedas até amanhã.,Today's limit reached: this stage only gives coins until tomorrow.
+FASE_FRAGMENTOS,Fragmentos,Fragments
+FASE_FRAG_CHANCE,%d%%: %d–%d,%d%%: %d–%d
+FASE_FRAG_FIXO,%d–%d,%d–%d
+FASE_SO_1A_VEZ,só na 1ª vitória,first win only
+INIM_COMUM,Comum,Common
+INIM_VETERANO,Veterano,Veteran
+INIM_ELITE,Elite,Elite
+INIM_SUPREMA,Elite Suprema,Supreme Elite
+INIM_CHEFE,Chefe,Boss
+INIM_SEM_ELEMENTO,Sem elemento,No element
+INIM_FICHA,Ficha,Profile
+INIM_HABILIDADES,Habilidades,Skills
+INIM_FRAQUEZAS,Fraco contra,Weak against
+CARREGANDO_DADOS,Abrindo o diário...,Opening the journal...
+CARREGANDO_ARTES,Despertando os elementos...,Awakening the elements...
+CARREGANDO_ONLINE,Conectando ao servidor...,Connecting to the server...
+CARREGANDO_CONECTADO,Conectado!,Connected!
+CARREGANDO_OFFLINE,Sem conexão: jogando offline,No connection: playing offline
+CARREGANDO_PRONTO,Tudo pronto!,All set!
+HAB_INFO_CAT_COMUM,Ataque comum,Basic attack
+HAB_INFO_CAT_OFENSIVA,Ofensiva,Offensive
+HAB_INFO_CAT_DEFENSIVA,Defensiva,Defensive
+HAB_INFO_CAT_UTILITARIA,Utilitária,Utility
+HAB_INFO_CAT_COMBINADA,Combinada,Combined
+HAB_INFO_CAT_ESPECIAL,Especial,Special
+HAB_INFO_EFEITO,Efeito,Effect
+HAB_INFO_USOS,Usos,Uses
+HAB_INFO_SEM_LIMITE,Sem limite de usos.,No use limit.
+HAB_INFO_POR_LUTA,%d usos por luta (voltam na fase seguinte).,%d uses per battle (restored on the next stage).
+HAB_INFO_RESTAM,Restam %d nesta luta.,%d left in this battle.
+HAB_INFO_MELHORADA,Melhorada %d× pelos Orbes: +%d%% de efeito.,Upgraded %d× by the Orbs: +%d%% effect.
+BEST_INFO,Informações,Information
+BEST_PRIMEIRO,Primeiro encontro,First encounter
+BEST_VITORIAS,Vitórias,Wins
+BEST_PAPEL,Estilo de luta,Fighting style
+BEST_PAPEL_RAPIDO,Rápido,Fast
+BEST_PAPEL_RESISTENTE,Resistente,Tough
+BEST_PAPEL_CONTROLE,Controle,Control
+BEST_PAPEL_ATACANTE,Atacante,Attacker
+BEST_PAPEL_SUPORTE,Suporte,Support
+BEST_PAPEL_PRESSIONADOR,Pressionador,Pressure
+BEST_PAPEL_FRAGIL,Frágil,Fragile
+BEST_PAPEL_RESTRICAO,Restrição,Restraint
+BEST_PAPEL_ENFRAQUECIMENTO,Enfraquecimento,Weakening
+BEST_PAPEL_CHEFE,Chefe,Boss
+BEST_ATRIBUTOS,Atributos,Attributes
+BEST_ATAQUES,Ataques,Attacks
+BEST_DESDE,%s+,%s+
+BEST_ELEMENTOS,Elementos,Elements
+BEST_FRACO,Fraco contra,Weak against
+BEST_RESISTE,Resiste a,Resists
+BEST_NENHUM,nenhum,none
+BEST_ANOTACOES,Anotações,Notes
+COND_QUEIMADURA_DESC,Perde Vida no fim de cada rodada.,Loses Vida at the end of each round.
+COND_ENCHARCADO_DESC,Resistência 20% menor: recebe mais dano.,20% less Resistance: takes more damage.
+COND_LENTIDAO_DESC,Agilidade pela metade: age depois e esquiva menos.,Half Agility: acts later and dodges less.
+COND_ENFRAQUECIDO_DESC,Causa 25% menos dano.,Deals 25% less damage.
+COND_ATORDOADO_DESC,30% de chance de perder a vez.,30% chance to lose the turn.
+COND_CONGELADO_DESC,Não pode usar habilidades de elemento; só ataques comuns.,Can't use element skills; only basic attacks.
+COND_MARCADO_DESC,Marcado por um caçador: alguns ataques causam mais dano ou crítico garantido contra ele.,Marked by a hunter: some attacks deal more damage or a sure critical against it.
+COND_ESCUDO_DESC,Absorve o dano recebido até se quebrar.,Absorbs incoming damage until it breaks.
+COND_FURIA_DESC,Causa 30% mais dano.,Deals 30% more damage.
+COND_FORTIFICADO_DESC,Resistência 40% maior: recebe menos dano.,40% more Resistance: takes less damage.
+COND_IMPETO_DESC,Agilidade 50% maior: age antes e esquiva mais.,50% more Agility: acts sooner and dodges more.
+COND_REGENERACAO_DESC,Recupera 5% da Vida máxima no fim de cada rodada.,Recovers 5% of max Vida at the end of each round.
+COND_FIRMEZA_DESC,Imune a novos efeitos negativos.,Immune to new negative effects.
+COND_CAMPO_DESC,Recebe 20% menos dano e quem bate nele pode ficar atordoado (30%).,Takes 20% less damage and attackers may be stunned (30%).
+COND_SOBRECARGA_DESC,O próximo golpe é crítico com certeza.,The next hit is a sure critical.
+COND_GUARDA_DESC,Recebe metade do dano até o próximo turno.,Takes half damage until its next turn.
+COND_CONTRAGOLPE_DESC,Revida o próximo golpe recebido com 150% de Força.,Strikes back at the next hit with 150% Strength.
+COND_EXPOSTO_DESC,Recebe 20% mais dano até o próximo turno.,Takes 20% more damage until its next turn.
+COND_P_REFLEXO_DESC,Agilidade 50% maior.,50% more Agility.
+COND_P_SANGUE_DESC,Causa 30% mais dano.,Deals 30% more damage.
+COND_P_GRANITO_DESC,Resistência 40% maior.,40% more Resistance.
+COND_P_FALCAO_DESC,+15% de chance de crítico.,+15% critical chance.
+COND_P_RESSONANCIA_DESC,Ressonância 30% maior.,30% more Resonance.
+COND_GUARDA,Guarda,Guard
+COND_CONTRAGOLPE,Contragolpe,Counter
+COND_EXPOSTO,Exposto,Exposed
+BALAO_USOS,restam %d de %d,%d of %d left
+BALAO_DANO,Dano em %s: ~%d,Damage to %s: ~%d
+BALAO_DANO_GOLPES,Dano em %s: %d golpes de ~%d (~%d),Damage to %s: %d hits of ~%d (~%d)
+BALAO_EFICAZ,(eficaz!),(effective!)
+BALAO_POUCO_EFICAZ,(pouco eficaz),(not very effective)
+BALAO_ESCUDO_RESTA,Ainda absorve %d de dano.,Still absorbs %d damage.
+BALAO_QUEIMA_VALOR,Perde %d por rodada.,Loses %d per round.
+BALAO_RODADAS,Dura mais %d rodada(s).,Lasts %d more round(s).
+BALAO_ATE_PROXIMO,Dura até o próximo turno.,Lasts until the next turn.
+BALAO_ATAQUES_DESCONHECIDOS,Ataques ainda desconhecidos.,Attacks still unknown.
+BALAO_ATAQUE_INIMIGO,%s (usos: %s),%s (uses: %s)
+BALAO_OUTROS_ATAQUES,+%d ataque(s) ainda não visto(s).,+%d attack(s) not seen yet.
+BALAO_FRAQUEZA_OCULTA,Fraqueza: vença mais %d para descobrir.,Weakness: win %d more to find out.
+LOJA_EL_CURTO,+%d%% %s,+%d%% %s
+LOJA_ATR_CURTO,+%d %s,+%d %s
+LOJA_EQ_ATRIBUTO,+%d de %s.,+%d %s.
+LOJA_EQ_ELEMENTO,Elemento %s: +%d%% de dano nas habilidades de %s.,%s element: +%d%% damage on %s skills.
+LOJA_EQ_SEM_ELEMENTO,Sem elemento: só peças Raras ou melhores melhoram as habilidades de um elemento.,No element: only Rare or better pieces boost an element's skills.
+LOJA_EQ_CONJUNTO,Conjunto %s: 3 peças dão +10%% de Ressonância e 5 peças +20%%.,"%s set: 3 pieces give +10%% Resonance, 5 pieces +20%%."
+BALAO_CRITICO,Se for crítico: ~%d (chance %d%%),If critical: ~%d (%d%% chance)
+BALAO_INCLUI,"Já conta: %s, atributos, Resistência e elemento do alvo.","Already counts: %s, stats, target Resistance and element."
+BALAO_INCLUI_BASE,equipamentos,equipment
+BALAO_MOD_ORBE,Orbe +%d%%,Orb +%d%%
+BALAO_MOD_EQUIP,peças do elemento +%d%%,element pieces +%d%%
+BALAO_POCAO_CURA,Recupera ~%d de Vida agora.,Restores ~%d Vida now.
+BALAO_POCAO_TURNO,Você tem %d. Usar gasta o turno.,You have %d. Using it spends the turn.
+ATR_FORCA_DESC,"Dano dos ataques comuns (Golpe, Varredura...).","Damage of basic attacks (Strike, Sweep...)."
+ATR_PERCEPCAO_DESC,Chance de crítico e de não errar o golpe.,Critical chance and hitting reliably.
+ATR_AGILIDADE_DESC,Quem age primeiro na rodada e a chance de esquivar.,Who acts first in the round and dodge chance.
+ATR_RESISTENCIA_DESC,Reduz o dano recebido (até 75%).,Reduces damage taken (up to 75%).
+ATR_RESSONANCIA_DESC,"Poder das habilidades de elemento: dano, escudos e queimaduras.","Power of element skills: damage, shields and burns."
+ATR_VIDA_DESC,Quanto dano você aguenta. Cresce com o nível e com peças que dão Vida.,How much damage you can take. Grows with level and pieces that give Vida.
+ATR_FORCA_AGORA,Golpe agora: ~%d de dano antes da defesa do alvo.,Strike now: ~%d damage before the target's defense.
+ATR_PERCEPCAO_AGORA,Crítico: %d%% · Erro: %s%%,Critical: %d%% · Miss: %s%%
+ATR_AGILIDADE_AGORA,Esquiva: %s%%,Dodge: %s%%
+ATR_RESISTENCIA_AGORA,Contra um inimigo do seu nível: −%d%% de dano.,Against an enemy of your level: −%d%% damage.
+ATR_RESSONANCIA_AGORA,Ataque de elemento (250%%): ~%d antes da defesa do alvo.,Element attack (250%%): ~%d before the target's defense.
+ENT_TITULO,Guarde sua jornada,Keep your journey
+ENT_TEXTO,Entre com o Google para guardar seu progresso na nuvem e continuar em qualquer aparelho.,Sign in with Google to keep your progress in the cloud and continue on any device.
+ENT_GOOGLE,Entrar com Google,Sign in with Google
+ENT_VISITANTE,Jogar como visitante,Play as guest
+ENT_NOTA,"Como visitante, o progresso fica só neste aparelho. Dá para entrar com o Google depois, nas Configurações.","As a guest, your progress stays on this device only. You can sign in with Google later, in Settings."
+ENT_ABRINDO,Abrindo o Google...,Opening Google...
+ENT_CONECTANDO,Conectando a sua conta...,Connecting your account...
+ENT_ERRO,Não deu para entrar agora. Confira a internet e tente de novo.,Couldn't sign in right now. Check your connection and try again.
+ENT_ERRO_GOOGLE,O login com o Google foi cancelado ou não deu certo.,Google sign-in was cancelled or didn't work.
+ENT_BEM_VINDO,"Bem-vindo de volta, %s!","Welcome back, %s!"
+CONTA_SO_WEB,Por enquanto o login com o Google funciona só na versão Web do jogo.,"For now, Google sign-in only works in the Web version of the game."
+CONTA_SEM_CONFIG,O login com o Google ainda não foi configurado neste jogo (falta o google_client_id em dados/online.json).,Google sign-in isn't set up in this game yet (google_client_id is missing in dados/online.json).
+CFG_TIPO_CONTA,Conta,Account
+CFG_VISITANTE,Visitante,Guest
+CFG_SALVAR_GOOGLE,Salvar progresso com Google,Save progress with Google
+CFG_SALVAR_GOOGLE_DESC,Seu progresso está só neste aparelho. Entre com o Google para guardá-lo na nuvem.,Your progress is only on this device. Sign in with Google to keep it in the cloud.
+CFG_NUVEM_OK,Progresso guardado na nuvem. Entre com esta conta em outro aparelho para continuar.,Progress saved in the cloud. Sign in with this account on another device to continue.
+CFG_SALVAR_AGORA,Salvar na nuvem agora,Save to cloud now
+CFG_SALVO_NUVEM,Progresso salvo na nuvem.,Progress saved to the cloud.
+CFG_CONFLITO_T,Essa conta já tem progresso,This account already has progress
+CFG_CONFLITO,Essa conta Google já tem um herói no nível %d. Neste aparelho você está no nível %d. Qual progresso fica?,This Google account already has a hero at level %d. On this device you're at level %d. Which progress do you keep?
+CFG_USAR_NUVEM,Usar o da conta,Use the account's
+CFG_MANTER_APARELHO,Manter o deste aparelho,Keep this device's
+CFG_GOOGLE_OK,Conta conectada!,Account connected!
+CFG_GOOGLE_OK_TEXTO,Seu progresso agora fica guardado na nuvem.,Your progress is now kept in the cloud.
+CONTA_SEM_PAGINA,"A página do jogo está sem o modelo do Kaerith (web/kaerith_shell.html). Exporte de novo pelo preset Web.","The game page is missing the Kaerith template (web/kaerith_shell.html). Export again with the Web preset."
+QR_CONFERINDO,Conferindo a hora...,Checking the time...
+QR_RELOGIO,"O relógio do celular foi mudado. Acerte a hora ou conecte à internet para ler QR Codes.","The phone clock was changed. Fix the time or go online to scan QR Codes."
+DESP_NOVA,Sua nova habilidade,Your new skill
+DESP_SEGURE,Segure um ataque para ver o que ele faz. Toque para trocar.,Hold an attack to see what it does. Tap to replace it.
+DESP_VOLTAR,Escolher outra habilidade,Choose another skill
+DESP_USOS,%d usos,%d uses
+ORBE_TESTE_ACUMULAR,Acumular Orbes: +1 nível em todos (teste),Stack Orbs: +1 level on all (test)
+ORBE_TESTE_AGORA,Evoluir agora sem custo (teste),Upgrade now for free (test)
+LOJA_BLOQUEADO,Bloqueado,Locked
+LOJA_EM_BREVE,EM BREVE,COMING SOON
+LOJA_PAGO_BLOQUEADO,As compras com dinheiro real estão bloqueadas por enquanto. Elas chegam quando o jogo estiver nas lojas oficiais.,Real-money purchases are locked for now. They arrive when the game is on the official stores.
+ANUNCIO_ESPERA,Prêmio a caminho,Reward on its way
+ANUNCIO_ESPERA_DESC,"Os vídeos com prêmio ainda não estão disponíveis aqui. Espere 5 segundos para receber o prêmio.","Reward videos aren't available here yet. Wait 5 seconds to get your reward."
+CFG_SAIR,Sair da conta,Sign out
+CFG_SAIR_SIM,"Salvar e sair","Save and sign out"
+CFG_SAIR_TEXTO,"Seu progresso será salvo na nuvem e este aparelho volta para a tela de entrada. Para continuar depois, entre com a mesma conta Google.","Your progress will be saved to the cloud and this device goes back to the sign-in screen. To continue later, sign in with the same Google account."
+CFG_SAIR_SALVANDO,Salvando o progresso na nuvem...,Saving your progress to the cloud...
+CFG_SAIR_MESMO,Sair mesmo assim,Sign out anyway
+CFG_SAIR_SEM_NUVEM,"Não deu para salvar na nuvem agora (confira a internet). Se sair, o que você fez desde o último salvamento na nuvem será perdido.","Couldn't save to the cloud right now (check your connection). If you sign out, what you did since the last cloud save will be lost."
+CFG_SOBRE,Sobre o jogo,About the game
+CFG_SITE,Abrir o site,Open the website
+QR_BAU_JA,"Você já abriu este baú hoje. Volte amanhã!","You already opened this chest today. Come back tomorrow!"
+QR_DESATIVADO,Este QR Code foi desativado.,This QR Code has been turned off.
+QR_TIPO_DESATIVADO,Este tipo de QR Code está desligado no momento.,This type of QR Code is turned off right now.
+MAPA_ATO_ABRE,Abre em %s,Opens in %s
+ATO_ABRE_EM,O Ato %s abre em %s.,Act %s opens in %s.
+CARREGANDO_NOVIDADES,Buscando novidades...,Checking for news...
+QR_RECURSO_ESPERA,Você já coletou este recurso. Ele volta em %s.,You already collected this resource. It comes back in %s.
+CARREGANDO_VERSAO,Procurando atualização...,Checking for updates...
+CARREGANDO_BAIXANDO,Baixando atualização: %d%%,Downloading update: %d%%
+CARREGANDO_ATUALIZANDO,Atualizando o jogo...,Updating the game...
+CARREGANDO_NUVEM,Sincronizando seu progresso...,Syncing your progress...

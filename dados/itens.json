@@ -1,0 +1,5938 @@
+{
+ "atlas": {
+  "paginas": 1,
+  "imagens": {
+   "item32_amuleto_do_monolito_anim": [
+    0,
+    0,
+    0,
+    128,
+    32
+   ],
+   "item32_anel_da_aurora_gelida_anim": [
+    0,
+    128,
+    0,
+    128,
+    32
+   ],
+   "item32_anel_da_montanha_antiga_anim": [
+    0,
+    256,
+    0,
+    128,
+    32
+   ],
+   "item32_anel_da_nascente_pura_anim": [
+    0,
+    384,
+    0,
+    128,
+    32
+   ],
+   "item32_anel_da_terra_firme_anim": [
+    0,
+    512,
+    0,
+    128,
+    32
+   ],
+   "item32_anel_do_coracao_ardente_anim": [
+    0,
+    640,
+    0,
+    128,
+    32
+   ],
+   "item32_anel_do_inverno_sem_fim_anim": [
+    0,
+    768,
+    0,
+    128,
+    32
+   ],
+   "item32_anel_do_raio_branco_anim": [
+    0,
+    896,
+    0,
+    128,
+    32
+   ],
+   "item32_anel_do_rubi_flamejante_anim": [
+    0,
+    1024,
+    0,
+    128,
+    32
+   ],
+   "item32_anel_dos_quatro_ventos_anim": [
+    0,
+    1152,
+    0,
+    128,
+    32
+   ],
+   "item32_arco_do_ceu_aberto_anim": [
+    0,
+    1280,
+    0,
+    128,
+    32
+   ],
+   "item32_arco_do_inverno_sem_fim_anim": [
+    0,
+    1408,
+    0,
+    128,
+    32
+   ],
+   "item32_armadura_da_montanha_antiga_anim": [
+    0,
+    1536,
+    0,
+    128,
+    32
+   ],
+   "item32_armadura_do_cume_gelado_anim": [
+    0,
+    1664,
+    0,
+    128,
+    32
+   ],
+   "item32_botas_do_ceu_aberto_anim": [
+    0,
+    1792,
+    0,
+    128,
+    32
+   ],
+   "item32_botas_do_cume_gelado_anim": [
+    0,
+    1920,
+    0,
+    128,
+    32
+   ],
+   "item32_botas_do_horizonte_anim": [
+    0,
+    0,
+    32,
+    128,
+    32
+   ],
+   "item32_botas_do_raio_branco_anim": [
+    0,
+    128,
+    32,
+    128,
+    32
+   ],
+   "item32_bracelete_da_chama_primeira_anim": [
+    0,
+    256,
+    32,
+    128,
+    32
+   ],
+   "item32_bracelete_da_terra_firme_anim": [
+    0,
+    384,
+    32,
+    128,
+    32
+   ],
+   "item32_bracelete_do_abismo_sereno_anim": [
+    0,
+    512,
+    32,
+    128,
+    32
+   ],
+   "item32_bracelete_do_diluvio_anim": [
+    0,
+    640,
+    32,
+    128,
+    32
+   ],
+   "item32_bracelete_do_inverno_sem_fim_anim": [
+    0,
+    768,
+    32,
+    128,
+    32
+   ],
+   "item32_bracelete_do_relampago_rei_anim": [
+    0,
+    896,
+    32,
+    128,
+    32
+   ],
+   "item32_brigantina_do_raio_branco_anim": [
+    0,
+    1024,
+    32,
+    128,
+    32
+   ],
+   "item32_brigantina_dos_quatro_ventos_anim": [
+    0,
+    1152,
+    32,
+    128,
+    32
+   ],
+   "item32_brinco_do_relampago_rei_anim": [
+    0,
+    1280,
+    32,
+    128,
+    32
+   ],
+   "item32_brinco_do_rubi_flamejante_anim": [
+    0,
+    1408,
+    32,
+    128,
+    32
+   ],
+   "item32_brinco_dos_quatro_ventos_anim": [
+    0,
+    1536,
+    32,
+    128,
+    32
+   ],
+   "item32_broche_da_aurora_gelida_anim": [
+    0,
+    1664,
+    32,
+    128,
+    32
+   ],
+   "item32_broche_da_nascente_pura_anim": [
+    0,
+    1792,
+    32,
+    128,
+    32
+   ],
+   "item32_broche_do_cume_gelado_anim": [
+    0,
+    1920,
+    32,
+    128,
+    32
+   ],
+   "item32_cajado_da_aurora_gelida_anim": [
+    0,
+    0,
+    64,
+    128,
+    32
+   ],
+   "item32_cajado_do_ceu_rasgado_anim": [
+    0,
+    128,
+    64,
+    128,
+    32
+   ],
+   "item32_cajado_do_diluvio_anim": [
+    0,
+    256,
+    64,
+    128,
+    32
+   ],
+   "item32_cajado_do_rubi_flamejante_anim": [
+    0,
+    384,
+    64,
+    128,
+    32
+   ],
+   "item32_capuz_da_aurora_gelida_anim": [
+    0,
+    512,
+    64,
+    128,
+    32
+   ],
+   "item32_capuz_do_ceu_aberto_anim": [
+    0,
+    640,
+    64,
+    128,
+    32
+   ],
+   "item32_capuz_do_ceu_rasgado_anim": [
+    0,
+    768,
+    64,
+    128,
+    32
+   ],
+   "item32_capuz_do_diluvio_anim": [
+    0,
+    896,
+    64,
+    128,
+    32
+   ],
+   "item32_capuz_do_monolito_anim": [
+    0,
+    1024,
+    64,
+    128,
+    32
+   ],
+   "item32_capuz_do_rubi_flamejante_anim": [
+    0,
+    1152,
+    64,
+    128,
+    32
+   ],
+   "item32_chapeu_da_nascente_pura_anim": [
+    0,
+    1280,
+    64,
+    128,
+    32
+   ],
+   "item32_chapeu_dos_quatro_ventos_anim": [
+    0,
+    1408,
+    64,
+    128,
+    32
+   ],
+   "item32_cinto_do_ceu_rasgado_anim": [
+    0,
+    1536,
+    64,
+    128,
+    32
+   ],
+   "item32_cinto_do_monolito_anim": [
+    0,
+    1664,
+    64,
+    128,
+    32
+   ],
+   "item32_cinturao_da_montanha_antiga_anim": [
+    0,
+    1792,
+    64,
+    128,
+    32
+   ],
+   "item32_concha_do_abismo_sereno_anim": [
+    0,
+    1920,
+    64,
+    128,
+    32
+   ],
+   "item32_cota_da_nascente_pura_anim": [
+    0,
+    0,
+    96,
+    128,
+    32
+   ],
+   "item32_cota_do_relampago_rei_anim": [
+    0,
+    128,
+    96,
+    128,
+    32
+   ],
+   "item32_couraca_do_coracao_ardente_anim": [
+    0,
+    256,
+    96,
+    128,
+    32
+   ],
+   "item32_elmo_da_montanha_antiga_anim": [
+    0,
+    384,
+    96,
+    128,
+    32
+   ],
+   "item32_elmo_do_coracao_ardente_anim": [
+    0,
+    512,
+    96,
+    128,
+    32
+   ],
+   "item32_elmo_do_cume_gelado_anim": [
+    0,
+    640,
+    96,
+    128,
+    32
+   ],
+   "item32_elmo_do_raio_branco_anim": [
+    0,
+    768,
+    96,
+    128,
+    32
+   ],
+   "item32_espada_da_nascente_pura_anim": [
+    0,
+    896,
+    96,
+    128,
+    32
+   ],
+   "item32_espada_do_raio_branco_anim": [
+    0,
+    1024,
+    96,
+    128,
+    32
+   ],
+   "item32_espada_dos_quatro_ventos_anim": [
+    0,
+    1152,
+    96,
+    128,
+    32
+   ],
+   "item32_faixa_da_chama_primeira_anim": [
+    0,
+    1280,
+    96,
+    128,
+    32
+   ],
+   "item32_faixa_da_terra_firme_anim": [
+    0,
+    1408,
+    96,
+    128,
+    32
+   ],
+   "item32_faixa_do_horizonte_anim": [
+    0,
+    1536,
+    96,
+    128,
+    32
+   ],
+   "item32_gibao_da_terra_firme_anim": [
+    0,
+    1664,
+    96,
+    128,
+    32
+   ],
+   "item32_gibao_do_ceu_aberto_anim": [
+    0,
+    1792,
+    96,
+    128,
+    32
+   ],
+   "item32_gibao_do_inverno_sem_fim_anim": [
+    0,
+    1920,
+    96,
+    128,
+    32
+   ],
+   "item32_lamina_do_coracao_ardente_anim": [
+    0,
+    0,
+    128,
+    128,
+    32
+   ],
+   "item32_lanca_do_cume_gelado_anim": [
+    0,
+    128,
+    128,
+    128,
+    32
+   ],
+   "item32_lanca_do_monolito_anim": [
+    0,
+    256,
+    128,
+    128,
+    32
+   ],
+   "item32_lanca_do_relampago_rei_anim": [
+    0,
+    384,
+    128,
+    128,
+    32
+   ],
+   "item32_lanca_dupla_do_horizonte_anim": [
+    0,
+    512,
+    128,
+    128,
+    32
+   ],
+   "item32_lente_da_chama_primeira_anim": [
+    0,
+    640,
+    128,
+    128,
+    32
+   ],
+   "item32_lente_do_horizonte_anim": [
+    0,
+    768,
+    128,
+    128,
+    32
+   ],
+   "item32_machado_da_chama_primeira_anim": [
+    0,
+    896,
+    128,
+    128,
+    32
+   ],
+   "item32_machado_da_terra_firme_anim": [
+    0,
+    1024,
+    128,
+    128,
+    32
+   ],
+   "item32_manto_da_aurora_gelida_anim": [
+    0,
+    1152,
+    128,
+    128,
+    32
+   ],
+   "item32_manto_do_abismo_sereno_anim": [
+    0,
+    1280,
+    128,
+    128,
+    32
+   ],
+   "item32_manto_do_ceu_rasgado_anim": [
+    0,
+    1408,
+    128,
+    128,
+    32
+   ],
+   "item32_manto_do_horizonte_anim": [
+    0,
+    1536,
+    128,
+    128,
+    32
+   ],
+   "item32_manto_do_monolito_anim": [
+    0,
+    1664,
+    128,
+    128,
+    32
+   ],
+   "item32_manto_do_rubi_flamejante_anim": [
+    0,
+    1792,
+    128,
+    128,
+    32
+   ],
+   "item32_martelo_da_montanha_antiga_anim": [
+    0,
+    1920,
+    128,
+    128,
+    32
+   ],
+   "item32_peitoral_da_chama_primeira_anim": [
+    0,
+    0,
+    160,
+    128,
+    32
+   ],
+   "item32_pingente_do_ceu_rasgado_anim": [
+    0,
+    128,
+    160,
+    128,
+    32
+   ],
+   "item32_pingente_do_coracao_ardente_anim": [
+    0,
+    256,
+    160,
+    128,
+    32
+   ],
+   "item32_pingente_do_diluvio_anim": [
+    0,
+    384,
+    160,
+    128,
+    32
+   ],
+   "item32_pluma_do_ceu_aberto_anim": [
+    0,
+    512,
+    160,
+    128,
+    32
+   ],
+   "item32_tiara_do_abismo_sereno_anim": [
+    0,
+    640,
+    160,
+    128,
+    32
+   ],
+   "item32_tiara_do_inverno_sem_fim_anim": [
+    0,
+    768,
+    160,
+    128,
+    32
+   ],
+   "item32_tridente_do_abismo_sereno_anim": [
+    0,
+    896,
+    160,
+    128,
+    32
+   ],
+   "item32_tunica_do_diluvio_anim": [
+    0,
+    1024,
+    160,
+    128,
+    32
+   ],
+   "item32_viseira_do_relampago_rei_anim": [
+    0,
+    1152,
+    160,
+    128,
+    32
+   ],
+   "pocao32_frasco_de_ressonancia_anim": [
+    0,
+    1280,
+    160,
+    128,
+    32
+   ],
+   "item32_amuleto_da_pedra_lisa": [
+    0,
+    1408,
+    160,
+    32,
+    32
+   ],
+   "item32_amuleto_de_pedra_polida": [
+    0,
+    1440,
+    160,
+    32,
+    32
+   ],
+   "item32_amuleto_do_granito": [
+    0,
+    1472,
+    160,
+    32,
+    32
+   ],
+   "item32_amuleto_do_monolito": [
+    0,
+    1504,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_argila": [
+    0,
+    1536,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_aurora_gelida": [
+    0,
+    1568,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_brasa": [
+    0,
+    1600,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_brisa": [
+    0,
+    1632,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_cachoeira_alta": [
+    0,
+    1664,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_fornalha_viva": [
+    0,
+    1696,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_montanha_antiga": [
+    0,
+    1728,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_nascente_pura": [
+    0,
+    1760,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_nevasca": [
+    0,
+    1792,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_rocha_viva": [
+    0,
+    1824,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_da_terra_firme": [
+    0,
+    1856,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_das_cinzas_vivas": [
+    0,
+    1888,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_de_cobre": [
+    0,
+    1920,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_de_prata_gasta": [
+    0,
+    1952,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_do_barro_cozido": [
+    0,
+    1984,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_do_carvao_rubro": [
+    0,
+    2016,
+    160,
+    32,
+    32
+   ],
+   "item32_anel_do_cascalho": [
+    0,
+    0,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_clarao": [
+    0,
+    32,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_coracao_ardente": [
+    0,
+    64,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_cristal_polar": [
+    0,
+    96,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_estalo": [
+    0,
+    128,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_inverno_manso": [
+    0,
+    160,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_inverno_sem_fim": [
+    0,
+    192,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_raio_branco": [
+    0,
+    224,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_rio_claro": [
+    0,
+    256,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_rubi_flamejante": [
+    0,
+    288,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_sopro_frio": [
+    0,
+    320,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_do_vento_norte": [
+    0,
+    352,
+    192,
+    32,
+    32
+   ],
+   "item32_anel_dos_quatro_ventos": [
+    0,
+    384,
+    192,
+    32,
+    32
+   ],
+   "item32_arco_da_asa_cinzenta": [
+    0,
+    416,
+    192,
+    32,
+    32
+   ],
+   "item32_arco_da_nevasca": [
+    0,
+    448,
+    192,
+    32,
+    32
+   ],
+   "item32_arco_do_ceu_aberto": [
+    0,
+    480,
+    192,
+    32,
+    32
+   ],
+   "item32_arco_do_inverno_sem_fim": [
+    0,
+    512,
+    192,
+    32,
+    32
+   ],
+   "item32_arco_do_sopro_frio": [
+    0,
+    544,
+    192,
+    32,
+    32
+   ],
+   "item32_arco_do_vendaval": [
+    0,
+    576,
+    192,
+    32,
+    32
+   ],
+   "item32_armadura_da_montanha_antiga": [
+    0,
+    608,
+    192,
+    32,
+    32
+   ],
+   "item32_armadura_da_rocha_viva": [
+    0,
+    640,
+    192,
+    32,
+    32
+   ],
+   "item32_armadura_do_cascalho": [
+    0,
+    672,
+    192,
+    32,
+    32
+   ],
+   "item32_armadura_do_cume_gelado": [
+    0,
+    704,
+    192,
+    32,
+    32
+   ],
+   "item32_armadura_do_floco_branco": [
+    0,
+    736,
+    192,
+    32,
+    32
+   ],
+   "item32_armadura_do_gelo_eterno": [
+    0,
+    768,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_da_asa_cinzenta": [
+    0,
+    800,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_da_pena_ligeira": [
+    0,
+    832,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_de_couro_macio": [
+    0,
+    864,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_de_estrada": [
+    0,
+    896,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_ceu_aberto": [
+    0,
+    928,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_clarao": [
+    0,
+    960,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_cume_gelado": [
+    0,
+    992,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_estalo": [
+    0,
+    1024,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_floco_branco": [
+    0,
+    1056,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_gelo_eterno": [
+    0,
+    1088,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_horizonte": [
+    0,
+    1120,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_raio_branco": [
+    0,
+    1152,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_vendaval": [
+    0,
+    1184,
+    192,
+    32,
+    32
+   ],
+   "item32_botas_do_voo_alto": [
+    0,
+    1216,
+    192,
+    32,
+    32
+   ],
+   "item32_bracadeira_de_ferro": [
+    0,
+    1248,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_argila": [
+    0,
+    1280,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_bigorna_incandescente": [
+    0,
+    1312,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_chama_primeira": [
+    0,
+    1344,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_chuva_mansa": [
+    0,
+    1376,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_correnteza": [
+    0,
+    1408,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_faisca": [
+    0,
+    1440,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_forja": [
+    0,
+    1472,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_mare_funda": [
+    0,
+    1504,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_nevasca": [
+    0,
+    1536,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_tempestade": [
+    0,
+    1568,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_da_terra_firme": [
+    0,
+    1600,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_de_couro_cru": [
+    0,
+    1632,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_do_abismo_sereno": [
+    0,
+    1664,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_do_aguaceiro": [
+    0,
+    1696,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_do_barro_cozido": [
+    0,
+    1728,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_do_diluvio": [
+    0,
+    1760,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_do_inverno_sem_fim": [
+    0,
+    1792,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_do_relampago_rei": [
+    0,
+    1824,
+    192,
+    32,
+    32
+   ],
+   "item32_bracelete_do_sopro_frio": [
+    0,
+    1856,
+    192,
+    32,
+    32
+   ],
+   "item32_brigantina_da_brisa": [
+    0,
+    1888,
+    192,
+    32,
+    32
+   ],
+   "item32_brigantina_do_clarao": [
+    0,
+    1920,
+    192,
+    32,
+    32
+   ],
+   "item32_brigantina_do_estalo": [
+    0,
+    1952,
+    192,
+    32,
+    32
+   ],
+   "item32_brigantina_do_raio_branco": [
+    0,
+    1984,
+    192,
+    32,
+    32
+   ],
+   "item32_brigantina_do_vento_norte": [
+    0,
+    2016,
+    192,
+    32,
+    32
+   ],
+   "item32_brigantina_dos_quatro_ventos": [
+    0,
+    0,
+    224,
+    32,
+    32
+   ],
+   "item32_brigantina_reforcada": [
+    0,
+    32,
+    224,
+    32,
+    32
+   ],
+   "item32_brinco_da_brisa": [
+    0,
+    64,
+    224,
+    32,
+    32
+   ],
+   "item32_brinco_da_faisca": [
+    0,
+    96,
+    224,
+    32,
+    32
+   ],
+   "item32_brinco_da_tempestade": [
+    0,
+    128,
+    224,
+    32,
+    32
+   ],
+   "item32_brinco_das_cinzas_vivas": [
+    0,
+    160,
+    224,
+    32,
+    32
+   ],
+   "item32_brinco_do_carvao_rubro": [
+    0,
+    192,
+    224,
+    32,
+    32
+   ],
+   "item32_brinco_do_relampago_rei": [
+    0,
+    224,
+    224,
+    32,
+    32
+   ],
+   "item32_brinco_do_rubi_flamejante": [
+    0,
+    256,
+    224,
+    32,
+    32
+   ],
+   "item32_brinco_do_vento_norte": [
+    0,
+    288,
+    224,
+    32,
+    32
+   ],
+   "item32_brinco_dos_quatro_ventos": [
+    0,
+    320,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_da_aurora_gelida": [
+    0,
+    352,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_da_cachoeira_alta": [
+    0,
+    384,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_da_nascente_pura": [
+    0,
+    416,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_do_cristal_polar": [
+    0,
+    448,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_do_cume_gelado": [
+    0,
+    480,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_do_floco_branco": [
+    0,
+    512,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_do_gelo_eterno": [
+    0,
+    544,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_do_inverno_manso": [
+    0,
+    576,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_do_rio_claro": [
+    0,
+    608,
+    224,
+    32,
+    32
+   ],
+   "item32_broche_do_viajante": [
+    0,
+    640,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_da_aurora_gelida": [
+    0,
+    672,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_da_chuva_mansa": [
+    0,
+    704,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_da_nuvem_carregada": [
+    0,
+    736,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_da_nuvem_negra": [
+    0,
+    768,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_das_cinzas_vivas": [
+    0,
+    800,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_de_freixo": [
+    0,
+    832,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_de_ramo_gravado": [
+    0,
+    864,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_do_aguaceiro": [
+    0,
+    896,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_do_carvao_rubro": [
+    0,
+    928,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_do_ceu_rasgado": [
+    0,
+    960,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_do_cristal_polar": [
+    0,
+    992,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_do_diluvio": [
+    0,
+    1024,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_do_inverno_manso": [
+    0,
+    1056,
+    224,
+    32,
+    32
+   ],
+   "item32_cajado_do_rubi_flamejante": [
+    0,
+    1088,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_da_asa_cinzenta": [
+    0,
+    1120,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_da_aurora_gelida": [
+    0,
+    1152,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_da_chuva_mansa": [
+    0,
+    1184,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_da_nuvem_carregada": [
+    0,
+    1216,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_da_nuvem_negra": [
+    0,
+    1248,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_da_pedra_lisa": [
+    0,
+    1280,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_das_cinzas_vivas": [
+    0,
+    1312,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_de_batedor": [
+    0,
+    1344,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_de_viajante": [
+    0,
+    1376,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_aguaceiro": [
+    0,
+    1408,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_carvao_rubro": [
+    0,
+    1440,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_ceu_aberto": [
+    0,
+    1472,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_ceu_rasgado": [
+    0,
+    1504,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_cristal_polar": [
+    0,
+    1536,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_diluvio": [
+    0,
+    1568,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_granito": [
+    0,
+    1600,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_inverno_manso": [
+    0,
+    1632,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_monolito": [
+    0,
+    1664,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_rubi_flamejante": [
+    0,
+    1696,
+    224,
+    32,
+    32
+   ],
+   "item32_capuz_do_vendaval": [
+    0,
+    1728,
+    224,
+    32,
+    32
+   ],
+   "item32_chapeu_da_brisa": [
+    0,
+    1760,
+    224,
+    32,
+    32
+   ],
+   "item32_chapeu_da_cachoeira_alta": [
+    0,
+    1792,
+    224,
+    32,
+    32
+   ],
+   "item32_chapeu_da_nascente_pura": [
+    0,
+    1824,
+    224,
+    32,
+    32
+   ],
+   "item32_chapeu_de_aba_larga_do_mensageiro": [
+    0,
+    1856,
+    224,
+    32,
+    32
+   ],
+   "item32_chapeu_do_rio_claro": [
+    0,
+    1888,
+    224,
+    32,
+    32
+   ],
+   "item32_chapeu_do_vento_norte": [
+    0,
+    1920,
+    224,
+    32,
+    32
+   ],
+   "item32_chapeu_dos_quatro_ventos": [
+    0,
+    1952,
+    224,
+    32,
+    32
+   ],
+   "item32_cinto_da_nuvem_carregada": [
+    0,
+    1984,
+    224,
+    32,
+    32
+   ],
+   "item32_cinto_da_nuvem_negra": [
+    0,
+    2016,
+    224,
+    32,
+    32
+   ],
+   "item32_cinto_da_pedra_lisa": [
+    0,
+    0,
+    256,
+    32,
+    32
+   ],
+   "item32_cinto_de_fivela_larga": [
+    0,
+    32,
+    256,
+    32,
+    32
+   ],
+   "item32_cinto_do_ceu_rasgado": [
+    0,
+    64,
+    256,
+    32,
+    32
+   ],
+   "item32_cinto_do_granito": [
+    0,
+    96,
+    256,
+    32,
+    32
+   ],
+   "item32_cinto_do_monolito": [
+    0,
+    128,
+    256,
+    32,
+    32
+   ],
+   "item32_cinturao_da_montanha_antiga": [
+    0,
+    160,
+    256,
+    32,
+    32
+   ],
+   "item32_cinturao_da_rocha_viva": [
+    0,
+    192,
+    256,
+    32,
+    32
+   ],
+   "item32_cinturao_do_cascalho": [
+    0,
+    224,
+    256,
+    32,
+    32
+   ],
+   "item32_concha_da_correnteza": [
+    0,
+    256,
+    256,
+    32,
+    32
+   ],
+   "item32_concha_da_mare_funda": [
+    0,
+    288,
+    256,
+    32,
+    32
+   ],
+   "item32_concha_do_abismo_sereno": [
+    0,
+    320,
+    256,
+    32,
+    32
+   ],
+   "item32_cota_da_cachoeira_alta": [
+    0,
+    352,
+    256,
+    32,
+    32
+   ],
+   "item32_cota_da_faisca": [
+    0,
+    384,
+    256,
+    32,
+    32
+   ],
+   "item32_cota_da_nascente_pura": [
+    0,
+    416,
+    256,
+    32,
+    32
+   ],
+   "item32_cota_da_tempestade": [
+    0,
+    448,
+    256,
+    32,
+    32
+   ],
+   "item32_cota_de_aneis": [
+    0,
+    480,
+    256,
+    32,
+    32
+   ],
+   "item32_cota_de_malha_da_guarda": [
+    0,
+    512,
+    256,
+    32,
+    32
+   ],
+   "item32_cota_do_relampago_rei": [
+    0,
+    544,
+    256,
+    32,
+    32
+   ],
+   "item32_cota_do_rio_claro": [
+    0,
+    576,
+    256,
+    32,
+    32
+   ],
+   "item32_couraca_da_brasa": [
+    0,
+    608,
+    256,
+    32,
+    32
+   ],
+   "item32_couraca_da_fornalha_viva": [
+    0,
+    640,
+    256,
+    32,
+    32
+   ],
+   "item32_couraca_do_coracao_ardente": [
+    0,
+    672,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_com_viseira": [
+    0,
+    704,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_da_brasa": [
+    0,
+    736,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_da_fornalha_viva": [
+    0,
+    768,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_da_montanha_antiga": [
+    0,
+    800,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_da_rocha_viva": [
+    0,
+    832,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_de_ferro_batido": [
+    0,
+    864,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_do_cascalho": [
+    0,
+    896,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_do_clarao": [
+    0,
+    928,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_do_coracao_ardente": [
+    0,
+    960,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_do_cume_gelado": [
+    0,
+    992,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_do_estalo": [
+    0,
+    1024,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_do_floco_branco": [
+    0,
+    1056,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_do_gelo_eterno": [
+    0,
+    1088,
+    256,
+    32,
+    32
+   ],
+   "item32_elmo_do_raio_branco": [
+    0,
+    1120,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_da_brisa": [
+    0,
+    1152,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_da_cachoeira_alta": [
+    0,
+    1184,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_da_nascente_pura": [
+    0,
+    1216,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_de_aco_da_guarda": [
+    0,
+    1248,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_de_ferro": [
+    0,
+    1280,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_do_clarao": [
+    0,
+    1312,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_do_estalo": [
+    0,
+    1344,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_do_raio_branco": [
+    0,
+    1376,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_do_rio_claro": [
+    0,
+    1408,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_do_vento_norte": [
+    0,
+    1440,
+    256,
+    32,
+    32
+   ],
+   "item32_espada_dos_quatro_ventos": [
+    0,
+    1472,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_da_argila": [
+    0,
+    1504,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_da_bigorna_incandescente": [
+    0,
+    1536,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_da_chama_primeira": [
+    0,
+    1568,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_da_forja": [
+    0,
+    1600,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_da_pena_ligeira": [
+    0,
+    1632,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_da_terra_firme": [
+    0,
+    1664,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_de_cacador": [
+    0,
+    1696,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_do_barro_cozido": [
+    0,
+    1728,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_do_horizonte": [
+    0,
+    1760,
+    256,
+    32,
+    32
+   ],
+   "item32_faixa_do_voo_alto": [
+    0,
+    1792,
+    256,
+    32,
+    32
+   ],
+   "item32_gibao_da_argila": [
+    0,
+    1824,
+    256,
+    32,
+    32
+   ],
+   "item32_gibao_da_asa_cinzenta": [
+    0,
+    1856,
+    256,
+    32,
+    32
+   ],
+   "item32_gibao_da_nevasca": [
+    0,
+    1888,
+    256,
+    32,
+    32
+   ],
+   "item32_gibao_da_terra_firme": [
+    0,
+    1920,
+    256,
+    32,
+    32
+   ],
+   "item32_gibao_de_couro": [
+    0,
+    1952,
+    256,
+    32,
+    32
+   ],
+   "item32_gibao_do_barro_cozido": [
+    0,
+    1984,
+    256,
+    32,
+    32
+   ],
+   "item32_gibao_do_ceu_aberto": [
+    0,
+    2016,
+    256,
+    32,
+    32
+   ],
+   "item32_gibao_do_inverno_sem_fim": [
+    0,
+    0,
+    288,
+    32,
+    32
+   ],
+   "item32_gibao_do_sopro_frio": [
+    0,
+    32,
+    288,
+    32,
+    32
+   ],
+   "item32_gibao_do_vendaval": [
+    0,
+    64,
+    288,
+    32,
+    32
+   ],
+   "item32_lamina_da_brasa": [
+    0,
+    96,
+    288,
+    32,
+    32
+   ],
+   "item32_lamina_da_fornalha_viva": [
+    0,
+    128,
+    288,
+    32,
+    32
+   ],
+   "item32_lamina_do_coracao_ardente": [
+    0,
+    160,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_da_faisca": [
+    0,
+    192,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_da_pedra_lisa": [
+    0,
+    224,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_da_tempestade": [
+    0,
+    256,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_de_ponta_dupla": [
+    0,
+    288,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_do_cume_gelado": [
+    0,
+    320,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_do_floco_branco": [
+    0,
+    352,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_do_gelo_eterno": [
+    0,
+    384,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_do_granito": [
+    0,
+    416,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_do_monolito": [
+    0,
+    448,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_do_relampago_rei": [
+    0,
+    480,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_dupla_da_pena_ligeira": [
+    0,
+    512,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_dupla_do_horizonte": [
+    0,
+    544,
+    288,
+    32,
+    32
+   ],
+   "item32_lanca_dupla_do_voo_alto": [
+    0,
+    576,
+    288,
+    32,
+    32
+   ],
+   "item32_lente_da_bigorna_incandescente": [
+    0,
+    608,
+    288,
+    32,
+    32
+   ],
+   "item32_lente_da_chama_primeira": [
+    0,
+    640,
+    288,
+    32,
+    32
+   ],
+   "item32_lente_da_forja": [
+    0,
+    672,
+    288,
+    32,
+    32
+   ],
+   "item32_lente_da_pena_ligeira": [
+    0,
+    704,
+    288,
+    32,
+    32
+   ],
+   "item32_lente_de_vidro_fosco": [
+    0,
+    736,
+    288,
+    32,
+    32
+   ],
+   "item32_lente_do_horizonte": [
+    0,
+    768,
+    288,
+    32,
+    32
+   ],
+   "item32_lente_do_voo_alto": [
+    0,
+    800,
+    288,
+    32,
+    32
+   ],
+   "item32_machadinha_de_lenhador": [
+    0,
+    832,
+    288,
+    32,
+    32
+   ],
+   "item32_machado_da_argila": [
+    0,
+    864,
+    288,
+    32,
+    32
+   ],
+   "item32_machado_da_bigorna_incandescente": [
+    0,
+    896,
+    288,
+    32,
+    32
+   ],
+   "item32_machado_da_chama_primeira": [
+    0,
+    928,
+    288,
+    32,
+    32
+   ],
+   "item32_machado_da_forja": [
+    0,
+    960,
+    288,
+    32,
+    32
+   ],
+   "item32_machado_da_terra_firme": [
+    0,
+    992,
+    288,
+    32,
+    32
+   ],
+   "item32_machado_do_barro_cozido": [
+    0,
+    1024,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_da_aurora_gelida": [
+    0,
+    1056,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_da_correnteza": [
+    0,
+    1088,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_da_mare_funda": [
+    0,
+    1120,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_da_nuvem_carregada": [
+    0,
+    1152,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_da_nuvem_negra": [
+    0,
+    1184,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_da_pedra_lisa": [
+    0,
+    1216,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_da_pena_ligeira": [
+    0,
+    1248,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_das_cinzas_vivas": [
+    0,
+    1280,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_de_la_grossa": [
+    0,
+    1312,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_abismo_sereno": [
+    0,
+    1344,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_carvao_rubro": [
+    0,
+    1376,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_ceu_rasgado": [
+    0,
+    1408,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_cristal_polar": [
+    0,
+    1440,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_granito": [
+    0,
+    1472,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_horizonte": [
+    0,
+    1504,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_inverno_manso": [
+    0,
+    1536,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_monolito": [
+    0,
+    1568,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_rubi_flamejante": [
+    0,
+    1600,
+    288,
+    32,
+    32
+   ],
+   "item32_manto_do_voo_alto": [
+    0,
+    1632,
+    288,
+    32,
+    32
+   ],
+   "item32_martelo_da_montanha_antiga": [
+    0,
+    1664,
+    288,
+    32,
+    32
+   ],
+   "item32_martelo_da_rocha_viva": [
+    0,
+    1696,
+    288,
+    32,
+    32
+   ],
+   "item32_martelo_do_cascalho": [
+    0,
+    1728,
+    288,
+    32,
+    32
+   ],
+   "item32_monoculo_do_cartografo": [
+    0,
+    1760,
+    288,
+    32,
+    32
+   ],
+   "item32_peitoral_da_bigorna_incandescente": [
+    0,
+    1792,
+    288,
+    32,
+    32
+   ],
+   "item32_peitoral_da_chama_primeira": [
+    0,
+    1824,
+    288,
+    32,
+    32
+   ],
+   "item32_peitoral_da_forja": [
+    0,
+    1856,
+    288,
+    32,
+    32
+   ],
+   "item32_pingente_da_brasa": [
+    0,
+    1888,
+    288,
+    32,
+    32
+   ],
+   "item32_pingente_da_chuva_mansa": [
+    0,
+    1920,
+    288,
+    32,
+    32
+   ],
+   "item32_pingente_da_fornalha_viva": [
+    0,
+    1952,
+    288,
+    32,
+    32
+   ],
+   "item32_pingente_da_nuvem_carregada": [
+    0,
+    1984,
+    288,
+    32,
+    32
+   ],
+   "item32_pingente_da_nuvem_negra": [
+    0,
+    2016,
+    288,
+    32,
+    32
+   ],
+   "item32_pingente_de_osso": [
+    0,
+    0,
+    320,
+    32,
+    32
+   ],
+   "item32_pingente_do_aguaceiro": [
+    0,
+    32,
+    320,
+    32,
+    32
+   ],
+   "item32_pingente_do_ceu_rasgado": [
+    0,
+    64,
+    320,
+    32,
+    32
+   ],
+   "item32_pingente_do_coracao_ardente": [
+    0,
+    96,
+    320,
+    32,
+    32
+   ],
+   "item32_pingente_do_diluvio": [
+    0,
+    128,
+    320,
+    32,
+    32
+   ],
+   "item32_pluma_da_asa_cinzenta": [
+    0,
+    160,
+    320,
+    32,
+    32
+   ],
+   "item32_pluma_do_ceu_aberto": [
+    0,
+    192,
+    320,
+    32,
+    32
+   ],
+   "item32_pluma_do_vendaval": [
+    0,
+    224,
+    320,
+    32,
+    32
+   ],
+   "item32_tiara_da_correnteza": [
+    0,
+    256,
+    320,
+    32,
+    32
+   ],
+   "item32_tiara_da_mare_funda": [
+    0,
+    288,
+    320,
+    32,
+    32
+   ],
+   "item32_tiara_da_nevasca": [
+    0,
+    320,
+    320,
+    32,
+    32
+   ],
+   "item32_tiara_do_abismo_sereno": [
+    0,
+    352,
+    320,
+    32,
+    32
+   ],
+   "item32_tiara_do_inverno_sem_fim": [
+    0,
+    384,
+    320,
+    32,
+    32
+   ],
+   "item32_tiara_do_sopro_frio": [
+    0,
+    416,
+    320,
+    32,
+    32
+   ],
+   "item32_tridente_da_correnteza": [
+    0,
+    448,
+    320,
+    32,
+    32
+   ],
+   "item32_tridente_da_mare_funda": [
+    0,
+    480,
+    320,
+    32,
+    32
+   ],
+   "item32_tridente_do_abismo_sereno": [
+    0,
+    512,
+    320,
+    32,
+    32
+   ],
+   "item32_tunica_acolchoada_de_viajante": [
+    0,
+    544,
+    320,
+    32,
+    32
+   ],
+   "item32_tunica_da_chuva_mansa": [
+    0,
+    576,
+    320,
+    32,
+    32
+   ],
+   "item32_tunica_do_aguaceiro": [
+    0,
+    608,
+    320,
+    32,
+    32
+   ],
+   "item32_tunica_do_diluvio": [
+    0,
+    640,
+    320,
+    32,
+    32
+   ],
+   "item32_viseira_da_faisca": [
+    0,
+    672,
+    320,
+    32,
+    32
+   ],
+   "item32_viseira_da_tempestade": [
+    0,
+    704,
+    320,
+    32,
+    32
+   ],
+   "item32_viseira_do_relampago_rei": [
+    0,
+    736,
+    320,
+    32,
+    32
+   ],
+   "pocao32_elixir_de_granito": [
+    0,
+    768,
+    320,
+    32,
+    32
+   ],
+   "pocao32_elixir_de_ressonancia": [
+    0,
+    800,
+    320,
+    32,
+    32
+   ],
+   "pocao32_elixir_purificador": [
+    0,
+    832,
+    320,
+    32,
+    32
+   ],
+   "pocao32_essencia_de_eco": [
+    0,
+    864,
+    320,
+    32,
+    32
+   ],
+   "pocao32_frasco_de_ressonancia": [
+    0,
+    896,
+    320,
+    32,
+    32
+   ],
+   "pocao32_olho_de_falcao": [
+    0,
+    928,
+    320,
+    32,
+    32
+   ],
+   "pocao32_pocao_de_vida_i": [
+    0,
+    960,
+    320,
+    32,
+    32
+   ],
+   "pocao32_pocao_de_vida_ii": [
+    0,
+    992,
+    320,
+    32,
+    32
+   ],
+   "pocao32_pocao_de_vida_iii": [
+    0,
+    1024,
+    320,
+    32,
+    32
+   ],
+   "pocao32_remedio_de_estrada": [
+    0,
+    1056,
+    320,
+    32,
+    32
+   ],
+   "pocao32_sangue_quente": [
+    0,
+    1088,
+    320,
+    32,
+    32
+   ],
+   "pocao32_tonico_de_reflexo": [
+    0,
+    1120,
+    320,
+    32,
+    32
+   ]
+  }
+ },
+ "itens": [
+  {
+   "id": "espada_de_ferro",
+   "nome": "Espada de Ferro",
+   "papel": "Arma · Força",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_espada_de_ferro",
+   "icone_anim": null
+  },
+  {
+   "id": "machadinha_de_lenhador",
+   "nome": "Machadinha de Lenhador",
+   "papel": "Arma · Força",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_machadinha_de_lenhador",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_de_freixo",
+   "nome": "Cajado de Freixo",
+   "papel": "Arma · Ressonância",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_cajado_de_freixo",
+   "icone_anim": null
+  },
+  {
+   "id": "gibao_de_couro",
+   "nome": "Gibão de Couro",
+   "papel": "Armadura · Resistência",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_gibao_de_couro",
+   "icone_anim": null
+  },
+  {
+   "id": "cota_de_aneis",
+   "nome": "Cota de Anéis",
+   "papel": "Armadura · Resistência",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_cota_de_aneis",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_de_la_grossa",
+   "nome": "Manto de Lã Grossa",
+   "papel": "Armadura · Resistência",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_manto_de_la_grossa",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_de_viajante",
+   "nome": "Capuz de Viajante",
+   "papel": "Cabeça · Percepção",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_capuz_de_viajante",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_de_ferro_batido",
+   "nome": "Elmo de Ferro Batido",
+   "papel": "Cabeça · Percepção",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_elmo_de_ferro_batido",
+   "icone_anim": null
+  },
+  {
+   "id": "faixa_de_cacador",
+   "nome": "Faixa de Caçador",
+   "papel": "Cabeça · Percepção",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_faixa_de_cacador",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_de_cobre",
+   "nome": "Anel de Cobre",
+   "papel": "Acessório · Força",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_anel_de_cobre",
+   "icone_anim": null
+  },
+  {
+   "id": "pingente_de_osso",
+   "nome": "Pingente de Osso",
+   "papel": "Acessório · Ressonância",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_pingente_de_osso",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_de_estrada",
+   "nome": "Botas de Estrada",
+   "papel": "Acessório · Agilidade",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_botas_de_estrada",
+   "icone_anim": null
+  },
+  {
+   "id": "lente_de_vidro_fosco",
+   "nome": "Lente de Vidro Fosco",
+   "papel": "Acessório · Percepção",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_lente_de_vidro_fosco",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_de_couro_cru",
+   "nome": "Bracelete de Couro Cru",
+   "papel": "Acessório · Resistência",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_bracelete_de_couro_cru",
+   "icone_anim": null
+  },
+  {
+   "id": "cinto_de_fivela_larga",
+   "nome": "Cinto de Fivela Larga",
+   "papel": "Acessório · Agilidade",
+   "raridade": "comum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_cinto_de_fivela_larga",
+   "icone_anim": null
+  },
+  {
+   "id": "espada_de_aco_da_guarda",
+   "nome": "Espada de Aço da Guarda",
+   "papel": "Arma · Força",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_espada_de_aco_da_guarda",
+   "icone_anim": null
+  },
+  {
+   "id": "lanca_de_ponta_dupla",
+   "nome": "Lança de Ponta Dupla",
+   "papel": "Arma · Força",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_lanca_de_ponta_dupla",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_de_ramo_gravado",
+   "nome": "Cajado de Ramo Gravado",
+   "papel": "Arma · Ressonância",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_cajado_de_ramo_gravado",
+   "icone_anim": null
+  },
+  {
+   "id": "brigantina_reforcada",
+   "nome": "Brigantina Reforçada",
+   "papel": "Armadura · Resistência",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_brigantina_reforcada",
+   "icone_anim": null
+  },
+  {
+   "id": "cota_de_malha_da_guarda",
+   "nome": "Cota de Malha da Guarda",
+   "papel": "Armadura · Resistência",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_cota_de_malha_da_guarda",
+   "icone_anim": null
+  },
+  {
+   "id": "tunica_acolchoada_de_viajante",
+   "nome": "Túnica Acolchoada de Viajante",
+   "papel": "Armadura · Resistência",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_tunica_acolchoada_de_viajante",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_com_viseira",
+   "nome": "Elmo com Viseira",
+   "papel": "Cabeça · Percepção",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_elmo_com_viseira",
+   "icone_anim": null
+  },
+  {
+   "id": "chapeu_de_aba_larga_do_mensageiro",
+   "nome": "Chapéu de Aba Larga do Mensageiro",
+   "papel": "Cabeça · Percepção",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_chapeu_de_aba_larga_do_mensageiro",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_de_batedor",
+   "nome": "Capuz de Batedor",
+   "papel": "Cabeça · Percepção",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_capuz_de_batedor",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_de_prata_gasta",
+   "nome": "Anel de Prata Gasta",
+   "papel": "Acessório · Força",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_anel_de_prata_gasta",
+   "icone_anim": null
+  },
+  {
+   "id": "amuleto_de_pedra_polida",
+   "nome": "Amuleto de Pedra Polida",
+   "papel": "Acessório · Ressonância",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_amuleto_de_pedra_polida",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_de_couro_macio",
+   "nome": "Botas de Couro Macio",
+   "papel": "Acessório · Agilidade",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_botas_de_couro_macio",
+   "icone_anim": null
+  },
+  {
+   "id": "monoculo_do_cartografo",
+   "nome": "Monóculo do Cartógrafo",
+   "papel": "Acessório · Percepção",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_monoculo_do_cartografo",
+   "icone_anim": null
+  },
+  {
+   "id": "bracadeira_de_ferro",
+   "nome": "Braçadeira de Ferro",
+   "papel": "Acessório · Resistência",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_bracadeira_de_ferro",
+   "icone_anim": null
+  },
+  {
+   "id": "broche_do_viajante",
+   "nome": "Broche do Viajante",
+   "papel": "Acessório · Percepção",
+   "raridade": "incomum",
+   "elemento": null,
+   "conjunto": null,
+   "icone": "item32_broche_do_viajante",
+   "icone_anim": null
+  },
+  {
+   "id": "lamina_da_brasa",
+   "nome": "Lâmina da Brasa",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Brasa",
+   "icone": "item32_lamina_da_brasa",
+   "icone_anim": null
+  },
+  {
+   "id": "couraca_da_brasa",
+   "nome": "Couraça da Brasa",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Brasa",
+   "icone": "item32_couraca_da_brasa",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_da_brasa",
+   "nome": "Elmo da Brasa",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Brasa",
+   "icone": "item32_elmo_da_brasa",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_da_brasa",
+   "nome": "Anel da Brasa",
+   "papel": "Acessório · Força",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Brasa",
+   "icone": "item32_anel_da_brasa",
+   "icone_anim": null
+  },
+  {
+   "id": "pingente_da_brasa",
+   "nome": "Pingente da Brasa",
+   "papel": "Acessório · Percepção",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Brasa",
+   "icone": "item32_pingente_da_brasa",
+   "icone_anim": null
+  },
+  {
+   "id": "tridente_da_correnteza",
+   "nome": "Tridente da Correnteza",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Correnteza",
+   "icone": "item32_tridente_da_correnteza",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_da_correnteza",
+   "nome": "Manto da Correnteza",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Correnteza",
+   "icone": "item32_manto_da_correnteza",
+   "icone_anim": null
+  },
+  {
+   "id": "tiara_da_correnteza",
+   "nome": "Tiara da Correnteza",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Correnteza",
+   "icone": "item32_tiara_da_correnteza",
+   "icone_anim": null
+  },
+  {
+   "id": "concha_da_correnteza",
+   "nome": "Concha da Correnteza",
+   "papel": "Acessório · Resistência",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Correnteza",
+   "icone": "item32_concha_da_correnteza",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_da_correnteza",
+   "nome": "Bracelete da Correnteza",
+   "papel": "Acessório · Ressonância",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Correnteza",
+   "icone": "item32_bracelete_da_correnteza",
+   "icone_anim": null
+  },
+  {
+   "id": "martelo_do_cascalho",
+   "nome": "Martelo do Cascalho",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Cascalho",
+   "icone": "item32_martelo_do_cascalho",
+   "icone_anim": null
+  },
+  {
+   "id": "armadura_do_cascalho",
+   "nome": "Armadura do Cascalho",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Cascalho",
+   "icone": "item32_armadura_do_cascalho",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_do_cascalho",
+   "nome": "Elmo do Cascalho",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Cascalho",
+   "icone": "item32_elmo_do_cascalho",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_cascalho",
+   "nome": "Anel do Cascalho",
+   "papel": "Acessório · Resistência",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Cascalho",
+   "icone": "item32_anel_do_cascalho",
+   "icone_anim": null
+  },
+  {
+   "id": "cinturao_do_cascalho",
+   "nome": "Cinturão do Cascalho",
+   "papel": "Acessório · Força",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Cascalho",
+   "icone": "item32_cinturao_do_cascalho",
+   "icone_anim": null
+  },
+  {
+   "id": "arco_do_vendaval",
+   "nome": "Arco do Vendaval",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vendaval",
+   "icone": "item32_arco_do_vendaval",
+   "icone_anim": null
+  },
+  {
+   "id": "gibao_do_vendaval",
+   "nome": "Gibão do Vendaval",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vendaval",
+   "icone": "item32_gibao_do_vendaval",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_do_vendaval",
+   "nome": "Capuz do Vendaval",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vendaval",
+   "icone": "item32_capuz_do_vendaval",
+   "icone_anim": null
+  },
+  {
+   "id": "pluma_do_vendaval",
+   "nome": "Pluma do Vendaval",
+   "papel": "Acessório · Agilidade",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vendaval",
+   "icone": "item32_pluma_do_vendaval",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_do_vendaval",
+   "nome": "Botas do Vendaval",
+   "papel": "Acessório · Percepção",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vendaval",
+   "icone": "item32_botas_do_vendaval",
+   "icone_anim": null
+  },
+  {
+   "id": "lanca_da_faisca",
+   "nome": "Lança da Faísca",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Faísca",
+   "icone": "item32_lanca_da_faisca",
+   "icone_anim": null
+  },
+  {
+   "id": "cota_da_faisca",
+   "nome": "Cota da Faísca",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Faísca",
+   "icone": "item32_cota_da_faisca",
+   "icone_anim": null
+  },
+  {
+   "id": "viseira_da_faisca",
+   "nome": "Viseira da Faísca",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Faísca",
+   "icone": "item32_viseira_da_faisca",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_da_faisca",
+   "nome": "Bracelete da Faísca",
+   "papel": "Acessório · Percepção",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Faísca",
+   "icone": "item32_bracelete_da_faisca",
+   "icone_anim": null
+  },
+  {
+   "id": "brinco_da_faisca",
+   "nome": "Brinco da Faísca",
+   "papel": "Acessório · Agilidade",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Faísca",
+   "icone": "item32_brinco_da_faisca",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_do_inverno_manso",
+   "nome": "Cajado do Inverno Manso",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Manso",
+   "icone": "item32_cajado_do_inverno_manso",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_do_inverno_manso",
+   "nome": "Manto do Inverno Manso",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Manso",
+   "icone": "item32_manto_do_inverno_manso",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_do_inverno_manso",
+   "nome": "Capuz do Inverno Manso",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Manso",
+   "icone": "item32_capuz_do_inverno_manso",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_inverno_manso",
+   "nome": "Anel do Inverno Manso",
+   "papel": "Acessório · Ressonância",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Manso",
+   "icone": "item32_anel_do_inverno_manso",
+   "icone_anim": null
+  },
+  {
+   "id": "broche_do_inverno_manso",
+   "nome": "Broche do Inverno Manso",
+   "papel": "Acessório · Resistência",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Manso",
+   "icone": "item32_broche_do_inverno_manso",
+   "icone_anim": null
+  },
+  {
+   "id": "machado_da_forja",
+   "nome": "Machado da Forja",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Forja",
+   "icone": "item32_machado_da_forja",
+   "icone_anim": null
+  },
+  {
+   "id": "peitoral_da_forja",
+   "nome": "Peitoral da Forja",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Forja",
+   "icone": "item32_peitoral_da_forja",
+   "icone_anim": null
+  },
+  {
+   "id": "faixa_da_forja",
+   "nome": "Faixa da Forja",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Forja",
+   "icone": "item32_faixa_da_forja",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_da_forja",
+   "nome": "Bracelete da Forja",
+   "papel": "Acessório · Força",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Forja",
+   "icone": "item32_bracelete_da_forja",
+   "icone_anim": null
+  },
+  {
+   "id": "lente_da_forja",
+   "nome": "Lente da Forja",
+   "papel": "Acessório · Percepção",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Forja",
+   "icone": "item32_lente_da_forja",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_do_carvao_rubro",
+   "nome": "Cajado do Carvão Rubro",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Carvão Rubro",
+   "icone": "item32_cajado_do_carvao_rubro",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_do_carvao_rubro",
+   "nome": "Manto do Carvão Rubro",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Carvão Rubro",
+   "icone": "item32_manto_do_carvao_rubro",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_do_carvao_rubro",
+   "nome": "Capuz do Carvão Rubro",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Carvão Rubro",
+   "icone": "item32_capuz_do_carvao_rubro",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_carvao_rubro",
+   "nome": "Anel do Carvão Rubro",
+   "papel": "Acessório · Força",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Carvão Rubro",
+   "icone": "item32_anel_do_carvao_rubro",
+   "icone_anim": null
+  },
+  {
+   "id": "brinco_do_carvao_rubro",
+   "nome": "Brinco do Carvão Rubro",
+   "papel": "Acessório · Percepção",
+   "raridade": "raro",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Carvão Rubro",
+   "icone": "item32_brinco_do_carvao_rubro",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_da_chuva_mansa",
+   "nome": "Cajado da Chuva Mansa",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Chuva Mansa",
+   "icone": "item32_cajado_da_chuva_mansa",
+   "icone_anim": null
+  },
+  {
+   "id": "tunica_da_chuva_mansa",
+   "nome": "Túnica da Chuva Mansa",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Chuva Mansa",
+   "icone": "item32_tunica_da_chuva_mansa",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_da_chuva_mansa",
+   "nome": "Capuz da Chuva Mansa",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Chuva Mansa",
+   "icone": "item32_capuz_da_chuva_mansa",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_da_chuva_mansa",
+   "nome": "Bracelete da Chuva Mansa",
+   "papel": "Acessório · Resistência",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Chuva Mansa",
+   "icone": "item32_bracelete_da_chuva_mansa",
+   "icone_anim": null
+  },
+  {
+   "id": "pingente_da_chuva_mansa",
+   "nome": "Pingente da Chuva Mansa",
+   "papel": "Acessório · Ressonância",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Chuva Mansa",
+   "icone": "item32_pingente_da_chuva_mansa",
+   "icone_anim": null
+  },
+  {
+   "id": "espada_do_rio_claro",
+   "nome": "Espada do Rio Claro",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Rio Claro",
+   "icone": "item32_espada_do_rio_claro",
+   "icone_anim": null
+  },
+  {
+   "id": "cota_do_rio_claro",
+   "nome": "Cota do Rio Claro",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Rio Claro",
+   "icone": "item32_cota_do_rio_claro",
+   "icone_anim": null
+  },
+  {
+   "id": "chapeu_do_rio_claro",
+   "nome": "Chapéu do Rio Claro",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Rio Claro",
+   "icone": "item32_chapeu_do_rio_claro",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_rio_claro",
+   "nome": "Anel do Rio Claro",
+   "papel": "Acessório · Resistência",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Rio Claro",
+   "icone": "item32_anel_do_rio_claro",
+   "icone_anim": null
+  },
+  {
+   "id": "broche_do_rio_claro",
+   "nome": "Broche do Rio Claro",
+   "papel": "Acessório · Ressonância",
+   "raridade": "raro",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Rio Claro",
+   "icone": "item32_broche_do_rio_claro",
+   "icone_anim": null
+  },
+  {
+   "id": "machado_da_argila",
+   "nome": "Machado da Argila",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Argila",
+   "icone": "item32_machado_da_argila",
+   "icone_anim": null
+  },
+  {
+   "id": "gibao_da_argila",
+   "nome": "Gibão da Argila",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Argila",
+   "icone": "item32_gibao_da_argila",
+   "icone_anim": null
+  },
+  {
+   "id": "faixa_da_argila",
+   "nome": "Faixa da Argila",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Argila",
+   "icone": "item32_faixa_da_argila",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_da_argila",
+   "nome": "Bracelete da Argila",
+   "papel": "Acessório · Resistência",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Argila",
+   "icone": "item32_bracelete_da_argila",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_da_argila",
+   "nome": "Anel da Argila",
+   "papel": "Acessório · Força",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Argila",
+   "icone": "item32_anel_da_argila",
+   "icone_anim": null
+  },
+  {
+   "id": "lanca_da_pedra_lisa",
+   "nome": "Lança da Pedra Lisa",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Pedra Lisa",
+   "icone": "item32_lanca_da_pedra_lisa",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_da_pedra_lisa",
+   "nome": "Manto da Pedra Lisa",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Pedra Lisa",
+   "icone": "item32_manto_da_pedra_lisa",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_da_pedra_lisa",
+   "nome": "Capuz da Pedra Lisa",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Pedra Lisa",
+   "icone": "item32_capuz_da_pedra_lisa",
+   "icone_anim": null
+  },
+  {
+   "id": "amuleto_da_pedra_lisa",
+   "nome": "Amuleto da Pedra Lisa",
+   "papel": "Acessório · Resistência",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Pedra Lisa",
+   "icone": "item32_amuleto_da_pedra_lisa",
+   "icone_anim": null
+  },
+  {
+   "id": "cinto_da_pedra_lisa",
+   "nome": "Cinto da Pedra Lisa",
+   "papel": "Acessório · Força",
+   "raridade": "raro",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Pedra Lisa",
+   "icone": "item32_cinto_da_pedra_lisa",
+   "icone_anim": null
+  },
+  {
+   "id": "espada_da_brisa",
+   "nome": "Espada da Brisa",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Brisa",
+   "icone": "item32_espada_da_brisa",
+   "icone_anim": null
+  },
+  {
+   "id": "brigantina_da_brisa",
+   "nome": "Brigantina da Brisa",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Brisa",
+   "icone": "item32_brigantina_da_brisa",
+   "icone_anim": null
+  },
+  {
+   "id": "chapeu_da_brisa",
+   "nome": "Chapéu da Brisa",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Brisa",
+   "icone": "item32_chapeu_da_brisa",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_da_brisa",
+   "nome": "Anel da Brisa",
+   "papel": "Acessório · Agilidade",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Brisa",
+   "icone": "item32_anel_da_brisa",
+   "icone_anim": null
+  },
+  {
+   "id": "brinco_da_brisa",
+   "nome": "Brinco da Brisa",
+   "papel": "Acessório · Percepção",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Brisa",
+   "icone": "item32_brinco_da_brisa",
+   "icone_anim": null
+  },
+  {
+   "id": "lanca_dupla_da_pena_ligeira",
+   "nome": "Lança Dupla da Pena Ligeira",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Pena Ligeira",
+   "icone": "item32_lanca_dupla_da_pena_ligeira",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_da_pena_ligeira",
+   "nome": "Manto da Pena Ligeira",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Pena Ligeira",
+   "icone": "item32_manto_da_pena_ligeira",
+   "icone_anim": null
+  },
+  {
+   "id": "faixa_da_pena_ligeira",
+   "nome": "Faixa da Pena Ligeira",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Pena Ligeira",
+   "icone": "item32_faixa_da_pena_ligeira",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_da_pena_ligeira",
+   "nome": "Botas da Pena Ligeira",
+   "papel": "Acessório · Agilidade",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Pena Ligeira",
+   "icone": "item32_botas_da_pena_ligeira",
+   "icone_anim": null
+  },
+  {
+   "id": "lente_da_pena_ligeira",
+   "nome": "Lente da Pena Ligeira",
+   "papel": "Acessório · Percepção",
+   "raridade": "raro",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Pena Ligeira",
+   "icone": "item32_lente_da_pena_ligeira",
+   "icone_anim": null
+  },
+  {
+   "id": "espada_do_estalo",
+   "nome": "Espada do Estalo",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Estalo",
+   "icone": "item32_espada_do_estalo",
+   "icone_anim": null
+  },
+  {
+   "id": "brigantina_do_estalo",
+   "nome": "Brigantina do Estalo",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Estalo",
+   "icone": "item32_brigantina_do_estalo",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_do_estalo",
+   "nome": "Elmo do Estalo",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Estalo",
+   "icone": "item32_elmo_do_estalo",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_estalo",
+   "nome": "Anel do Estalo",
+   "papel": "Acessório · Percepção",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Estalo",
+   "icone": "item32_anel_do_estalo",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_do_estalo",
+   "nome": "Botas do Estalo",
+   "papel": "Acessório · Agilidade",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Estalo",
+   "icone": "item32_botas_do_estalo",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_da_nuvem_carregada",
+   "nome": "Cajado da Nuvem Carregada",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Carregada",
+   "icone": "item32_cajado_da_nuvem_carregada",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_da_nuvem_carregada",
+   "nome": "Manto da Nuvem Carregada",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Carregada",
+   "icone": "item32_manto_da_nuvem_carregada",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_da_nuvem_carregada",
+   "nome": "Capuz da Nuvem Carregada",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Carregada",
+   "icone": "item32_capuz_da_nuvem_carregada",
+   "icone_anim": null
+  },
+  {
+   "id": "pingente_da_nuvem_carregada",
+   "nome": "Pingente da Nuvem Carregada",
+   "papel": "Acessório · Percepção",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Carregada",
+   "icone": "item32_pingente_da_nuvem_carregada",
+   "icone_anim": null
+  },
+  {
+   "id": "cinto_da_nuvem_carregada",
+   "nome": "Cinto da Nuvem Carregada",
+   "papel": "Acessório · Agilidade",
+   "raridade": "raro",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Carregada",
+   "icone": "item32_cinto_da_nuvem_carregada",
+   "icone_anim": null
+  },
+  {
+   "id": "arco_do_sopro_frio",
+   "nome": "Arco do Sopro Frio",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Sopro Frio",
+   "icone": "item32_arco_do_sopro_frio",
+   "icone_anim": null
+  },
+  {
+   "id": "gibao_do_sopro_frio",
+   "nome": "Gibão do Sopro Frio",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Sopro Frio",
+   "icone": "item32_gibao_do_sopro_frio",
+   "icone_anim": null
+  },
+  {
+   "id": "tiara_do_sopro_frio",
+   "nome": "Tiara do Sopro Frio",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Sopro Frio",
+   "icone": "item32_tiara_do_sopro_frio",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_sopro_frio",
+   "nome": "Anel do Sopro Frio",
+   "papel": "Acessório · Ressonância",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Sopro Frio",
+   "icone": "item32_anel_do_sopro_frio",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_do_sopro_frio",
+   "nome": "Bracelete do Sopro Frio",
+   "papel": "Acessório · Resistência",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Sopro Frio",
+   "icone": "item32_bracelete_do_sopro_frio",
+   "icone_anim": null
+  },
+  {
+   "id": "lanca_do_floco_branco",
+   "nome": "Lança do Floco Branco",
+   "papel": "Arma · Ressonância",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Floco Branco",
+   "icone": "item32_lanca_do_floco_branco",
+   "icone_anim": null
+  },
+  {
+   "id": "armadura_do_floco_branco",
+   "nome": "Armadura do Floco Branco",
+   "papel": "Armadura · Resistência",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Floco Branco",
+   "icone": "item32_armadura_do_floco_branco",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_do_floco_branco",
+   "nome": "Elmo do Floco Branco",
+   "papel": "Cabeça · Percepção",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Floco Branco",
+   "icone": "item32_elmo_do_floco_branco",
+   "icone_anim": null
+  },
+  {
+   "id": "broche_do_floco_branco",
+   "nome": "Broche do Floco Branco",
+   "papel": "Acessório · Ressonância",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Floco Branco",
+   "icone": "item32_broche_do_floco_branco",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_do_floco_branco",
+   "nome": "Botas do Floco Branco",
+   "papel": "Acessório · Resistência",
+   "raridade": "raro",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Floco Branco",
+   "icone": "item32_botas_do_floco_branco",
+   "icone_anim": null
+  },
+  {
+   "id": "lamina_da_fornalha_viva",
+   "nome": "Lâmina da Fornalha Viva",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Fornalha Viva",
+   "icone": "item32_lamina_da_fornalha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "couraca_da_fornalha_viva",
+   "nome": "Couraça da Fornalha Viva",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Fornalha Viva",
+   "icone": "item32_couraca_da_fornalha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_da_fornalha_viva",
+   "nome": "Elmo da Fornalha Viva",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Fornalha Viva",
+   "icone": "item32_elmo_da_fornalha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_da_fornalha_viva",
+   "nome": "Anel da Fornalha Viva",
+   "papel": "Acessório · Força",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Fornalha Viva",
+   "icone": "item32_anel_da_fornalha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "pingente_da_fornalha_viva",
+   "nome": "Pingente da Fornalha Viva",
+   "papel": "Acessório · Percepção",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Fornalha Viva",
+   "icone": "item32_pingente_da_fornalha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "machado_da_bigorna_incandescente",
+   "nome": "Machado da Bigorna Incandescente",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Bigorna Incandescente",
+   "icone": "item32_machado_da_bigorna_incandescente",
+   "icone_anim": null
+  },
+  {
+   "id": "peitoral_da_bigorna_incandescente",
+   "nome": "Peitoral da Bigorna Incandescente",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Bigorna Incandescente",
+   "icone": "item32_peitoral_da_bigorna_incandescente",
+   "icone_anim": null
+  },
+  {
+   "id": "faixa_da_bigorna_incandescente",
+   "nome": "Faixa da Bigorna Incandescente",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Bigorna Incandescente",
+   "icone": "item32_faixa_da_bigorna_incandescente",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_da_bigorna_incandescente",
+   "nome": "Bracelete da Bigorna Incandescente",
+   "papel": "Acessório · Força",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Bigorna Incandescente",
+   "icone": "item32_bracelete_da_bigorna_incandescente",
+   "icone_anim": null
+  },
+  {
+   "id": "lente_da_bigorna_incandescente",
+   "nome": "Lente da Bigorna Incandescente",
+   "papel": "Acessório · Percepção",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Bigorna Incandescente",
+   "icone": "item32_lente_da_bigorna_incandescente",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_das_cinzas_vivas",
+   "nome": "Cajado das Cinzas Vivas",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto das Cinzas Vivas",
+   "icone": "item32_cajado_das_cinzas_vivas",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_das_cinzas_vivas",
+   "nome": "Manto das Cinzas Vivas",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto das Cinzas Vivas",
+   "icone": "item32_manto_das_cinzas_vivas",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_das_cinzas_vivas",
+   "nome": "Capuz das Cinzas Vivas",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto das Cinzas Vivas",
+   "icone": "item32_capuz_das_cinzas_vivas",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_das_cinzas_vivas",
+   "nome": "Anel das Cinzas Vivas",
+   "papel": "Acessório · Força",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto das Cinzas Vivas",
+   "icone": "item32_anel_das_cinzas_vivas",
+   "icone_anim": null
+  },
+  {
+   "id": "brinco_das_cinzas_vivas",
+   "nome": "Brinco das Cinzas Vivas",
+   "papel": "Acessório · Percepção",
+   "raridade": "epico",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto das Cinzas Vivas",
+   "icone": "item32_brinco_das_cinzas_vivas",
+   "icone_anim": null
+  },
+  {
+   "id": "tridente_da_mare_funda",
+   "nome": "Tridente da Maré Funda",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Maré Funda",
+   "icone": "item32_tridente_da_mare_funda",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_da_mare_funda",
+   "nome": "Manto da Maré Funda",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Maré Funda",
+   "icone": "item32_manto_da_mare_funda",
+   "icone_anim": null
+  },
+  {
+   "id": "tiara_da_mare_funda",
+   "nome": "Tiara da Maré Funda",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Maré Funda",
+   "icone": "item32_tiara_da_mare_funda",
+   "icone_anim": null
+  },
+  {
+   "id": "concha_da_mare_funda",
+   "nome": "Concha da Maré Funda",
+   "papel": "Acessório · Resistência",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Maré Funda",
+   "icone": "item32_concha_da_mare_funda",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_da_mare_funda",
+   "nome": "Bracelete da Maré Funda",
+   "papel": "Acessório · Ressonância",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Maré Funda",
+   "icone": "item32_bracelete_da_mare_funda",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_do_aguaceiro",
+   "nome": "Cajado do Aguaceiro",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Aguaceiro",
+   "icone": "item32_cajado_do_aguaceiro",
+   "icone_anim": null
+  },
+  {
+   "id": "tunica_do_aguaceiro",
+   "nome": "Túnica do Aguaceiro",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Aguaceiro",
+   "icone": "item32_tunica_do_aguaceiro",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_do_aguaceiro",
+   "nome": "Capuz do Aguaceiro",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Aguaceiro",
+   "icone": "item32_capuz_do_aguaceiro",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_do_aguaceiro",
+   "nome": "Bracelete do Aguaceiro",
+   "papel": "Acessório · Resistência",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Aguaceiro",
+   "icone": "item32_bracelete_do_aguaceiro",
+   "icone_anim": null
+  },
+  {
+   "id": "pingente_do_aguaceiro",
+   "nome": "Pingente do Aguaceiro",
+   "papel": "Acessório · Ressonância",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Aguaceiro",
+   "icone": "item32_pingente_do_aguaceiro",
+   "icone_anim": null
+  },
+  {
+   "id": "espada_da_cachoeira_alta",
+   "nome": "Espada da Cachoeira Alta",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Cachoeira Alta",
+   "icone": "item32_espada_da_cachoeira_alta",
+   "icone_anim": null
+  },
+  {
+   "id": "cota_da_cachoeira_alta",
+   "nome": "Cota da Cachoeira Alta",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Cachoeira Alta",
+   "icone": "item32_cota_da_cachoeira_alta",
+   "icone_anim": null
+  },
+  {
+   "id": "chapeu_da_cachoeira_alta",
+   "nome": "Chapéu da Cachoeira Alta",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Cachoeira Alta",
+   "icone": "item32_chapeu_da_cachoeira_alta",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_da_cachoeira_alta",
+   "nome": "Anel da Cachoeira Alta",
+   "papel": "Acessório · Resistência",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Cachoeira Alta",
+   "icone": "item32_anel_da_cachoeira_alta",
+   "icone_anim": null
+  },
+  {
+   "id": "broche_da_cachoeira_alta",
+   "nome": "Broche da Cachoeira Alta",
+   "papel": "Acessório · Ressonância",
+   "raridade": "epico",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Cachoeira Alta",
+   "icone": "item32_broche_da_cachoeira_alta",
+   "icone_anim": null
+  },
+  {
+   "id": "martelo_da_rocha_viva",
+   "nome": "Martelo da Rocha Viva",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Rocha Viva",
+   "icone": "item32_martelo_da_rocha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "armadura_da_rocha_viva",
+   "nome": "Armadura da Rocha Viva",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Rocha Viva",
+   "icone": "item32_armadura_da_rocha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_da_rocha_viva",
+   "nome": "Elmo da Rocha Viva",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Rocha Viva",
+   "icone": "item32_elmo_da_rocha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_da_rocha_viva",
+   "nome": "Anel da Rocha Viva",
+   "papel": "Acessório · Resistência",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Rocha Viva",
+   "icone": "item32_anel_da_rocha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "cinturao_da_rocha_viva",
+   "nome": "Cinturão da Rocha Viva",
+   "papel": "Acessório · Força",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Rocha Viva",
+   "icone": "item32_cinturao_da_rocha_viva",
+   "icone_anim": null
+  },
+  {
+   "id": "machado_do_barro_cozido",
+   "nome": "Machado do Barro Cozido",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Barro Cozido",
+   "icone": "item32_machado_do_barro_cozido",
+   "icone_anim": null
+  },
+  {
+   "id": "gibao_do_barro_cozido",
+   "nome": "Gibão do Barro Cozido",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Barro Cozido",
+   "icone": "item32_gibao_do_barro_cozido",
+   "icone_anim": null
+  },
+  {
+   "id": "faixa_do_barro_cozido",
+   "nome": "Faixa do Barro Cozido",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Barro Cozido",
+   "icone": "item32_faixa_do_barro_cozido",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_do_barro_cozido",
+   "nome": "Bracelete do Barro Cozido",
+   "papel": "Acessório · Resistência",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Barro Cozido",
+   "icone": "item32_bracelete_do_barro_cozido",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_barro_cozido",
+   "nome": "Anel do Barro Cozido",
+   "papel": "Acessório · Força",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Barro Cozido",
+   "icone": "item32_anel_do_barro_cozido",
+   "icone_anim": null
+  },
+  {
+   "id": "lanca_do_granito",
+   "nome": "Lança do Granito",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Granito",
+   "icone": "item32_lanca_do_granito",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_do_granito",
+   "nome": "Manto do Granito",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Granito",
+   "icone": "item32_manto_do_granito",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_do_granito",
+   "nome": "Capuz do Granito",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Granito",
+   "icone": "item32_capuz_do_granito",
+   "icone_anim": null
+  },
+  {
+   "id": "amuleto_do_granito",
+   "nome": "Amuleto do Granito",
+   "papel": "Acessório · Resistência",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Granito",
+   "icone": "item32_amuleto_do_granito",
+   "icone_anim": null
+  },
+  {
+   "id": "cinto_do_granito",
+   "nome": "Cinto do Granito",
+   "papel": "Acessório · Força",
+   "raridade": "epico",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Granito",
+   "icone": "item32_cinto_do_granito",
+   "icone_anim": null
+  },
+  {
+   "id": "arco_da_asa_cinzenta",
+   "nome": "Arco da Asa Cinzenta",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Asa Cinzenta",
+   "icone": "item32_arco_da_asa_cinzenta",
+   "icone_anim": null
+  },
+  {
+   "id": "gibao_da_asa_cinzenta",
+   "nome": "Gibão da Asa Cinzenta",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Asa Cinzenta",
+   "icone": "item32_gibao_da_asa_cinzenta",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_da_asa_cinzenta",
+   "nome": "Capuz da Asa Cinzenta",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Asa Cinzenta",
+   "icone": "item32_capuz_da_asa_cinzenta",
+   "icone_anim": null
+  },
+  {
+   "id": "pluma_da_asa_cinzenta",
+   "nome": "Pluma da Asa Cinzenta",
+   "papel": "Acessório · Agilidade",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Asa Cinzenta",
+   "icone": "item32_pluma_da_asa_cinzenta",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_da_asa_cinzenta",
+   "nome": "Botas da Asa Cinzenta",
+   "papel": "Acessório · Percepção",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto da Asa Cinzenta",
+   "icone": "item32_botas_da_asa_cinzenta",
+   "icone_anim": null
+  },
+  {
+   "id": "espada_do_vento_norte",
+   "nome": "Espada do Vento Norte",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vento Norte",
+   "icone": "item32_espada_do_vento_norte",
+   "icone_anim": null
+  },
+  {
+   "id": "brigantina_do_vento_norte",
+   "nome": "Brigantina do Vento Norte",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vento Norte",
+   "icone": "item32_brigantina_do_vento_norte",
+   "icone_anim": null
+  },
+  {
+   "id": "chapeu_do_vento_norte",
+   "nome": "Chapéu do Vento Norte",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vento Norte",
+   "icone": "item32_chapeu_do_vento_norte",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_vento_norte",
+   "nome": "Anel do Vento Norte",
+   "papel": "Acessório · Agilidade",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vento Norte",
+   "icone": "item32_anel_do_vento_norte",
+   "icone_anim": null
+  },
+  {
+   "id": "brinco_do_vento_norte",
+   "nome": "Brinco do Vento Norte",
+   "papel": "Acessório · Percepção",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Vento Norte",
+   "icone": "item32_brinco_do_vento_norte",
+   "icone_anim": null
+  },
+  {
+   "id": "lanca_dupla_do_voo_alto",
+   "nome": "Lança Dupla do Voo Alto",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Voo Alto",
+   "icone": "item32_lanca_dupla_do_voo_alto",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_do_voo_alto",
+   "nome": "Manto do Voo Alto",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Voo Alto",
+   "icone": "item32_manto_do_voo_alto",
+   "icone_anim": null
+  },
+  {
+   "id": "faixa_do_voo_alto",
+   "nome": "Faixa do Voo Alto",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Voo Alto",
+   "icone": "item32_faixa_do_voo_alto",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_do_voo_alto",
+   "nome": "Botas do Voo Alto",
+   "papel": "Acessório · Agilidade",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Voo Alto",
+   "icone": "item32_botas_do_voo_alto",
+   "icone_anim": null
+  },
+  {
+   "id": "lente_do_voo_alto",
+   "nome": "Lente do Voo Alto",
+   "papel": "Acessório · Percepção",
+   "raridade": "epico",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Voo Alto",
+   "icone": "item32_lente_do_voo_alto",
+   "icone_anim": null
+  },
+  {
+   "id": "lanca_da_tempestade",
+   "nome": "Lança da Tempestade",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Tempestade",
+   "icone": "item32_lanca_da_tempestade",
+   "icone_anim": null
+  },
+  {
+   "id": "cota_da_tempestade",
+   "nome": "Cota da Tempestade",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Tempestade",
+   "icone": "item32_cota_da_tempestade",
+   "icone_anim": null
+  },
+  {
+   "id": "viseira_da_tempestade",
+   "nome": "Viseira da Tempestade",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Tempestade",
+   "icone": "item32_viseira_da_tempestade",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_da_tempestade",
+   "nome": "Bracelete da Tempestade",
+   "papel": "Acessório · Percepção",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Tempestade",
+   "icone": "item32_bracelete_da_tempestade",
+   "icone_anim": null
+  },
+  {
+   "id": "brinco_da_tempestade",
+   "nome": "Brinco da Tempestade",
+   "papel": "Acessório · Agilidade",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Tempestade",
+   "icone": "item32_brinco_da_tempestade",
+   "icone_anim": null
+  },
+  {
+   "id": "espada_do_clarao",
+   "nome": "Espada do Clarão",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Clarão",
+   "icone": "item32_espada_do_clarao",
+   "icone_anim": null
+  },
+  {
+   "id": "brigantina_do_clarao",
+   "nome": "Brigantina do Clarão",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Clarão",
+   "icone": "item32_brigantina_do_clarao",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_do_clarao",
+   "nome": "Elmo do Clarão",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Clarão",
+   "icone": "item32_elmo_do_clarao",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_clarao",
+   "nome": "Anel do Clarão",
+   "papel": "Acessório · Percepção",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Clarão",
+   "icone": "item32_anel_do_clarao",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_do_clarao",
+   "nome": "Botas do Clarão",
+   "papel": "Acessório · Agilidade",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Clarão",
+   "icone": "item32_botas_do_clarao",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_da_nuvem_negra",
+   "nome": "Cajado da Nuvem Negra",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Negra",
+   "icone": "item32_cajado_da_nuvem_negra",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_da_nuvem_negra",
+   "nome": "Manto da Nuvem Negra",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Negra",
+   "icone": "item32_manto_da_nuvem_negra",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_da_nuvem_negra",
+   "nome": "Capuz da Nuvem Negra",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Negra",
+   "icone": "item32_capuz_da_nuvem_negra",
+   "icone_anim": null
+  },
+  {
+   "id": "pingente_da_nuvem_negra",
+   "nome": "Pingente da Nuvem Negra",
+   "papel": "Acessório · Percepção",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Negra",
+   "icone": "item32_pingente_da_nuvem_negra",
+   "icone_anim": null
+  },
+  {
+   "id": "cinto_da_nuvem_negra",
+   "nome": "Cinto da Nuvem Negra",
+   "papel": "Acessório · Agilidade",
+   "raridade": "epico",
+   "elemento": "Raio",
+   "conjunto": "Conjunto da Nuvem Negra",
+   "icone": "item32_cinto_da_nuvem_negra",
+   "icone_anim": null
+  },
+  {
+   "id": "cajado_do_cristal_polar",
+   "nome": "Cajado do Cristal Polar",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cristal Polar",
+   "icone": "item32_cajado_do_cristal_polar",
+   "icone_anim": null
+  },
+  {
+   "id": "manto_do_cristal_polar",
+   "nome": "Manto do Cristal Polar",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cristal Polar",
+   "icone": "item32_manto_do_cristal_polar",
+   "icone_anim": null
+  },
+  {
+   "id": "capuz_do_cristal_polar",
+   "nome": "Capuz do Cristal Polar",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cristal Polar",
+   "icone": "item32_capuz_do_cristal_polar",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_do_cristal_polar",
+   "nome": "Anel do Cristal Polar",
+   "papel": "Acessório · Ressonância",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cristal Polar",
+   "icone": "item32_anel_do_cristal_polar",
+   "icone_anim": null
+  },
+  {
+   "id": "broche_do_cristal_polar",
+   "nome": "Broche do Cristal Polar",
+   "papel": "Acessório · Resistência",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cristal Polar",
+   "icone": "item32_broche_do_cristal_polar",
+   "icone_anim": null
+  },
+  {
+   "id": "arco_da_nevasca",
+   "nome": "Arco da Nevasca",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Nevasca",
+   "icone": "item32_arco_da_nevasca",
+   "icone_anim": null
+  },
+  {
+   "id": "gibao_da_nevasca",
+   "nome": "Gibão da Nevasca",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Nevasca",
+   "icone": "item32_gibao_da_nevasca",
+   "icone_anim": null
+  },
+  {
+   "id": "tiara_da_nevasca",
+   "nome": "Tiara da Nevasca",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Nevasca",
+   "icone": "item32_tiara_da_nevasca",
+   "icone_anim": null
+  },
+  {
+   "id": "anel_da_nevasca",
+   "nome": "Anel da Nevasca",
+   "papel": "Acessório · Ressonância",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Nevasca",
+   "icone": "item32_anel_da_nevasca",
+   "icone_anim": null
+  },
+  {
+   "id": "bracelete_da_nevasca",
+   "nome": "Bracelete da Nevasca",
+   "papel": "Acessório · Resistência",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Nevasca",
+   "icone": "item32_bracelete_da_nevasca",
+   "icone_anim": null
+  },
+  {
+   "id": "lanca_do_gelo_eterno",
+   "nome": "Lança do Gelo Eterno",
+   "papel": "Arma · Ressonância",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Gelo Eterno",
+   "icone": "item32_lanca_do_gelo_eterno",
+   "icone_anim": null
+  },
+  {
+   "id": "armadura_do_gelo_eterno",
+   "nome": "Armadura do Gelo Eterno",
+   "papel": "Armadura · Resistência",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Gelo Eterno",
+   "icone": "item32_armadura_do_gelo_eterno",
+   "icone_anim": null
+  },
+  {
+   "id": "elmo_do_gelo_eterno",
+   "nome": "Elmo do Gelo Eterno",
+   "papel": "Cabeça · Percepção",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Gelo Eterno",
+   "icone": "item32_elmo_do_gelo_eterno",
+   "icone_anim": null
+  },
+  {
+   "id": "broche_do_gelo_eterno",
+   "nome": "Broche do Gelo Eterno",
+   "papel": "Acessório · Ressonância",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Gelo Eterno",
+   "icone": "item32_broche_do_gelo_eterno",
+   "icone_anim": null
+  },
+  {
+   "id": "botas_do_gelo_eterno",
+   "nome": "Botas do Gelo Eterno",
+   "papel": "Acessório · Resistência",
+   "raridade": "epico",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Gelo Eterno",
+   "icone": "item32_botas_do_gelo_eterno",
+   "icone_anim": null
+  },
+  {
+   "id": "lamina_do_coracao_ardente",
+   "nome": "Lâmina do Coração Ardente",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Coração Ardente",
+   "icone": "item32_lamina_do_coracao_ardente",
+   "icone_anim": "item32_lamina_do_coracao_ardente_anim"
+  },
+  {
+   "id": "couraca_do_coracao_ardente",
+   "nome": "Couraça do Coração Ardente",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Coração Ardente",
+   "icone": "item32_couraca_do_coracao_ardente",
+   "icone_anim": "item32_couraca_do_coracao_ardente_anim"
+  },
+  {
+   "id": "elmo_do_coracao_ardente",
+   "nome": "Elmo do Coração Ardente",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Coração Ardente",
+   "icone": "item32_elmo_do_coracao_ardente",
+   "icone_anim": "item32_elmo_do_coracao_ardente_anim"
+  },
+  {
+   "id": "anel_do_coracao_ardente",
+   "nome": "Anel do Coração Ardente",
+   "papel": "Acessório · Força",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Coração Ardente",
+   "icone": "item32_anel_do_coracao_ardente",
+   "icone_anim": "item32_anel_do_coracao_ardente_anim"
+  },
+  {
+   "id": "pingente_do_coracao_ardente",
+   "nome": "Pingente do Coração Ardente",
+   "papel": "Acessório · Percepção",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Coração Ardente",
+   "icone": "item32_pingente_do_coracao_ardente",
+   "icone_anim": "item32_pingente_do_coracao_ardente_anim"
+  },
+  {
+   "id": "machado_da_chama_primeira",
+   "nome": "Machado da Chama Primeira",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Chama Primeira",
+   "icone": "item32_machado_da_chama_primeira",
+   "icone_anim": "item32_machado_da_chama_primeira_anim"
+  },
+  {
+   "id": "peitoral_da_chama_primeira",
+   "nome": "Peitoral da Chama Primeira",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Chama Primeira",
+   "icone": "item32_peitoral_da_chama_primeira",
+   "icone_anim": "item32_peitoral_da_chama_primeira_anim"
+  },
+  {
+   "id": "faixa_da_chama_primeira",
+   "nome": "Faixa da Chama Primeira",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Chama Primeira",
+   "icone": "item32_faixa_da_chama_primeira",
+   "icone_anim": "item32_faixa_da_chama_primeira_anim"
+  },
+  {
+   "id": "bracelete_da_chama_primeira",
+   "nome": "Bracelete da Chama Primeira",
+   "papel": "Acessório · Força",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Chama Primeira",
+   "icone": "item32_bracelete_da_chama_primeira",
+   "icone_anim": "item32_bracelete_da_chama_primeira_anim"
+  },
+  {
+   "id": "lente_da_chama_primeira",
+   "nome": "Lente da Chama Primeira",
+   "papel": "Acessório · Percepção",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto da Chama Primeira",
+   "icone": "item32_lente_da_chama_primeira",
+   "icone_anim": "item32_lente_da_chama_primeira_anim"
+  },
+  {
+   "id": "cajado_do_rubi_flamejante",
+   "nome": "Cajado do Rubi Flamejante",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Rubi Flamejante",
+   "icone": "item32_cajado_do_rubi_flamejante",
+   "icone_anim": "item32_cajado_do_rubi_flamejante_anim"
+  },
+  {
+   "id": "manto_do_rubi_flamejante",
+   "nome": "Manto do Rubi Flamejante",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Rubi Flamejante",
+   "icone": "item32_manto_do_rubi_flamejante",
+   "icone_anim": "item32_manto_do_rubi_flamejante_anim"
+  },
+  {
+   "id": "capuz_do_rubi_flamejante",
+   "nome": "Capuz do Rubi Flamejante",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Rubi Flamejante",
+   "icone": "item32_capuz_do_rubi_flamejante",
+   "icone_anim": "item32_capuz_do_rubi_flamejante_anim"
+  },
+  {
+   "id": "anel_do_rubi_flamejante",
+   "nome": "Anel do Rubi Flamejante",
+   "papel": "Acessório · Força",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Rubi Flamejante",
+   "icone": "item32_anel_do_rubi_flamejante",
+   "icone_anim": "item32_anel_do_rubi_flamejante_anim"
+  },
+  {
+   "id": "brinco_do_rubi_flamejante",
+   "nome": "Brinco do Rubi Flamejante",
+   "papel": "Acessório · Percepção",
+   "raridade": "lendario",
+   "elemento": "Fogo",
+   "conjunto": "Conjunto do Rubi Flamejante",
+   "icone": "item32_brinco_do_rubi_flamejante",
+   "icone_anim": "item32_brinco_do_rubi_flamejante_anim"
+  },
+  {
+   "id": "tridente_do_abismo_sereno",
+   "nome": "Tridente do Abismo Sereno",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Abismo Sereno",
+   "icone": "item32_tridente_do_abismo_sereno",
+   "icone_anim": "item32_tridente_do_abismo_sereno_anim"
+  },
+  {
+   "id": "manto_do_abismo_sereno",
+   "nome": "Manto do Abismo Sereno",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Abismo Sereno",
+   "icone": "item32_manto_do_abismo_sereno",
+   "icone_anim": "item32_manto_do_abismo_sereno_anim"
+  },
+  {
+   "id": "tiara_do_abismo_sereno",
+   "nome": "Tiara do Abismo Sereno",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Abismo Sereno",
+   "icone": "item32_tiara_do_abismo_sereno",
+   "icone_anim": "item32_tiara_do_abismo_sereno_anim"
+  },
+  {
+   "id": "concha_do_abismo_sereno",
+   "nome": "Concha do Abismo Sereno",
+   "papel": "Acessório · Resistência",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Abismo Sereno",
+   "icone": "item32_concha_do_abismo_sereno",
+   "icone_anim": "item32_concha_do_abismo_sereno_anim"
+  },
+  {
+   "id": "bracelete_do_abismo_sereno",
+   "nome": "Bracelete do Abismo Sereno",
+   "papel": "Acessório · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Abismo Sereno",
+   "icone": "item32_bracelete_do_abismo_sereno",
+   "icone_anim": "item32_bracelete_do_abismo_sereno_anim"
+  },
+  {
+   "id": "cajado_do_diluvio",
+   "nome": "Cajado do Dilúvio",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Dilúvio",
+   "icone": "item32_cajado_do_diluvio",
+   "icone_anim": "item32_cajado_do_diluvio_anim"
+  },
+  {
+   "id": "tunica_do_diluvio",
+   "nome": "Túnica do Dilúvio",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Dilúvio",
+   "icone": "item32_tunica_do_diluvio",
+   "icone_anim": "item32_tunica_do_diluvio_anim"
+  },
+  {
+   "id": "capuz_do_diluvio",
+   "nome": "Capuz do Dilúvio",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Dilúvio",
+   "icone": "item32_capuz_do_diluvio",
+   "icone_anim": "item32_capuz_do_diluvio_anim"
+  },
+  {
+   "id": "bracelete_do_diluvio",
+   "nome": "Bracelete do Dilúvio",
+   "papel": "Acessório · Resistência",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Dilúvio",
+   "icone": "item32_bracelete_do_diluvio",
+   "icone_anim": "item32_bracelete_do_diluvio_anim"
+  },
+  {
+   "id": "pingente_do_diluvio",
+   "nome": "Pingente do Dilúvio",
+   "papel": "Acessório · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto do Dilúvio",
+   "icone": "item32_pingente_do_diluvio",
+   "icone_anim": "item32_pingente_do_diluvio_anim"
+  },
+  {
+   "id": "espada_da_nascente_pura",
+   "nome": "Espada da Nascente Pura",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Nascente Pura",
+   "icone": "item32_espada_da_nascente_pura",
+   "icone_anim": "item32_espada_da_nascente_pura_anim"
+  },
+  {
+   "id": "cota_da_nascente_pura",
+   "nome": "Cota da Nascente Pura",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Nascente Pura",
+   "icone": "item32_cota_da_nascente_pura",
+   "icone_anim": "item32_cota_da_nascente_pura_anim"
+  },
+  {
+   "id": "chapeu_da_nascente_pura",
+   "nome": "Chapéu da Nascente Pura",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Nascente Pura",
+   "icone": "item32_chapeu_da_nascente_pura",
+   "icone_anim": "item32_chapeu_da_nascente_pura_anim"
+  },
+  {
+   "id": "anel_da_nascente_pura",
+   "nome": "Anel da Nascente Pura",
+   "papel": "Acessório · Resistência",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Nascente Pura",
+   "icone": "item32_anel_da_nascente_pura",
+   "icone_anim": "item32_anel_da_nascente_pura_anim"
+  },
+  {
+   "id": "broche_da_nascente_pura",
+   "nome": "Broche da Nascente Pura",
+   "papel": "Acessório · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Água",
+   "conjunto": "Conjunto da Nascente Pura",
+   "icone": "item32_broche_da_nascente_pura",
+   "icone_anim": "item32_broche_da_nascente_pura_anim"
+  },
+  {
+   "id": "martelo_da_montanha_antiga",
+   "nome": "Martelo da Montanha Antiga",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Montanha Antiga",
+   "icone": "item32_martelo_da_montanha_antiga",
+   "icone_anim": "item32_martelo_da_montanha_antiga_anim"
+  },
+  {
+   "id": "armadura_da_montanha_antiga",
+   "nome": "Armadura da Montanha Antiga",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Montanha Antiga",
+   "icone": "item32_armadura_da_montanha_antiga",
+   "icone_anim": "item32_armadura_da_montanha_antiga_anim"
+  },
+  {
+   "id": "elmo_da_montanha_antiga",
+   "nome": "Elmo da Montanha Antiga",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Montanha Antiga",
+   "icone": "item32_elmo_da_montanha_antiga",
+   "icone_anim": "item32_elmo_da_montanha_antiga_anim"
+  },
+  {
+   "id": "anel_da_montanha_antiga",
+   "nome": "Anel da Montanha Antiga",
+   "papel": "Acessório · Resistência",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Montanha Antiga",
+   "icone": "item32_anel_da_montanha_antiga",
+   "icone_anim": "item32_anel_da_montanha_antiga_anim"
+  },
+  {
+   "id": "cinturao_da_montanha_antiga",
+   "nome": "Cinturão da Montanha Antiga",
+   "papel": "Acessório · Força",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Montanha Antiga",
+   "icone": "item32_cinturao_da_montanha_antiga",
+   "icone_anim": "item32_cinturao_da_montanha_antiga_anim"
+  },
+  {
+   "id": "machado_da_terra_firme",
+   "nome": "Machado da Terra Firme",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Terra Firme",
+   "icone": "item32_machado_da_terra_firme",
+   "icone_anim": "item32_machado_da_terra_firme_anim"
+  },
+  {
+   "id": "gibao_da_terra_firme",
+   "nome": "Gibão da Terra Firme",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Terra Firme",
+   "icone": "item32_gibao_da_terra_firme",
+   "icone_anim": "item32_gibao_da_terra_firme_anim"
+  },
+  {
+   "id": "faixa_da_terra_firme",
+   "nome": "Faixa da Terra Firme",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Terra Firme",
+   "icone": "item32_faixa_da_terra_firme",
+   "icone_anim": "item32_faixa_da_terra_firme_anim"
+  },
+  {
+   "id": "bracelete_da_terra_firme",
+   "nome": "Bracelete da Terra Firme",
+   "papel": "Acessório · Resistência",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Terra Firme",
+   "icone": "item32_bracelete_da_terra_firme",
+   "icone_anim": "item32_bracelete_da_terra_firme_anim"
+  },
+  {
+   "id": "anel_da_terra_firme",
+   "nome": "Anel da Terra Firme",
+   "papel": "Acessório · Força",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto da Terra Firme",
+   "icone": "item32_anel_da_terra_firme",
+   "icone_anim": "item32_anel_da_terra_firme_anim"
+  },
+  {
+   "id": "lanca_do_monolito",
+   "nome": "Lança do Monólito",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Monólito",
+   "icone": "item32_lanca_do_monolito",
+   "icone_anim": "item32_lanca_do_monolito_anim"
+  },
+  {
+   "id": "manto_do_monolito",
+   "nome": "Manto do Monólito",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Monólito",
+   "icone": "item32_manto_do_monolito",
+   "icone_anim": "item32_manto_do_monolito_anim"
+  },
+  {
+   "id": "capuz_do_monolito",
+   "nome": "Capuz do Monólito",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Monólito",
+   "icone": "item32_capuz_do_monolito",
+   "icone_anim": "item32_capuz_do_monolito_anim"
+  },
+  {
+   "id": "amuleto_do_monolito",
+   "nome": "Amuleto do Monólito",
+   "papel": "Acessório · Resistência",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Monólito",
+   "icone": "item32_amuleto_do_monolito",
+   "icone_anim": "item32_amuleto_do_monolito_anim"
+  },
+  {
+   "id": "cinto_do_monolito",
+   "nome": "Cinto do Monólito",
+   "papel": "Acessório · Força",
+   "raridade": "lendario",
+   "elemento": "Terra",
+   "conjunto": "Conjunto do Monólito",
+   "icone": "item32_cinto_do_monolito",
+   "icone_anim": "item32_cinto_do_monolito_anim"
+  },
+  {
+   "id": "arco_do_ceu_aberto",
+   "nome": "Arco do Céu Aberto",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Céu Aberto",
+   "icone": "item32_arco_do_ceu_aberto",
+   "icone_anim": "item32_arco_do_ceu_aberto_anim"
+  },
+  {
+   "id": "gibao_do_ceu_aberto",
+   "nome": "Gibão do Céu Aberto",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Céu Aberto",
+   "icone": "item32_gibao_do_ceu_aberto",
+   "icone_anim": "item32_gibao_do_ceu_aberto_anim"
+  },
+  {
+   "id": "capuz_do_ceu_aberto",
+   "nome": "Capuz do Céu Aberto",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Céu Aberto",
+   "icone": "item32_capuz_do_ceu_aberto",
+   "icone_anim": "item32_capuz_do_ceu_aberto_anim"
+  },
+  {
+   "id": "pluma_do_ceu_aberto",
+   "nome": "Pluma do Céu Aberto",
+   "papel": "Acessório · Agilidade",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Céu Aberto",
+   "icone": "item32_pluma_do_ceu_aberto",
+   "icone_anim": "item32_pluma_do_ceu_aberto_anim"
+  },
+  {
+   "id": "botas_do_ceu_aberto",
+   "nome": "Botas do Céu Aberto",
+   "papel": "Acessório · Percepção",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Céu Aberto",
+   "icone": "item32_botas_do_ceu_aberto",
+   "icone_anim": "item32_botas_do_ceu_aberto_anim"
+  },
+  {
+   "id": "espada_dos_quatro_ventos",
+   "nome": "Espada dos Quatro Ventos",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto dos Quatro Ventos",
+   "icone": "item32_espada_dos_quatro_ventos",
+   "icone_anim": "item32_espada_dos_quatro_ventos_anim"
+  },
+  {
+   "id": "brigantina_dos_quatro_ventos",
+   "nome": "Brigantina dos Quatro Ventos",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto dos Quatro Ventos",
+   "icone": "item32_brigantina_dos_quatro_ventos",
+   "icone_anim": "item32_brigantina_dos_quatro_ventos_anim"
+  },
+  {
+   "id": "chapeu_dos_quatro_ventos",
+   "nome": "Chapéu dos Quatro Ventos",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto dos Quatro Ventos",
+   "icone": "item32_chapeu_dos_quatro_ventos",
+   "icone_anim": "item32_chapeu_dos_quatro_ventos_anim"
+  },
+  {
+   "id": "anel_dos_quatro_ventos",
+   "nome": "Anel dos Quatro Ventos",
+   "papel": "Acessório · Agilidade",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto dos Quatro Ventos",
+   "icone": "item32_anel_dos_quatro_ventos",
+   "icone_anim": "item32_anel_dos_quatro_ventos_anim"
+  },
+  {
+   "id": "brinco_dos_quatro_ventos",
+   "nome": "Brinco dos Quatro Ventos",
+   "papel": "Acessório · Percepção",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto dos Quatro Ventos",
+   "icone": "item32_brinco_dos_quatro_ventos",
+   "icone_anim": "item32_brinco_dos_quatro_ventos_anim"
+  },
+  {
+   "id": "lanca_dupla_do_horizonte",
+   "nome": "Lança Dupla do Horizonte",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Horizonte",
+   "icone": "item32_lanca_dupla_do_horizonte",
+   "icone_anim": "item32_lanca_dupla_do_horizonte_anim"
+  },
+  {
+   "id": "manto_do_horizonte",
+   "nome": "Manto do Horizonte",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Horizonte",
+   "icone": "item32_manto_do_horizonte",
+   "icone_anim": "item32_manto_do_horizonte_anim"
+  },
+  {
+   "id": "faixa_do_horizonte",
+   "nome": "Faixa do Horizonte",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Horizonte",
+   "icone": "item32_faixa_do_horizonte",
+   "icone_anim": "item32_faixa_do_horizonte_anim"
+  },
+  {
+   "id": "botas_do_horizonte",
+   "nome": "Botas do Horizonte",
+   "papel": "Acessório · Agilidade",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Horizonte",
+   "icone": "item32_botas_do_horizonte",
+   "icone_anim": "item32_botas_do_horizonte_anim"
+  },
+  {
+   "id": "lente_do_horizonte",
+   "nome": "Lente do Horizonte",
+   "papel": "Acessório · Percepção",
+   "raridade": "lendario",
+   "elemento": "Ar",
+   "conjunto": "Conjunto do Horizonte",
+   "icone": "item32_lente_do_horizonte",
+   "icone_anim": "item32_lente_do_horizonte_anim"
+  },
+  {
+   "id": "lanca_do_relampago_rei",
+   "nome": "Lança do Relâmpago Rei",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Relâmpago Rei",
+   "icone": "item32_lanca_do_relampago_rei",
+   "icone_anim": "item32_lanca_do_relampago_rei_anim"
+  },
+  {
+   "id": "cota_do_relampago_rei",
+   "nome": "Cota do Relâmpago Rei",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Relâmpago Rei",
+   "icone": "item32_cota_do_relampago_rei",
+   "icone_anim": "item32_cota_do_relampago_rei_anim"
+  },
+  {
+   "id": "viseira_do_relampago_rei",
+   "nome": "Viseira do Relâmpago Rei",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Relâmpago Rei",
+   "icone": "item32_viseira_do_relampago_rei",
+   "icone_anim": "item32_viseira_do_relampago_rei_anim"
+  },
+  {
+   "id": "bracelete_do_relampago_rei",
+   "nome": "Bracelete do Relâmpago Rei",
+   "papel": "Acessório · Percepção",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Relâmpago Rei",
+   "icone": "item32_bracelete_do_relampago_rei",
+   "icone_anim": "item32_bracelete_do_relampago_rei_anim"
+  },
+  {
+   "id": "brinco_do_relampago_rei",
+   "nome": "Brinco do Relâmpago Rei",
+   "papel": "Acessório · Agilidade",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Relâmpago Rei",
+   "icone": "item32_brinco_do_relampago_rei",
+   "icone_anim": "item32_brinco_do_relampago_rei_anim"
+  },
+  {
+   "id": "espada_do_raio_branco",
+   "nome": "Espada do Raio Branco",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Raio Branco",
+   "icone": "item32_espada_do_raio_branco",
+   "icone_anim": "item32_espada_do_raio_branco_anim"
+  },
+  {
+   "id": "brigantina_do_raio_branco",
+   "nome": "Brigantina do Raio Branco",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Raio Branco",
+   "icone": "item32_brigantina_do_raio_branco",
+   "icone_anim": "item32_brigantina_do_raio_branco_anim"
+  },
+  {
+   "id": "elmo_do_raio_branco",
+   "nome": "Elmo do Raio Branco",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Raio Branco",
+   "icone": "item32_elmo_do_raio_branco",
+   "icone_anim": "item32_elmo_do_raio_branco_anim"
+  },
+  {
+   "id": "anel_do_raio_branco",
+   "nome": "Anel do Raio Branco",
+   "papel": "Acessório · Percepção",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Raio Branco",
+   "icone": "item32_anel_do_raio_branco",
+   "icone_anim": "item32_anel_do_raio_branco_anim"
+  },
+  {
+   "id": "botas_do_raio_branco",
+   "nome": "Botas do Raio Branco",
+   "papel": "Acessório · Agilidade",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Raio Branco",
+   "icone": "item32_botas_do_raio_branco",
+   "icone_anim": "item32_botas_do_raio_branco_anim"
+  },
+  {
+   "id": "cajado_do_ceu_rasgado",
+   "nome": "Cajado do Céu Rasgado",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Céu Rasgado",
+   "icone": "item32_cajado_do_ceu_rasgado",
+   "icone_anim": "item32_cajado_do_ceu_rasgado_anim"
+  },
+  {
+   "id": "manto_do_ceu_rasgado",
+   "nome": "Manto do Céu Rasgado",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Céu Rasgado",
+   "icone": "item32_manto_do_ceu_rasgado",
+   "icone_anim": "item32_manto_do_ceu_rasgado_anim"
+  },
+  {
+   "id": "capuz_do_ceu_rasgado",
+   "nome": "Capuz do Céu Rasgado",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Céu Rasgado",
+   "icone": "item32_capuz_do_ceu_rasgado",
+   "icone_anim": "item32_capuz_do_ceu_rasgado_anim"
+  },
+  {
+   "id": "pingente_do_ceu_rasgado",
+   "nome": "Pingente do Céu Rasgado",
+   "papel": "Acessório · Percepção",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Céu Rasgado",
+   "icone": "item32_pingente_do_ceu_rasgado",
+   "icone_anim": "item32_pingente_do_ceu_rasgado_anim"
+  },
+  {
+   "id": "cinto_do_ceu_rasgado",
+   "nome": "Cinto do Céu Rasgado",
+   "papel": "Acessório · Agilidade",
+   "raridade": "lendario",
+   "elemento": "Raio",
+   "conjunto": "Conjunto do Céu Rasgado",
+   "icone": "item32_cinto_do_ceu_rasgado",
+   "icone_anim": "item32_cinto_do_ceu_rasgado_anim"
+  },
+  {
+   "id": "cajado_da_aurora_gelida",
+   "nome": "Cajado da Aurora Gélida",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Aurora Gélida",
+   "icone": "item32_cajado_da_aurora_gelida",
+   "icone_anim": "item32_cajado_da_aurora_gelida_anim"
+  },
+  {
+   "id": "manto_da_aurora_gelida",
+   "nome": "Manto da Aurora Gélida",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Aurora Gélida",
+   "icone": "item32_manto_da_aurora_gelida",
+   "icone_anim": "item32_manto_da_aurora_gelida_anim"
+  },
+  {
+   "id": "capuz_da_aurora_gelida",
+   "nome": "Capuz da Aurora Gélida",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Aurora Gélida",
+   "icone": "item32_capuz_da_aurora_gelida",
+   "icone_anim": "item32_capuz_da_aurora_gelida_anim"
+  },
+  {
+   "id": "anel_da_aurora_gelida",
+   "nome": "Anel da Aurora Gélida",
+   "papel": "Acessório · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Aurora Gélida",
+   "icone": "item32_anel_da_aurora_gelida",
+   "icone_anim": "item32_anel_da_aurora_gelida_anim"
+  },
+  {
+   "id": "broche_da_aurora_gelida",
+   "nome": "Broche da Aurora Gélida",
+   "papel": "Acessório · Resistência",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto da Aurora Gélida",
+   "icone": "item32_broche_da_aurora_gelida",
+   "icone_anim": "item32_broche_da_aurora_gelida_anim"
+  },
+  {
+   "id": "arco_do_inverno_sem_fim",
+   "nome": "Arco do Inverno Sem Fim",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Sem Fim",
+   "icone": "item32_arco_do_inverno_sem_fim",
+   "icone_anim": "item32_arco_do_inverno_sem_fim_anim"
+  },
+  {
+   "id": "gibao_do_inverno_sem_fim",
+   "nome": "Gibão do Inverno Sem Fim",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Sem Fim",
+   "icone": "item32_gibao_do_inverno_sem_fim",
+   "icone_anim": "item32_gibao_do_inverno_sem_fim_anim"
+  },
+  {
+   "id": "tiara_do_inverno_sem_fim",
+   "nome": "Tiara do Inverno Sem Fim",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Sem Fim",
+   "icone": "item32_tiara_do_inverno_sem_fim",
+   "icone_anim": "item32_tiara_do_inverno_sem_fim_anim"
+  },
+  {
+   "id": "anel_do_inverno_sem_fim",
+   "nome": "Anel do Inverno Sem Fim",
+   "papel": "Acessório · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Sem Fim",
+   "icone": "item32_anel_do_inverno_sem_fim",
+   "icone_anim": "item32_anel_do_inverno_sem_fim_anim"
+  },
+  {
+   "id": "bracelete_do_inverno_sem_fim",
+   "nome": "Bracelete do Inverno Sem Fim",
+   "papel": "Acessório · Resistência",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Inverno Sem Fim",
+   "icone": "item32_bracelete_do_inverno_sem_fim",
+   "icone_anim": "item32_bracelete_do_inverno_sem_fim_anim"
+  },
+  {
+   "id": "lanca_do_cume_gelado",
+   "nome": "Lança do Cume Gelado",
+   "papel": "Arma · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cume Gelado",
+   "icone": "item32_lanca_do_cume_gelado",
+   "icone_anim": "item32_lanca_do_cume_gelado_anim"
+  },
+  {
+   "id": "armadura_do_cume_gelado",
+   "nome": "Armadura do Cume Gelado",
+   "papel": "Armadura · Resistência",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cume Gelado",
+   "icone": "item32_armadura_do_cume_gelado",
+   "icone_anim": "item32_armadura_do_cume_gelado_anim"
+  },
+  {
+   "id": "elmo_do_cume_gelado",
+   "nome": "Elmo do Cume Gelado",
+   "papel": "Cabeça · Percepção",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cume Gelado",
+   "icone": "item32_elmo_do_cume_gelado",
+   "icone_anim": "item32_elmo_do_cume_gelado_anim"
+  },
+  {
+   "id": "broche_do_cume_gelado",
+   "nome": "Broche do Cume Gelado",
+   "papel": "Acessório · Ressonância",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cume Gelado",
+   "icone": "item32_broche_do_cume_gelado",
+   "icone_anim": "item32_broche_do_cume_gelado_anim"
+  },
+  {
+   "id": "botas_do_cume_gelado",
+   "nome": "Botas do Cume Gelado",
+   "papel": "Acessório · Resistência",
+   "raridade": "lendario",
+   "elemento": "Gelo",
+   "conjunto": "Conjunto do Cume Gelado",
+   "icone": "item32_botas_do_cume_gelado",
+   "icone_anim": "item32_botas_do_cume_gelado_anim"
+  },
+  {
+   "id": "pocao_de_vida_i",
+   "nome": "Poção de Vida I",
+   "papel": "Poção",
+   "raridade": "comum",
+   "efeito": "Efeito único · recupera 25% da Vida máxima (Pequena)",
+   "icone": "pocao32_pocao_de_vida_i",
+   "icone_anim": null
+  },
+  {
+   "id": "pocao_de_vida_ii",
+   "nome": "Poção de Vida II",
+   "papel": "Poção",
+   "raridade": "incomum",
+   "efeito": "Efeito único · recupera 40% da Vida máxima (Média)",
+   "icone": "pocao32_pocao_de_vida_ii",
+   "icone_anim": null
+  },
+  {
+   "id": "pocao_de_vida_iii",
+   "nome": "Poção de Vida III",
+   "papel": "Poção",
+   "raridade": "raro",
+   "efeito": "Efeito único · recupera 60% da Vida máxima (Grande)",
+   "icone": "pocao32_pocao_de_vida_iii",
+   "icone_anim": null
+  },
+  {
+   "id": "remedio_de_estrada",
+   "nome": "Remédio de Estrada",
+   "papel": "Poção",
+   "raridade": "incomum",
+   "efeito": "Efeito único · 20% de Vida e remove 1 condição negativa",
+   "icone": "pocao32_remedio_de_estrada",
+   "icone_anim": null
+  },
+  {
+   "id": "elixir_purificador",
+   "nome": "Elixir Purificador",
+   "papel": "Poção",
+   "raridade": "raro",
+   "efeito": "Efeito único · remove todas as condições negativas",
+   "icone": "pocao32_elixir_purificador",
+   "icone_anim": null
+  },
+  {
+   "id": "essencia_de_eco",
+   "nome": "Essência de Eco",
+   "papel": "Poção",
+   "raridade": "epico",
+   "efeito": "Efeito único · recarrega os usos de 1 habilidade de elemento",
+   "icone": "pocao32_essencia_de_eco",
+   "icone_anim": null
+  },
+  {
+   "id": "frasco_de_ressonancia",
+   "nome": "Frasco de Ressonância",
+   "papel": "Poção",
+   "raridade": "lendario",
+   "efeito": "Efeito único · recarrega os usos de todas as habilidades de elemento",
+   "icone": "pocao32_frasco_de_ressonancia",
+   "icone_anim": "pocao32_frasco_de_ressonancia_anim"
+  },
+  {
+   "id": "tonico_de_reflexo",
+   "nome": "Tônico de Reflexo",
+   "papel": "Poção",
+   "raridade": "incomum",
+   "efeito": "3 turnos · +50% de Agilidade",
+   "icone": "pocao32_tonico_de_reflexo",
+   "icone_anim": null
+  },
+  {
+   "id": "sangue_quente",
+   "nome": "Sangue Quente",
+   "papel": "Poção",
+   "raridade": "incomum",
+   "efeito": "3 turnos · +30% de dano",
+   "icone": "pocao32_sangue_quente",
+   "icone_anim": null
+  },
+  {
+   "id": "elixir_de_granito",
+   "nome": "Elixir de Granito",
+   "papel": "Poção",
+   "raridade": "incomum",
+   "efeito": "3 turnos · +40% de Resistência",
+   "icone": "pocao32_elixir_de_granito",
+   "icone_anim": null
+  },
+  {
+   "id": "olho_de_falcao",
+   "nome": "Olho de Falcão",
+   "papel": "Poção",
+   "raridade": "incomum",
+   "efeito": "3 turnos · +15% de chance de crítico",
+   "icone": "pocao32_olho_de_falcao",
+   "icone_anim": null
+  },
+  {
+   "id": "elixir_de_ressonancia",
+   "nome": "Elixir de Ressonância",
+   "papel": "Poção",
+   "raridade": "raro",
+   "efeito": "3 turnos · +30% de Ressonância",
+   "icone": "pocao32_elixir_de_ressonancia",
+   "icone_anim": null
+  }
+ ]
+}
