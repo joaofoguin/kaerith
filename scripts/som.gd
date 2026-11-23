@@ -6,8 +6,8 @@ extends Node
 ## Música: a tela escolhe entrando num grupo. Quem estiver na árvore manda, nesta ordem:
 ##   "som_historia" (Prólogo, Chegada, criação, Despertar) > "som_chefe" > "som_combate" > tema (o resto).
 ## Volume: canais "Musica" e "Efeitos" (criados e ajustados por scripts/config.gd, tela Configurações).
-## Web: o navegador só libera o áudio depois do primeiro toque; o Godot religa sozinho e a música
-## recomeça nesse toque.
+## Web: o navegador suspende o áudio (antes do 1º toque, ao trocar de app, tela bloqueada, câmera do QR no
+## iPhone). O KaerithAudio do web/kaerith_shell.html religa a cada toque; aqui a música recomeça se tiver parado.
 ## PROVISÓRIOS (meus): as 4 músicas, o volume de cada efeito e quais momentos têm som.
 
 const PASTA_EF := "res://audio/efeitos/"
@@ -44,6 +44,7 @@ func _ready() -> void:
 	_musica.bus = "Musica"
 	_musica.volume_db = VOLUME_MUSICA_DB
 	add_child(_musica)
+	_musica.finished.connect(_musica_acabou)      # garantia do laço (na Web o som toca como "sample")
 	var vigia := Timer.new()
 	vigia.wait_time = 0.25
 	vigia.autostart = true
@@ -145,12 +146,43 @@ func _sumir_musica(tempo: float) -> void:
 	_tween.tween_property(_musica, "volume_db", -60.0, tempo)
 	_tween.tween_callback(_musica.stop)
 
-# ------------------------------------------------------------ Web: liberar o áudio no 1º toque
+func _musica_acabou() -> void:
+	if not _calada and _musica.stream != null:
+		_musica.play()
+
+## A música devia estar tocando e não está (áudio suspenso pelo navegador ou pelo sistema): recomeça.
+func _religar_musica() -> void:
+	if _calada or _musica.stream == null:
+		return
+	if not _musica.playing:
+		_musica.volume_db = VOLUME_MUSICA_DB
+		_musica.play()
+
+# ------------------------------------------------------------ Web: religar o áudio
 func _input(evento: InputEvent) -> void:
-	if _web_liberado or not OS.has_feature("web"):
+	if not OS.has_feature("web"):
 		return
 	if (evento is InputEventMouseButton or evento is InputEventScreenTouch) and evento.is_pressed():
-		_web_liberado = true
-		# a música pedida antes do toque ficou presa com o áudio do navegador suspenso: recomeça agora
-		if not _calada and _musica.stream != null:
-			_musica.play.call_deferred()
+		_acordar_web()
+		if not _web_liberado:
+			_web_liberado = true
+			# a música pedida antes do 1º toque ficou presa com o áudio suspenso: recomeça agora
+			if not _calada and _musica.stream != null:
+				_musica.play.call_deferred()
+		else:
+			_religar_musica.call_deferred()
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_APPLICATION_FOCUS_IN or what == NOTIFICATION_APPLICATION_RESUMED:
+		_acordar_web()
+		_religar_musica.call_deferred()
+
+func _acordar_web() -> void:
+	if OS.has_feature("web"):
+		JavaScriptBridge.eval("window.KaerithAudio ? String(window.KaerithAudio.acordar()) : ''", true)
+
+## Estado do áudio do navegador (para conferir no console/Configurações): "running", "suspended"...
+func estado_web() -> String:
+	if not OS.has_feature("web"):
+		return "nativo"
+	return str(JavaScriptBridge.eval("window.KaerithAudio ? window.KaerithAudio.estado() : 'sem_shell'", true))

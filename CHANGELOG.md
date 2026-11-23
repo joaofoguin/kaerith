@@ -16,6 +16,11 @@ Versões de distribuição (desde a 0.3.0):
 
 ---
 
+## 0.6.2 — 23/11/2026
+**Correções do som**
+- Web: o som parava de vez quando o navegador suspendia o áudio (trocar de app ou de aba, bloquear a tela e, no iPhone, depois de ligar a câmera do QR). Agora a página guarda o áudio do jogo e o religa a cada toque e ao voltar para o jogo (`KaerithAudio` em `web/kaerith_shell.html`), e a música recomeça se tiver parado.
+- A música volta a tocar se o laço terminar (garantia para a Web).
+
 ## 0.6.1 — 23/11/2026
 **Correções**
 - Sair da conta (Configurações > Conta > Sair) agora volta para a tela de entrada (Entrar com Google / Jogar como visitante). Antes caía no Início: duas transições de tela se cruzavam e a segunda fechava a tela de entrada logo depois de abrir. O botão de teste "Reiniciar" (ADM) tinha o mesmo problema e também foi corrigido.

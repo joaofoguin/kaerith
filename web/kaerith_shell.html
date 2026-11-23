@@ -246,6 +246,7 @@ window.KaerithWeb = (function () {
 		if (fluxo) {
 			fluxo.getTracks().forEach((t) => t.stop());
 			fluxo = null;
+			if (window.KaerithAudio) window.KaerithAudio.acordar();   // iPhone: o som volta depois da câmera
 		}
 		if (video) {
 			video.srcObject = null;
@@ -478,6 +479,49 @@ window.KaerithWeb = (function () {
 			<div id="status-notice"></div>
 		</div>
 
+		<script>
+// ------------------------------------------------------------ som (Kaerith, 2026-11-23)
+// O navegador suspende o áudio da página: antes do 1º toque, ao trocar de app/aba, ao bloquear a tela e,
+// no iPhone, depois que a câmera do QR liga. O Godot só religa no começo, então o som parava de vez.
+// Aqui guardamos os AudioContext que o motor cria e religamos a cada toque e ao voltar para o jogo.
+const KaerithAudio = (function () {
+	const Original = window.AudioContext || window.webkitAudioContext;
+	const lista = [];
+	if (Original) {
+		const Guardado = function (opcoes) {
+			const c = opcoes === undefined ? new Original() : new Original(opcoes);
+			lista.push(c);
+			return c;
+		};
+		Guardado.prototype = Original.prototype;
+		window.AudioContext = Guardado;
+		if (window.webkitAudioContext) window.webkitAudioContext = Guardado;
+	}
+	function sessaoTocar() {
+		// Safari 16.4+: sessão de áudio de "tocar" (depois da câmera ela fica em gravar, bem baixinha)
+		try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) {}
+	}
+	function acordar() {
+		sessaoTocar();
+		for (const c of lista) {
+			if (c.state !== 'running' && c.state !== 'closed') {
+				try { c.resume().catch(() => {}); } catch (e) {}
+			}
+		}
+	}
+	for (const ev of ['pointerdown', 'pointerup', 'touchend', 'mousedown', 'keydown']) {
+		document.addEventListener(ev, acordar, true);
+	}
+	document.addEventListener('visibilitychange', () => { if (!document.hidden) acordar(); });
+	window.addEventListener('focus', acordar);
+	window.addEventListener('pageshow', acordar);
+	return {
+		acordar: function () { acordar(); return 0; },
+		estado: function () { return lista.map((c) => c.state).join(',') || 'nenhum'; },
+	};
+})();
+window.KaerithAudio = KaerithAudio;
+		</script>
 		<script src="$GODOT_URL"></script>
 		<script>
 // ------------------------------------------------------------ versão nova (Kaerith, 2026-11-22)
