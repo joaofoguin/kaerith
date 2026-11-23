@@ -24,7 +24,7 @@ O jogo também conecta o mundo físico: **QR Codes** espalhados pelo local podem
 | Servidor | **Firebase** (plano gratuito): **Authentication** (convidado anônimo e Google) e **Cloud Firestore** (banco de documentos NoSQL) |
 | Comunicação | **HTTPS + REST/JSON** direto nas APIs do Firebase (`identitytoolkit`, `securetoken`, `firestore.googleapis.com/v1`), sem SDK. Autenticação com token **JWT** (`Authorization: Bearer`) |
 | Hospedagem Web | Firebase Hosting, com **service worker** próprio para o jogo abrir offline |
-| Segurança | Regras do Firestore (`hospedagem/firestore.rules`): cada jogador só lê e escreve os próprios dados. QR Codes com assinatura HMAC, conferidos offline |
+| Segurança | Regras do Firestore (`hospedagem/firestore.rules`): cada jogador só lê e escreve os próprios dados. QR Codes com assinatura digital ECDSA P-256 (SHA-256), conferidos offline com a chave pública; a chave privada fica fora do jogo |
 
 ### Arquitetura
 
