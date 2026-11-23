@@ -1,5 +1,7 @@
 # Kaerith: O Despertar
 
+**Criadores:** Gabriel Rocha, Ruan Tirabassi e João Pedro Lima.
+
 Trabalho Prático de Sistemas Distribuídos: um jogo para celular que funciona **online e offline**, com servidor remoto, armazenamento local persistente, sincronização automática, resolução de conflitos e tolerância a falhas.
 
 - **Jogar (Web/PWA):** https://kaerith-d9bef.web.app
