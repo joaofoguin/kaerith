@@ -291,7 +291,7 @@ static func registrar_vitoria(numero: int) -> void:
 static func abrir_evento(c: Dictionary, raro: bool) -> void:
 	var fase := int(Jogo.dados["fase_atual"])
 	Jogo.dados["evento_qr"] = {"numero": int(c["numero"]), "inicio": agora(), "fase": fase, "vencidas": 0, "raro": raro,
-		"semente": randi()}
+		"semente": randi(), "fuso": int(c.get("fuso", -180))}
 	Jogo.salvar()
 	Jogo.progresso_mudou.emit()
 
@@ -320,7 +320,19 @@ static func encontro_evento(etapa: int) -> Dictionary:
 static func dar_premio_evento() -> Array:
 	var e: Dictionary = Jogo.dados["evento_qr"]
 	var linhas: Array = []
-	var id := Equipamento.sortear("epico" if bool(e.get("raro", false)) else "raro", Catalogo.ELEMENTOS[randi() % 6])
+	# pedido do João (2026-11-24): a peça Rara (Épica no raro) só é garantida na 1ª vez do dia com este QR
+	# (dia no fuso do QR, dados.qr_evento_premio {número: dia}); depois, sorteio como ao rejogar Suprema/chefe
+	var premios: Dictionary = Jogo.dados.get("qr_evento_premio", {})
+	var k := str(e.get("numero", 0))
+	var hoje := dia_do_qr(int(e.get("fuso", -180)))
+	var rar := "epico" if bool(e.get("raro", false)) else "raro"
+	if str(premios.get(k, "")) == hoje:
+		var rng := RandomNumberGenerator.new()
+		rng.randomize()
+		rar = Catalogo.sortear_raridade(Catalogo.PECA_REJOGAR["chefe" if rar == "epico" else "suprema"], rng)
+	premios[k] = hoje
+	Jogo.dados["qr_evento_premio"] = premios
+	var id := Equipamento.sortear(rar, Catalogo.ELEMENTOS[randi() % 6] if rar in ["raro", "epico"] else "")
 	if id != "":
 		Equipamento.dar(id)
 		linhas.append(_linha_peca(id))

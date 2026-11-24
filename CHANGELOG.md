@@ -22,6 +22,12 @@ Versões de distribuição (desde a 0.3.0):
 - Elite Suprema (fases 25 e 50 de cada ato): tinha o mesmo problema (Rara sempre). Agora a Rara é garantida só na 1ª vitória; ao rejogar, Raro 8%, Incomum 37%, Comum 55% (PROVISÓRIO).
 - Raro e Épico continuam do elemento do líder; Comum e Incomum não têm elemento. A fase de Elite não mudou (20% de Incomum, também ao rejogar). O popup da fase mostra "Épico · só na 1ª vitória" ou, ao rejogar, "Comum a Épico (5%)".
 
+**Evento do QR** (pedido do João: "as mesmas regras para os QR codes, na primeira vez no dia")
+- O prêmio final do Evento (peça Rara; Épica no Evento raro) só é garantido na 1ª vez do dia com aquele QR (dia no fuso do QR, `dados.qr_evento_premio`). Depois, a peça sai pelo mesmo sorteio de rejogar a Suprema (ou o chefe, no raro). Fragmentos e cristais não mudam. Baú, Recurso e Inimigo já não garantiam peça alta.
+
+**Missões dão XP** (pedido do João)
+- Ao coletar, a missão dá XP de 2 Elites do nível da fase em que apareceu, com a mesma regra de diferença de nível (PROVISÓRIO, `XP_MISSAO_ELITES` em historia.gd). O popup mostra a barra de XP e abre o de nível se subir.
+
 **Bestiário** (pedido do João)
 - Veteranos fixos nas fases 127 (Javali-Raiz), 202 (Javali de Ferro), 277 (Tecelão da Geada) e 278 (Lebre da Neve), que não saíam em fase nenhuma (`Encontros.FIXOS`). Os Elites que não saem no mapa vêm pelos QR 302–316 (e 301, Corvo).
 

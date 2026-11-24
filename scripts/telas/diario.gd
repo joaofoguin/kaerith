@@ -458,6 +458,7 @@ func _coletar(id: String) -> void:
 	r.titulo = tr("MIS_CONCLUIDA_TITULO")
 	r.subtitulo = HISTORIA.nome_npc(str(HISTORIA.MISSOES[id]["npc"])).to_upper()
 	r.linhas = linhas
+	r.xp = HISTORIA.ultima_barra          # barra de XP (e popup de nível, se subir)
 	r.botoes = [["OK", _fechar_resultado.bind(r), "primario"]]
 	add_child(r)
 

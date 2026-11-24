@@ -353,7 +353,7 @@ MSG_INICIO_EVENTO,"Evento, fase %d: prepare-se!","Event, stage %d: get ready!"
 EVENTO_FASE,Evento · Fase %d/5,Event · Stage %d/5
 EVENTO_CONCLUIDO,Evento concluído!,Event complete!
 EVENTO_CURTO,EVENTO,EVENT
-EVENTO_PREMIO,"Prêmio no fim: 1 peça Rara, 15 fragmentos e 20 cristais.","Final prize: 1 Rare piece, 15 fragments and 20 crystals."
+EVENTO_PREMIO,"Prêmio no fim: peça Rara (1ª vez no dia), 15 fragmentos e 20 cristais.","Final prize: Rare piece (first time each day), 15 fragments and 20 crystals."
 EVENTO_VENCIDA,Você já venceu esta fase do Evento.,You already beat this Event stage.
 VIDAS_TITULO,Vidas,Lives
 VIDAS_CHEIAS,Suas vidas estão cheias.,Your lives are full.
@@ -988,4 +988,6 @@ AVISO_VER_MISSOES,Ver missões,See quests
 ENT_ESPERANDO_GOOGLE,"Entre com a sua conta no navegador que abriu e depois volte para o jogo. O login termina sozinho.","Sign in with your account in the browser that opened, then come back to the game. Sign-in finishes on its own."
 NOV_082_1,"Chefes de ato e Elites Supremas: a peça Épica (ou Rara) é garantida na primeira vitória. Ao rejogar, sai uma peça com pouca chance de ser Épica (ou Rara) e mais chance de Comum ou Incomum.","Act bosses and Supreme Elites: the Epic (or Rare) piece is guaranteed on the first win. On replays you get a piece with a small chance of Epic (or Rare) and a higher chance of Common or Uncommon."
 NOV_082_2,"Bestiário: os Veteranos que não apareciam (Javali-Raiz, Javali de Ferro, Tecelão da Geada e Lebre da Neve) agora aparecem em fases do mapa.","Bestiary: the Veterans that never showed up (Root Boar, Iron Boar, Frost Weaver and Snow Hare) now appear in map stages."
+NOV_082_3,"Evento do QR: a peça Rara (ou Épica) do fim é garantida na primeira vez do dia com cada QR. Depois, a peça é sorteada.","QR Event: the final Rare (or Epic) piece is guaranteed the first time each day with each QR. After that, the piece is random."
+NOV_082_4,"Missões dos moradores agora também dão XP ao coletar a recompensa.","Villager quests now also give XP when you collect the reward."
 NOV_081_1,"Login com Google também no app de Android: o progresso fica salvo na sua conta e passa entre o celular e o navegador.","Google sign-in in the Android app too: your progress is saved to your account and carries between phone and browser."

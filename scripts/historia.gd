@@ -328,6 +328,9 @@ static func ficha_completa(especie: String) -> bool:
 	var vs: Dictionary = r.get("versoes", {})
 	return int(r.get("vit", 0)) >= Bestiario.VITORIAS_REVELA and vs.has("veterano") and vs.has("elite")
 
+const XP_MISSAO_ELITES := 2.0
+static var ultima_barra: Dictionary = {}
+
 ## Recompensa (DEFINIDA): 150 moedas × fator, 5 a 10 fragmentos do elemento do NPC e 30% de chance de uma
 ## Poção de Vida I ou II. O fator é o do nível da fase onde a missão apareceu. Devolve as linhas do popup.
 static func coletar(id: String) -> Array:
@@ -342,9 +345,18 @@ static func coletar(id: String) -> Array:
 	var frag := rng.randi_range(5, 10)
 	var el := str(NPCS.get(str(m["npc"]), "fogo"))
 	Jogo.dados["moedas"] = int(Jogo.dados["moedas"]) + moedas
+	# pedido do João (2026-11-24): a missão também dá XP. PROVISÓRIO: o de 2 Elites do nível da fase onde ela apareceu
+	# (com a mesma regra de diferença de nível dos inimigos). ultima_barra guarda a barra para o popup.
+	var nv := Encontros.nivel_da_fase(base)
+	var xp := int(round(XP_MISSAO_ELITES * Catalogo.xp_de("elite", fat, nv, int(Jogo.dados["nivel"]))))
+	var de := float(Jogo.dados["xp"]) / maxf(1.0, float(Jogo.xp_para(int(Jogo.dados["nivel"]))))
+	var subiu := Jogo.ganhar_xp(xp)
+	ultima_barra = {"nivel": int(Jogo.dados["nivel"]), "de": de, "subiu": subiu,
+		"para": float(Jogo.dados["xp"]) / maxf(1.0, float(Jogo.xp_para(int(Jogo.dados["nivel"]))))}
 	var fr: Dictionary = Jogo.dados["fragmentos"]
 	fr[el] = int(fr.get(el, 0)) + frag
 	var linhas: Array = [
+		{"icone": PopupResultado.icone("xp"), "nome": TranslationServer.translate("RES_L_XP"), "valor": xp},
 		{"icone": PopupResultado.icone("moeda"), "nome": TranslationServer.translate("RES_L_MOEDAS"), "valor": moedas},
 		{"icone": PopupResultado.icone("fragmento"), "nome": TranslationServer.translate("RES_L_FRAG") % TranslationServer.translate("EL_" + el.to_upper()), "valor": frag},
 	]
