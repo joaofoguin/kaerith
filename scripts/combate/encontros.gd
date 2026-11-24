@@ -25,7 +25,10 @@ const SUPREMA := {1: ["presa_mestra", "capitao_de_estrada"], 2: ["rei_da_galhada
 const CHEFE := {1: "mestre_calder", 2: "semeadora_velada", 3: "thessa_vurn", 4: "ysmera"}
 ## Inimigos fixos em certas fases, para as missões de Bestiário poderem ser concluídas (pedido do João, 2026-11-24).
 ## O sorteio da fase não muda; só o 1º inimigo da 1ª onda é trocado. O Corvo Elite (missão do Tobin) vem pelo QR 301.
-const FIXOS := {280: {"sprite": "eco_mudo_veterano", "categoria": "veterano"}}   # missão do Tobias (Eco Mudo)
+const FIXOS := {280: {"sprite": "eco_mudo_veterano", "categoria": "veterano"},   # missão do Tobias (Eco Mudo)
+	# Veteranos que não saíam em fase nenhuma (2026-11-24); os Elites que faltam vêm pelos QR 302–316
+	127: {"sprite": "javali_raiz_veterano", "categoria": "veterano"}, 202: {"sprite": "javali_ferro_veterano", "categoria": "veterano"},
+	277: {"sprite": "tecelao_geada_veterano", "categoria": "veterano"}, 278: {"sprite": "lebre_neve_veterano", "categoria": "veterano"}}
 
 static func tipo_da_fase(fase: int) -> String:
 	var k := (fase - 1) % 75 + 1

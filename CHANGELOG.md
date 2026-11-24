@@ -16,6 +16,15 @@ Versões de distribuição (desde a 0.3.0):
 
 ---
 
+## 0.8.2 — 24/11/2026
+**Peças das fases especiais** (pedido do João: "a fase final do ato está sempre dando item épico")
+- Chefe de ato: a peça Épica do elemento do chefe só é garantida na 1ª vitória (como os 50 cristais). Ao rejogar, sai uma peça sorteada: Épico 5%, Raro 15%, Incomum 40%, Comum 40% (PROVISÓRIO, `Catalogo.PECA_REJOGAR`).
+- Elite Suprema (fases 25 e 50 de cada ato): tinha o mesmo problema (Rara sempre). Agora a Rara é garantida só na 1ª vitória; ao rejogar, Raro 8%, Incomum 37%, Comum 55% (PROVISÓRIO).
+- Raro e Épico continuam do elemento do líder; Comum e Incomum não têm elemento. A fase de Elite não mudou (20% de Incomum, também ao rejogar). O popup da fase mostra "Épico · só na 1ª vitória" ou, ao rejogar, "Comum a Épico (5%)".
+
+**Bestiário** (pedido do João)
+- Veteranos fixos nas fases 127 (Javali-Raiz), 202 (Javali de Ferro), 277 (Tecelão da Geada) e 278 (Lebre da Neve), que não saíam em fase nenhuma (`Encontros.FIXOS`). Os Elites que não saem no mapa vêm pelos QR 302–316 (e 301, Corvo).
+
 ## 0.8.1 — 24/11/2026
 **ADM** (pedido do João)
 - Na ADM (editor, presets ADM ou conta ADM) todos os atos ficam abertos, sem esperar a data (`ConfigRemota.ato_aberto`). As fases à frente da atual continuam travadas. A versão pública não muda.

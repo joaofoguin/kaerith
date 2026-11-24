@@ -1455,11 +1455,14 @@ func _terminar(vitoria: bool) -> void:
 				"elite":
 					if rng.randf() < 0.2:
 						nova = Equipamento.sortear("incomum")
-				"suprema":
-					nova = Equipamento.sortear("raro", _elemento_do_lider())
-				"chefe":
-					nova = Equipamento.sortear("epico", _elemento_do_lider())
-					if primeira:
+				"suprema", "chefe":
+					# pedido do João (2026-11-24): a peça garantida (Rara na Suprema, Épica no chefe) só na 1ª vitória;
+					# ao rejogar, sorteio com pouca chance dela e mais chance de Comum/Incomum (Catalogo.PECA_REJOGAR)
+					var rar := str(Catalogo.PECA_1A_VEZ[str(encontro["tipo"])])
+					if not primeira:
+						rar = Catalogo.sortear_raridade(Catalogo.PECA_REJOGAR[str(encontro["tipo"])], rng)
+					nova = Equipamento.sortear(rar, _elemento_do_lider() if rar in ["raro", "epico"] else "")
+					if str(encontro["tipo"]) == "chefe" and primeira:
 						Jogo.dados["cristais"] = int(Jogo.dados["cristais"]) + 50
 						linhas.append({"icone": PopupResultado.icone("cristal"), "nome": tr("RES_L_CRISTAIS"), "valor": 50})
 			if nova != "":

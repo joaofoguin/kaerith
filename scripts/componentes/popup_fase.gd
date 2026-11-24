@@ -232,12 +232,15 @@ func _premios(com_premio: bool) -> Control:
 	match tipo:
 		"elite":
 			v.add_child(_linha(null, tr("RES_L_ITEM"), "20% · " + tr("RAR_INCOMUM")))
-		"suprema":
-			v.add_child(_linha(null, tr("RES_L_ITEM"), tr("RAR_RARO")))
-		"chefe":
-			v.add_child(_linha(null, tr("RES_L_ITEM"), tr("RAR_EPICO")))
+		"suprema", "chefe":
+			# 1ª vitória: peça garantida; ao rejogar: "Comum a Épico (5%)" (Catalogo.PECA_REJOGAR, 2026-11-24)
 			var vit: Dictionary = Jogo.dados.get("vitorias", {})
+			var rar := str(Catalogo.PECA_1A_VEZ[tipo])
 			if int(vit.get(str(fase), 0)) == 0:
+				v.add_child(_linha(null, tr("RES_L_ITEM"), tr("RAR_" + rar.to_upper()) + " · " + tr("FASE_SO_1A_VEZ")))
+			else:
+				v.add_child(_linha(null, tr("RES_L_ITEM"), tr("FASE_PECA_REJOGAR") % [tr("RAR_" + rar.to_upper()), int(Catalogo.PECA_REJOGAR[tipo][0][1])]))
+			if tipo == "chefe" and int(vit.get(str(fase), 0)) == 0:
 				v.add_child(_linha(PopupResultado.icone("cristal"), tr("RES_L_CRISTAIS"), "50 · " + tr("FASE_SO_1A_VEZ")))
 	return v
 

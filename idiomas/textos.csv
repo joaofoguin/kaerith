@@ -582,6 +582,7 @@ FASE_FRAGMENTOS,Fragmentos,Fragments
 FASE_FRAG_CHANCE,%d%%: %d–%d,%d%%: %d–%d
 FASE_FRAG_FIXO,%d–%d,%d–%d
 FASE_SO_1A_VEZ,só na 1ª vitória,first win only
+FASE_PECA_REJOGAR,Comum a %s (%d%%),Common to %s (%d%%)
 INIM_COMUM,Comum,Common
 INIM_VETERANO,Veterano,Veteran
 INIM_ELITE,Elite,Elite
@@ -985,4 +986,6 @@ AVISO_missoes_T,Missões secundárias!,Side quests!
 AVISO_missoes,"Os moradores de Kaerith agora pedem a sua ajuda. Procure o pergaminho com ""!"" no mapa, nas fases que você já venceu, e veja os pedidos no Diário, aba Missões. Cada missão dá recompensas e conta mais da história.","The people of Kaerith now need your help. Look for the scroll with ""!"" on the map, on stages you have already beaten, and see the requests in the Journal, Quests tab. Each quest gives rewards and tells more of the story."
 AVISO_VER_MISSOES,Ver missões,See quests
 ENT_ESPERANDO_GOOGLE,"Entre com a sua conta no navegador que abriu e depois volte para o jogo. O login termina sozinho.","Sign in with your account in the browser that opened, then come back to the game. Sign-in finishes on its own."
+NOV_082_1,"Chefes de ato e Elites Supremas: a peça Épica (ou Rara) é garantida na primeira vitória. Ao rejogar, sai uma peça com pouca chance de ser Épica (ou Rara) e mais chance de Comum ou Incomum.","Act bosses and Supreme Elites: the Epic (or Rare) piece is guaranteed on the first win. On replays you get a piece with a small chance of Epic (or Rare) and a higher chance of Common or Uncommon."
+NOV_082_2,"Bestiário: os Veteranos que não apareciam (Javali-Raiz, Javali de Ferro, Tecelão da Geada e Lebre da Neve) agora aparecem em fases do mapa.","Bestiary: the Veterans that never showed up (Root Boar, Iron Boar, Frost Weaver and Snow Hare) now appear in map stages."
 NOV_081_1,"Login com Google também no app de Android: o progresso fica salvo na sua conta e passa entre o celular e o navegador.","Google sign-in in the Android app too: your progress is saved to your account and carries between phone and browser."

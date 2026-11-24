@@ -275,3 +275,18 @@ static func funcao_elemento(e: String) -> String:
 
 static func _t(chave: String) -> String:
 	return String(TranslationServer.translate(chave))
+
+## Peça das fases especiais (pedido do João, 2026-11-24). Na 1ª vitória: garantida. Ao rejogar: sorteio pelos pesos
+## (PROVISÓRIO: Suprema 8% Raro, chefe 5% Épico; o resto quase todo Comum/Incomum). A Elite continua 20% Incomum.
+const PECA_1A_VEZ := {"suprema": "raro", "chefe": "epico"}
+const PECA_REJOGAR := {
+	"suprema": [["raro", 8], ["incomum", 37], ["comum", 55]],
+	"chefe": [["epico", 5], ["raro", 15], ["incomum", 40], ["comum", 40]],
+}
+static func sortear_raridade(pesos: Array, rng: RandomNumberGenerator) -> String:
+	var r := rng.randi_range(1, 100)
+	for par: Array in pesos:
+		r -= int(par[1])
+		if r <= 0:
+			return str(par[0])
+	return str(pesos[-1][0])
