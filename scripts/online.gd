@@ -201,6 +201,7 @@ static func excluir_conta() -> bool:
 static func esquecer_login() -> void:
 	adm_conta = false
 	_adm_conferido = ""
+	_fora_do_ranking = false
 	_token = ""
 	_token_ate = 0
 	_enviado_em = 0
@@ -300,6 +301,7 @@ static func conferir_adm() -> void:
 		if int(r["codigo"]) in [403, 404]:
 			ultimo_erro = ""
 
+static var _fora_do_ranking := false
 static func sincronizar(forcar := false, rotina := false) -> bool:
 	if not configurado() or _enviando or str(Jogo.dados.get("etapa", "")) != "pronto":
 		return false
@@ -312,7 +314,15 @@ static func sincronizar(forcar := false, rotina := false) -> bool:
 		ok = false                           # saiu da conta enquanto conectava: não manda o progresso zerado
 	if ok:
 		await conferir_adm()
-	if ok:
+	if ok and Jogo.adm():
+		# (pedido do João, 2026-11-24) ADM fica fora do Ranking: em vez de mandar os pontos, apaga o próprio
+		# documento de jogadores (uma vez por abertura). As regras também recusam gravar pontos de quem tem adm/{uid}.
+		if not _fora_do_ranking:
+			var rd: Dictionary = await _http(HTTPClient.METHOD_DELETE, _base() + "/jogadores/" + uid())
+			if rd["ok"] or int(rd["codigo"]) == 404:
+				_fora_do_ranking = true
+				ultimo_erro = ""
+	elif ok:
 		var imp := _impressao_pontos()
 		if forcar or imp != _pontos_enviados:
 			var r: Dictionary = await _http(HTTPClient.METHOD_PATCH, _base() + "/jogadores/" + uid(), _campos(pontos()))
@@ -412,6 +422,8 @@ static func ranking(campo: String) -> Dictionary:
 	for item in r["dados"]:
 		if item is Dictionary and item.has("document"):
 			lista.append(_ler_doc(item["document"]))
+	if Jogo.adm():
+		return {"ok": true, "lista": lista, "posicao": 0}   # ADM vê o ranking, mas não tem posição
 	var meus: int = int(pontos()[campo])
 	var c := {"structuredAggregationQuery": {"structuredQuery": {"from": [{"collectionId": "jogadores"}],
 		"where": {"fieldFilter": {"field": {"fieldPath": campo}, "op": "GREATER_THAN", "value": _valor(meus)}}},
@@ -434,6 +446,9 @@ static func registrar_qr(numero: int) -> void:
 		return
 	if not await entrar():
 		return
+	await conferir_adm()
+	if Jogo.adm():
+		return                              # ADM não entra no ranking do QR (2026-11-24)
 	var doc := "%s/qr/%d_%s/vitorias/%s" % [_base(), numero, dia_local(), uid()]
 	await _http(HTTPClient.METHOD_PATCH, doc + "?currentDocument.exists=false",
 		_campos({"nome": Jogo.nome_heroi(), "hora": Vidas.agora(), "elemento": str(Jogo.dados.get("elemento", ""))}))

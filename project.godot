@@ -15,7 +15,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 [application]
 
 config/name="Kaerith: O Despertar"
-config/version="0.8.3"
+config/version="0.8.4"
 run/main_scene="res://cenas/principal.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 boot_splash/bg_color=Color(0.050980393, 0.05490196, 0.08235294, 1)
