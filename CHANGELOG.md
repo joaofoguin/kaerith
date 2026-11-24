@@ -16,6 +16,11 @@ Versões de distribuição (desde a 0.3.0):
 
 ---
 
+## 0.8.3 — 24/11/2026
+**Missões** (pedido do João: a missão do Tobin não concluiu pelo QR do Corvo Elite)
+- As missões de Bestiário (Tobin/Corvo, Renn/Cervo, Maren/Rastreador, Tobias/Eco Mudo) agora fecham também ao vencer no QR ou no Evento. A ficha já completava lá, mas a missão só era conferida na vitória de uma fase do mapa. Quem já tinha a ficha completa recebe a missão concluída ao abrir o jogo (`HISTORIA.conferir_bestiario`). As missões de "derrotar" continuam contando só nas fases do mapa.
+- Diário: a missão de Bestiário em andamento mostra o que falta na ficha: "Vitórias 2/3 · Veterano: Sim · Elite: Não" (`MIS_PROG_BESTIARIO`).
+
 ## 0.8.2 — 24/11/2026
 **Peças das fases especiais** (pedido do João: "a fase final do ato está sempre dando item épico")
 - Chefe de ato: a peça Épica do elemento do chefe só é garantida na 1ª vitória (como os 50 cristais). Ao rejogar, sai uma peça sorteada: Épico 5%, Raro 15%, Incomum 40%, Comum 40% (PROVISÓRIO, `Catalogo.PECA_REJOGAR`).

@@ -1559,8 +1559,13 @@ func _terminar_qr(vitoria: bool) -> void:
 				linhas.append_array(CodigoQR.dar_premio_evento())
 				titulo = tr("EVENTO_CONCLUIDO")
 	Historico.registrar("evento" if evento_etapa > 0 else "qr", evento_etapa if evento_etapa > 0 else int(qr["qr"]), true, xp_i, moedas_i)
+	# 0.8.3: a ficha do Bestiário completa aqui também (ex.: o Corvo Elite só sai pelo QR 301), então as missões
+	# de Bestiário fecham nesta luta. As outras missões continuam só no mapa.
+	var falas: Array = HISTORIA.falas_de_conclusao(HISTORIA.conferir_bestiario())
 	Jogo.salvar()
 	Jogo.progresso_mudou.emit()
+	if not falas.is_empty():
+		await _falar(falas)
 	_abrir_resultado("vitoria", titulo, sub, linhas, barra, [botao])
 
 func _voltar_inicio() -> void:

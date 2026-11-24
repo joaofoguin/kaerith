@@ -45,6 +45,12 @@ func _ready() -> void:
 	conteudo.offset_bottom = -ALTURA_BARRA
 	add_child(conteudo)
 
+	# 0.8.3: missões de Bestiário com a ficha completada no QR antes da correção fecham agora (o "!" aparece no Diário)
+	var hist := preload("res://scripts/historia.gd")
+	var fechadas: Array = hist.conferir_bestiario()
+	if not fechadas.is_empty():
+		hist.falas_de_conclusao(fechadas)     # só para liberar a próxima missão do NPC, se houver (sem a cena)
+		Jogo.salvar()
 	_montar_barra()
 	veu = ColorRect.new()
 	veu.color = Color.BLACK

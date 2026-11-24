@@ -176,6 +176,14 @@ static func progresso_texto(id: String) -> String:
 	var m: Dictionary = MISSOES[id]
 	if str(m["tipo"]) == "derrotar":
 		return "%d/%d" % [mini(progresso(id), int(m["qtd"])), int(m["qtd"])]
+	if str(m["tipo"]) == "bestiario":
+		# 0.8.3: mostra o que falta na ficha (vitórias, Veterano e Elite)
+		var r: Dictionary = Bestiario.registro(str(m["alvo"]))
+		var vs: Dictionary = r.get("versoes", {})
+		var sim := TranslationServer.translate("SIM")
+		var nao := TranslationServer.translate("NAO")
+		return TranslationServer.translate("MIS_PROG_BESTIARIO") % [mini(int(r.get("vit", 0)), Bestiario.VITORIAS_REVELA),
+			Bestiario.VITORIAS_REVELA, sim if vs.has("veterano") else nao, sim if vs.has("elite") else nao]
 	return TranslationServer.translate("MIS_ATIVA")
 
 ## Fases que ajudam numa missão em andamento (para o ícone do mapa). Só as já vencidas.
@@ -293,6 +301,18 @@ static func vitoria(fase: int, ctx: Dictionary) -> Array:
 			if ato == 1 and not viu("cena1"):
 				Jogo.dados["cena_pendente"] = "crianca"     # a cutscene passa ao sair do resultado
 	return falas
+
+## Missões de Bestiário com a ficha já completa (0.8.3, pedido do João: a do Tobin não fechava pelo QR do Corvo Elite).
+## A ficha também completa no QR e no Evento (o Elite de várias espécies só sai pelo QR), mas antes a missão só era
+## conferida na vitória de uma fase do mapa. Chamado no fim da luta do QR/Evento e ao abrir o jogo. Devolve os ids concluídos.
+static func conferir_bestiario() -> Array:
+	var concluidas: Array = []
+	for id in ativas():
+		var m: Dictionary = MISSOES[id]
+		if str(m["tipo"]) == "bestiario" and ficha_completa(str(m["alvo"])):
+			_por(id, ESTADO_CONCLUIDA, 1)
+			concluidas.append(id)
+	return concluidas
 
 ## Fala de quem teve a missão concluída e, se houver, o pedido da próxima missão do mesmo NPC.
 static func falas_de_conclusao(concluidas: Array) -> Array:
