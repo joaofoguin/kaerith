@@ -1559,8 +1559,13 @@ func _terminar_qr(vitoria: bool) -> void:
 				linhas.append_array(CodigoQR.dar_premio_evento())
 				titulo = tr("EVENTO_CONCLUIDO")
 	Historico.registrar("evento" if evento_etapa > 0 else "qr", evento_etapa if evento_etapa > 0 else int(qr["qr"]), true, xp_i, moedas_i)
+	# missões também contam nas lutas do QR (2026-11-24: a do Tobin não fechava com o QR 301)
+	var falas: Array = HISTORIA.vitoria_qr(motor.derrotados.slice(_mis_desde))
+	_mis_desde = motor.derrotados.size()
 	Jogo.salvar()
 	Jogo.progresso_mudou.emit()
+	if not falas.is_empty():
+		await _falar(falas)
 	_abrir_resultado("vitoria", titulo, sub, linhas, barra, [botao])
 
 func _voltar_inicio() -> void:

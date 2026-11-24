@@ -16,6 +16,11 @@ Versões de distribuição (desde a 0.3.0):
 
 ---
 
+## 0.8.3 — 24/11/2026
+**Missões nas lutas do QR** (João: "não concluiu a missão do Tobin pelo QR code do corvo elite")
+- As missões só eram conferidas no fim das fases do mapa. Agora a vitória numa luta do QR (Inimigo e fases do Evento) também conta os inimigos das missões de "derrotar" e conclui as de Bestiário na hora (`HISTORIA.vitoria_qr`).
+- A missão de Bestiário mostra no Diário o que falta: "Vitórias n/3 · Veterano: Sim/Não · Elite: Sim/Não". A do Tobin pede também 1 Corvo Veterano (fase 55 em diante) e 3 vitórias contra corvos.
+
 ## 0.8.2 — 24/11/2026
 **Peças das fases especiais** (pedido do João: "a fase final do ato está sempre dando item épico")
 - Chefe de ato: a peça Épica do elemento do chefe só é garantida na 1ª vitória (como os 50 cristais). Ao rejogar, sai uma peça sorteada: Épico 5%, Raro 15%, Incomum 40%, Comum 40% (PROVISÓRIO, `Catalogo.PECA_REJOGAR`).

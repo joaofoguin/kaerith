@@ -176,6 +176,14 @@ static func progresso_texto(id: String) -> String:
 	var m: Dictionary = MISSOES[id]
 	if str(m["tipo"]) == "derrotar":
 		return "%d/%d" % [mini(progresso(id), int(m["qtd"])), int(m["qtd"])]
+	if str(m["tipo"]) == "bestiario":
+		# mostra o que falta na ficha (2026-11-24): vitórias, Veterano e Elite
+		var r: Dictionary = Bestiario.registro(str(m["alvo"]))
+		var vs: Dictionary = r.get("versoes", {})
+		var sim := TranslationServer.translate("SIM")
+		var nao := TranslationServer.translate("NAO")
+		return TranslationServer.translate("MIS_PROG_BESTIARIO") % [mini(int(r.get("vit", 0)), Bestiario.VITORIAS_REVELA),
+			Bestiario.VITORIAS_REVELA, sim if vs.has("veterano") else nao, sim if vs.has("elite") else nao]
 	return TranslationServer.translate("MIS_ATIVA")
 
 ## Fases que ajudam numa missão em andamento (para o ícone do mapa). Só as já vencidas.
@@ -242,6 +250,18 @@ static func contar(derrotados: Array) -> Array:
 		else:
 			_por(id, ESTADO_ATIVA, n)
 	return concluidas
+
+## Fim de uma VITÓRIA numa luta do QR (Inimigo ou fase do Evento), pedido do João (2026-11-24): a missão do Tobin
+## não fechava com o QR 301 porque as missões só eram conferidas nas fases do mapa. Conta os inimigos das missões
+## de "derrotar" e confere as de Bestiário. Devolve as falas de quem concluiu.
+static func vitoria_qr(derrotados: Array) -> Array:
+	var concluidas: Array = contar(derrotados)
+	for id in ativas():
+		var m: Dictionary = MISSOES[id]
+		if str(m["tipo"]) == "bestiario" and ficha_completa(str(m["alvo"])):
+			_por(id, ESTADO_CONCLUIDA, 1)
+			concluidas.append(id)
+	return falas_de_conclusao(concluidas)
 
 ## Fim de uma VITÓRIA numa fase do mapa. ctx: {"primeira": bool, "pocoes": int, "rodadas": int,
 ## "vida": 0–100, "derrotados": [Lutador]}. Atualiza as missões e devolve as falas, na ordem em que aparecem.

@@ -934,6 +934,7 @@ MIS_35_FIM,"Fileira quebrada. Mas eles não recuaram, caçador. Só voltaram par
 MIS_NOVA,Nova missão: %s,New quest: %s
 MIS_CONCLUIDA,"Missão concluída! Pegue a recompensa no Diário, na aba Missões.","Quest complete! Claim the reward in the Journal, under Quests."
 MIS_ATIVA,Em andamento,In progress
+MIS_PROG_BESTIARIO,Vitórias %d/%d · Veterano: %s · Elite: %s,Wins %d/%d · Veteran: %s · Elite: %s
 MIS_PRONTA,Pronta para coletar,Ready to claim
 MIS_FEITA,Concluída,Completed
 MIS_COLETAR,Coletar,Claim
@@ -990,4 +991,5 @@ NOV_082_1,"Chefes de ato e Elites Supremas: a peça Épica (ou Rara) é garantid
 NOV_082_2,"Bestiário: os Veteranos que não apareciam (Javali-Raiz, Javali de Ferro, Tecelão da Geada e Lebre da Neve) agora aparecem em fases do mapa.","Bestiary: the Veterans that never showed up (Root Boar, Iron Boar, Frost Weaver and Snow Hare) now appear in map stages."
 NOV_082_3,"Evento do QR: a peça Rara (ou Épica) do fim é garantida na primeira vez do dia com cada QR. Depois, a peça é sorteada.","QR Event: the final Rare (or Epic) piece is guaranteed the first time each day with each QR. After that, the piece is random."
 NOV_082_4,"Missões dos moradores agora também dão XP ao coletar a recompensa.","Villager quests now also give XP when you collect the reward."
+NOV_083_1,"Missões: as lutas do QR (Inimigo e Evento) agora contam para as missões, e a missão do Bestiário mostra o que falta (vitórias, Veterano e Elite).","Quests: QR fights (Enemy and Event) now count for quests, and Bestiary quests show what is missing (wins, Veteran and Elite)."
 NOV_081_1,"Login com Google também no app de Android: o progresso fica salvo na sua conta e passa entre o celular e o navegador.","Google sign-in in the Android app too: your progress is saved to your account and carries between phone and browser."
