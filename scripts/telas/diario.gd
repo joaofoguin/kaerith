@@ -10,6 +10,7 @@ const COR_TINTA := Color("#22160c")
 const COR_TINTA_CLARA := Color("#5a4026")
 const COLUNAS := 5
 const CAPITULOS := ["DIARIO_CAP_1", "DIARIO_CAP_2", "DIARIO_CAP_3", "DIARIO_CAP_4"]
+const HISTORIA := preload("res://scripts/historia.gd")
 
 var aba := 0
 var barra: BarraAbas
@@ -106,6 +107,7 @@ func _trocar_aba(i: int) -> void:
 ## Selo "!" nas abas que têm novidade (personagem ou espécie nova ainda não aberta).
 func _atualizar_alertas() -> void:
 	if barra:
+		barra.alerta(1, HISTORIA.tem_para_coletar())
 		barra.alerta(2, Bestiario.novidade_personagens())
 		barra.alerta(3, Bestiario.novidade_bestiario())
 
@@ -118,7 +120,7 @@ func _montar_aba() -> void:
 		0:
 			_aba_historia()
 		1:
-			_vazio("DIARIO_MISSOES_VAZIO")
+			_aba_missoes()
 		2:
 			_aba_personagens()
 		3:
@@ -146,7 +148,7 @@ func _vazio(chave: String) -> void:
 	lista.add_child(l)
 
 ## Linha tocável: ícone (ou nada), título, subtítulo e selo NOVO.
-func _linha(icone: Texture2D, titulo: String, sub: String, bloqueada: bool, novo: bool, acao: Callable) -> Control:
+func _linha(icone: Texture2D, titulo: String, sub: String, bloqueada: bool, novo: bool, acao: Callable, tam_titulo := 16) -> Control:
 	var b := Button.new()
 	b.custom_minimum_size = Vector2(290, 60)      # 3 linhas da pauta (20 px cada)
 	var e := StyleBoxEmpty.new()
@@ -187,7 +189,7 @@ func _linha(icone: Texture2D, titulo: String, sub: String, bloqueada: bool, novo
 	v.add_theme_constant_override("separation", 4)
 	v.offset_top = 0
 	v.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	var t := _tinta(titulo, 16, bloqueada)
+	var t := _tinta(titulo, tam_titulo, bloqueada)
 	t.autowrap_mode = TextServer.AUTOWRAP_OFF
 	t.clip_text = true
 	v.add_child(t)
@@ -201,17 +203,17 @@ func _linha(icone: Texture2D, titulo: String, sub: String, bloqueada: bool, novo
 		h.add_child(_selo_novo())
 	return b
 
-func _selo_novo() -> Control:
+func _selo_novo(chave := "DIARIO_NOVO", cor := Color("#b8322a")) -> Control:
 	var p := PanelContainer.new()
 	var e := StyleBoxFlat.new()
-	e.bg_color = Color("#b8322a")
+	e.bg_color = cor
 	e.set_corner_radius_all(3)
 	e.content_margin_left = 4
 	e.content_margin_right = 4
 	p.add_theme_stylebox_override("panel", e)
 	p.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	p.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	var l := Tema.rotulo("DIARIO_NOVO", 8, true)
+	var l := Tema.rotulo(chave, 8, true)
 	l.add_theme_color_override("font_color", Color.WHITE)
 	p.add_child(l)
 	return p
@@ -255,7 +257,18 @@ func _aba_historia() -> void:
 	sep.custom_minimum_size = Vector2(0, 40)
 	lista.add_child(sep)
 	for i in CAPITULOS.size():
-		lista.add_child(_linha(null, tr("DIARIO_CAPITULO_N") % (i + 1) + " · " + tr(CAPITULOS[i]), "DIARIO_EM_BREVE", true, false, Callable()))
+		var ato := i + 1
+		var nome := tr("DIARIO_CAPITULO_N") % ato + " · " + tr(CAPITULOS[i])
+		if not HISTORIA.capitulo_liberado(ato):
+			lista.add_child(_linha(null, nome, "DIARIO_EM_BREVE", true, false, Callable()))
+			continue
+		# o capítulo cresce com o que o jogador já viveu: falas dos NPCs, da Voz, a cutscene e o fechamento
+		var entradas: Array = HISTORIA.entradas_do_capitulo(ato)
+		var sub := tr("REGIAO_%d" % ato)
+		if not entradas.is_empty():
+			sub += " · " + tr("DIARIO_SUB_CAPITULO") % entradas.size()
+		lista.add_child(_linha(null, nome, sub, false, false,
+			_ler.bind(nome, entradas if not entradas.is_empty() else ["DIARIO_CAP_VAZIO"])))
 
 ## Lê o capítulo na própria folha do caderno: título, um fio e os parágrafos com espaço entre eles.
 func _ler(titulo: String, partes: Array) -> void:
@@ -297,6 +310,11 @@ func _aba_personagens() -> void:
 	if str(Jogo.dados.get("etapa", "prologo")) != "prologo":
 		lista.add_child(_linha(null, tr("DIARIO_VOZ"), tr("DIARIO_VISTO_EM") % tr("DIARIO_CAP_PROLOGO"), false, false,
 			_ficha_personagem.bind("", tr("DIARIO_VOZ"), "", tr("DIARIO_CAP_PROLOGO"), tr("DIARIO_VOZ_DESC"))))
+	for npc: String in HISTORIA.npcs_conhecidos():
+		var onde_npc := HISTORIA.onde_npc(npc)
+		lista.add_child(_linha(HISTORIA.retrato(npc), HISTORIA.nome_npc(npc),
+			tr("DIARIO_VISTO_EM") % (tr("FASE_N") % onde_npc if onde_npc > 0 else "?"), false, false,
+			_ficha_npc.bind(npc)))
 	var p := Bestiario.personagens()
 	for id: String in Bestiario.CHEFES:
 		if not p.has(id):
@@ -329,6 +347,123 @@ func _ficha_personagem(id: String, nome: String, el: String, onde: String, desc:
 		Bestiario.marcar_visto(id)
 	_abrir(Janela.criar(nome, [["FECHAR", _fechar_popup]], "", [caixa]))
 	_montar_aba.call_deferred()
+
+## Ficha do NPC: retrato grande, elemento, onde apareceu, quem é e o que já disse (cresce com a história).
+func _ficha_npc(npc: String) -> void:
+	var caixa := VBoxContainer.new()
+	caixa.add_theme_constant_override("separation", 6)
+	var tex := HISTORIA.retrato(npc)
+	if tex != null:
+		var t := TextureRect.new()
+		t.texture = tex
+		t.custom_minimum_size = Vector2(260, 144)
+		t.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		t.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+		caixa.add_child(t)
+	var onde := HISTORIA.onde_npc(npc)
+	var linhas: Array = [
+		tr("DIARIO_ELEMENTO") % tr("EL_" + str(HISTORIA.NPCS.get(npc, "")).to_upper()),
+		tr("DIARIO_VISTO_EM") % (tr("FASE_N") % onde if onde > 0 else "?"),
+		"", tr("NPC_%s_DESC" % npc.to_upper()), "", tr("DIARIO_FALAS").to_upper()]
+	var falas: Array = HISTORIA.falas_do_npc(npc)
+	if falas.is_empty():
+		linhas.append(tr("DIARIO_NPC_NADA"))
+	for f: String in falas:
+		linhas.append("\"" + f + "\"")
+	var l := Tema.rotulo("\n".join(linhas), 12)
+	l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	l.custom_minimum_size = Vector2(260, 0)
+	caixa.add_child(l)
+	_abrir(Janela.criar(HISTORIA.nome_npc(npc), [["FECHAR", _fechar_popup]], "", [caixa]))
+
+# ------------------------------------------------------------ Missões
+## Missões (DEFINIDO): as que esperam a recompensa primeiro, depois as em andamento e, no fim, as concluídas.
+func _aba_missoes() -> void:
+	var recebidas: Array = HISTORIA.recebidas()
+	if recebidas.is_empty():
+		_vazio("DIARIO_MISSOES_VAZIO")
+		return
+	var abertas: Array = recebidas.filter(func(id): return HISTORIA.estado(id) == HISTORIA.ESTADO_CONCLUIDA)
+	abertas.append_array(recebidas.filter(func(id): return HISTORIA.estado(id) == HISTORIA.ESTADO_ATIVA))
+	var feitas: Array = recebidas.filter(func(id): return HISTORIA.estado(id) == HISTORIA.ESTADO_COLETADA)
+	if not abertas.is_empty():
+		lista.add_child(_separador("DIARIO_MIS_ANDAMENTO"))
+		for id: String in abertas:
+			lista.add_child(_linha_missao(id))
+	if not feitas.is_empty():
+		lista.add_child(_separador("DIARIO_MIS_CONCLUIDAS"))
+		for id: String in feitas:
+			lista.add_child(_linha_missao(id))
+
+func _separador(chave: String) -> Label:
+	var sep := _tinta(chave, 12, true)
+	sep.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	sep.vertical_alignment = VERTICAL_ALIGNMENT_BOTTOM
+	sep.custom_minimum_size = Vector2(0, 40)
+	return sep
+
+func _linha_missao(id: String) -> Control:
+	var m: Dictionary = HISTORIA.MISSOES[id]
+	var npc := str(m["npc"])
+	var est := HISTORIA.estado(id)
+	var status: String = {HISTORIA.ESTADO_ATIVA: "MIS_ATIVA", HISTORIA.ESTADO_CONCLUIDA: "MIS_PRONTA"}.get(est, "MIS_FEITA")
+	var b := _linha(HISTORIA.retrato(npc), tr("MIS_%s_OBJ" % id.substr(1)),
+		HISTORIA.nome_npc(npc) + " · " + (HISTORIA.progresso_texto(id) if est == HISTORIA.ESTADO_ATIVA else tr(status)),
+		false, false, _ficha_missao.bind(id), 14)
+	if est == HISTORIA.ESTADO_CONCLUIDA:
+		# selo "Coletar" no lugar do NOVO: a recompensa está esperando
+		var h: Control = b.get_child(0)
+		h.add_child(_selo_novo("MIS_COLETAR", Color("#2f7a3a")))
+	elif est == HISTORIA.ESTADO_COLETADA:
+		b.modulate = Color(1, 1, 1, 0.6)
+	return b
+
+func _ficha_missao(id: String) -> void:
+	var m: Dictionary = HISTORIA.MISSOES[id]
+	var npc := str(m["npc"])
+	var est := HISTORIA.estado(id)
+	var caixa := VBoxContainer.new()
+	caixa.add_theme_constant_override("separation", 6)
+	var tex := HISTORIA.retrato(npc)
+	if tex != null:
+		var t := TextureRect.new()
+		t.texture = tex
+		t.custom_minimum_size = Vector2(260, 96)
+		t.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		t.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		t.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+		caixa.add_child(t)
+	var linhas: Array = [tr("MIS_DE") % HISTORIA.nome_npc(npc), "", "\"" + tr("MIS_%s_PEDIDO" % id.substr(1)) + "\"", "",
+		HISTORIA.objetivo(id), tr({HISTORIA.ESTADO_ATIVA: "MIS_ATIVA", HISTORIA.ESTADO_CONCLUIDA: "MIS_PRONTA"}.get(est, "MIS_FEITA"))]
+	if est >= HISTORIA.ESTADO_CONCLUIDA:
+		linhas.append_array(["", "\"" + tr("MIS_%s_FIM" % id.substr(1)) + "\""])
+	var l := Tema.rotulo("\n".join(linhas), 12)
+	l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	l.custom_minimum_size = Vector2(260, 0)
+	caixa.add_child(l)
+	var botoes: Array = [["FECHAR", _fechar_popup]]
+	if est == HISTORIA.ESTADO_CONCLUIDA:
+		botoes = [["MIS_COLETAR", _coletar.bind(id)], ["FECHAR", _fechar_popup]]
+	_abrir(Janela.criar(tr("MIS_TITULO_N") % (HISTORIA.recebidas().find(id) + 1), botoes, "", [caixa]))
+
+## Coletar (DEFINIDO): a recompensa entra na hora e aparece no popup de recompensas do kit.
+func _coletar(id: String) -> void:
+	_fechar_popup()
+	var linhas: Array = HISTORIA.coletar(id)
+	if linhas.is_empty():
+		return
+	var r := PopupResultado.new()
+	r.tipo = "presente"
+	r.titulo = tr("MIS_CONCLUIDA_TITULO")
+	r.subtitulo = HISTORIA.nome_npc(str(HISTORIA.MISSOES[id]["npc"])).to_upper()
+	r.linhas = linhas
+	r.botoes = [["OK", _fechar_resultado.bind(r), "primario"]]
+	add_child(r)
+
+func _fechar_resultado(r: Control) -> void:
+	r.queue_free()
+	_montar_aba()
 
 # ------------------------------------------------------------ Bestiário
 func _aba_bestiario() -> void:

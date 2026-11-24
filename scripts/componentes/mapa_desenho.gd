@@ -1,6 +1,7 @@
 class_name MapaDesenho
 extends Control
 const TEMPORADA := preload("res://scripts/temporada.gd")
+const HISTORIA := preload("res://scripts/historia.gd")
 ## Mapa da TEMPORADA INTEIRA numa rolagem só (pedido do João): os 4 atos empilhados, o Ato 1 embaixo e o
 ## Ato 4 em cima, a estrada seguindo de um ato para o outro (todos entram e saem em x=180). Cada ato tem
 ## 3 trechos e 75 fases; cenário animado (4 quadros), pegadas, nós, plaquinhas e névoa.
@@ -23,6 +24,7 @@ var _tempo := 0.0
 var _fases: Array = []           # todas as 300 fases, com x/y já na posição da temporada
 var _estrada: Array = []         # estrada inteira, do começo do Ato 1 ao fim do Ato 4
 var _ato_atual := 1
+var _missao := {}                # fase → cor do elemento do NPC (fases que ajudam numa missão em andamento)
 
 ## Topo (y) do ato no mapa da temporada: o Ato 4 começa em 0, o Ato 1 é o de baixo.
 static func y_do_ato(ato: int) -> float:
@@ -49,6 +51,16 @@ func preparar(d: Dictionary, fase_atual: int) -> void:
 		for p in a["estrada"]:
 			_estrada.append([float(p[0]), float(p[1]) + dy])
 	custom_minimum_size = Vector2(360, ATOS * ALTURA_ATO)
+	marcar_missoes()
+	queue_redraw()
+
+## Ícone da missão nas fases já vencidas que ajudam numa missão em andamento (DEFINIDO, opção A).
+func marcar_missoes() -> void:
+	_missao.clear()
+	for id: String in HISTORIA.ativas():
+		var el := str(HISTORIA.NPCS.get(str(HISTORIA.MISSOES[id]["npc"]), ""))
+		for fase: int in HISTORIA.fases_da_missao(id):
+			_missao[fase] = HISTORIA.cor_do_elemento(el)
 	queue_redraw()
 
 func _process(delta: float) -> void:
@@ -136,9 +148,29 @@ func _draw() -> void:
 			var r := _peca("rotulo_" + t)
 			var x: int = clampi(int(f["x"]) - int(r.size.x / 2), 4, 356 - int(r.size.x))
 			draw_texture_rect_region(_nos_tex, Rect2(Vector2(x, int(f["y"]) - desloc[t]), r.size), r)
+	for f in _fases:
+		var n := int(f["fase"])
+		if _missao.has(n) and absf(float(f["y"]) - vis.get_center().y) < vis.size.y / 2.0 + 60.0:
+			_selo_missao(Vector2(int(f["x"]) + 13, int(f["y"]) - 34), _missao[n])
 	_desenhar_brumas(vis)
 	_desenhar_nevoa(vis)
 	_desenhar_evento()
+
+## Pergaminho pequeno com "!" na cor do elemento do NPC, que sobe e desce 1 px (pixel art desenhada).
+func _selo_missao(c: Vector2, cor: Color) -> void:
+	var p := (c + Vector2(0, -1 if _q < 2 else 0)).floor()
+	var esc := Color("#2a1a10")
+	draw_rect(Rect2(p + Vector2(-6, 1), Vector2(14, 16)), Color(0, 0, 0, 0.35))         # sombra
+	draw_rect(Rect2(p + Vector2(-7, -1), Vector2(14, 16)), esc)                         # contorno
+	draw_rect(Rect2(p + Vector2(-6, 0), Vector2(12, 14)), Color("#efe0b8"))             # papel
+	draw_rect(Rect2(p + Vector2(-6, 0), Vector2(12, 2)), Color("#c9a76a"))              # rolo de cima
+	draw_rect(Rect2(p + Vector2(-6, 12), Vector2(12, 2)), Color("#c9a76a"))             # rolo de baixo
+	draw_rect(Rect2(p + Vector2(-6, 0), Vector2(12, 1)), Color("#fff4d6"))              # brilho
+	draw_rect(Rect2(p + Vector2(4, 2), Vector2(2, 10)), Color(0.55, 0.42, 0.25, 0.35))  # dobra
+	draw_rect(Rect2(p + Vector2(-2, 3), Vector2(3, 6)), esc)                            # "!" contornado
+	draw_rect(Rect2(p + Vector2(-1, 3), Vector2(1, 5)), cor)
+	draw_rect(Rect2(p + Vector2(-2, 10), Vector2(3, 2)), esc)
+	draw_rect(Rect2(p + Vector2(-1, 10), Vector2(1, 1)), cor)
 
 # ------------------------------------------------------------ Evento do QR
 ## Posições das 5 fases do Evento: saem da fase onde o jogador estava quando leu o QR,

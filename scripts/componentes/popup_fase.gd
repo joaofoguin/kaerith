@@ -9,6 +9,7 @@ extends "res://scripts/componentes/popup_vitrine.gd"
 const POPUP_INIMIGO := preload("res://scripts/componentes/popup_inimigo.gd")
 const LIMITE_REPETICOES := 20
 const ORBES_F := preload("res://scripts/orbes.gd")
+const HISTORIA := preload("res://scripts/historia.gd")
 const NOME_TIPO := {"combate": "TIPO_COMBATE", "ondas": "TIPO_ONDAS", "elite": "TIPO_ELITE", "suprema": "TIPO_SUPREMA", "chefe": "TIPO_CHEFE"}
 const COR_CAT := {"comum": Color("#6a7090"), "veterano": Color("#5aa0e0"), "elite": Color("#b07ae8"),
 	"suprema": Color("#e8b33a"), "chefe": Color("#e85a4a")}
@@ -71,6 +72,15 @@ func _montar(col: VBoxContainer) -> void:
 	col.add_child(_premios(com_premio))
 	if rejogando:
 		col.add_child(paragrafo("FASE_PREMIOS_HOJE" if com_premio else "FASE_PREMIOS_ESGOTADOS", CINZA if com_premio else Color("#ff9a8a")))
+
+	# missões em andamento que esta fase ajuda (ícone do mapa)
+	var missoes: Array = HISTORIA.missoes_na_fase(fase)
+	if not missoes.is_empty():
+		col.add_child(secao("DIARIO_MISSOES", ""))
+		for id: String in missoes:
+			var npc := str(HISTORIA.MISSOES[id]["npc"])
+			col.add_child(paragrafo(HISTORIA.nome_npc(npc) + ": " + HISTORIA.objetivo(id),
+				HISTORIA.cor_do_elemento(str(HISTORIA.NPCS.get(npc, ""))).lightened(0.2)))
 
 	# botões
 	var ato_fase := int((fase - 1) / 75) + 1
@@ -204,7 +214,7 @@ func _premios(com_premio: bool) -> Control:
 		for spec: Dictionary in onda:
 			var cat := str(spec["categoria"])
 			var fat := Lutador.fator_de(int(spec["nivel"]))
-			xp += Catalogo.XP[cat] * fat
+			xp += Catalogo.xp_de(cat, fat, int(spec["nivel"]), int(Jogo.dados["nivel"]))
 			moedas += Catalogo.MOEDAS[cat] * fat
 			if _familia(spec) == "bandidos" and _elemento(str(spec["sprite"])) != "":
 				frasco = true

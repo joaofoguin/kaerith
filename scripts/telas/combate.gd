@@ -13,6 +13,8 @@ const COR_CONTORNO := Color("#12131c")
 ## Velocidade normal das animações (pedido do João: a velocidade anterior virou o ×2).
 const VELOCIDADE_NORMAL := 0.5
 const ORBES_R := preload("res://scripts/orbes.gd")
+const HISTORIA := preload("res://scripts/historia.gd")
+const DIALOGO := preload("res://scripts/componentes/dialogo_historia.gd")
 
 var fase := 1
 var rejogando := false
@@ -23,6 +25,8 @@ var despertou := false
 var continuou := false            # já usou o vídeo de continuar nesta tentativa
 var desistiu := false
 var _best_desde := 0              # inimigos derrotados já contados no Bestiário (continuar não conta de novo)
+var _mis_desde := 0               # o mesmo para as missões de "derrotar" (scripts/historia.gd)
+var _pocoes_usadas := 0           # para as missões de desafio ("sem usar poções")
 var _perda_derrota := 0
 var _resultado_derrota: Array = []
 var heroi_caido := false          # travado no último quadro da queda (morte ou espera do Despertar)
@@ -979,6 +983,8 @@ func _tocar(eventos: Array) -> void:
 					await _esperar(0.5)
 				_atualizar_tudo()
 				await _esperar(0.12)
+				if l.categoria == "chefe" and _na_historia():
+					await _falar_chefe(l, "entra")
 			"acao":
 				var l: Lutador = e["l"]
 				var H: Dictionary = Catalogo.HAB[e["hab"]]
@@ -1056,7 +1062,10 @@ func _tocar(eventos: Array) -> void:
 				var nomes: Array = e["a"].map(func(x): return _nome(x))
 				_mensagem(tr(e["k"]) % nomes, "")
 				await _esperar(0.6)
+				if e["k"] == "MSG_FASE2" and _na_historia():
+					await _falar_chefe(e["a"][0], "fase2")
 			"pocao":
+				_pocoes_usadas += 1
 				_som("pocao")
 				_mensagem(tr("MSG_POCAO"), "")
 				await _esperar(0.3)
@@ -1076,6 +1085,8 @@ func _tocar(eventos: Array) -> void:
 					tp.tween_property(placa, "modulate:a", 0.0, 0.3)
 					_mensagem(tr("MSG_CAIU") % l.nome, "")
 				await _esperar(0.6)
+				if not l.eh_jogador and l.categoria == "chefe" and _na_historia():
+					await _falar_chefe(l, "cai")
 			"atualiza":
 				_atualizar_tudo()
 			"fim":
@@ -1379,12 +1390,22 @@ func _terminar(vitoria: bool) -> void:
 	var fat := Lutador.fator_de(Encontros.nivel_da_fase(fase))
 	var ato := clampi(int((fase - 1) / 75) + 1, 1, 4)
 	var sub := (tr("FASE_N") % fase + " · " + tr("ATO_N") % ato).to_upper()
+	# missões de "derrotar": contam na vitória e na derrota (só os que ainda não foram contados)
+	var mis_desde := _mis_desde
+	_mis_desde = motor.derrotados.size()
+	var falas_derrota: Array = []
+	if not vitoria:
+		falas_derrota = HISTORIA.falas_de_conclusao(HISTORIA.contar(motor.derrotados.slice(mis_desde)))
 	if vitoria:
+		var primeira_vez := int(Jogo.dados["vitorias"].get(str(fase), 0)) == 0
+		var falas: Array = HISTORIA.vitoria(fase, {"primeira": primeira_vez, "pocoes": _pocoes_usadas,
+			"rodadas": motor.rodada, "vida": int(100.0 * motor.jogador.vida / maxf(1.0, motor.jogador.vida_max)),
+			"derrotados": motor.derrotados.slice(mis_desde)})
 		var xp := 0.0
 		var moedas := 0.0
 		var frasco := false
 		for l in motor.derrotados:
-			xp += Catalogo.XP[l.categoria] * l.fator
+			xp += Catalogo.xp_de(l.categoria, l.fator, l.nivel, int(Jogo.dados["nivel"]))   # menos XP se o herói estiver bem acima (2026-11-24)
 			moedas += Catalogo.MOEDAS[l.categoria] * l.fator
 			if l.familia == "bandidos" and l.elemento != "":
 				frasco = true
@@ -1450,6 +1471,9 @@ func _terminar(vitoria: bool) -> void:
 		Historico.registrar("fase", fase, true, xp_i, moedas_i)     # histórico no servidor (fila local)
 		Jogo.salvar()
 		Jogo.progresso_mudou.emit()
+		# história e missões (falas do NPC, da Voz e o fechamento do capítulo) antes das recompensas
+		if not falas.is_empty():
+			await _falar(falas)
 		# Sem "Próxima" (pedido do João): um toque sem querer abriria outra fase e sair dela custaria
 		# uma vida. Ficam a casa (Início) e o Voltar ao mapa.
 		var botoes: Array = [_botao_casa(), ["RES_VOLTAR_MAPA", _voltar_ao_mapa, "primario"]]
@@ -1464,6 +1488,8 @@ func _terminar(vitoria: bool) -> void:
 		Historico.registrar("fase", fase, false, 0, -perda)
 		Jogo.salvar()
 		Jogo.progresso_mudou.emit()
+		if not falas_derrota.is_empty():
+			await _falar(falas_derrota)       # a missão pode fechar mesmo numa derrota (os inimigos caíram)
 		_perda_derrota = perda
 		# pedido do João: "Jogar novamente" embaixo do continuar com vídeo (só se ainda houver vida)
 		var de_novo := Vidas.qtd() > 0
@@ -1504,7 +1530,7 @@ func _terminar_qr(vitoria: bool) -> void:
 	var xp := 0.0
 	var moedas := 0.0
 	for l in motor.derrotados:
-		xp += Catalogo.XP[l.categoria] * l.fator
+		xp += Catalogo.xp_de(l.categoria, l.fator, l.nivel, int(Jogo.dados["nivel"]))
 		moedas += Catalogo.MOEDAS[l.categoria] * l.fator
 	var xp_i := int(round(xp * mult))
 	var moedas_i := int(round(moedas * mult))
@@ -1606,6 +1632,7 @@ func _terminar_tutorial(vitoria: bool) -> void:
 		return
 	Jogo.dados["etapa"] = "pronto"
 	Jogo.dados["presente_pendente"] = true
+	preload("res://scripts/novidades.gd").marcar_visto()     # herói novo: não precisa do aviso das novidades
 	Jogo.salvar()
 	Jogo.progresso_mudou.emit()
 	var el := str(Jogo.dados.get("elemento", ""))
@@ -1622,8 +1649,46 @@ func _botao_casa() -> Array:
 	return ["", _ir_ao_inicio, "secundario", "res://artes/interface/barra_inicio_selecionado.png"]
 
 func _ir_ao_inicio() -> void:
+	if _abrir_cena_pendente("inicio"):
+		return
 	principal.abrir_aba("inicio")
 	principal.fechar_tela_cheia()
+
+## Cutscene que ficou para depois do resultado (a criança no fim do Ato 1). Devolve true se abriu.
+func _abrir_cena_pendente(depois: String) -> bool:
+	if str(Jogo.dados.get("cena_pendente", "")) != "crianca":
+		return false
+	var c = preload("res://scripts/telas/cena_crianca.gd").new()
+	c.depois = depois
+	principal.abrir_tela_cheia(c)
+	return true
+
+## História só nas fases do mapa (nem tutorial, nem QR, nem Evento).
+func _na_historia() -> bool:
+	return tutorial == 0 and qr.is_empty() and evento_etapa == 0
+
+## Mostra as falas por cima da luta e espera o jogador terminar de ler.
+func _falar(falas: Array) -> void:
+	if falas.is_empty():
+		return
+	var vel := Engine.time_scale
+	Engine.time_scale = 1.0
+	var d = DIALOGO.new()
+	d.falas = falas
+	d.ato = int(encontro.get("ato", 0))
+	d.arena = int(encontro.get("arena", 0))
+	add_child(d)
+	await d.terminou
+	Engine.time_scale = vel
+
+func _falar_chefe(l: Lutador, momento: String) -> void:
+	var fl: Dictionary = HISTORIA.fala_chefe(str(Bestiario.ficha(l.sprite).get("id", l.tipo)), momento)
+	if fl.is_empty():
+		return
+	var auto := automatico
+	automatico = false
+	await _falar([fl])
+	automatico = auto
 
 func _repetir_tutorial() -> void:
 	principal.seguir_criacao()
@@ -1635,6 +1700,8 @@ func _jogar_novamente() -> void:
 	principal.abrir_tela_cheia(t)
 
 func _voltar_ao_mapa() -> void:
+	if _abrir_cena_pendente("mapa"):
+		return
 	var m = preload("res://scripts/telas/mapa.gd").new()
 	principal.abrir_tela_cheia(m)
 

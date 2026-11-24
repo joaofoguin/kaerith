@@ -4,11 +4,12 @@ extends Tela
 ##   Tela – economia de bateria (30 fps) e tremor de tela
 ##   Notificações – vidas cheias, eventos e promoções
 ##   Idioma – Português / English
-##   Conta – nome, ID do jogador (copiar), tipo de conta (visitante/Google) e estado do online
+##   Conta – nome, ID do jogador (copiar), tipo de conta (visitante/Google) e excluir conta/personagem
 ##   Ajuda e sobre – suporte (página do site com contato e perguntas), privacidade, termos, sobre o jogo e versão
 ##   Teste – galeria e reiniciar (só na versão ADM)
 
 const CONFIG := preload("res://scripts/config.gd")
+const NOVIDADES := preload("res://scripts/novidades.gd")
 const COR_QUADRO := Color("#171928")
 const COR_BORDA := Color("#3c4058")
 const COR_TEXTO2 := Color("#a8acc0")
@@ -95,18 +96,16 @@ func _preencher() -> void:
 		copiar.text = "CFG_COPIADO")
 	linha_id.add_child(copiar)
 	conta.add_child(linha_id)
-	conta.add_child(_linha_texto("CFG_ONLINE", tr("CFG_CONECTADO") if Online.conectado else tr("CFG_OFFLINE")))
 	_linhas_google(conta)
-	# motivo da falha (para testar a ligação com o Firebase): código HTTP e começo da resposta
-	if Online.ultimo_erro != "":
-		var erro := Tema.rotulo(Online.ultimo_erro.left(160), 8, true)
-		erro.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
-		erro.autowrap_mode = TextServer.AUTOWRAP_ARBITRARY
-		erro.custom_minimum_size = Vector2(280, 0)
-		erro.add_theme_color_override("font_color", Color("#ff8a80"))
-		conta.add_child(erro)
+	# Excluir conta (Google) ou personagem (visitante), com confirmação (pedido do João, 2026-11-24)
+	var excluir := _linha_botao("CFG_EXCLUIR_CONTA" if Conta.google() else "CFG_EXCLUIR_PERSONAGEM", _excluir)
+	Tema.estilo_botao(excluir, "perigo")
+	conta.add_child(excluir)
 
-	_bloco_rede()
+	# novidades de cada versão (pedido do João, 2026-11-24); a lista fica em scripts/novidades.gd
+	var novidades := _bloco("CFG_NOVIDADES")
+	novidades.add_child(_descricao("CFG_NOVIDADES_DESC"))
+	novidades.add_child(_linha_botao("CFG_VER_NOVIDADES", _novidades))
 
 	var ajuda := _bloco("CFG_AJUDA")
 	# páginas do site (pedido do João, 2026-11-22); o suporte já leva o ID do jogador e a versão
@@ -124,78 +123,6 @@ func _preencher() -> void:
 		var teste := _bloco("CFG_TESTE")
 		teste.add_child(_linha_botao("GALERIA", func(): principal.abrir_tela_cheia(preload("res://scripts/telas/galeria.gd").new())))
 		teste.add_child(_linha_botao("REINICIAR_TESTE", _reiniciar))
-
-# ------------------------------------------------------------ rede e sincronização (Sistemas Distribuídos)
-## Estado da fila de partidas, da nuvem e dos conflitos, e os testes pedidos na apresentação (2026-11-23):
-## servidor fora do ar, falha no meio da sincronização (com reenvio) e sincronizar agora.
-## Os testes não dão prêmio nem mexem no progresso; só simulam a rede.
-func _tx(pt: String, en: String) -> String:
-	return en if str(Jogo.dados.get("idioma", "pt")) == "en" else pt
-
-func _bloco_rede() -> void:
-	if not Online.configurado():
-		return
-	var b := _bloco(_tx("Rede e sincronização", "Network and sync"))
-	b.add_child(_linha_texto(_tx("Partidas a enviar", "Matches to send"), str(Historico.pendentes())))
-	b.add_child(_linha_texto(_tx("Enviadas", "Sent"), str(Historico.enviadas())))
-	b.add_child(_linha_texto(_tx("Reenvios ignorados", "Resends ignored"), str(Historico.duplicadas())))
-	var em := int(Jogo.dados.get("nuvem_em", 0))
-	if Conta.google() and em > 0:
-		b.add_child(_linha_texto(_tx("Nuvem", "Cloud"), _hora(em)))
-	var conf := _ultimo_conflito()
-	if conf != "":
-		b.add_child(_descricao(conf))
-	if Historico.ultimo_aviso != "":
-		b.add_child(_descricao(Historico.ultimo_aviso))
-	var fora := _linha_botao(_tx("Servidor fora do ar (teste): ", "Server down (test): ")
-		+ (_tx("LIGADO", "ON") if Online.teste_fora else _tx("DESLIGADO", "OFF")), func():
-			Online.teste_fora = not Online.teste_fora
-			atualizar_textos())
-	Tema.estilo_botao(fora, "perigo" if Online.teste_fora else "secundario")
-	b.add_child(fora)
-	b.add_child(_linha_botao(_tx("Falha no meio da sync (teste)", "Fail mid-sync (test)"), _teste_falha_meio))
-	b.add_child(_linha_botao(_tx("Sincronizar agora", "Sync now"), _sincronizar_agora))
-
-func _hora(unix: int) -> String:
-	var bias := int(Time.get_time_zone_from_system()["bias"]) * 60
-	return Time.get_datetime_string_from_unix_time(unix + bias, true).substr(5, 11)
-
-## Último conflito resolvido (Online guarda o lado que perdeu em user://save_conflito.json).
-func _ultimo_conflito() -> String:
-	if not FileAccess.file_exists(Online.ARQUIVO_CONFLITO):
-		return ""
-	var c = JSON.parse_string(FileAccess.get_file_as_string(Online.ARQUIVO_CONFLITO))
-	if not (c is Dictionary):
-		return ""
-	var d: Dictionary = c.get("dados", {})
-	var perdeu := _tx("a nuvem", "the cloud") if str(c.get("lado", "")) == "nuvem" else _tx("este aparelho", "this device")
-	return _tx("Último conflito (%s): perdeu %s (nível %d), cópia guardada.",
-		"Last conflict (%s): %s lost (level %d), copy kept.") % [_hora(int(c.get("em", 0))), perdeu, int(d.get("nivel", 0))]
-
-func _teste_falha_meio() -> void:
-	if Historico.pendentes() == 0:
-		_aviso(_tx("Falha no meio da sync", "Fail mid-sync"), _tx("Jogue uma fase primeiro: a fila de partidas está vazia.",
-			"Play a stage first: the match queue is empty."))
-		return
-	Historico.teste_perder_confirmacao = true
-	_fechar_popup()
-	popup = Janela.criar(_tx("Falha no meio da sync", "Fail mid-sync"), [], tr("ENT_CONECTANDO"))
-	add_child(popup)
-	await Online.sincronizar(true)
-	_aviso(_tx("Falha no meio da sync", "Fail mid-sync"), _tx(
-		"O servidor gravou a partida, mas a conexão caiu antes da confirmação. Ela continua na fila e vai de novo sozinha; o servidor reconhece o mesmo ID e não duplica.",
-		"The server stored the match, but the connection dropped before the reply. It stays queued and is resent; the server sees the same ID and does not duplicate it."))
-	atualizar_textos()
-
-func _sincronizar_agora() -> void:
-	_fechar_popup()
-	popup = Janela.criar(_tx("Sincronizar agora", "Sync now"), [], tr("ENT_CONECTANDO"))
-	add_child(popup)
-	var ok: bool = await Online.sincronizar(true)
-	ok = ok and Historico.pendentes() == 0
-	_aviso(_tx("Sincronizar agora", "Sync now"), (_tx("Tudo sincronizado.", "All synced.") if ok
-		else _tx("Não deu agora; o jogo tenta de novo sozinho.", "Not now; the game retries by itself.") + "\n" + Online.ultimo_erro.left(90)))
-	atualizar_textos()
 
 # ------------------------------------------------------------ conta Google
 func _linhas_google(conta: VBoxContainer) -> void:
@@ -269,6 +196,54 @@ func _sair_agora() -> void:
 	# fechar_tela_cheia() aqui; a transição dele terminava depois e fechava a tela de entrada recém-aberta.
 	# abrir_tela_cheia (dentro do seguir_criacao) já fecha as Configurações na troca.
 	principal.seguir_criacao()
+
+## Excluir conta/personagem: confirma, apaga do servidor (ranking, save da nuvem e a conta) e deste aparelho,
+## e volta para a tela de entrada (Google ou visitante). Idioma e configurações do aparelho ficam.
+func _excluir() -> void:
+	var chave := "CFG_EXCLUIR_CONTA" if Conta.google() else "CFG_EXCLUIR_PERSONAGEM"
+	_fechar_popup()
+	popup = Janela.criar(tr(chave), [["CFG_EXCLUIR_SIM", _excluir_servidor], ["CANCELAR", _fechar_popup]],
+		tr("CFG_EXCLUIR_TEXTO") % Jogo.nome_heroi())
+	_perigo_no_primeiro_botao(popup)
+	add_child(popup)
+
+func _excluir_servidor() -> void:
+	_fechar_popup()
+	popup = Janela.criar(tr("CFG_EXCLUIR_SIM"), [], tr("CFG_EXCLUINDO"))
+	add_child(popup)
+	var ok: bool = await Online.excluir_conta()
+	if not ok:
+		_fechar_popup()
+		popup = Janela.criar(tr("CFG_EXCLUIR_SIM"), [["CFG_EXCLUIR_MESMO", _excluir_agora], ["CANCELAR", _fechar_popup]],
+			tr("CFG_EXCLUIR_SEM_REDE"))
+		_perigo_no_primeiro_botao(popup)
+		add_child(popup)
+		return
+	_excluir_agora()
+
+func _excluir_agora() -> void:
+	_fechar_popup()
+	var aparelho_conflito := Online.ARQUIVO_CONFLITO
+	if FileAccess.file_exists(aparelho_conflito):
+		DirAccess.remove_absolute(aparelho_conflito)
+	Conta.sair()                      # zera o progresso, mantém idioma e config, etapa "login"
+	principal.seguir_criacao()       # abre a tela de entrada (mesma regra do _sair_agora)
+
+## O botão de confirmar (o primeiro) fica vermelho, como o "Sair" da conta.
+func _perigo_no_primeiro_botao(j: Janela) -> void:
+	j.ready.connect(func():
+		var b := _achar_botao(j)
+		if b:
+			Tema.estilo_botao(b, "perigo"))
+
+func _achar_botao(n: Node) -> Button:
+	for f in n.get_children():
+		if f is Button and str(f.text) == "CFG_EXCLUIR_SIM" or f is Button and str(f.text) == "CFG_EXCLUIR_MESMO":
+			return f
+		var x := _achar_botao(f)
+		if x:
+			return x
+	return null
 
 ## A página voltou do Google: liga a conta e, se ela já tinha outro progresso, pergunta qual fica.
 func _terminar_google(r: Dictionary) -> void:
@@ -474,6 +449,25 @@ func _fechar_popup() -> void:
 func _em_breve(chave: String) -> void:
 	_fechar_popup()
 	popup = Janela.criar(tr(chave), [["OK", _fechar_popup]], tr("EM_BREVE_TEXTO"))
+	add_child(popup)
+
+## Novidades: cada versão com a data e o que mudou para o jogador, da mais nova para a mais antiga.
+func _novidades() -> void:
+	_fechar_popup()
+	var mais: Array = []
+	for v in NOVIDADES.LISTA:
+		var cab := Tema.rotulo(tr("NOV_VERSAO") % [v["versao"], v["data"]], 16)
+		cab.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+		cab.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
+		cab.add_theme_color_override("font_color", Tema.COR_OURO_CLARO)
+		mais.append(cab)
+		var t := Tema.rotulo(NOVIDADES.texto(v), 12)
+		t.auto_translate_mode = Node.AUTO_TRANSLATE_MODE_DISABLED
+		t.horizontal_alignment = HORIZONTAL_ALIGNMENT_LEFT
+		t.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		t.custom_minimum_size = Vector2(Janela.LARGURA - 40.0, 0)
+		mais.append(t)
+	popup = Janela.criar(tr("CFG_NOVIDADES"), [["OK", _fechar_popup]], "", mais)
 	add_child(popup)
 
 ## Sobre o jogo: créditos, versão e o site.

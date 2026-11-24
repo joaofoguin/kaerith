@@ -37,10 +37,36 @@ const MODELO_PAPEL := {
 ## Multiplicadores de Vida / dano por categoria. Rebalanceados em 2026-11-13 (pedido do João) com o simulador
 ## (ferramentas/simulador_combate): comuns dão dano sem matar; Elite/Suprema/chefe podem levar ao vídeo de continuar.
 ## PROVISÓRIOS. Antes: comum 1/1, veterano 1,5/1,1, Elite 2/1,25, Suprema 2,5/1,3, chefe 3/1,4.
-const MULT := {"comum": [0.65, 0.85], "veterano": [0.975, 0.935], "elite": [1.0, 0.8], "suprema": [1.2, 0.75], "chefe": [1.1, 0.65]}
+const MULT := {"comum": [0.65, 0.85], "veterano": [0.975, 0.935], "elite": [1.0, 0.8], "suprema": [1.3, 0.8], "chefe": [0.85, 0.55]}
 ## XP e moedas por inimigo (× fator). Suprema: PROVISÓRIO (entre Elite e Chefe).
 const XP := {"comum": 40, "veterano": 60, "elite": 100, "suprema": 150, "chefe": 250}
 const MOEDAS := {"comum": 10, "veterano": 15, "elite": 25, "suprema": 40, "chefe": 60}
+## Rebalanceamento de 2026-11-24 (pedido do João: "muito fácil avançar sem comprar"). PROVISÓRIO: o XP de cada inimigo
+## depende da diferença de nível. Com o herói até 1 nível acima, vale cheio; a cada nível a mais, −20% (no mínimo 20%).
+## Com o herói abaixo do inimigo, +10% por nível (no máximo +50%). Assim, rejogar fases fáceis não deixa o herói
+## muitos níveis acima do mapa, e quem ficou para trás alcança mais rápido. Vale igual na 1ª vez e ao rejogar.
+const XP_FOLGA := 1
+const XP_ACIMA := 0.2
+const XP_PISO := 0.2
+const XP_ABAIXO := 0.1
+const XP_TETO := 1.5
+static func mult_xp(nivel_heroi: int, nivel_inimigo: int) -> float:
+	var d := nivel_heroi - nivel_inimigo
+	if d > XP_FOLGA:
+		return maxf(XP_PISO, 1.0 - XP_ACIMA * (d - XP_FOLGA))
+	if d < 0:
+		return minf(XP_TETO, 1.0 + XP_ABAIXO * -d)
+	return 1.0
+## Quanto o XP de um inimigo cresce com o nível dele: (nível + 1) ÷ 3 (NV2 = ×1, NV8 = ×3, NV21 = ×7,3).
+## Correção de 2026-11-24 (teste de um amigo do João: fases altas davam menos XP que as iniciais). Antes era o fator
+## de nível (só +5% por nível), mas o XP para subir cresce com nível^1,5; o herói ficava para trás dos inimigos
+## (NV18 contra NV21 na fase 300) e cada fase valia cada vez menos de um nível. PROVISÓRIO.
+static func xp_nivel(nivel_inimigo: int) -> float:
+	return (maxi(nivel_inimigo, 1) + 1) / 3.0
+
+## XP de um inimigo derrotado para o herói do nível dado (o parâmetro fator ficou só pela compatibilidade das chamadas).
+static func xp_de(categoria: String, _fator: float, nivel_inimigo: int, nivel_heroi: int) -> float:
+	return XP[categoria] * xp_nivel(nivel_inimigo) * mult_xp(nivel_heroi, nivel_inimigo)
 
 const USOS := {"ofensiva": 3, "defensiva": 2, "utilitaria": 2, "combinada": 2}
 
@@ -89,47 +115,47 @@ const HAB := {
 	"golpe_drenante": {"nome": "Golpe Drenante", "cat": "comum", "el": "", "alvo": "inimigo", "base": "F", "poder": 130, "dreno": 0.30},
 	"rasteira": {"nome": "Rasteira", "cat": "comum", "el": "", "alvo": "inimigo", "base": "F", "poder": 100, "cond": "lentidao"},
 	# --- Fogo
-	"explosao_de_chamas": {"nome": "Explosão de Chamas", "cat": "ofensiva", "el": "fogo", "alvo": "inimigo", "base": "R", "poder": 250},
+	"explosao_de_chamas": {"nome": "Explosão de Chamas", "cat": "ofensiva", "el": "fogo", "alvo": "inimigo", "base": "R", "poder": 210},
 	"manto_de_brasas": {"nome": "Manto de Brasas", "cat": "defensiva", "el": "fogo", "alvo": "si", "escudo": 150, "reflexo": "queimadura"},
 	"centelha_teimosa": {"nome": "Centelha Teimosa", "cat": "utilitaria", "el": "fogo", "alvo": "inimigo", "base": "R", "poder": 100, "cond": "queimadura"},
-	"chuva_de_cinzas": {"nome": "Chuva de Cinzas", "cat": "ofensiva", "el": "fogo", "alvo": "inimigos", "base": "R", "poder": 160},
+	"chuva_de_cinzas": {"nome": "Chuva de Cinzas", "cat": "ofensiva", "el": "fogo", "alvo": "inimigos", "base": "R", "poder": 115},
 	"coracao_em_brasa": {"nome": "Coração em Brasa", "cat": "utilitaria", "el": "fogo", "alvo": "si", "cond_si": "furia"},
-	"detonacao": {"nome": "Detonação", "cat": "ofensiva", "el": "fogo", "alvo": "inimigo", "base": "R", "poder": 300, "bonus": {"queimadura": 50}, "consome": "queimadura"},
+	"detonacao": {"nome": "Detonação", "cat": "ofensiva", "el": "fogo", "alvo": "inimigo", "base": "R", "poder": 240, "bonus": {"queimadura": 40}, "consome": "queimadura"},
 	# --- Água
 	"lamina_de_mare": {"nome": "Lâmina de Maré", "cat": "ofensiva", "el": "agua", "alvo": "inimigo", "base": "R", "poder": 220, "cond": "encharcado"},
 	"veu_da_correnteza": {"nome": "Véu da Correnteza", "cat": "defensiva", "el": "agua", "alvo": "si", "cura": 35, "cond_si": "regeneracao"},
 	"fluxo_restaurador": {"nome": "Fluxo Restaurador", "cat": "utilitaria", "el": "agua", "alvo": "aliado", "extra": "purifica1", "cond_si": "fortificado"},
-	"onda_partida": {"nome": "Onda Partida", "cat": "ofensiva", "el": "agua", "alvo": "inimigos", "base": "R", "poder": 150, "bonus": {"encharcado": 25}},
+	"onda_partida": {"nome": "Onda Partida", "cat": "ofensiva", "el": "agua", "alvo": "inimigos", "base": "R", "poder": 115, "bonus": {"encharcado": 25}},
 	"fonte_serena": {"nome": "Fonte Serena", "cat": "utilitaria", "el": "agua", "alvo": "aliados", "cura": 25},
 	"redemoinho": {"nome": "Redemoinho", "cat": "utilitaria", "el": "agua", "alvo": "inimigo", "base": "R", "poder": 120, "cond": "lentidao"},
 	# --- Terra
 	"punho_de_rocha": {"nome": "Punho de Rocha", "cat": "ofensiva", "el": "terra", "alvo": "inimigo", "base": "R", "poder": 230, "extra": "punho"},
 	"pele_de_granito": {"nome": "Pele de Granito", "cat": "defensiva", "el": "terra", "alvo": "si", "cond_si": "fortificado"},
 	"raizes_firmes": {"nome": "Raízes Firmes", "cat": "utilitaria", "el": "terra", "alvo": "si", "cond_si": "firmeza"},
-	"tremor": {"nome": "Tremor", "cat": "ofensiva", "el": "terra", "alvo": "inimigos", "base": "R", "poder": 140, "cond": "atordoado"},
+	"tremor": {"nome": "Tremor", "cat": "ofensiva", "el": "terra", "alvo": "inimigos", "base": "R", "poder": 110, "cond": "atordoado"},
 	"muralha_viva": {"nome": "Muralha Viva", "cat": "defensiva", "el": "terra", "alvo": "aliados", "escudo": 120},
 	"sentenca_da_montanha": {"nome": "Sentença da Montanha", "cat": "ofensiva", "el": "terra", "alvo": "inimigo", "base": "R", "poder": 150, "extra": "sentenca"},
 	# --- Ar
 	"corte_de_vento": {"nome": "Corte de Vento", "cat": "ofensiva", "el": "ar", "alvo": "inimigo", "base": "R", "poder": 200, "prio": true},
 	"passo_de_pluma": {"nome": "Passo de Pluma", "cat": "defensiva", "el": "ar", "alvo": "si", "cond_si": "impeto", "extra": "pluma"},
 	"rajada_desviante": {"nome": "Rajada Desviante", "cat": "utilitaria", "el": "ar", "alvo": "inimigo", "base": "R", "poder": 80, "cond": "lentidao"},
-	"ciclone": {"nome": "Ciclone", "cat": "ofensiva", "el": "ar", "alvo": "inimigos", "base": "R", "poder": 140, "extra": "tira_positivo"},
+	"ciclone": {"nome": "Ciclone", "cat": "ofensiva", "el": "ar", "alvo": "inimigos", "base": "R", "poder": 110, "extra": "tira_positivo"},
 	"sopro_renovador": {"nome": "Sopro Renovador", "cat": "utilitaria", "el": "ar", "alvo": "si", "extra": "devolve_uso"},
-	"olho_da_tempestade": {"nome": "Olho da Tempestade", "cat": "ofensiva", "el": "ar", "alvo": "inimigo", "base": "R", "poder": 90, "golpes": 3},
+	"olho_da_tempestade": {"nome": "Olho da Tempestade", "cat": "ofensiva", "el": "ar", "alvo": "inimigo", "base": "R", "poder": 75, "golpes": 3},
 	# --- Raio
 	"faisca_veloz": {"nome": "Faísca Veloz", "cat": "ofensiva", "el": "raio", "alvo": "inimigo", "base": "R", "poder": 210, "crit": 0.15},
 	"campo_estatico": {"nome": "Campo Estático", "cat": "defensiva", "el": "raio", "alvo": "si", "cond_si": "campo"},
 	"interrupcao": {"nome": "Interrupção", "cat": "utilitaria", "el": "raio", "alvo": "inimigo", "base": "R", "poder": 100, "extra": "interrompe"},
-	"corrente_em_cadeia": {"nome": "Corrente em Cadeia", "cat": "ofensiva", "el": "raio", "alvo": "inimigo", "base": "R", "poder": 180, "extra": "cadeia"},
+	"corrente_em_cadeia": {"nome": "Corrente em Cadeia", "cat": "ofensiva", "el": "raio", "alvo": "inimigo", "base": "R", "poder": 160, "extra": "cadeia"},
 	"sobrecarga": {"nome": "Sobrecarga", "cat": "utilitaria", "el": "raio", "alvo": "si", "cond_si": "sobrecarga"},
-	"trovao_cativo": {"nome": "Trovão Cativo", "cat": "ofensiva", "el": "raio", "alvo": "inimigo", "base": "R", "poder": 280, "extra": "crit_atordoa"},
+	"trovao_cativo": {"nome": "Trovão Cativo", "cat": "ofensiva", "el": "raio", "alvo": "inimigo", "base": "R", "poder": 230, "extra": "crit_atordoa"},
 	# --- Gelo
 	"estilhaco_gelido": {"nome": "Estilhaço Gélido", "cat": "ofensiva", "el": "gelo", "alvo": "inimigo", "base": "R", "poder": 210, "cond": "lentidao"},
 	"carapaca_de_geada": {"nome": "Carapaça de Geada", "cat": "defensiva", "el": "gelo", "alvo": "si", "escudo": 130, "reflexo": "lentidao"},
 	"sopro_do_inverno": {"nome": "Sopro do Inverno", "cat": "utilitaria", "el": "gelo", "alvo": "inimigo", "base": "R", "poder": 80, "cond": "enfraquecido"},
-	"nevasca": {"nome": "Nevasca", "cat": "ofensiva", "el": "gelo", "alvo": "inimigos", "base": "R", "poder": 130, "cond": "lentidao"},
+	"nevasca": {"nome": "Nevasca", "cat": "ofensiva", "el": "gelo", "alvo": "inimigos", "base": "R", "poder": 105, "cond": "lentidao"},
 	"prisao_de_cristal": {"nome": "Prisão de Cristal", "cat": "utilitaria", "el": "gelo", "alvo": "inimigo", "cond": "congelado"},
-	"lanca_polar": {"nome": "Lança Polar", "cat": "ofensiva", "el": "gelo", "alvo": "inimigo", "base": "R", "poder": 240, "bonus": {"lentidao": 40, "congelado": 40}},
+	"lanca_polar": {"nome": "Lança Polar", "cat": "ofensiva", "el": "gelo", "alvo": "inimigo", "base": "R", "poder": 210, "bonus": {"lentidao": 40, "congelado": 40}},
 	# --- próprias dos chefes (aba Temporada 1 · Chefes de ato)
 	"chamado_do_bando": {"nome": "Chamado do Bando", "cat": "especial", "el": "ar", "alvo": "si", "extra": "invoca", "invoca": "batedor_comum"},
 	"brotar": {"nome": "Brotar", "cat": "especial", "el": "terra", "alvo": "si", "extra": "invoca", "invoca": "brotado_comum"},

@@ -9,6 +9,8 @@ const CENAS := {
 	"ouvinte": {"camadas": ["ceu", "aurora", "longe", "colina", "perto"], "particulas": ["estrelas", "vagalumes"], "pulsa": ["aurora"]},
 	"aviso": {"camadas": ["ceu", "longe", "campo", "perto"], "particulas": ["neve", "ecos"], "pulsa": []},
 	"auren": {"camadas": ["ceu", "longe", "campo", "perto"], "particulas": ["polen"], "pulsa": []},
+	# cutscene do fim do Ato 1 (a criança na Mata dos Ecos Velados): ferramentas/montar_cena_mata.py
+	"mata": {"camadas": ["ceu", "longe", "arvores", "clareira", "perto"], "particulas": ["vagalumes"], "pulsa": []},
 }
 const COR := {
 	"estrelas": Color(0.9, 0.95, 1.0), "ecos": Color(0.6, 0.9, 1.0), "poeira": Color(1.0, 0.8, 0.5),

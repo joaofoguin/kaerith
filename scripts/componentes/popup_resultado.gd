@@ -52,6 +52,8 @@ func _ready() -> void:
 				Jogo.som.vinheta("vitoria")
 			"derrota":
 				Jogo.som.vinheta("derrota")
+			"nivel":
+				Jogo.som.efeito("nivel")
 			_:
 				Jogo.som.efeito("moeda")
 	var veu := ColorRect.new()
@@ -330,8 +332,23 @@ func _animar() -> void:
 		else:
 			x.tween_method(_encher, _barra_frac, float(xp["para"]), 0.55)
 		await _pausa(0.3)
+		if subiu > 0:
+			if x.is_running():
+				await x.finished
+			await _mostrar_nivel(int(xp["nivel"]) - subiu, int(xp["nivel"]))
 	var b := create_tween().set_ignore_time_scale(true)
 	b.tween_property(_linha_botoes, "modulate:a", 1.0, 0.2)
+
+## Pedido do João (2026-11-24): ao subir de nível, abre por cima o popup do que melhorou (PopupNivel).
+## Os botões do resultado só aparecem depois do Continuar dele.
+func _mostrar_nivel(de: int, para: int) -> void:
+	if tipo == "nivel" or get_parent() == null:
+		return
+	var fechou := [false]
+	var p := PopupNivel.criar(de, para, func(): fechou[0] = true)
+	get_parent().add_child(p)
+	while not fechou[0] and is_instance_valid(p):
+		await get_tree().process_frame
 
 func _pausa(s: float) -> void:
 	await get_tree().create_timer(s, true, false, true).timeout

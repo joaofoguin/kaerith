@@ -179,6 +179,24 @@ static func entrar() -> bool:
 	Jogo.salvar()
 	return true
 
+## Excluir conta ou personagem (pedido do João, 2026-11-24): apaga do servidor o ranking (jogadores/uid),
+## o save da nuvem (saves/uid) e a conta do Firebase Auth. Devolve true se o servidor confirmou
+## (ou se o jogo não usa servidor). As partidas antigas (partidas/uid) ficam, sem nome, ligadas a um ID que deixa de existir.
+static func excluir_conta() -> bool:
+	if not configurado():
+		return true
+	if str(Jogo.dados.get("online", {}).get("uid", "")) == "":
+		return true                         # nunca entrou no servidor: não há nada lá
+	if not await entrar():
+		return false
+	for colecao in ["jogadores", "saves"]:
+		var r: Dictionary = await _http(HTTPClient.METHOD_DELETE, _base() + "/" + colecao + "/" + uid())
+		if not r["ok"] and int(r["codigo"]) != 404:
+			return false
+	var conta: Dictionary = await _http(HTTPClient.METHOD_POST,
+		"https://identitytoolkit.googleapis.com/v1/accounts:delete?key=" + str(_cfg["api_key"]), {"idToken": _token}, false)
+	return bool(conta["ok"])
+
 ## Sair da conta (Conta.sair): esquece o acesso guardado na memória; o "online" do save é apagado junto com o save.
 static func esquecer_login() -> void:
 	_token = ""
@@ -238,25 +256,55 @@ static func pontos() -> Dictionary:
 		"atualizado": int(Time.get_unix_time_from_system()),
 	}
 
-## Manda os pontos do jogador (no máximo a cada 60 s, a não ser com forcar).
-static func sincronizar(forcar := false) -> bool:
+## Controle de acessos ao Firebase (2026-11-24; o plano grátis Spark tem 50 mil leituras e 20 mil gravações por dia,
+## somando todos os jogadores). Antes, com o jogo aberto e online, a cada 20 s ia 1 gravação (pontos) + 1 leitura
+## (save da nuvem): ~180 gravações e ~180 leituras por hora de cada jogador, mesmo parado no menu. Agora:
+##   - os pontos do ranking só vão quando mudam (ou quando forçado: abrir o jogo, voltar ao app, Configurações);
+##   - o save da nuvem só é conferido quando o progresso daqui mudou, a cada 3 min (para pegar o de outro aparelho)
+##     ou quando forçado;
+##   - o vigia da rede, quando não há nada para mandar, só "bate na porta" do site (Hosting), que não gasta
+##     leitura nem gravação do Firestore.
+const INTERVALO_NUVEM := 180
+static var _pontos_enviados := ""     # impressão dos últimos pontos que o servidor confirmou
+static var _nuvem_conferida_em := 0
+
+static func _impressao_pontos() -> String:
+	var p := pontos()
+	p.erase("atualizado")
+	return JSON.stringify(p).sha256_text()
+
+static func _pontos_mudaram() -> bool:
+	return _impressao_pontos() != _pontos_enviados
+
+static func _save_mudou() -> bool:
+	return str(Jogo.dados.get("nuvem_hash", "")) != _hash(Jogo.dados)
+
+## Manda os pontos do jogador (no máximo a cada 60 s, a não ser com forcar) e confere a nuvem (conta Google).
+## forcar: manda mesmo sem mudança (abrir o jogo, voltar ao app, botões das Configurações).
+## rotina: chamado pelo vigia da rede; ignora os 60 s, mas só manda o que mudou.
+static func sincronizar(forcar := false, rotina := false) -> bool:
 	if not configurado() or _enviando or str(Jogo.dados.get("etapa", "")) != "pronto":
 		return false
 	var agora := int(Time.get_unix_time_from_system())
-	if not forcar and agora - _enviado_em < INTERVALO_ENVIO:
+	if not forcar and not rotina and agora - _enviado_em < INTERVALO_ENVIO:
 		return true
 	_enviando = true
 	var ok: bool = await entrar()
 	if ok and str(Jogo.dados.get("etapa", "")) != "pronto":
 		ok = false                           # saiu da conta enquanto conectava: não manda o progresso zerado
 	if ok:
-		var r: Dictionary = await _http(HTTPClient.METHOD_PATCH, _base() + "/jogadores/" + uid(), _campos(pontos()))
-		ok = r["ok"]
+		var imp := _impressao_pontos()
+		if forcar or imp != _pontos_enviados:
+			var r: Dictionary = await _http(HTTPClient.METHOD_PATCH, _base() + "/jogadores/" + uid(), _campos(pontos()))
+			ok = r["ok"]
+			if ok:
+				_pontos_enviados = imp
 		if ok:
 			_enviado_em = agora
 			await Historico.enviar()         # partidas jogadas (inclusive offline) que ainda não foram
-			if Conta.google():
-				await enviar_save()          # conta Google: o progresso também vai para a nuvem
+			if Conta.google() and (forcar or _save_mudou() or agora - _nuvem_conferida_em >= INTERVALO_NUVEM):
+				if await enviar_save():      # conta Google: o progresso também vai para a nuvem
+					_nuvem_conferida_em = agora
 	_enviando = false
 	return ok
 
@@ -289,8 +337,23 @@ static func vigiar() -> void:
 		return
 	_vigia_seg = 0
 	_vigiando = true
-	await sincronizar(true)
+	var agora := int(Time.get_unix_time_from_system())
+	var pronto := str(Jogo.dados.get("etapa", "")) == "pronto"
+	var tem_o_que_mandar := pronto and (Historico.pendentes() > 0 or _pontos_mudaram()
+		or (Conta.google() and (_save_mudou() or agora - _nuvem_conferida_em >= INTERVALO_NUVEM)))
+	if tem_o_que_mandar:
+		await sincronizar(false, true)
+	else:
+		var voltou := not conectado
+		await _bater_na_porta()
+		if voltou and conectado and pronto:
+			await sincronizar(false, true)   # a conexão voltou: manda o que ficou parado
 	_vigiando = false
+
+## Confere se a internet e o servidor respondem sem gastar o Firestore: pede um arquivo pequeno do site
+## (hospedagem/paginas/ping.txt). Qualquer resposta do servidor (até um 404) conta como "online".
+static func _bater_na_porta() -> void:
+	await _http(HTTPClient.METHOD_GET, Jogo.SITE + "/ping.txt?t=%d" % Time.get_ticks_msec(), null, false)
 
 ## Uma partida do histórico (Historico.enviar). Devolve "ok", "duplicada" (o servidor já tinha esse ID) ou "falhou".
 static func gravar_partida(item: Dictionary) -> String:
@@ -515,7 +578,7 @@ static func _subir(rev: String) -> bool:
 	var copia := _copia_para_nuvem(Jogo.dados)
 	var campos := _campos({"salvo_em": int(Time.get_unix_time_from_system()), "nivel": int(Jogo.dados["nivel"]),
 		"versao": int(Jogo.dados.get("versao", 1))})
-	campos["fields"]["dados"] = {"stringValue": JSON.stringify(copia)}
+	campos["fields"]["dados"] = {"stringValue": empacotar(JSON.stringify(copia))}
 	var cond := "?currentDocument.updateTime=" + rev.uri_encode() if rev != "" else "?currentDocument.exists=false"
 	var r: Dictionary = await _http(HTTPClient.METHOD_PATCH, _base() + "/saves/" + uid() + cond, campos)
 	if not r["ok"]:
@@ -552,6 +615,22 @@ static func _baixar(remoto: Dictionary, rev: String) -> bool:
 		p.call("abrir_aba", str(p.get("aba_atual")) if str(p.get("aba_atual")) != "" else "inicio")
 	return true
 
+## Tamanho do save na nuvem (2026-11-24): o JSON vai comprimido (gzip + base64, com o prefixo "z1:"), o que
+## deixa o documento de 4 a 8 vezes menor (menos dados baixados a cada conferência; o limite do Firestore é
+## 1 MiB por documento). Saves antigos, em JSON puro, continuam sendo lidos.
+const PREFIXO_ZIP := "z1:"
+static func empacotar(json: String) -> String:
+	var bruto := json.to_utf8_buffer()
+	return PREFIXO_ZIP + str(bruto.size()) + ":" + Marshalls.raw_to_base64(bruto.compress(FileAccess.COMPRESSION_GZIP))
+
+static func desempacotar(texto: String) -> String:
+	if not texto.begins_with(PREFIXO_ZIP):
+		return texto
+	var resto := texto.substr(PREFIXO_ZIP.length())
+	var tam := int(resto.get_slice(":", 0))
+	var dados := Marshalls.base64_to_raw(resto.substr(resto.find(":") + 1))
+	return dados.decompress(tam, FileAccess.COMPRESSION_GZIP).get_string_from_utf8()
+
 ## Progresso guardado na nuvem para o jogador atual. Devolve {"ok", "dados", "rev"}; "dados" vazio = não tem.
 ## rev = updateTime do documento (a versão dele no servidor).
 static func baixar_save() -> Dictionary:
@@ -565,7 +644,7 @@ static func baixar_save() -> Dictionary:
 		return {"ok": true, "dados": {}, "rev": ""}
 	if not r["ok"] or not (r["dados"] is Dictionary):
 		return {"ok": false, "dados": {}, "rev": ""}
-	var texto := str(r["dados"].get("fields", {}).get("dados", {}).get("stringValue", ""))
+	var texto := desempacotar(str(r["dados"].get("fields", {}).get("dados", {}).get("stringValue", "")))
 	var lido = JSON.parse_string(texto) if texto != "" else null
 	_nuvem_vista = str(r["dados"].get("updateTime", ""))
 	return {"ok": true, "dados": lido if lido is Dictionary else {}, "rev": _nuvem_vista}

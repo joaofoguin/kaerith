@@ -42,16 +42,21 @@ const GRUPO := {2: 0.6, 3: 0.45}
 ## Vida e dano × 1,10 na fase 11, subindo em linha até × 1,25 na fase 40 e parado nisso depois.
 ## Vale só para as fases do mapa (QR e Evento ficam como estão).
 const DIFICULDADE_INICIO := 10
-const DIFICULDADE_MIN := 1.20
+const DIFICULDADE_MIN := 1.10
 const DIFICULDADE_MAX := 1.35
 const DIFICULDADE_TETO := 40
 var dificuldade := 1.0
+
+## Rebalanceamento de 2026-11-24 (pedido do João: "muito fácil avançar sem comprar itens e equipamentos"). PROVISÓRIO:
+## depois da fase 40 a dificuldade continua subindo um pouco por fase, porque as peças que caem (Rara na Suprema,
+## Épica no chefe) e os Orbes deixavam o herói forte demais sem comprar nada. Fase 75 ≈ ×1,46, 150 ≈ ×1,68, 300 ≈ ×2,13. Início em ×1,10 na fase 11 (era 1,20).
+const DIFICULDADE_POR_FASE := 0.003
 
 static func dificuldade_da_fase(fase: int) -> float:
 	if fase <= DIFICULDADE_INICIO:
 		return 1.0
 	var t := clampf(float(fase - DIFICULDADE_INICIO - 1) / float(DIFICULDADE_TETO - DIFICULDADE_INICIO - 1), 0.0, 1.0)
-	return lerpf(DIFICULDADE_MIN, DIFICULDADE_MAX, t)
+	return lerpf(DIFICULDADE_MIN, DIFICULDADE_MAX, t) + DIFICULDADE_POR_FASE * maxf(0.0, float(fase - DIFICULDADE_TETO))
 
 ## Tutorial 2: o herói não cai antes do Despertar (piso de Vida 1) e o último inimigo de pé também não; o dano dos inimigos não
 ## é reduzido pelo grupo (só a Vida), para o jogador chegar logo aos 25%.

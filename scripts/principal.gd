@@ -9,6 +9,7 @@ const ABAS := [
 	{"id": "ranking", "chave": "ABA_RANKING"},
 ]
 const ALTURA_BARRA := 56
+const NOVIDADES := preload("res://scripts/novidades.gd")
 
 var conteudo: Control
 var barra: HBoxContainer
@@ -27,8 +28,6 @@ func _ready() -> void:
 	get_tree().root.add_child.call_deferred(carregando)
 	await carregando.concluido
 	Anuncios.iniciar()               # AdMob (Android) / AdSense (Web), quando configurados
-	# aviso OFFLINE/ONLINE por cima de tudo + vigia que sincroniza sozinho quando a rede volta (2026-11-23)
-	add_child(preload("res://scripts/componentes/aviso_rede.gd").new())
 	# celular: o jogo não entra embaixo do recorte da câmera / barra de status (área segura do aparelho)
 	RenderingServer.set_default_clear_color(Color.BLACK)
 	_aplicar_area_segura()
@@ -60,8 +59,35 @@ func _ready() -> void:
 		_clarear(0.6)
 		if not _volta_do_google():
 			_qr_do_link()
+			_aviso_novidades()
 	if str(Jogo.dados.get("etapa", "pronto")) != "pronto":
+		NOVIDADES.marcar_visto()         # jogador novo: as novidades já fazem parte do jogo dele
 		_qr_do_link()                    # antes do Início só guarda o código (o thread do QR trata)
+
+## Aviso de uma versão nova (scripts/novidades.gd), uma vez, para quem já tinha começado a jornada.
+## 0.8.0: as missões secundárias dos moradores; "Ver missões" abre o Diário na aba Missões.
+func _aviso_novidades() -> void:
+	var v := NOVIDADES.aviso_pendente()
+	if v.is_empty():
+		return
+	await get_tree().create_timer(0.8).timeout
+	if tela_cheia != null:               # algo abriu por cima (QR do link etc.): mostra na próxima vez
+		return
+	var id := str(v["aviso"])
+	if id == "missoes":
+		NOVIDADES.entregar_missoes_antigas()
+	NOVIDADES.marcar_visto(id)                # também salva o save (com as missões entregues)
+	atualizar_selos()
+	var j := Janela.criar(tr("AVISO_%s_T" % id), [], tr("AVISO_%s" % id))
+	j.botoes = [                         # depois de criar: o lambda precisa da janela já pronta
+		["AVISO_VER_MISSOES", func():
+			j.fechar()
+			abrir_aba("diario")
+			var d := conteudo.get_child(conteudo.get_child_count() - 1)
+			if d.has_method("_trocar_aba"):
+				d.call("_trocar_aba", 1)],
+		["OK", func(): j.fechar()]]
+	add_child(j)
 
 ## Voltou para o jogo (trocou de app ou de aba): confere se outro aparelho mandou progresso para a nuvem.
 func _notification(what: int) -> void:

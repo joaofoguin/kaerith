@@ -61,15 +61,17 @@ static func gerar(fase: int) -> Dictionary:
 	var ondas: Array = []
 	match tipo:
 		"combate":
+			# só o comecinho do Ato 1 tem luta de 1 inimigo; os outros atos já começam com grupos
+			# (correção de 2026-11-24: o começo de cada ato dava menos XP que o fim do anterior)
 			var n := 1
-			if k > 3:
+			if fase > 3:
 				n = 1 + int(rng.randf() < 0.45)
-			if k > 10:
+			if fase > 10:
 				var r := rng.randf()
 				n = 1 if r < 0.30 else (2 if r < 0.75 else 3)
 			ondas.append(_grupo(rng, ato, k, nv, n))
 		"ondas":
-			var total := 2 if k < 40 else 3
+			var total := 2 if fase < 40 else 3
 			for i in total:
 				ondas.append(_grupo(rng, ato, k, nv, 1 + int(rng.randf() < 0.5)))
 		"elite":
@@ -102,6 +104,8 @@ static func _sorteia_tipo(rng: RandomNumberGenerator, ato: int, k: int) -> Strin
 		r -= pesos[fam]
 		fam += 1
 	var lista: Array = POOL[ato][FAMILIAS[fam]]
+	if ato == 3 and fam == 3 and k >= 41:
+		lista = lista + ["lobo_geada"]   # o Lobo da Geada desce ao sul antes da hora (missão 14 do Brokk), só Comum
 	return lista[rng.randi_range(0, lista.size() - 1)]
 
 static func _grupo(rng: RandomNumberGenerator, ato: int, k: int, nv: int, n: int) -> Array:

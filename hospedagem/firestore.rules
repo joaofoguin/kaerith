@@ -5,6 +5,8 @@ service cloud.firestore {
   match /databases/{database}/documents {
     match /jogadores/{uid} {
       allow read: if request.auth != null;
+      // (2026-11-24) Excluir conta/personagem nas Configurações: o jogador apaga o próprio documento
+      allow delete: if request.auth != null && request.auth.uid == uid;
       allow write: if request.auth != null && request.auth.uid == uid
         && request.resource.data.nome is string && request.resource.data.nome.size() <= 12
         && request.resource.data.nivel is int
@@ -14,8 +16,8 @@ service cloud.firestore {
     }
     // progresso na nuvem (contas Google): só o próprio jogador lê e escreve
     match /saves/{uid} {
-      allow read: if request.auth != null && request.auth.uid == uid;
-      allow write: if request.auth != null && request.auth.uid == uid && request.resource.data.dados is string;
+      allow read, delete: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid && request.resource.data.dados is string;
     }
     // (2026-11-23) histórico das partidas: cada partida tem um ID criado no aparelho; o jogo grava com
     // currentDocument.exists=false, então um reenvio do mesmo ID volta 409 e não duplica nada

@@ -752,3 +752,235 @@ CARREGANDO_VERSAO,Procurando atualização...,Checking for updates...
 CARREGANDO_BAIXANDO,Baixando atualização: %d%%,Downloading update: %d%%
 CARREGANDO_ATUALIZANDO,Atualizando o jogo...,Updating the game...
 CARREGANDO_NUVEM,Sincronizando seu progresso...,Syncing your progress...
+NPC_MIRELA,Dona Mirela,Old Mirela
+NPC_MIRELA_DESC,A moleira do moinho d'água de Auren.,The miller of Auren's water mill.
+NPC_TOBIN,Tobin,Tobin
+NPC_TOBIN_DESC,O pastorzinho dos campos.,The little shepherd of the fields.
+NPC_ALDO,Sargento Aldo Venn,Sergeant Aldo Venn
+NPC_ALDO_DESC,Da guarda da estrada de Auren.,Of the Auren road guard.
+NPC_HAL,Hal,Hal
+NPC_HAL_DESC,Ferreiro aposentado. Ainda escuta a forja.,A retired blacksmith. He still listens to the forge.
+NPC_IONE,Ione,Ione
+NPC_IONE_DESC,Coletora de ervas do brejo da mata.,An herb gatherer from the forest marsh.
+NPC_BRAM,Bram,Bram
+NPC_BRAM_DESC,Lenhador da Mata dos Ecos Velados.,A woodcutter of the Forest of Veiled Echoes.
+NPC_OTTILIE,Velha Ottilie,Old Ottilie
+NPC_OTTILIE_DESC,Contadora de histórias. Lembra da mata cantando.,A storyteller. She remembers the forest singing.
+NPC_RENN,Renn Askar,Renn Askar
+NPC_RENN_DESC,Caçador da mata há trinta anos.,A forest hunter for thirty years.
+NPC_NIA,Nia,Nia
+NPC_NIA_DESC,Cozinheira de acampamento. Ouve todos os viajantes.,A camp cook. She hears every traveler.
+NPC_MAREN,Capitã Maren Kode,Captain Maren Kode
+NPC_MAREN_DESC,Comanda o posto da fronteira de Durnak.,Commands the Durnak border post.
+NPC_OSKAR,Oskar,Oskar
+NPC_OSKAR_DESC,O carteiro da fronteira.,The border mailman.
+NPC_BROKK,Brokk Pedrafunda,Brokk Deepstone
+NPC_BROKK_DESC,Mercador anão de Durnak.,A dwarven merchant of Durnak.
+NPC_RUVO,Sentinela Ruvo,Sentry Ruvo
+NPC_RUVO_DESC,Vigia o posto da fronteira.,Keeps watch over the border post.
+NPC_TOBIAS,Tobias Kell,Tobias Kell
+NPC_TOBIAS_DESC,Eremita. Mantém a única fogueira acesa do vale.,A hermit. He keeps the valley's only fire burning.
+NPC_ILSA,Ilsa Moren,Ilsa Moren
+NPC_ILSA_DESC,Patrulheira. O irmão dela entrou no vale antes de você.,A ranger. Her brother entered the valley before you.
+NPC_DURGAN,Durgan,Durgan
+NPC_DURGAN_DESC,Cervejeiro anão do vale.,A dwarven brewer of the valley.
+NPC_GARRICK,Garrick,Garrick
+NPC_GARRICK_DESC,Velho soldado. Já viu muitos exércitos.,An old soldier. He has seen many armies.
+NPC_THESSA,Thessa Vurn,Thessa Vurn
+NPC_THESSA_DESC,Caçadora contratada.,A hired huntress.
+REGIAO_1,Campos de Auren,Fields of Auren
+REGIAO_2,Mata dos Ecos Velados,Forest of Veiled Echoes
+REGIAO_3,Fronteira de Durnak,Durnak Border
+REGIAO_4,Vale do Último Silêncio,Valley of the Last Silence
+HIST_14,Reviraram o moinho e só levaram o pote da minha avó. Aquele que zumbia de noite. Eu achava que era o vento.,They turned the mill upside down and only took my grandmother's jar. The one that hummed at night. I thought it was the wind.
+HIST_42,"Prendi um deles ontem. Não falou nada do chefe. Só repetia: ""O Mestre paga. O Mestre sempre paga.""","I caught one of them yesterday. He said nothing about his boss. He just kept repeating: ""The Master pays. The Master always pays."""
+HIST_68,"Vi uma carroça sem brasão indo para o celeiro velho, de noite. Foram cheios de frascos. Voltaram vazios, e rindo.","I saw a cart with no crest heading to the old barn at night. They went full of flasks. They came back empty, and laughing."
+HIST_88,Aqui a névoa repete o que a gente fala. Hoje ela repetiu uma coisa que eu não falei.,Here the mist repeats what we say. Today it repeated something I never said.
+HIST_113,"Quando eu era menina, a mata cantava à noite. Não eram os pássaros. Um dia ela parou, e ninguém quis saber por quê.","When I was a girl, the forest sang at night. It wasn't the birds. One day it stopped, and no one wanted to know why."
+HIST_142,"As feras não caçam mais. Elas andam. Todas para o mesmo lado, para a fronteira, como se alguém tivesse chamado.","The beasts don't hunt anymore. They walk. All the same way, toward the border, as if someone had called them."
+HIST_162,"Três caçadores passaram hoje com o mesmo cartaz. Uma criança. Sem rosto, sem nome, e pagamento adiantado. Ninguém paga adiantado por nada.","Three hunters came through today with the same poster. A child. No face, no name, and payment up front. No one pays up front for anything."
+HIST_188,"Saia do meu caminho, caçador. Volte para os campos. Este trabalho não é para você.","Get out of my way, hunter. Go back to the fields. This job is not for you."
+HIST_216,"Chegou uma carta congelada, sem remetente. Só dizia: ""A criança fala com eles. Escondam a criança."" Não sei para quem entregar.","A frozen letter arrived, with no sender. It only said: ""The child speaks with them. Hide the child."" I don't know who to deliver it to."
+HIST_237,"Fale baixo perto do fogo. Neste vale, quem faz barulho é ouvido. E não por gente.","Speak softly near the fire. In this valley, whoever makes noise is heard. And not by people."
+HIST_265,"Achei a marca do meu irmão numa pedra: ""o gelo não protege, ele guarda"". Depois disso, mais nada.","I found my brother's mark on a stone: ""the ice doesn't protect, it keeps"". After that, nothing."
+HIST_291,Os soldados de gelo estão se juntando em volta do selo grande. Já vi exército se preparar para defender. Isso não é defesa. É espera.,The ice soldiers are gathering around the great seal. I've seen armies prepare to defend. This isn't defense. It's waiting.
+VOZ_1_25,Os bandidos de Auren deixam a prata e levam outra coisa. Ladrões comuns não escolhem assim.,The bandits of Auren leave the silver and take something else. Common thieves don't choose like that.
+VOZ_1_50,Alguém está comprando o que eles roubam. Quem compra um Eco não quer guardá-lo. Quer reuni-lo.,Someone is buying what they steal. Whoever buys an Echo doesn't want to keep it. They want to gather it.
+VOZ_1_75,"Você venceu um homem. A mão que pagava por ele continua aberta. Os Ecos espalhados estão sendo chamados de volta, um a um. E não sou eu quem os chama.","You defeated a man. The hand that paid him is still open. The scattered Echoes are being called back, one by one. And I am not the one calling them."
+VOZ_2_25,"Esta mata já cantou. Os pássaros, o vento, as folhas. Agora ela só escuta. Ande devagar.","This forest once sang. The birds, the wind, the leaves. Now it only listens. Walk slowly."
+VOZ_2_50,"Essas feras não nasceram assim. Alguém as fez com cuidado, como quem prepara uma ferramenta. E ferramentas existem para um trabalho.","These beasts were not born this way. Someone made them with care, like one prepares a tool. And tools exist for a job."
+VOZ_2_75,Ouça. A mata voltou a respirar. Mas as feras que você venceu seguiam todas na mesma direção: para a fronteira.,Listen. The forest breathes again. But the beasts you defeated were all heading the same way: toward the border.
+VOZ_3_25,"Na fronteira, falam de uma criança que conversa com quem já partiu. As pessoas riem quando contam. Depois trancam a porta.","On the border, they speak of a child who talks with those who have passed. People laugh when they tell it. Then they lock the door."
+VOZ_3_50,"Muitos procuram a criança. Poucos querem ajudá-la. A morte guarda aquilo que o mundo tentou esquecer, e há quem queira muito lembrar.","Many seek the child. Few want to help. Death keeps what the world tried to forget, and some want very much to remember."
+VOZ_3_75,"Fragmentos frios ao toque. Alguém paga com gelo para encontrar uma criança. Siga o frio, caçador. Ele não está vindo atrás de você. Está indo atrás dela.","Fragments cold to the touch. Someone pays in ice to find a child. Follow the cold, hunter. It isn't coming for you. It is going after the child."
+VOZ_4_25,"Neste vale, o vento para. Não por cansaço. Por ordem.","In this valley, the wind stops. Not from weariness. By command."
+VOZ_4_50,"Os selos estão congelados, e todos dizem que isso é proteção. O gelo preserva segredos. Pergunte-se de quem é o segredo que está sendo guardado.","The seals are frozen, and everyone says it is protection. Ice preserves secrets. Ask yourself whose secret is being kept."
+FECH_1,"Mestre Calder caiu, e os campos de Auren voltaram ao silêncio. Entre os pertences dele havia um pedido de compra de fragmentos, sem assinatura. Os roubos não eram crimes comuns. Alguém, em algum lugar, está juntando o que se espalhou.","Master Calder has fallen, and the fields of Auren are quiet again. Among his belongings was an order to buy fragments, unsigned. The robberies were not common crimes. Someone, somewhere, is gathering what was scattered."
+FECH_2,"A Semeadora Velada tombou, e a mata voltou a fazer barulho pela primeira vez. As feras anômalas não eram doentes nem selvagens. Elas foram feitas, e quem as fez continua trabalhando.","The Veiled Sower has fallen, and the forest makes noise again for the first time. The anomalous beasts were neither sick nor wild. They were made, and whoever made them is still at work."
+FECH_3,"Thessa Vurn não vai mais caçar ninguém. O pagamento dela foi feito em fragmentos ainda frios ao toque. Na fronteira, a geada chegou antes do inverno. A criança continua escondida, e o frio segue na direção dela.","Thessa Vurn will hunt no one anymore. She was paid in fragments still cold to the touch. On the border, the frost came before winter. The child is still hidden, and the cold is moving toward the child."
+FECH_4,"Ysmera estava prestes a levar a criança quando o vale respondeu. Os mortos atenderam ao chamado dela, e o gelo do Arauto quebrou por dentro. Ysmera caiu, e o último selo do Vale se rompeu junto com ela. Quando o silêncio voltou, a criança não estava mais lá.","Ysmera was about to take the child when the valley answered. The dead heeded the child's call, and the Herald's ice broke from within. Ysmera fell, and the Valley's last seal broke along with her. When the silence returned, the child was gone."
+CHEFE_MESTRE_CALDER_ENTRA,"Tudo tem preço, caçador. Até você.","Everything has a price, hunter. Even you."
+CHEFE_MESTRE_CALDER_FASE2,Negócio encerrado. Eu sei a hora de sair.,Deal's off. I know when to walk away.
+CHEFE_MESTRE_CALDER_CAI,Eu só vendia... Nunca soube para quem.,I only sold... I never knew to whom.
+CHEFE_SEMEADORA_VELADA_ENTRA,[A mata inteira range.],[The whole forest creaks.]
+CHEFE_SEMEADORA_VELADA_FASE2,"[As folhas ficam cinzentas, e as raízes se agitam.]","[The leaves turn gray, and the roots stir.]"
+CHEFE_SEMEADORA_VELADA_CAI,"[A árvore se curva. Ao longe, um pássaro canta.]","[The tree bows. Far away, a bird sings.]"
+CHEFE_THESSA_VURN_ENTRA,"Nada pessoal. Me pagaram para achar uma criança, e você está no caminho.","Nothing personal. I was paid to find a child, and you're in the way."
+CHEFE_THESSA_VURN_FASE2,Meu contratante quer ver isto de perto.,My employer wants to see this up close.
+CHEFE_THESSA_VURN_CAI,Pode ficar com o pagamento. Ele nunca esquentou na minha mão.,You can keep the payment. It never warmed in my hand.
+CHEFE_YSMERA_ENTRA,Você chama isto de prisão. Eu chamo de cuidado. Tudo o que eu congelo continua inteiro.,You call this a prison. I call it care. Everything I freeze stays whole.
+CHEFE_YSMERA_FASE2,"Chega de vozes. Escute, caçador: é assim que o mundo soa quando para.","Enough voices. Listen, hunter: this is how the world sounds when it stops."
+CHEFE_YSMERA_CAI,O gelo derrete... mas Nharvek não esquece.,The ice melts... but Nharvek does not forget.
+CENA_CRIANCA_1,Eu sei. Eu também ouço vocês.,I know. I hear you too.
+CENA_CRIANCA_2,Mas eu não posso ficar.,But I can't stay.
+CENA_CRIANCA_DIARIO,"Em algum lugar da Mata dos Ecos Velados, uma criança de capuz falava baixo com uma pedra antiga. Luzes pálidas subiam do chão para ouvir. Depois, olhos de feras se acenderam entre as árvores, a geada veio fora de época, e a criança correu para dentro da névoa.","Somewhere in the Forest of Veiled Echoes, a hooded child spoke softly to an ancient stone. Pale lights rose from the ground to listen. Then beasts' eyes lit up among the trees, frost came out of season, and the child ran into the mist."
+MIS_1_PEDIDO,"Levaram os sacos de farinha e deixaram a prata. Que ladrão faz isso? Caçador, espante esses Batedores da minha estrada.","They took the flour sacks and left the silver. What thief does that? Hunter, chase those Raiders off my road."
+MIS_1_OBJ,Derrotar 10 Batedores de Estrada,Defeat 10 Road Raiders
+MIS_1_FIM,"Obrigada, caçador. Meu avô dizia que Kaerith inteira já zumbiu assim, como aquele pote. Ele chamava isso de Ecos. Um dia, tudo parou de responder.","Thank you, hunter. My grandfather used to say all of Kaerith once hummed like that jar. He called it the Echoes. One day, everything stopped answering."
+MIS_2_PEDIDO,Os corvos levaram o sino do rebanho para o ninho! Fica lá no caminho da fase 12. Você pega de volta para mim?,The crows took the flock's bell to their nest! It's along the way of stage 12. Will you get it back for me?
+MIS_2_OBJ,Vencer de novo a fase 12,Win stage 12 again
+MIS_2_FIM,"Meu sino! Ah, e não conta pra ninguém: o vigia jura que os túmulos do morro andam cantando baixinho. Eu é que não vou lá.","My bell! Oh, and don't tell anyone: the watchman swears the graves on the hill have been singing softly. I'm not going up there."
+MIS_3_PEDIDO,Preciso de provas antes de chamar reforços da cidade. Traga-me a prova: derrube os Contrabandistas que andam com esses frascos.,I need proof before I call for reinforcements from the city. Bring me proof: take down the Smugglers carrying those flasks.
+MIS_3_OBJ,Derrotar 8 Contrabandistas de Frascos,Defeat 8 Flask Smugglers
+MIS_3_FIM,"Agora tenho provas. Os viajantes do norte contam outra coisa: gente que viu parentes mortos parados na beira da estrada, só olhando. Bobagem, eu espero.","Now I have proof. Travelers from the north tell of something else: people who saw dead relatives standing by the roadside, just watching. Nonsense, I hope."
+MIS_5_PEDIDO,"As lebres andam pondo fogo no meu depósito, e eu juro que não é coincidência. Dá um jeito nelas?","The hares keep setting my storehouse on fire, and I swear it's no coincidence. Can you deal with them?"
+MIS_5_OBJ,Derrotar 5 Lebres,Defeat 5 Hares
+MIS_5_FIM,"O depósito está salvo. Forja velha escuta muita coisa. A última: lá na fronteira, uma criança diz o nome de quem já morreu antes de alguém contar.","The storehouse is safe. An old forge hears many things. The latest: out on the border, a child says the names of the dead before anyone tells them."
+MIS_6_PEDIDO,"O brejo onde eu colho ervas ganhou olhos. Rastejantes no lodo, por todo lado. Me ajuda a limpar o caminho?","The marsh where I gather herbs has grown eyes. Crawlers in the mud, everywhere. Will you help me clear the way?"
+MIS_6_OBJ,Derrotar 8 Rastejantes do Lodo,Defeat 8 Mud Crawlers
+MIS_6_FIM,"A névoa do brejo devolve as vozes. Às vezes, vozes de quem já se foi. Minha mãe me ensinou a não responder.","The marsh mist gives voices back. Sometimes, voices of those who are gone. My mother taught me not to answer."
+MIS_7_PEDIDO,Árvore não anda. Pelo menos não andava. Esses Brotados estão tomando a minha clareira.,Trees don't walk. At least they didn't. These Sprouts are taking over my clearing.
+MIS_7_OBJ,Derrotar 10 Brotados,Defeat 10 Sprouts
+MIS_7_FIM,Aqui ninguém enterra os mortos perto das árvores velhas. Dizem que as raízes escutam o que eles ainda têm para dizer.,Around here no one buries the dead near the old trees. They say the roots listen to what the dead still have to say.
+MIS_8_PEDIDO,A mata contava histórias. Agora só escuta. Volte à fase 27 e me diga o que calou aquele trecho.,The forest used to tell stories. Now it only listens. Go back to stage 27 and tell me what silenced that stretch.
+MIS_8_OBJ,Vencer de novo a fase 27,Win stage 27 again
+MIS_8_FIM,"Minha avó contava que, no começo, Kaerith inteira falava: cada pedra, cada rio. Os Ecos são o que sobrou dessa conversa.","My grandmother used to say that, in the beginning, all of Kaerith spoke: every stone, every river. The Echoes are what's left of that conversation."
+MIS_9_PEDIDO,Caço cervos há trinta anos e nunca vi um acender a mata. Preciso entender esses Cervos Faiscantes.,I've hunted deer for thirty years and never saw one set the forest alight. I need to understand these Sparking Stags.
+MIS_9_OBJ,Derrotar 4 Cervos Faiscantes,Defeat 4 Sparking Stags
+MIS_9_FIM,"Uns caçadores da fronteira passaram por aqui perguntando de uma criança. De cervo, não quiseram saber.",Some hunters from the border came by asking about a child. They didn't care about deer at all.
+MIS_10_PEDIDO,Os abutres roubam a comida e deixam as panelas em brasa! Espanta esses Abutres de Brasa do meu acampamento?,The vultures steal the food and leave the pots burning! Will you scare these Ember Vultures off my camp?
+MIS_10_OBJ,Derrotar 3 Abutres de Brasa,Defeat 3 Ember Vultures
+MIS_10_FIM,"No meu fogo, os viajantes só falam de uma coisa: os mortos da fronteira andam inquietos, e uma criança conversa com eles.","By my fire, travelers talk about only one thing: the dead on the border are restless, and a child talks with them."
+MIS_11_PEDIDO,Estranhos armados atravessam a fronteira sem dizer o que procuram. Mande esses Rastreadores de volta.,Armed strangers cross the border without saying what they seek. Send those Trackers back.
+MIS_11_OBJ,Derrotar 10 Rastreadores de Aluguel,Defeat 10 Hired Trackers
+MIS_11_FIM,"Todos aqueles estranhos procuravam a mesma criança. Eu não sei onde ela está. E, se soubesse, não diria.","All those strangers were looking for the same child. I don't know where the child is. And if I knew, I wouldn't say."
+MIS_12_PEDIDO,"As cartas estão chegando congeladas, no meio do outono. O malote ficou preso na fase 14. Pode buscar?","The letters are arriving frozen, in the middle of autumn. The mailbag got stuck at stage 14. Can you fetch it?"
+MIS_12_OBJ,Vencer de novo a fase 14,Win stage 14 again
+MIS_12_FIM,As cartas descongelaram. Uma era de uma mãe pedindo que não procurassem a criança. Não tinha nome de ninguém.,The letters thawed. One was from a mother begging them not to look for the child. It had no one's name.
+MIS_14_PEDIDO,"Os lobos atacam as minhas carroças, e lobo nenhum devia estar tão ao sul. Me ajude com esses Lobos da Geada.","Wolves keep attacking my carts, and no wolf should be this far south. Help me with these Frost Wolves."
+MIS_14_OBJ,Derrotar 4 Lobos da Geada,Defeat 4 Frost Wolves
+MIS_14_FIM,"Os mortos de Durnak sempre ficaram quietos, caçador. Este ano, alguns pediram para ser ouvidos. Anão nenhum gosta disso.","The dead of Durnak always stayed quiet, hunter. This year, some asked to be heard. No dwarf likes that."
+MIS_15_PEDIDO,"Vi olhos brancos na neve, parados, observando o posto. Derrube esses Atiradores da Geada antes que eles atirem.","I saw white eyes in the snow, still, watching the post. Take down those Frost Archers before they shoot."
+MIS_15_OBJ,Derrotar 3 Atiradores da Geada,Defeat 3 Frost Archers
+MIS_15_FIM,"Os olhos brancos sumiram. Antes disso, eu vi passos pequenos indo para o vale, e o frio indo atrás.","The white eyes are gone. Before that, I saw small footsteps heading for the valley, and the cold following them."
+MIS_16_PEDIDO,"Mantenho a única fogueira acesa do vale, e os arminhos querem apagá-la. Não deixe.","I keep the only fire burning in the valley, and the ermines want to put it out. Don't let them."
+MIS_16_OBJ,Derrotar 12 Arminhos da Geada,Defeat 12 Frost Ermines
+MIS_16_FIM,"A fogueira continua acesa. Neste vale, até os mortos se calam. É o único lugar de Kaerith onde ninguém ouve ninguém.","The fire is still burning. In this valley, even the dead fall silent. It's the only place in Kaerith where no one hears anyone."
+MIS_17_PEDIDO,Meu irmão entrou no vale antes de você. Quero ver o caminho que ele fez. Ele passou pela fase 11.,My brother entered the valley before you. I want to see the path he took. He went through stage 11.
+MIS_17_OBJ,Vencer de novo a fase 11,Win stage 11 again
+MIS_17_FIM,O caminho do meu irmão termina onde o gelo começa. Ele sempre dizia que ouvia alguém chamando lá dentro.,My brother's path ends where the ice begins. He always said he heard someone calling from inside.
+MIS_18_PEDIDO,Os mamutes bloquearam a única passagem até a minha cervejaria! Abre caminho para mim?,The mammoths blocked the only pass to my brewery! Will you clear the way for me?
+MIS_18_OBJ,Derrotar 6 Mamutes Glaciais,Defeat 6 Glacial Mammoths
+MIS_18_FIM,"Passagem livre! Um brinde, caçador: aos vivos, e aos que ainda querem falar.","The pass is clear! A toast, hunter: to the living, and to those who still want to speak."
+MIS_20_PEDIDO,Eles marcham igual a gente marchava. Só não respiram. Derrube esses Soldados da Geada.,They march just like we used to march. They just don't breathe. Take down those Frost Soldiers.
+MIS_20_OBJ,Derrotar 4 Soldados da Geada,Defeat 4 Frost Soldiers
+MIS_20_FIM,"Soldado que não respira não descansa. Mas os que caíram aqui antes, esses estão esperando alguém chamar.","A soldier who doesn't breathe doesn't rest. But those who fell here before, they are waiting for someone to call."
+MIS_21_PEDIDO,Você limpou a estrada. Agora uma coisa de moleira: na fase 20 ninguém tem poção para gastar. Vença lá sem usar nenhuma.,You cleared the road. Now a miller's test: at stage 20 nobody has potions to spare. Win there without using any.
+MIS_21_OBJ,Vencer de novo a fase 20 sem usar poções,Win stage 20 again without potions
+MIS_21_FIM,Sem poção nenhuma! Meu avô dizia que quem escuta os Ecos não precisa de pressa. Acho que você escuta.,Not a single potion! My grandfather said whoever listens to the Echoes needs no hurry. I think you listen.
+MIS_22_PEDIDO,"Quero saber tudo dos corvos que roubaram meu sino. Você me conta? Vence um normal, um veterano e um elite.","I want to know everything about the crows that stole my bell. Will you tell me? Beat a normal one, a veteran and an elite."
+MIS_22_OBJ,Completar a ficha do Corvo no Bestiário,Complete the Crow's Bestiary entry
+MIS_22_FIM,Então os corvos levam o que brilha... e o que zumbe. Meu sino nunca zumbiu. Ainda bem.,So the crows take what shines... and what hums. My bell never hummed. Good thing.
+MIS_23_PEDIDO,Forja velha ouviu de um bando forte na fase 70. Gente de elite. Volte lá e mostre que eles não mandam nos campos.,The old forge heard of a strong gang at stage 70. Elite folk. Go back and show them they don't rule the fields.
+MIS_23_OBJ,Vencer de novo a fase 70,Win stage 70 again
+MIS_23_FIM,"O bando se espalhou. Diziam que tinham um comprador fora de Auren, que pagava bem e nunca mostrava o rosto.","The gang scattered. They said they had a buyer outside Auren, who paid well and never showed his face."
+MIS_24_PEDIDO,O pedido de compra do Calder precisa chegar à cidade. A estrada da fase 75 ainda tem gente dele. Vai comigo?,Calder's purchase order must reach the city. The road at stage 75 still has his people. Will you come with me?
+MIS_24_OBJ,Vencer de novo a fase 75 e levar o pedido de Calder,Win stage 75 again and deliver Calder's order
+MIS_24_FIM,"O pedido chegou. Na cidade, ninguém reconheceu o selo. Só um velho escrivão disse que já viu papel igual, vindo da mata.","The order arrived. In the city, no one recognized the seal. Only an old clerk said he'd seen paper like it, coming from the forest."
+MIS_25_PEDIDO,"O brejo me ensinou a ser rápida. Na fase 35, vença em até 8 rodadas, antes que a névoa repita o seu nome.","The marsh taught me to be quick. At stage 35, win within 8 rounds, before the mist repeats your name."
+MIS_25_OBJ,Vencer de novo a fase 35 em até 8 rodadas,Win stage 35 again within 8 rounds
+MIS_25_FIM,"Rápido assim, a névoa nem teve tempo de responder. É melhor assim.","That fast, the mist didn't even have time to answer. It's better that way."
+MIS_26_PEDIDO,"Ainda não entendo esses cervos. Vença um comum, um veterano e um elite, e me conte o que viu.","I still don't understand these stags. Beat a common one, a veteran and an elite, and tell me what you saw."
+MIS_26_OBJ,Completar a ficha do Cervo Faiscante no Bestiário,Complete the Sparking Stag's Bestiary entry
+MIS_26_FIM,"Faísca na galhada, olho parado... Esses cervos não fogem de nada. Alguém tirou o medo deles.","Sparks in the antlers, still eyes... These stags flee from nothing. Someone took their fear away."
+MIS_27_PEDIDO,"Tem uma clareira na fase 60 onde as árvores andam em bando. Elite. Derrube aquilo, caçador.","There's a clearing at stage 60 where the trees walk in packs. Elite. Bring that down, hunter."
+MIS_27_OBJ,Vencer de novo a fase 60,Win stage 60 again
+MIS_27_FIM,"A clareira ficou quieta. Nas raízes, achei marcas de corte certinhas. Árvore não se poda sozinha.","The clearing went quiet. On the roots, I found neat cut marks. Trees don't prune themselves."
+MIS_28_PEDIDO,Dizem que a Semeadora caiu. Volte à fase 75 e escute por mim: a mata voltou a cantar?,They say the Sower has fallen. Go back to stage 75 and listen for me: is the forest singing again?
+MIS_28_OBJ,Vencer de novo a fase 75 e escutar a mata,Win stage 75 again and listen to the forest
+MIS_28_FIM,"Um pássaro, você disse? Então começou. Leva tempo para uma mata lembrar a própria voz.","A bird, you said? Then it has begun. It takes time for a forest to remember its own voice."
+MIS_29_PEDIDO,"Na fronteira, quem chega cansado não chega. Vença a fase 45 com mais da metade da Vida.","On the border, whoever arrives tired doesn't arrive. Win stage 45 with more than half your Life."
+MIS_29_OBJ,Vencer de novo a fase 45 com mais da metade da Vida,Win stage 45 again with more than half your Life
+MIS_29_FIM,"Inteiro, e ainda de pé. Anão respeita isso. Os mortos de Durnak também, dizem.","Whole, and still standing. Dwarves respect that. So do the dead of Durnak, they say."
+MIS_30_PEDIDO,"Quero saber quem são esses Rastreadores. Vença um comum, um veterano e um elite, e traga o que descobrir.","I want to know who these Trackers are. Beat a common one, a veteran and an elite, and bring me what you learn."
+MIS_30_OBJ,Completar a ficha do Rastreador de Aluguel no Bestiário,Complete the Hired Tracker's Bestiary entry
+MIS_30_FIM,"Todos com o mesmo cartaz, todos pagos adiantado. E nenhum sabia quem pagava. Isso me preocupa mais do que as armas.","All with the same poster, all paid up front. And none knew who was paying. That worries me more than the weapons."
+MIS_31_PEDIDO,"O malote mais pesado está na fase 70, cercado de gente forte. Elite. Traz para mim?","The heaviest mailbag is at stage 70, surrounded by tough folk. Elite. Will you bring it to me?"
+MIS_31_OBJ,Vencer de novo a fase 70,Win stage 70 again
+MIS_31_FIM,Metade das cartas era para gente que já morreu. E alguém respondeu algumas. Com letra de criança.,Half the letters were for people who have died. And someone answered a few. In a child's handwriting.
+MIS_32_PEDIDO,O contrato da Thessa precisa chegar ao posto. Volte à fase 75 e traga o que sobrou dele.,Thessa's contract must reach the post. Go back to stage 75 and bring what's left of it.
+MIS_32_OBJ,Vencer de novo a fase 75 e entregar o contrato,Win stage 75 again and deliver the contract
+MIS_32_FIM,"O contrato não tem nome, só um selo de geada. Ele ainda está frio. Mandei trancar no posto, longe do fogo.","The contract has no name, only a frost seal. It's still cold. I had it locked in the post, away from the fire."
+MIS_33_PEDIDO,"No vale, poção congela no frasco. Vença a fase 35 sem usar nenhuma, e eu abro o barril bom.","In the valley, potions freeze in the flask. Win stage 35 without using any, and I'll open the good barrel."
+MIS_33_OBJ,Vencer de novo a fase 35 sem usar poções,Win stage 35 again without potions
+MIS_33_FIM,"Sem poção! Então o barril é seu. Neste vale, quem aguenta o frio de cara limpa tem história para contar.","No potions! Then the barrel is yours. In this valley, whoever stands the cold bare-faced has a story to tell."
+MIS_34_PEDIDO,"O Eco Mudo ronda a fogueira sem fazer barulho. Vença um comum, um veterano e um elite, e me diga o que ele é.","The Mute Echo circles the fire without a sound. Beat a common one, a veteran and an elite, and tell me what it is."
+MIS_34_OBJ,Completar a ficha do Eco Mudo no Bestiário,Complete the Mute Echo's Bestiary entry
+MIS_34_FIM,Um Eco que não responde. Eu achava que isso era impossível. Talvez o vale tenha ensinado a eles.,An Echo that doesn't answer. I thought that was impossible. Maybe the valley taught them.
+MIS_35_PEDIDO,"Na fase 60 os soldados de gelo formam fileira. Elite. Quebre a fileira, como a gente fazia.","At stage 60 the ice soldiers form ranks. Elite. Break the ranks, like we used to."
+MIS_35_OBJ,Vencer de novo a fase 60,Win stage 60 again
+MIS_35_FIM,"Fileira quebrada. Mas eles não recuaram, caçador. Só voltaram para perto do selo, como quem guarda uma porta.","Ranks broken. But they didn't retreat, hunter. They just went back near the seal, like those guarding a door."
+MIS_NOVA,Nova missão: %s,New quest: %s
+MIS_CONCLUIDA,"Missão concluída! Pegue a recompensa no Diário, na aba Missões.","Quest complete! Claim the reward in the Journal, under Quests."
+MIS_ATIVA,Em andamento,In progress
+MIS_PRONTA,Pronta para coletar,Ready to claim
+MIS_FEITA,Concluída,Completed
+MIS_COLETAR,Coletar,Claim
+MIS_RECOMPENSA,Recompensa,Reward
+MIS_DE,Pedido de %s,Request from %s
+MIS_NA_FASE,Missão: %s,Quest: %s
+MIS_TITULO_N,Missão %d,Quest %d
+DIARIO_MIS_ANDAMENTO,EM ANDAMENTO,IN PROGRESS
+DIARIO_MIS_CONCLUIDAS,CONCLUÍDAS,COMPLETED
+DIARIO_FALAS,O que já disse,What they've said
+DIARIO_NPC_NADA,Ainda não disse nada importante.,Hasn't said anything important yet.
+DIARIO_CAP_VAZIO,Ainda não há anotações neste capítulo.,No notes in this chapter yet.
+DIARIO_SUB_CAPITULO,%d anotações,%d notes
+MIS_CONCLUIDA_TITULO,Missão concluída,Quest complete
+NIVEL_TITULO,NÍVEL %d!,LEVEL %d!
+NIVEL_SUB,Nível %d > nível %d,Level %d > level %d
+NIVEL_EXPLICA,"A cada nível, a Vida e todos os atributos do herói crescem 5% do valor base. Os equipamentos continuam somando por cima.","Every level, your hero's Vida and every attribute grow by 5% of the base value. Equipment still adds on top."
+NIVEL_MELHOROU,O que melhorou,What improved
+NIVEL_NOVIDADES,Liberado agora,Unlocked now
+NIVEL_LIBERA_ORBE_NOVO,Você já pode obter o %dº Orbe novo (com fragmentos).,You can now obtain new Orb #%d (with fragments).
+NIVEL_LIBERA_ORBE_NIVEL,Seus Orbes já podem evoluir até o nível %d (com fragmentos).,Your Orbs can now be upgraded up to level %d (with fragments).
+NIVEL_PROXIMO,Próximo nível (%d): faltam %d XP,Next level (%d): %d XP to go
+CFG_EXCLUIR_CONTA,Excluir conta,Delete account
+CFG_EXCLUIR_PERSONAGEM,Excluir personagem,Delete character
+CFG_EXCLUIR_SIM,Excluir para sempre,Delete forever
+CFG_EXCLUIR_TEXTO,"Isso apaga %s e todo o progresso: nível, itens, Orbes, moedas, cristais e a posição no ranking. Não dá para desfazer. Depois o jogo volta para a tela de entrada.","This deletes %s and all progress: level, items, Orbs, coins, crystals and your ranking spot. It cannot be undone. Then the game goes back to the start screen."
+CFG_EXCLUINDO,Apagando do servidor...,Deleting from the server...
+CFG_EXCLUIR_SEM_REDE,Não foi possível falar com o servidor agora. Você pode apagar só deste aparelho (o ranking e a nuvem continuam lá) ou tentar de novo com internet.,Could not reach the server right now. You can delete only from this device (ranking and cloud data stay) or try again online.
+CFG_EXCLUIR_MESMO,Apagar só deste aparelho,Delete from this device only
+CFG_NOVIDADES,Novidades,What's new
+CFG_NOVIDADES_DESC,O que mudou em cada atualização do jogo.,What changed in each game update.
+CFG_VER_NOVIDADES,Ver novidades,See what's new
+NOV_VERSAO,Versão %s · %s,Version %s · %s
+NOV_080_1,"Missões secundárias: os moradores de Kaerith agora pedem ajuda. Procure o pergaminho com ""!"" no mapa e acompanhe tudo no Diário, aba Missões.","Side quests: the people of Kaerith now ask for help. Look for the scroll with ""!"" on the map and follow everything in the Journal, Quests tab."
+NOV_080_2,"Ao subir de nível, um popup mostra a Vida e os atributos que melhoraram e o que o novo nível libera.","When you level up, a popup shows the Health and attributes that improved and what the new level unlocks."
+NOV_080_3,"Combate rebalanceado: as habilidades de elemento mais fortes deram menos dano, os inimigos acompanham melhor o seu avanço e comprar equipamentos e poções faz mais diferença.","Combat rebalanced: the strongest element skills deal less damage, enemies keep up better with your progress and buying gear and potions matters more."
+NOV_080_4,"XP corrigido: as fases mais altas dão mais XP que as iniciais, e rejogar fases muito abaixo do seu nível dá menos.","XP fixed: higher stages give more XP than early ones, and replaying stages far below your level gives less."
+NOV_080_5,"Configurações: botão para excluir a conta ou o personagem, e esta lista de novidades.","Settings: a button to delete your account or character, and this list of what's new."
+NOV_070_1,"História da Temporada 1: moradores e personagens contam o que está acontecendo em Kaerith, com cenas de diálogo em cada ato.","Season 1 story: locals and characters tell what is happening in Kaerith, with dialogue scenes in every act."
+NOV_070_2,"Os chefes falam durante a luta, e o fim do Ato 1 tem uma cena especial.","Bosses speak during the fight, and the end of Act 1 has a special scene."
+NOV_070_3,"Diário: capítulos da história e fichas dos personagens que você conheceu.","Journal: story chapters and profiles of the characters you have met."
+NOV_070_4,"O Lobo da Geada aparece no Ato 3.","The Frost Wolf appears in Act 3."
+NOV_060_1,"Músicas e efeitos sonoros em 16 bits. Ajuste o volume em Configurações › Som.","16-bit music and sound effects. Adjust the volume in Settings › Sound."
+NOV_060_2,"No Despertar o herói fica só com a habilidade de elemento escolhida; as outras são aprendidas pelos Orbes.","At the Awakening the hero keeps only the chosen element skill; the others are learned through Orbs."
+NOV_060_3,"Correções: sair da conta volta para a tela de entrada, e o som da versão Web voltou a funcionar.","Fixes: signing out returns to the sign-in screen, and sound in the Web version works again."
+NOV_050_1,"Temporada 1 começou em 22/11/2026. Os atos abrem por data: 12/12, 06/01 e 31/01.","Season 1 started on 11/22/2026. Acts open by date: 12/12, 01/06 and 01/31."
+NOV_050_2,"Progresso salvo com o Google passa entre aparelhos (fica o mais recente).","Progress saved with Google carries across devices (the most recent one is kept)."
+NOV_050_3,"A versão Web atualiza sozinha e continua abrindo sem internet.","The Web version updates itself and still opens offline."
+AVISO_missoes_T,Missões secundárias!,Side quests!
+AVISO_missoes,"Os moradores de Kaerith agora pedem a sua ajuda. Procure o pergaminho com ""!"" no mapa, nas fases que você já venceu, e veja os pedidos no Diário, aba Missões. Cada missão dá recompensas e conta mais da história.","The people of Kaerith now need your help. Look for the scroll with ""!"" on the map, on stages you have already beaten, and see the requests in the Journal, Quests tab. Each quest gives rewards and tells more of the story."
+AVISO_VER_MISSOES,Ver missões,See quests

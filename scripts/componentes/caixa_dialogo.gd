@@ -35,6 +35,10 @@ func _ready() -> void:
 	_rotulo.size = Vector2(size.x - 24, size.y - 34)
 	_rotulo.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	_rotulo.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	# letra dos diálogos: a fonte de letras pequenas do jogo (FusionPixel 12), mais legível que a Pixelify
+	for l in [_nome, _rotulo]:
+		l.add_theme_font_override("font", Tema.fonte_pequena)
+		l.add_theme_font_size_override("font_size", Tema.TAM_PEQUENO)
 	add_child(_rotulo)
 	_seta = Polygon2D.new()
 	_seta.polygon = PackedVector2Array([Vector2(-5, 0), Vector2(5, 0), Vector2(0, 5)])
