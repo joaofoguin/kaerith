@@ -6,6 +6,7 @@
 ## O id do aviso fica gravado em Jogo.dados["avisos_vistos"].
 
 const LISTA := [
+	{"versao": "0.8.1", "data": "24/11/2026", "itens": 1},
 	{"versao": "0.8.0", "data": "24/11/2026", "itens": 5, "aviso": "missoes"},
 	{"versao": "0.7.0", "data": "24/11/2026", "itens": 4},
 	{"versao": "0.6.0", "data": "23/11/2026", "itens": 3},

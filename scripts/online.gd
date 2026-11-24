@@ -199,6 +199,8 @@ static func excluir_conta() -> bool:
 
 ## Sair da conta (Conta.sair): esquece o acesso guardado na memória; o "online" do save é apagado junto com o save.
 static func esquecer_login() -> void:
+	adm_conta = false
+	_adm_conferido = ""
 	_token = ""
 	_token_ate = 0
 	_enviado_em = 0
@@ -282,6 +284,22 @@ static func _save_mudou() -> bool:
 ## Manda os pontos do jogador (no máximo a cada 60 s, a não ser com forcar) e confere a nuvem (conta Google).
 ## forcar: manda mesmo sem mudança (abrir o jogo, voltar ao app, botões das Configurações).
 ## rotina: chamado pelo vigia da rede; ignora os 60 s, mas só manda o que mudou.
+## ADM pela conta (pedido do João, 2026-11-24): a conta (Google ou visitante, inclusive no APK) com o documento adm/{uid} no Firestore liga o
+## Jogo.adm() na versão pública. As regras deixam cada um só LER o próprio adm/{uid}; ninguém grava pelo jogo.
+## Confere uma vez por conta a cada abertura do jogo. Para dar ADM: Firestore › coleção "adm" › documento com o
+## ID do jogador (Configurações › Conta › Copiar) e qualquer campo. Para tirar: apague o documento.
+static var adm_conta := false
+static var _adm_conferido := ""
+static func conferir_adm() -> void:
+	if uid() == "" or _adm_conferido == uid():     # vale para Google e visitante (APK), pelo ID do jogador
+		return
+	var r: Dictionary = await _http(HTTPClient.METHOD_GET, _base() + "/adm/" + uid())
+	if r["ok"] or int(r["codigo"]) in [403, 404]:      # 404/403 = não é ADM (403 se as regras não deixam ler)
+		_adm_conferido = uid()
+		adm_conta = bool(r["ok"])
+		if int(r["codigo"]) in [403, 404]:
+			ultimo_erro = ""
+
 static func sincronizar(forcar := false, rotina := false) -> bool:
 	if not configurado() or _enviando or str(Jogo.dados.get("etapa", "")) != "pronto":
 		return false
@@ -292,6 +310,8 @@ static func sincronizar(forcar := false, rotina := false) -> bool:
 	var ok: bool = await entrar()
 	if ok and str(Jogo.dados.get("etapa", "")) != "pronto":
 		ok = false                           # saiu da conta enquanto conectava: não manda o progresso zerado
+	if ok:
+		await conferir_adm()
 	if ok:
 		var imp := _impressao_pontos()
 		if forcar or imp != _pontos_enviados:
@@ -434,6 +454,21 @@ static func ranking_qr(numero: int, dia: String) -> Dictionary:
 	return {"ok": true, "lista": lista}
 
 # ------------------------------------------------------------ login com Google
+## APK: o token que a página entrar_app.html deixou em login_app/{código}. "" enquanto não chegou.
+## Depois de ler, apaga o documento (o token não fica no servidor).
+static func pegar_login_app(codigo: String) -> String:
+	if not configurado():
+		return ""
+	var url := _base() + "/login_app/" + codigo
+	var r: Dictionary = await _http(HTTPClient.METHOD_GET, url, null, false)
+	if not r["ok"] or not (r["dados"] is Dictionary):
+		if int(r["codigo"]) == 404:
+			ultimo_erro = ""
+		return ""
+	var tok := str(r["dados"].get("fields", {}).get("token", {}).get("stringValue", ""))
+	await _http(HTTPClient.METHOD_DELETE, url, null, false)
+	return tok
+
 ## Troca o token do Google por uma conta do Firebase (signInWithIdp).
 ## Visitante com conta anônima: o Google é LIGADO nela (o ID, o ranking e o progresso continuam os mesmos).
 ## Se essa conta Google já pertence a outro jogador, entra nela (o progresso de lá é resolvido pela Conta).

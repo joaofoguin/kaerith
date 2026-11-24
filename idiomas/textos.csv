@@ -984,3 +984,5 @@ NOV_050_3,"A versão Web atualiza sozinha e continua abrindo sem internet.","The
 AVISO_missoes_T,Missões secundárias!,Side quests!
 AVISO_missoes,"Os moradores de Kaerith agora pedem a sua ajuda. Procure o pergaminho com ""!"" no mapa, nas fases que você já venceu, e veja os pedidos no Diário, aba Missões. Cada missão dá recompensas e conta mais da história.","The people of Kaerith now need your help. Look for the scroll with ""!"" on the map, on stages you have already beaten, and see the requests in the Journal, Quests tab. Each quest gives rewards and tells more of the story."
 AVISO_VER_MISSOES,Ver missões,See quests
+ENT_ESPERANDO_GOOGLE,"Entre com a sua conta no navegador que abriu e depois volte para o jogo. O login termina sozinho.","Sign in with your account in the browser that opened, then come back to the game. Sign-in finishes on its own."
+NOV_081_1,"Login com Google também no app de Android: o progresso fica salvo na sua conta e passa entre o celular e o navegador.","Google sign-in in the Android app too: your progress is saved to your account and carries between phone and browser."

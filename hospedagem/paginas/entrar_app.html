@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Kaerith · Entrar com Google</title>
+<style>
+	:root { color-scheme: dark; }
+	body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+		background: #12131c; color: #e6e6f0; font: 17px/1.5 system-ui, sans-serif; text-align: center; padding: 0 16px; }
+	h1 { color: #f0c860; font-size: 24px; margin: 0 0 12px; letter-spacing: 1px; }
+	p { max-width: 320px; margin: 0 auto; }
+	.erro { color: #ff8a80; }
+</style>
+</head>
+<body>
+<main>
+	<h1>Kaerith</h1>
+	<p id="msg"></p>
+</main>
+<script>
+// Login com Google para o APK (2026-11-24). O jogo abre esta página com #c=<código de 32 letras>&id=<client ID>.
+// 1) A página vai ao Google (o código vai no "state"). 2) Na volta, grava o token do Google no Firestore em
+// login_app/<código> (regras em hospedagem/firestore.rules). 3) O jogo, que conhece o código, lê e apaga.
+// Precisa: https://SITE/entrar_app.html nos "URIs de redirecionamento autorizados" do client OAuth da Web.
+(async function () {
+	const pt = (navigator.language || 'pt').toLowerCase().startsWith('pt');
+	const T = pt ? {
+		abrindo: 'Abrindo o Google...',
+		gravando: 'Terminando o login...',
+		pronto: 'Pronto! Pode voltar para o jogo.',
+		erro: 'O login não deu certo. Volte para o jogo e tente de novo.'
+	} : {
+		abrindo: 'Opening Google...',
+		gravando: 'Finishing sign-in...',
+		pronto: 'Done! You can go back to the game.',
+		erro: 'Sign-in didn\'t work. Go back to the game and try again.'
+	};
+	const msg = document.getElementById('msg');
+	function mostrar(t, erro) { msg.textContent = t; msg.className = erro ? 'erro' : ''; }
+	const volta = location.origin + location.pathname;
+	const h = new URLSearchParams(location.hash.slice(1));
+	const valido = (c) => /^[0-9a-f]{32}$/.test(c || '');
+	if (h.get('c')) {
+		// ida: o jogo abriu a página
+		const c = h.get('c'), id = h.get('id');
+		if (!valido(c) || !id) { mostrar(T.erro, true); return; }
+		mostrar(T.abrindo);
+		const nonce = Array.from(crypto.getRandomValues(new Uint8Array(16)), b => b.toString(16).padStart(2, '0')).join('');
+		location.replace('https://accounts.google.com/o/oauth2/v2/auth?' + new URLSearchParams({
+			client_id: id, redirect_uri: volta, response_type: 'id_token', scope: 'openid email profile',
+			nonce: nonce, state: c, prompt: 'select_account'
+		}).toString());
+		return;
+	}
+	// volta do Google
+	const tok = h.get('id_token'), c = h.get('state') || '';
+	try { history.replaceState(null, '', volta); } catch (e) { /* nada */ }
+	if (!tok || !valido(c)) { mostrar(T.erro, true); return; }
+	mostrar(T.gravando);
+	try {
+		const cfg = await (await fetch('/__/firebase/init.json')).json();     // o Firebase Hosting serve isso
+		const url = 'https://firestore.googleapis.com/v1/projects/' + cfg.projectId +
+			'/databases/(default)/documents/login_app?documentId=' + c + '&key=' + encodeURIComponent(cfg.apiKey);
+		const r = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ fields: { token: { stringValue: tok } } }) });
+		mostrar(r.ok ? T.pronto : T.erro, !r.ok);
+	} catch (e) {
+		mostrar(T.erro, true);
+	}
+}());
+</script>
+</body>
+</html>

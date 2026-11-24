@@ -163,6 +163,15 @@ func _salvar_google() -> void:
 	popup = Janela.criar(tr("CFG_SALVAR_GOOGLE"), [], tr("ENT_ABRINDO"))
 	add_child(popup)
 	Conta.ir_para_google("vincular")
+	if not Plataforma.web():         # APK: o login acontece no navegador; espera o token aqui
+		_fechar_popup()
+		popup = Janela.criar(tr("CFG_SALVAR_GOOGLE"), [["CANCELAR", func():
+			Conta.cancelar_app()
+			_fechar_popup()]], tr("ENT_ESPERANDO_GOOGLE"))
+		add_child(popup)
+		var r: Dictionary = await Conta.esperar_app()
+		if not r.is_empty():
+			_terminar_google(r)
 
 func _salvar_agora() -> void:
 	_fechar_popup()

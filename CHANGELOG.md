@@ -17,7 +17,14 @@ Versões de distribuição (desde a 0.3.0):
 ---
 
 ## 0.8.1 — 24/11/2026
-- **ADM com todos os atos liberados:** na versão ADM (e no editor) os atos não esperam a data de abertura; o mapa mostra os 4 atos e dá para jogar qualquer fase já alcançada. A versão pública não muda.
+**ADM** (pedido do João)
+- Na ADM (editor, presets ADM ou conta ADM) todos os atos ficam abertos, sem esperar a data (`ConfigRemota.ato_aberto`). As fases à frente da atual continuam travadas. A versão pública não muda.
+- **ADM pela conta** na versão pública (Web e APK, conta Google ou visitante): a conta que tiver o documento `adm/{uid}` no Firestore (criado à mão no console; o nome do documento é o ID do jogador, Configurações › Conta › Copiar) vira ADM ao entrar, com o mesmo save e o mesmo ranking. `Online.conferir_adm` confere uma vez por abertura, depois do login; sem internet fica como jogador comum. Regras: `adm/{uid}` só pode ser lido pelo próprio dono e ninguém grava pelo jogo (publicar com `firebase deploy --only firestore:rules`). Para tirar o ADM, apague o documento. (Substitui o modo por chave, que não chegou a ser publicado.)
+
+**Login com Google no APK** (pedido do João)
+- Sem plugin: o botão do Google (tela de entrada e Configurações › Conta) abre no navegador do celular `SITE/entrar_app.html#c=<código>&id=<client ID>` (página nova em `hospedagem/paginas/`). Ela faz o login no Google e grava o token no Firestore em `login_app/<código>`; o jogo espera (popup com Cancelar), lê o token pelo código, apaga o documento e segue igual à Web (`Conta.esperar_app`, `Online.pegar_login_app`). O código tem 32 letras aleatórias e ninguém lista a coleção.
+- Passos do João: em Google Cloud › APIs e serviços › Credenciais › client da Web, adicionar `https://kaerith-d9bef.web.app/entrar_app.html` em "URIs de redirecionamento autorizados"; publicar as regras e o site; exportar o APK com a mesma keystore de depuração.
+- Novidades: entrada 0.8.1 para os jogadores.
 
 ## 0.8.0 — 24/11/2026
 **Rebalanceamento e popup de nível** (pedido do João: "muito fácil avançar sem comprar itens e equipamentos"; números PROVISÓRIOS, medidos no simulador `ferramentas/simulador_combate/sim2.py`)

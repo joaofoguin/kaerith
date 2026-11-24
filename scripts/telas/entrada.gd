@@ -107,13 +107,26 @@ func _google() -> void:
 	_ocupar(true)
 	_mostrar(tr("ENT_ABRINDO"))
 	Conta.ir_para_google("login")
+	if not Plataforma.web():         # APK: o login acontece no navegador; espera o token aqui
+		var espera := Janela.criar(tr("ENT_GOOGLE"), [["CANCELAR", func(): Conta.cancelar_app()]], tr("ENT_ESPERANDO_GOOGLE"))
+		add_child(espera)
+		var r: Dictionary = await Conta.esperar_app()
+		espera.fechar()
+		if r.is_empty():
+			_ocupar(false)
+			_mostrar("")
+			return
+		_terminar_volta(r)
 
 ## A página voltou do Google: termina o login aqui mesmo.
 func _ver_volta() -> void:
-	var r := Conta.retorno()
+	_terminar_volta(Conta.retorno())
+
+func _terminar_volta(r: Dictionary) -> void:
 	if r.is_empty():
 		return
 	if r.has("erro"):
+		_ocupar(false)
 		_mostrar(tr("ENT_ERRO_GOOGLE"), true)
 		return
 	_ocupar(true)

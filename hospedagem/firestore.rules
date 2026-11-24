@@ -31,6 +31,17 @@ service cloud.firestore {
         && request.resource.data.moedas is int && request.resource.data.nivel is int
         && request.resource.data.em is int && request.resource.data.aparelho is string;
     }
+    // (2026-11-24) login Google no APK: a página entrar_app.html deixa o token do Google aqui, no documento com
+    // o código aleatório de 32 letras que o jogo gerou; o jogo lê pelo código e apaga. Ninguém lista a coleção.
+    match /login_app/{codigo} {
+      allow get, delete: if codigo.size() == 32;
+      allow create: if codigo.size() == 32 && request.resource.data.keys().hasOnly(['token'])
+        && request.resource.data.token is string && request.resource.data.token.size() < 4096;
+    }
+    // (2026-11-24) ADM pela conta: o documento adm/{uid} é criado à mão no console; o jogo só lê o próprio
+    match /adm/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+    }
     // (2026-11-22) promoções e QR controlados pelo console do Firebase: o jogo só lê; ninguém escreve pelo app
     match /promocoes/{id} {
       allow read: if true;

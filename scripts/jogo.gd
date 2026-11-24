@@ -49,8 +49,12 @@ const COMUNS_INICIAIS := ["golpe", "guarda", "golpe_rapido", "varredura"]
 ## Pedido do João (2026-11-22). É ADM: o jogo rodando pelo editor do Godot (F5/F6) e as exportações pelos presets
 ## com o recurso personalizado "adm" ("Android ADM" e "Web ADM" em export_presets.cfg). Os presets "Android" e
 ## "Web" (públicos) não têm o recurso, então lá adm() é falso.
+##
+## ADM pela conta (pedido do João, 2026-11-24): na versão pública, a conta Google que tiver um documento
+## adm/{uid} no Firestore (criado à mão no console) também é ADM, com o mesmo save e o mesmo ranking.
+## Quem confere é o Online.conferir_adm, ao entrar; sem internet, fica como jogador comum.
 func adm() -> bool:
-	return OS.has_feature("editor") or OS.has_feature("adm")
+	return OS.has_feature("editor") or OS.has_feature("adm") or Online.adm_conta
 
 ## Site do jogo (Firebase Hosting): suporte, privacidade e termos ficam em hospedagem/paginas/.
 const SITE := "https://kaerith-d9bef.web.app"

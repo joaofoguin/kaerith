@@ -4,7 +4,9 @@ extends RefCounted
 ##   visitante: o progresso fica só neste aparelho (conta anônima do Firebase só para o ranking);
 ##   Google: o progresso também fica na nuvem (Firestore saves/{uid}) e volta ao entrar em outro aparelho.
 ## O login com Google funciona na versão Web: a página vai ao Google e volta com o token (KaerithWeb.googleEntrar).
-## No APK ainda não (precisa de um plugin do Google Sign-In); lá o botão avisa.
+## No APK (pedido do João, 2026-11-24), sem plugin: o jogo abre no navegador do celular a página
+## SITE/entrar_app.html com um código aleatório; ela faz o login no Google e deixa o token no Firestore em
+## login_app/{código}; o jogo busca o token pelo código (Conta.esperar_app), apaga o documento e segue igual à Web.
 ## Jogo.dados["conta"] = {"tipo": "visitante" | "google", "email", "nome"}. Sem o campo = visitante.
 
 static func tipo() -> String:
@@ -19,7 +21,7 @@ static func email() -> String:
 ## "" se dá para entrar com o Google aqui; senão a chave do aviso.
 static func aviso_google() -> String:
 	if not Plataforma.web():
-		return "CONTA_SO_WEB"
+		return "" if Online.google_configurado() else "CONTA_SEM_CONFIG"
 	if not Online.google_configurado():
 		return "CONTA_SEM_CONFIG"
 	if not CameraWeb.ativo():
@@ -28,11 +30,48 @@ static func aviso_google() -> String:
 
 ## Sai da página para o Google. motivo: "login" (tela de entrada) ou "vincular" (Configurações).
 static func ir_para_google(motivo: String) -> void:
+	if not Plataforma.web():
+		_ir_pelo_navegador(motivo)
+		return
 	Jogo.salvar()
 	# o navegador grava o save no armazenamento dele no quadro seguinte; espera um pouco antes de sair da página
 	await Jogo.get_tree().create_timer(0.8).timeout
 	JavaScriptBridge.eval("window.KaerithWeb.googleEntrar(%s, %s)" % [
 		JSON.stringify(Online.google_client_id()), JSON.stringify(motivo)], true)
+
+# ------------------------------------------------------------ APK: login pelo navegador do celular
+static var _codigo_app := ""
+static var _motivo_app := ""
+static var _cancelado := false
+
+static func _ir_pelo_navegador(motivo: String) -> void:
+	_codigo_app = Crypto.new().generate_random_bytes(16).hex_encode()      # 32 letras, impossível de adivinhar
+	_motivo_app = motivo
+	_cancelado = false
+	OS.shell_open("%s/entrar_app.html#c=%s&id=%s" % [Jogo.SITE, _codigo_app, Online.google_client_id().uri_encode()])
+
+## Espera o token que a página entrar_app.html deixou no Firestore (confere a cada 2 s; com o app em segundo
+## plano o jogo fica parado e confere ao voltar). Devolve o mesmo que retorno(): {"motivo", "token"},
+## {"motivo", "erro"} ou {} se o jogador cancelou.
+static func esperar_app(limite := 300.0) -> Dictionary:
+	var codigo := _codigo_app
+	var fim := Time.get_ticks_msec() + int(limite * 1000)
+	while not _cancelado and codigo == _codigo_app and Time.get_ticks_msec() < fim:
+		await Jogo.get_tree().create_timer(2.0).timeout
+		if _cancelado or codigo != _codigo_app:
+			break
+		var tok: String = await Online.pegar_login_app(codigo)
+		if tok != "":
+			_codigo_app = ""
+			return {"motivo": _motivo_app, "token": tok}
+	if _cancelado:
+		return {}
+	_codigo_app = ""
+	return {"motivo": _motivo_app, "erro": "tempo"}
+
+static func cancelar_app() -> void:
+	_cancelado = true
+	_codigo_app = ""
 
 ## Volta do Google: {} (nada), {"motivo", "token"} ou {"motivo", "erro"}. Cada volta é entregue uma vez só.
 static func retorno() -> Dictionary:
