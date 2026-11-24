@@ -230,6 +230,8 @@ static func abertura_do_ato(ato: int) -> int:
 	return Temporada.inicio_do_ato(ato)
 
 static func ato_aberto(ato: int) -> bool:
+	if Jogo.adm():                                # (2026-11-24) versão ADM: todos os atos liberados para testar
+		return true
 	talvez_baixar()
 	return agora() >= abertura_do_ato(ato)
 

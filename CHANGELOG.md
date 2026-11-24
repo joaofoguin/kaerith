@@ -16,6 +16,9 @@ Versões de distribuição (desde a 0.3.0):
 
 ---
 
+## 0.8.1 — 24/11/2026
+- **ADM com todos os atos liberados:** na versão ADM (e no editor) os atos não esperam a data de abertura; o mapa mostra os 4 atos e dá para jogar qualquer fase já alcançada. A versão pública não muda.
+
 ## 0.8.0 — 24/11/2026
 **Rebalanceamento e popup de nível** (pedido do João: "muito fácil avançar sem comprar itens e equipamentos"; números PROVISÓRIOS, medidos no simulador `ferramentas/simulador_combate/sim2.py`)
 - **Popup de subida de nível:** ao subir de nível, abre por cima do resultado um popup no mesmo estilo (faixa vinho, raios) com a Vida e os 5 atributos antes › depois e o ganho, o que o nível libera (Orbe novo, evolução dos Orbes) e quanto XP falta para o próximo. Os botões do resultado aparecem depois do Continuar.
