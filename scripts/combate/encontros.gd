@@ -23,6 +23,9 @@ const ESTREIA := {"rastreador": 3, "javali_raiz": 2, "javali_ferro": 3, "javali_
 	"verme_geada": 4, "mamute_glacial": 4, "eco_mudo": 4}
 const SUPREMA := {1: ["presa_mestra", "capitao_de_estrada"], 2: ["rei_da_galhada", "besta_sem_nome"], 3: ["cacador_de_recompensas", "olho_de_ysmera"], 4: ["alfa_da_ultima_geada", "bastiao_do_selo"]}
 const CHEFE := {1: "mestre_calder", 2: "semeadora_velada", 3: "thessa_vurn", 4: "ysmera"}
+## Inimigos fixos em certas fases, para as missões de Bestiário poderem ser concluídas (pedido do João, 2026-11-24).
+## O sorteio da fase não muda; só o 1º inimigo da 1ª onda é trocado. O Corvo Elite (missão do Tobin) vem pelo QR 301.
+const FIXOS := {280: {"sprite": "eco_mudo_veterano", "categoria": "veterano"}}   # missão do Tobias (Eco Mudo)
 
 static func tipo_da_fase(fase: int) -> String:
 	var k := (fase - 1) % 75 + 1
@@ -89,6 +92,10 @@ static func gerar(fase: int) -> Dictionary:
 			ondas.append(_grupo(rng, ato, k, nv, 2))
 			ondas.append(_grupo(rng, ato, k, nv, 2))
 			ondas.append([{"sprite": CHEFE[ato], "categoria": "chefe", "nivel": nv}])
+	if FIXOS.has(fase):
+		var fixo: Dictionary = ondas[0][0].duplicate()
+		fixo.merge(FIXOS[fase], true)
+		ondas[0][0] = fixo
 	return {"fase": fase, "ato": ato, "tipo": tipo, "arena": arena_da_fase(fase), "ondas": ondas}
 
 static func _sorteia_tipo(rng: RandomNumberGenerator, ato: int, k: int) -> String:

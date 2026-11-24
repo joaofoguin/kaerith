@@ -21,6 +21,10 @@ Versões de distribuição (desde a 0.3.0):
 - Na ADM (editor, presets ADM ou conta ADM) todos os atos ficam abertos, sem esperar a data (`ConfigRemota.ato_aberto`). As fases à frente da atual continuam travadas. A versão pública não muda.
 - **ADM pela conta** na versão pública (Web e APK, conta Google ou visitante): a conta que tiver o documento `adm/{uid}` no Firestore (criado à mão no console; o nome do documento é o ID do jogador, Configurações › Conta › Copiar) vira ADM ao entrar, com o mesmo save e o mesmo ranking. `Online.conferir_adm` confere uma vez por abertura, depois do login; sem internet fica como jogador comum. Regras: `adm/{uid}` só pode ser lido pelo próprio dono e ninguém grava pelo jogo (publicar com `firebase deploy --only firestore:rules`). Para tirar o ADM, apague o documento. (Substitui o modo por chave, que não chegou a ser publicado.)
 
+**Missões de Bestiário** (pedido do João)
+- O Eco Mudo Veterano não aparecia em nenhuma fase, então a missão do Tobias (Ato 4) não fechava. Agora a fase 280 tem um Eco Mudo Veterano fixo (`Encontros.FIXOS`); o resto do sorteio da fase não muda.
+- O Corvo Elite (missão do Tobin, Ato 1) também não aparece no mapa. Ele vem pelo QR 301 (Inimigo `corvo_elite`, a Rainha do Bando).
+
 **Login com Google no APK** (pedido do João)
 - Sem plugin: o botão do Google (tela de entrada e Configurações › Conta) abre no navegador do celular `SITE/entrar_app.html#c=<código>&id=<client ID>` (página nova em `hospedagem/paginas/`). Ela faz o login no Google e grava o token no Firestore em `login_app/<código>`; o jogo espera (popup com Cancelar), lê o token pelo código, apaga o documento e segue igual à Web (`Conta.esperar_app`, `Online.pegar_login_app`). O código tem 32 letras aleatórias e ninguém lista a coleção.
 - Passos do João: em Google Cloud › APIs e serviços › Credenciais › client da Web, adicionar `https://kaerith-d9bef.web.app/entrar_app.html` em "URIs de redirecionamento autorizados"; publicar as regras e o site; exportar o APK com a mesma keystore de depuração.
