@@ -16,6 +16,11 @@ Versões de distribuição (desde a 0.3.0):
 
 ---
 
+## 0.8.5 — 24/11/2026
+**Ranking sem ADM** (pedido do João: "remover os adms do ranking com os players")
+- Conta ADM (editor, presets ADM ou conta com `adm/{uid}`) não manda pontos: ao sincronizar, apaga o próprio documento em `jogadores` (uma vez por abertura) e não entra no ranking do QR. Ela ainda vê o Ranking, sem posição.
+- Regras do Firestore: quem tem `adm/{uid}` não pode criar nem atualizar `jogadores/{uid}` nem `qr/.../vitorias/{uid}` (publicar com `firebase deploy --only firestore:rules`). Vitórias de QR antigas de contas ADM ficam até o dia virar (o ranking do QR é por dia).
+
 ## 0.8.4 — 24/11/2026
 **QR dos stories do Instagram** (pedido do João: um story a cada 2 dias com o QR e um código para digitar)
 - Tela do QR: botão "Digitar código". No navegador abre a caixa de texto do próprio navegador (o teclado do celular sempre aparece). O código é procurado em `codigos.json` no site (precisa de internet) e segue o mesmo caminho do QR: Baú 1 vez por dia, Recurso a cada 3 h, Inimigo, Evento, horário das 10h às 23h e vidas.
