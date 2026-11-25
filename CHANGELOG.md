@@ -16,6 +16,13 @@ Versões de distribuição (desde a 0.3.0):
 
 ---
 
+## 0.8.4 — 24/11/2026
+**QR dos stories do Instagram** (pedido do João: um story a cada 2 dias com o QR e um código para digitar)
+- Tela do QR: botão "Digitar código". No navegador abre a caixa de texto do próprio navegador (o teclado do celular sempre aparece). O código é procurado em `codigos.json` no site (precisa de internet) e segue o mesmo caminho do QR: Baú 1 vez por dia, Recurso a cada 3 h, Inimigo, Evento, horário das 10h às 23h e vidas.
+- QR de story (números 401 em diante): o dia da postagem entra no texto assinado (`KAE1|n|tipo|elite|fuso|AAAAMMDD|assinatura`) e o QR, ou o código, só vale nesse dia, no fuso do QR. Antes: "Este código só vale no dia 25/11/2026."; depois: "Este código era do dia … e já expirou." Os QR antigos (sem dia) continuam valendo.
+- Ferramenta `criar_story.py` (fora do jogo, junto da chave): gera o PNG do QR, o código de 6 letras e acrescenta em `codigos.json`. Primeiro story: QR 401, Corvo Elite (Rainha do Bando), 25/11/2026.
+- `hospedagem/paginas/codigos.json` vai para o site com o `publicar.bat`.
+
 ## 0.8.3 — 24/11/2026
 **Missões** (pedido do João: a missão do Tobin não concluiu pelo QR do Corvo Elite)
 - As missões de Bestiário (Tobin/Corvo, Renn/Cervo, Maren/Rastreador, Tobias/Eco Mudo) agora fecham também ao vencer no QR ou no Evento. A ficha já completava lá, mas a missão só era conferida na vitória de uma fase do mapa. Quem já tinha a ficha completa recebe a missão concluída ao abrir o jogo (`HISTORIA.conferir_bestiario`). As missões de "derrotar" continuam contando só nas fases do mapa.

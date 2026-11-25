@@ -994,3 +994,11 @@ NOV_082_2,"Bestiário: os Veteranos que não apareciam (Javali-Raiz, Javali de F
 NOV_082_3,"Evento do QR: a peça Rara (ou Épica) do fim é garantida na primeira vez do dia com cada QR. Depois, a peça é sorteada.","QR Event: the final Rare (or Epic) piece is guaranteed the first time each day with each QR. After that, the piece is random."
 NOV_082_4,"Missões dos moradores agora também dão XP ao coletar a recompensa.","Villager quests now also give XP when you collect the reward."
 NOV_081_1,"Login com Google também no app de Android: o progresso fica salvo na sua conta e passa entre o celular e o navegador.","Google sign-in in the Android app too: your progress is saved to your account and carries between phone and browser."
+QR_DIGITAR_CODIGO,Digitar código,Enter code
+QR_CODIGO_PERGUNTA,Digite o código do story do Kaerith:,Type the code from the Kaerith story:
+QR_CODIGO_USAR,Usar código,Use code
+QR_CODIGO_BUSCANDO,Procurando o código...,Looking up the code...
+QR_CODIGO_INVALIDO,Esse código não existe. Confira as letras e os números.,That code doesn't exist. Check the letters and numbers.
+QR_CODIGO_SEM_INTERNET,Sem internet: para usar um código o jogo precisa estar conectado.,No internet: the game needs a connection to use a code.
+QR_STORY_AINDA,Este código só vale no dia %s.,This code only works on %s.
+QR_STORY_PASSOU,Este código era do dia %s e já expirou.,This code was for %s and has expired.

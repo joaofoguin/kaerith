@@ -59,6 +59,15 @@ func montar() -> void:
 	info.add_theme_color_override("font_color", Tema.COR_TEXTO_APAGADO)
 	add_child(info)
 
+	# código do story do Instagram (pedido do João, 2026-11-24): digitar no lugar de ler a câmera
+	var digitar := Button.new()
+	digitar.text = "QR_DIGITAR_CODIGO"
+	digitar.position = Vector2(60, 500)
+	digitar.size = Vector2(240, 44)
+	Tema.estilo_botao(digitar, "secundario")
+	digitar.pressed.connect(_pedir_codigo)
+	add_child(digitar)
+
 	atualizar_textos()
 	if texto_inicial != "":
 		_abrir_link.call_deferred()
@@ -365,6 +374,47 @@ func _imagem_escolhida(caminho: String) -> void:
 		return
 	_achou(t)
 
+# ------------------------------------------------------------ código digitado (story do Instagram)
+func _pedir_codigo() -> void:
+	if popup != null or _parado or _conferindo:
+		return
+	if OS.has_feature("web"):
+		# a caixa do próprio navegador sempre abre o teclado do celular (como o nome na criação)
+		var r = JavaScriptBridge.eval("window.prompt(%s, '')" % JSON.stringify(tr("QR_CODIGO_PERGUNTA")), true)
+		if r is String and (r as String).strip_edges() != "":
+			_usar_codigo(r as String)
+		return
+	var campo := LineEdit.new()
+	campo.placeholder_text = "ABC123"
+	campo.max_length = 12
+	campo.alignment = HORIZONTAL_ALIGNMENT_CENTER
+	campo.custom_minimum_size = Vector2(240, 44)
+	campo.add_theme_font_size_override("font_size", 24)
+	var j := Janela.criar(tr("QR_DIGITAR_CODIGO"), [["QR_CODIGO_USAR", func():
+		var t := campo.text
+		_fechar_janela_codigo()
+		if t.strip_edges() != "":
+			_usar_codigo(t)], ["FECHAR", _fechar_janela_codigo]], tr("QR_CODIGO_PERGUNTA"), [campo])
+	popup = j
+	add_child(j)
+	campo.grab_focus.call_deferred()
+
+func _fechar_janela_codigo() -> void:
+	if popup != null and is_instance_valid(popup):
+		popup.call("fechar")
+	popup = null
+
+func _usar_codigo(codigo: String) -> void:
+	_mostrar_status("QR_CODIGO_BUSCANDO", false)
+	var r: Dictionary = await CodigoQR.buscar_codigo(codigo)
+	if not is_inside_tree():
+		return
+	if not bool(r["ok"]):
+		_mostrar_status(str(r["erro"]), true)
+		return
+	_ultimo_ruim = ""
+	await _achou(str(r["texto"]))
+
 # ------------------------------------------------------------ código lido
 func _achou(texto: String) -> void:
 	if popup != null or _parado or _conferindo:
@@ -393,6 +443,10 @@ func _achou(texto: String) -> void:
 			var jv := JanelaVidas.abrir(self)
 			popup = jv
 			jv.fechou.connect(func(): popup = null)
+		return
+	var fora_do_dia := CodigoQR.bloqueio_dia(c)        # QR de story só no dia da postagem
+	if fora_do_dia != "":
+		_ruim(texto, fora_do_dia)
 		return
 	if c["tipo"] == "bau" and CodigoQR.bau_usado_hoje(c):
 		_ruim(texto, "QR_BAU_JA")

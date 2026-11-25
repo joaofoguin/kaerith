@@ -98,6 +98,13 @@ Para mudar, crie na coleção `config` o documento `temporada` com os campos `at
 - **Abrir agora:** ponha uma data no passado.
 - Os atos abrem em ordem: se o Ato II estiver fechado, o III e o IV também ficam, mesmo com data passada.
 
+## 6. Stories do Instagram (QR do dia e código para digitar)
+
+Cada story tem um QR que só vale no dia da postagem e um código de 6 letras que o jogador digita em Ler QR > "Digitar código".
+O Claude gera os dois com a ferramenta (fica fora do jogo, junto da chave secreta) e atualiza `hospedagem/paginas/codigos.json`.
+Você só precisa rodar o `publicar.bat` antes do dia do story. Sem isso o código não é encontrado, mas o QR funciona no dia mesmo assim.
+Não precisa mexer no Firebase.
+
 ## Observações
 
 - Um aparelho que ficou offline continua com a última lista que baixou até conectar de novo.

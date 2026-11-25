@@ -2,6 +2,9 @@ class_name CodigoQR
 extends RefCounted
 ## Regras do QR Code (Pontos de Ressonância), tudo offline.
 ## Texto do código: KAE1|<número>|<tipo>|<Elite ou ->|<fuso em minutos>|<assinatura>
+## QR de story (2026-11-24, pedido do João): KAE1|<número>|<tipo>|<Elite ou ->|<fuso>|<AAAAMMDD>|<assinatura>.
+##   O dia entra na assinatura e o QR só vale nesse dia (no fuso do QR), com as mesmas regras dos outros.
+##   Faixa 401+ = stories do Instagram. Também vale digitando o código curto do story (buscar_codigo).
 ## Desde 2026-11-22 o QR impresso é um link do site (LinkQR): https://kaerith-d9bef.web.app/#qr=KAE1.<número>...
 ## com "." no lugar de "|". O formato antigo continua valendo.
 ## A assinatura (ECDSA P-256 + SHA-256, base64url de r||s) é conferida com a chave pública abaixo.
@@ -43,12 +46,16 @@ static var _chave: CryptoKey = null
 ## Lê o texto do código. Devolve {"ok": true, "numero", "tipo", "elite", "fuso"} ou {"ok": false, "erro": chave do texto}.
 static func interpretar(texto: String) -> Dictionary:
 	var partes := LinkQR.normalizar(texto).split("|")
-	if partes.size() != 6 or partes[0] != "KAE1":
+	if (partes.size() != 6 and partes.size() != 7) or partes[0] != "KAE1":
 		return {"ok": false, "erro": "QR_ERRO_OUTRO"}
-	var corpo := "|".join(partes.slice(0, 5))
-	if not _assinatura_ok(corpo, partes[5]):
+	var n := partes.size()
+	var corpo := "|".join(partes.slice(0, n - 1))
+	if not _assinatura_ok(corpo, partes[n - 1]):
 		return {"ok": false, "erro": "QR_ERRO_FALSO"}
 	if not TIPOS.has(partes[2]) or not partes[1].is_valid_int() or not partes[4].is_valid_int():
+		return {"ok": false, "erro": "QR_ERRO_FALSO"}
+	var dia := partes[5] if n == 7 else ""          # QR de story: só vale neste dia
+	if dia != "" and (dia.length() != 8 or not dia.is_valid_int()):
 		return {"ok": false, "erro": "QR_ERRO_FALSO"}
 	var tipo: String = TIPOS[partes[2]]
 	var elite := partes[3]
@@ -58,7 +65,42 @@ static func interpretar(texto: String) -> Dictionary:
 	var bloq := ConfigRemota.bloqueio_qr(partes[1].to_int(), tipo)
 	if bloq != "":
 		return {"ok": false, "erro": bloq}
-	return {"ok": true, "numero": partes[1].to_int(), "tipo": tipo, "elite": elite, "fuso": partes[4].to_int()}
+	return {"ok": true, "numero": partes[1].to_int(), "tipo": tipo, "elite": elite, "fuso": partes[4].to_int(), "dia": dia}
+
+## QR de story fora do dia: texto pronto do motivo ("" se vale hoje). Usa o relógio do jogo (hora do servidor).
+static func bloqueio_dia(c: Dictionary) -> String:
+	var dia := str(c.get("dia", ""))
+	if dia == "":
+		return ""
+	var hoje := dia_do_qr(int(c["fuso"])).replace("-", "")
+	if hoje == dia:
+		return ""
+	var data := "%s/%s/%s" % [dia.substr(6, 2), dia.substr(4, 2), dia.substr(0, 4)]
+	return TranslationServer.translate("QR_STORY_AINDA" if hoje < dia else "QR_STORY_PASSOU") % data
+
+## Código curto do story → texto do QR. Os códigos ficam em codigos.json no site (hospedagem/paginas/codigos.json,
+## gerado pela ferramenta criar_story.py). O código é só um atalho: o que vale é a assinatura do texto (o dia
+## também), então publicar os códigos antes do dia não deixa ninguém usar antes. Precisa de internet.
+## Devolve {"ok": true, "texto"} ou {"ok": false, "erro": chave}.
+static func buscar_codigo(codigo: String) -> Dictionary:
+	var cod := codigo.strip_edges().to_upper().replace(" ", "").replace("-", "")
+	if cod.length() < 4 or cod.length() > 12:
+		return {"ok": false, "erro": "QR_CODIGO_INVALIDO"}
+	var r := HTTPRequest.new()
+	r.timeout = 10.0
+	r.accept_gzip = not OS.has_feature("web")
+	Jogo.add_child(r)
+	if r.request(ConfigRemota._endereco_site() + "/codigos.json?t=%d" % Time.get_ticks_msec()) != OK:
+		r.queue_free()
+		return {"ok": false, "erro": "QR_CODIGO_SEM_INTERNET"}
+	var res: Array = await r.request_completed
+	r.queue_free()
+	if int(res[0]) != HTTPRequest.RESULT_SUCCESS or int(res[1]) != 200:
+		return {"ok": false, "erro": "QR_CODIGO_SEM_INTERNET"}
+	var d: Variant = JSON.parse_string((res[3] as PackedByteArray).get_string_from_utf8())
+	if not (d is Dictionary) or not (d as Dictionary).has(cod):
+		return {"ok": false, "erro": "QR_CODIGO_INVALIDO"}
+	return {"ok": true, "texto": str(d[cod])}
 
 static func _assinatura_ok(corpo: String, assinatura: String) -> bool:
 	if _chave == null:
